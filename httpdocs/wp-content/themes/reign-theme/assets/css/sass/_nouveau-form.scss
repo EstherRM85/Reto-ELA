@@ -1,0 +1,33 @@
+.bp-nouveau {
+    .buddypress-wrap .grid.bp-list>li .action .generic-button {
+        width: auto;
+    }
+
+    .buddypress-wrap button {
+        //color: $color_white;
+        border: 0;
+
+        &:hover {
+            //color: $color_white;
+            border: 0;
+        }
+    }
+
+    #buddypress input[type=submit]:focus {
+        border: 0;
+    }
+}
+
+.buddypress.bp-nouveau .buddypress-wrap .bp-list.grid .action a,
+.buddypress.bp-nouveau .buddypress-wrap .bp-list.grid .action button {
+    border: 0;
+    line-height: 1.5;
+}
+
+.buddypress-wrap input[type=email]:focus, .buddypress-wrap input[type=password]:focus, .buddypress-wrap input[type=tel]:focus, .buddypress-wrap input[type=text]:focus, .buddypress-wrap input[type=url]:focus, .buddypress-wrap textarea:focus {
+    box-shadow: none;
+}
+
+.buddypress-wrap .bp-tables-user tr.alt td, .buddypress-wrap table.wp-profile-fields tr.alt td {
+    background: rgba(0, 0, 0, 0.02);
+}

@@ -1,0 +1,156 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+    /* Remove First */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background: #fdfdfd;
+    color: $color__text-input;
+    border: 1px solid $color__border-input;
+    outline: none;
+    border-radius: 1px;
+    font-family: inherit;
+
+    &:focus {
+        color: $color__text-input-focus;
+    }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"] {
+    font-size: $font__size-smaller;
+    height: 38px;
+    padding: 6px 10px;
+}
+
+input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="tel"] {
+    border-width: 1px;
+    border-style: solid;
+}
+
+select {
+    //font-size: $font__size-smaller;
+    font-size: inherit;
+    height: 38px;
+    clear: both;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+textarea {
+    overflow: auto; /* Remove default vertical scrollbar in IE 8/9/10/11. */
+    font-size: $font__size-smaller;
+    padding-left: 3px;
+    width: 100%;
+    resize: vertical;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit],
+a.rg-action.button,
+#buddypress .comment-reply-link,
+#buddypress .generic-button a,
+#buddypress .standard-form button,
+#buddypress a.button,
+#buddypress input[type=button],
+#buddypress input[type=reset],
+#buddypress input[type=submit],
+#buddypress ul.button-nav li a,
+a.bp-title-button,
+#buddypress form#whats-new-form #whats-new-submit input,
+#buddypress #profile-edit-form ul.button-nav li.current a,
+#buddypress div.generic-button a,
+#buddypress .item-list.rg-group-list div.action a,
+#buddypress div#item-header #item-header-content1 div.generic-button a,
+body #buddypress .activity-list li.load-more a, body #buddypress .activity-list li.load-newest a,
+.media .rtm-load-more a#rtMedia-galary-next,
+.rg-group-section .item-list.rg-group-list div.action a,
+.field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit],
+a.read-more.button,
+.form-submit #submit,
+form.woocommerce-product-search input[type="submit"],
+#buddypress form.woocommerce-product-search input[type="submit"],
+#buddypress .widget_search input[type="submit"],
+form.search-form input[type="submit"],
+button#bbp_topic_submit,
+.nav-links > div,
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled, .woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled],
+.woocommerce .cart .button,
+.woocommerce .cart input.button,
+.woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.rg-woocommerce_mini_cart .button {
+    float: none;
+    display: inline-block;
+    /*background-color: transparent;*/
+    color: $color_white;
+    padding: 7px 15px;
+    border: 0px solid #999;
+    //font-size: $font__size-extrasmall;
+    font-size: inherit;
+    font-weight: normal;
+    line-height: 1.5;
+    border-radius: 3px;
+    text-transform: none;
+    transition: all .3s;
+    cursor: pointer;
+    font-weight: 400;
+    text-shadow: none;
+    font-family: inherit;
+
+    &:hover,
+        &:focus {
+        /*background-color: transparent;*/
+        //color: $color_white;
+        border: 0 !important;
+    }
+}
+
+input.search-field {
+    width: 100%;
+}
+
+.mc4wp-form-fields p {
+    margin-bottom: 10px;
+
+    input[type="email"] {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}

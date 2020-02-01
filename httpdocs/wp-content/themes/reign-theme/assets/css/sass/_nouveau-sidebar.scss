@@ -1,0 +1,175 @@
+.bp-nouveau {
+
+    .widget-area .widget_bp_groups_widget #groups-list .item-avatar img {
+        width: 100%;
+        min-width: 50px;
+        max-width: 50px;
+        height: auto;
+        border-radius: 3px;
+        margin: initial;
+    }
+
+    .widget-area .item-avatar img,
+    .buddypress.widget .activity-list img,
+    .widget-area .bp-login-widget-user-avatar img {
+        border-radius: 3px;
+    }
+
+    .buddypress-wrap.round-avatars .widget-area .widget_bp_groups_widget #groups-list .item-avatar img,
+    .buddypress-wrap.round-avatars .buddypress.widget .activity-list img.avatar,
+    .buddypress-wrap.round-avatars .widget-area .item-avatar img,
+    .buddypress-wrap.round-avatars .widget-area .bp-login-widget-user-avatar img {
+        border-radius: 50%;
+    }
+
+    .widget-area .widget.buddypress #members-list li .item {
+        display: block;
+    }
+
+    .widget-area .widget.buddypress div.item-meta {
+        font-size: $font__size-smallest;
+    }
+
+    .buddypress.widget ul#friends-list li .item-avatar,
+    .buddypress.widget ul#groups-list li .item-avatar,
+    .buddypress.widget ul#members-list li .item-avatar {
+        padding: .5em;
+        text-align: center;
+    }
+
+    .widget-area .widget.buddypress div.item {
+        padding: .5em;
+    }
+
+    .widget-area .widget.buddypress #members-list li,
+    .widget-area .widget.buddypress #groups-list li,
+    .widget-area .widget.buddypress #friends-list li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .buddypress-wrap .buddypress.widget ul#friends-list,
+    .buddypress-wrap .buddypress.widget ul#groups-list,
+    .buddypress-wrap .buddypress.widget ul#members-list {
+        margin: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .buddypress-wrap .buddypress.widget ul#friends-list li,
+    .buddypress-wrap .buddypress.widget ul#groups-list li,
+    .buddypress-wrap .buddypress.widget ul#members-list li {
+        flex: 1;
+        margin: 0;
+        width: 100%;
+        border: 0;
+    }
+
+    .buddypress-wrap:not(.round-avatars).widget-area .item-avatar img,
+        .buddypress-wrap:not(.round-avatars).widget-area .bp-login-widget-user-avatar img {
+        border-radius: 3px;
+    }
+
+    .widget_nav_menu .main-navs.dir-navs {
+        margin-bottom: 0;
+    }
+
+    .widget.widget_nav_menu.buddypress_object_nav ul li {
+        padding: 0;
+
+        a {
+            padding-left: 0;
+        }
+    }
+
+    .buddypress-wrap .widget-area .widget.widget_nav_menu .bp-navs li {
+        float: none;
+    }
+
+    .widget.widget_nav_menu ul li {
+        margin: 0;
+
+        &:hover {
+            margin-left: 0;
+        }
+
+        a {
+            display: block;
+        }
+    }
+
+    .widget_bp_core_login_widget:after {
+        content: ' ';
+        clear: both;
+        display: table;
+    }
+
+    form#bp-login-widget-form {
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            margin-bottom: 15px;
+            width: 100%;
+        }
+    }
+
+    .bp-login-widget-user-avatar {
+        float: left;
+        margin-right: 15px;
+
+        &::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+
+    .bp-login-widget-user-links {
+        margin-bottom: 10px;
+    }
+
+    /* widget_bps_widget */
+    .widget_bps_widget {
+        .ui-accordion .ui-accordion-content {
+            padding: 15px;
+        }
+
+        input[type="search"],
+        input[type="number"] {
+            width: 100%;
+            height: 34px;
+        }
+
+        select {
+            height: 34px;
+        }
+
+        .bps-form label {
+            display: inline-block;
+            margin: 6px 0;
+        }
+
+        .bps-description {
+            margin-top: 5px;
+            display: inline-block;
+
+            &:empty {
+                display: none;
+            }
+        }
+    }
+}
+
+.bp-nouveau.round-avatars {
+    .widget-area .item-avatar img,
+    .buddypress.widget .activity-list img.avatar,
+    .widget-area .widget_bp_groups_widget #groups-list .item-avatar img,
+    .widget-area .bp-login-widget-user-avatar img {
+        border-radius: 50%;
+    }
+}

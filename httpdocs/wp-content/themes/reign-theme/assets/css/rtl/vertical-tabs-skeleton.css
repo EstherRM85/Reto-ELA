@@ -1,0 +1,573 @@
+/* Style for quick links section :: start */
+.reign-option-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 32%;
+    min-height: 230px;
+    max-height: 230px;
+    margin: 0 .5% 1%;
+    padding: 25px 25px 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.reign-option-box .option-wrapper .option-title {
+    font-size: 17px;
+    color: #333;
+    margin: 0 0 15px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.reign-option-box .option-wrapper .option-desc {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    display: block;
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #777;
+}
+
+.reign-option-box .option-wrapper .option-link-area {
+    padding: 20px 0 0;
+    border-top: 1px solid #eaeaea;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 20px;
+}
+
+.reign-option-box .option-wrapper .option-link-area a.option-link {
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 0;
+    border-radius: 25px;
+    border: 1px solid;
+    display: inline-block
+}
+
+.reign-option-box {
+    float: right;
+}
+.reign-option-boxes {
+    display: inline-block;
+}
+
+@media(max-width: 1050px) {
+    .reign-option-box {
+        width: 49%;
+    }
+}
+
+@media(max-width: 570px) {
+    .reign-option-box {
+        width: 100%;
+    }
+}
+/* Style for quick links section :: end */
+
+/* Style the reign-tab */
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper
+.nav-tab:focus {
+    margin-bottom: 20px;
+}
+
+.nav-tab:focus, .nav-tab:hover {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+.nav-tab {
+    float: right;
+    border: none;
+    border-bottom: none;
+    margin-right: 0;
+    padding: 12px 20px;
+    font-size: 15px;
+    line-height: 24px;
+    background: transparent;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tab:hover {
+    border-bottom: 2px solid #555;
+}
+
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover {
+    border-bottom: 2px solid #2872aa;
+    background: transparent;
+    color: #2872aa;
+}
+
+div.reign-tab {
+    float: right;
+    background-color: #f7f8fa;
+    width: 20%;
+    border-left: 0;
+}
+
+button.reign-tablinks {
+    position: relative;
+}
+
+/** Backend Reign Setting Icons Management **/
+button.reign-tablinks:before {
+    content: "\f111";
+    font-family: dashicons;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+button.reign-tablinks.reign_pages:before {
+    content: "\f537";
+}
+
+button.reign-tablinks.custom_code:before {
+    content: "\f475";
+}
+
+button.reign-tablinks.wp_login_screen:before {
+    content: "\f528";
+}
+
+button.reign-tablinks.global_header_footer:before {
+    content: "\f489";
+}
+
+button.reign-tablinks.avatar_settings:before {
+    content: "\f110";
+}
+
+button.reign-tablinks.advanced_settings:before {
+    content: "\f111";
+}
+
+button.reign-tablinks.group_cover_image:before {
+    content: "\f128";
+}
+
+button.reign-tablinks.xprofile_cover_image:before {
+    content: "\f128";
+}
+
+button.reign-tablinks.xprofile_social_links:before {
+    content: "\f125";
+}
+
+button.bp_layout_mgmt:before {
+    content: "\f535";
+}
+
+/* Icons set for PeepSo */
+button.peepso_group_cover_image:before {
+    content: "\f128";
+}
+
+button.peepso_profile_cover_image:before {
+    content: "\f128";
+}
+
+button.peepso_layout_mgmt:before {
+    content: "\f535";
+}
+
+button.peepso_profile_social_links:before {
+    content: "\f125";
+}
+
+/* Style the buttons inside the reign-tab */
+div.reign-tab button {
+    font-size: 14px;
+    display: block;
+    background-color: inherit;
+    color: #5f5f5f;
+    padding: 24px 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+    outline: none;
+    text-align: right;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* Change background color of buttons on hover */
+div.reign-tab button:hover {
+    background-color: #fff;
+    color: #2872aa;
+}
+
+/* Create an active/current "reign-tab button" class */
+div.reign-tab button.active {
+    background-color: #fff;
+    position: relative;
+    color: #2872aa;
+}
+
+/* Style the reign-tab content */
+.reign-tabcontent {
+    width: 68%;
+    height: auto;
+    min-height: 300px;
+    background: #fff;
+    float: right;
+    padding: 15px 30px;
+}
+
+.form-table label {
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.form-table th, .form-wrap label {
+    color: #444;
+}
+
+span.option-desc {
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.form-table tr:not(:first-child) {
+    border-top: 1px solid #eee;
+}
+
+.form-table th {
+    width: 290px;
+    font-weight: 400;
+}
+
+.form-table td {
+    width: 290px;
+    margin: 20px 0;
+}
+
+img.reign_default_cover_image {
+    width: 400px !important;
+    height: 200px !important;
+    object-fit: cover;
+}
+
+img.reign_default_avatar_image {
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover;
+}
+
+.wp-admin select {
+    margin: 0;
+    margin-left: 5px;
+}
+
+a.reign-remove-file-button {
+    display: block;
+    margin: 10px 0;
+}
+
+.wp-core-ui p .button {
+    vertical-align: baseline;
+    margin-bottom: 8px;
+}
+
+/* support accordion */
+.ui-accordion-header {
+    background: #ddd;
+    padding: 20px 10px;
+    margin: 0;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.ui-accordion-header:after {
+    content: "\f502";
+    font-family: dashicons;
+    font-weight: 900;
+    font-style: normal;
+    float: left;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.ui-accordion-header.ui-state-active:after {
+    content: "\f153";
+}
+
+.ui-accordion-header:focus {
+    border: none;
+    outline: none;
+}
+
+.ui-accordion-content {
+    background: #fff;
+    padding: 30px;
+    margin: 0;
+}
+
+.ui-accordion-content p {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 782px) {
+    #wpbody .form-table td select {
+        font-size: 14px;
+        max-width: 185px;
+        height: 36px;
+    }
+
+    .form-table th {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border-bottom: 0;
+    }
+
+    .form-table label {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    div.reign-tab {
+        width: 100%;
+        height: auto;
+        border-left: 1px solid #ccc;
+        border-bottom: 0;
+    }
+
+    .reign-tabcontent {
+        width: -webkit-calc(100% - 45px);
+        width: calc(100% - 45px);
+        padding-right: 15px;
+    }
+
+    div.reign-tab button.active:after {
+        display: none;
+    }
+}
+
+/* social media links */
+.wbtm_social_links_container {
+    margin: 10px 0;
+}
+
+.wbtm_social_links_container .ui-accordion-header {
+    background: #f1f1f1;
+}
+
+.wbtm_social_links_container .wbtm_social_link_section {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-style: double;
+}
+
+.wbtm_social_links_container .img_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.wbtm_social_link_info_box img.reign_default_cover_image {
+    width: 100% !important;
+    max-width: 64px;
+    height: 64px !important;
+    margin-left: 50px;
+}
+
+.wbtm_social_link_section .ui-accordion-header {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.wbtm_social_link_section .ui-accordion-content {
+    padding: 1em 2.2em;
+}
+
+.wbtm_social_link_info_box .wbtm_social_add_remove {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.wbtm_social_link_info_box .name_section {
+    margin-bottom: 10px;
+}
+
+.wbtm_social_link_info_box .name_section input {
+    width: 100%;
+}
+
+.wbtm_social_link_info_box .del_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.wbtm_social_link_info_box a.reign-remove-file-button,
+.wbtm_social_link_info_box .del_section button,
+.wb-xprofile-social-links-wrapper-outer .wbtm_social_links_add_more button {
+    color: #ef521d;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+    display: block;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.wbtm_social_link_info_box a.reign-remove-file-button:hover,
+.wbtm_social_link_info_box .del_section button:hover {
+    background: #fafafa;
+    border-color: #999;
+}
+
+.wb-xprofile-social-links-wrapper-outer .wbtm_social_links_add_more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.wb-xprofile-social-links-wrapper-outer .wbtm_social_links_add_more button {
+    margin-right: 0;
+    background: #039403;
+    color: #fff;
+}
+
+.wb-xprofile-social-links-wrapper-outer .wbtm_social_links_add_more button:hover {
+    background: #008000;
+}
+
+/* loading section in reign theme settings */
+.reign-animation-container {
+    width: 100%;
+    margin: auto;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 200px;
+}
+.reign-animate {
+    font-size: 50px;
+    margin: 100px 0 0;
+}
+.reign-animate span {
+    display: inline-block;
+}
+.reign-animate span:nth-of-type(2) {
+    -webkit-animation-delay: .05s;
+    animation-delay: .05s;
+}
+.reign-animate span:nth-of-type(3) {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s;
+}
+.reign-animate span:nth-of-type(4) {
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+}
+.reign-animate span:nth-of-type(5) {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+/* Animation Seven */
+.seven span {
+    color: #348c04;
+    opacity: 0;
+    -webkit-transform: translate(150px, 0) scale(.3);
+    -ms-transform: translate(150px, 0) scale(.3);
+    transform: translate(150px, 0) scale(.3);
+    -webkit-animation: leftRight .5s forwards;
+    animation: leftRight .5s forwards;
+}
+@-webkit-keyframes leftRight {
+    40% {
+        -webkit-transform: translate(-50px, 0) scale(.7);
+        transform: translate(-50px, 0) scale(.7);
+        opacity: 1;
+        color: #348c04;
+    }
+    60% {
+        color: #0f40ba;
+    }
+    80% {
+        -webkit-transform: translate(0) scale(2);
+        transform: translate(0) scale(2);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translate(0) scale(1);
+        transform: translate(0) scale(1);
+        opacity: 1;
+    }
+}
+@keyframes leftRight {
+    40% {
+        -webkit-transform: translate(-50px, 0) scale(.7);
+        transform: translate(-50px, 0) scale(.7);
+        opacity: 1;
+        color: #348c04;
+    }
+    60% {
+        color: #0f40ba;
+    }
+    80% {
+        -webkit-transform: translate(0) scale(2);
+        transform: translate(0) scale(2);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translate(0) scale(1);
+        transform: translate(0) scale(1);
+        opacity: 1;
+    }
+}
+/*# sourceMappingURL=vertical-tabs-skeleton.css.map */

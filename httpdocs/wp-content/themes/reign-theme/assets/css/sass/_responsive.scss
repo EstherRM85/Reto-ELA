@@ -1,0 +1,134 @@
+/* Extra small screen / phone */
+@media( max-width: $wb-grid-breakpoint-small - 1 ) {
+
+}
+
+/* Small screen / phone */
+@media (min-width: $wb-grid-breakpoint-small) {
+
+}
+
+/* Medium screen / tablet */
+@media (min-width: $wb-grid-breakpoint-medium) {
+
+}
+
+/* Large screen / desktop */
+@media (min-width: $wb-grid-breakpoint-large) {
+
+}
+
+/* Extra large screen / wide desktop */
+@media (min-width: $wb-grid-breakpoint-extra-large) {
+
+}
+
+@media (max-width: $wb-grid-breakpoint-small) {
+    #left div#item-header-avatar img.avatar {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: $wb-grid-breakpoint-large) {
+    .item-header-avatar-wrap {
+        padding-top: 40px;
+    }
+
+    #buddypress div#item-header #item-header-cover-image #item-header-content {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: $wb-grid-breakpoint-medium) {
+    #buddypress .item-body-wrap div#members-dir-search {
+        position: relative;
+        right: 0;
+    }
+}
+
+@media( max-width: 650px ) {
+    .widget-area .widget.widget-member-nav {
+        position: relative;
+    }
+
+    .widget-area .widget.widget-groups-nav {
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    #buddypress div#item-header #item-header-cover-image #item-header-content {
+        margin-top: 5px;
+    }
+
+    .logged-in .rg-item-buttons-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    #buddypress div#item-header #item-header-cover-image #item-header-content div.generic-button a {
+        font-size: 11px;
+    }
+
+    aside#left.widget-area .widget,
+    aside#left.widget-area .widget-groups-nav-inner-wrap {
+        margin-top: 0;
+    }
+
+    .logged-in .rg-item-buttons {
+        width: 28px;
+        height: 28px;
+    }
+
+    #buddypress form#whats-new-form textarea {
+        font-size: $font__size-extrasmall;
+    }
+
+    .media .media_search.media_search {
+        margin-top: 20px;
+    }
+
+    body #buddypress form#whats-new-form #whats-new-submit {
+        margin: 10px 0 0 auto;
+    }
+
+    #buddypress .standard-form #basic-details-section,
+    #buddypress .standard-form #blog-details-section,
+    #buddypress .standard-form #profile-details-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .comment .comment-respond {
+        margin-left: 0;
+    }
+
+    a.btn-login,
+    a.btn-register {
+        color: $color__link;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #buddypress .item-list.rg-group-list div.action {
+        margin-left: 0;
+    }
+}
+
+/* iPhone 6, 7, & 8 in portrait & landscape */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+    .wb-grid-cell {
+        width: 100%;
+    }
+
+    .widget-area {
+        width: 100%;
+    }
+
+    .content-wrapper {
+        width: 100%;
+    }
+}

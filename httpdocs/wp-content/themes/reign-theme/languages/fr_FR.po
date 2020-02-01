@@ -1,0 +1,5709 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: REIGN\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-03 18:00+0530\n"
+"PO-Revision-Date: 2019-04-03 18:01+0530\n"
+"Last-Translator: Varun Dubey <varun@wbcomdesigns.com>\n"
+"Language-Team: jean-pierre michaud <translation@wpenhancer.agency>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:19
+msgid "page not found"
+msgstr "page introuvable"
+
+#. translators: %s = last activity timestamp (e.g. "active 1 hour ago")
+#: bp-nouveau/groups/groups-loop.php:70 bp-nouveau/groups/groups-loop.php:165
+#: bp-nouveau/groups/single/cover-image-header.php:48
+#: buddypress/groups/groups-loop.php:84
+#: buddypress/groups/single/cover-image-header.php:98
+#: buddypress/groups/single/group-header.php:19 widgets/groups-widget.php:131
+#, php-format
+msgid "active %s"
+msgstr "actif %s"
+
+#: bp-nouveau/members/single/friends/requests.php:19
+#: bp-nouveau/members/single/friends/requests.php:86
+msgid "Friendship Requests"
+msgstr "Demandes de mise en relation %s"
+
+#: buddypress/activity/entry.php:55
+msgid "View Conversation"
+msgstr "Afficher la conversation"
+
+#: buddypress/activity/entry.php:63
+#, php-format
+msgid "Comment %s"
+msgstr "Commentaire %s"
+
+#: buddypress/activity/entry.php:71
+msgid "Favorite"
+msgstr "Favoris"
+
+#: buddypress/activity/entry.php:75
+msgid "Remove Favorite"
+msgstr "Supprimer le favori"
+
+#. translators: accessibility text
+#: buddypress/activity/entry.php:125
+msgid "Comment"
+msgstr "Commentaire"
+
+#: buddypress/activity/entry.php:130 buddypress/activity/post-form.php:48
+#: peepso/photos/photo-album-custom.php:193
+#: peepso/photos/photo-group-album-custom.php:170
+msgid "Post"
+msgstr "Article"
+
+#: buddypress/activity/entry.php:130 paid-memberships-pro/pages/billing.php:367
+#: peepso/groups/group-header.php:83 peepso/groups/group-settings.php:49
+#: peepso/groups/group-settings.php:89 peepso/groups/group-settings.php:130
+#: peepso/groups/group-settings.php:193 peepso/groups/group-settings.php:238
+#: peepso/groups/group-settings.php:278 peepso/groups/group-settings.php:317
+#: peepso/groups/group-settings.php:356 peepso/photos/photo-album-custom.php:47
+#: peepso/photos/photo-album-custom.php:121
+#: peepso/photos/photo-group-album-custom.php:50
+#: peepso/photos/photo-group-album-custom.php:90 peepso/profile/focus.php:68
+#: peepso/profile/profile-about.php:164
+msgid "Cancel"
+msgstr "Annuler"
+
+#: buddypress/activity/index.php:45 buddypress/groups/single/activity.php:11
+msgid "RSS Feed"
+msgstr "Flux RSS"
+
+#: buddypress/activity/index.php:45 buddypress/groups/single/activity.php:11
+msgid "RSS"
+msgstr "RSS"
+
+#: buddypress/activity/post-form.php:24
+#, php-format
+msgid "What's new in %1$s, %2$s?"
+msgstr "Quoi de neuf dans %1$s, %2$s ?"
+
+#: buddypress/activity/post-form.php:26
+#, php-format
+msgid "What's on your mind, %s?"
+msgstr "Quoi de neuf, %s?"
+
+#. translators: accessibility text
+#: buddypress/activity/post-form.php:40
+msgid "Post what's new"
+msgstr "Poster une actualité"
+
+#. translators: accessibility text
+#: buddypress/activity/post-form.php:55 buddypress/activity/post-form.php:60
+msgid "Post in"
+msgstr "Poster dans"
+
+#: buddypress/activity/post-form.php:64 peepso/widgets/me.tpl.php:145
+msgid "My Profile"
+msgstr "Mon profil"
+
+#: buddypress/buddypress-funtions.php:90
+#: inc/buddypress/buddypress-funtions.php:89
+msgid "Public"
+msgstr "Public"
+
+#: buddypress/buddypress-funtions.php:92
+#: inc/buddypress/buddypress-funtions.php:91
+msgid "Hidden"
+msgstr "Masqué"
+
+#: buddypress/buddypress-funtions.php:94
+#: inc/buddypress/buddypress-funtions.php:93
+msgid "Private"
+msgstr "Privé"
+
+#: buddypress/buddypress-funtions.php:96
+#: inc/buddypress/buddypress-funtions.php:95
+msgid "Group"
+msgstr "Groupe"
+
+#: buddypress/buddypress-funtions.php:130
+#: inc/buddypress/buddypress-funtions.php:129
+#, php-format
+msgid "Profile picture of %s"
+msgstr "Image de profil de %s"
+
+#: buddypress/buddypress-funtions.php:136
+#: inc/buddypress/buddypress-funtions.php:135
+msgid "Created by"
+msgstr "Créé par"
+
+#: buddypress/buddypress-funtions.php:149
+#: inc/buddypress/buddypress-funtions.php:148
+msgid "No Admins"
+msgstr "Pas d'administrateur"
+
+#: buddypress/groups/groups-loop.php:152
+msgid "There were no groups found."
+msgstr "Aucun groupe trouvé."
+
+#: buddypress/groups/single/activity.php:9 sidebar-group-left.php:96
+msgid "Group secondary navigation"
+msgstr "Navigation secondaire de groupe"
+
+#: buddypress/groups/single/admin/manage-members.php:10
+msgid "Manage Members"
+msgstr "Membres"
+
+#: buddypress/groups/single/admin/manage-members.php:24
+msgid "Administrators"
+msgstr "Administrateurs"
+
+#: buddypress/groups/single/admin/manage-members.php:95
+#: buddypress/groups/single/admin/manage-members.php:207
+msgid "Demote to Member"
+msgstr "Rétrograder en membre"
+
+#: buddypress/groups/single/admin/manage-members.php:134
+msgid "No group administrators were found."
+msgstr "Aucun administrateur de groupe n'a été trouvé."
+
+#: buddypress/groups/single/admin/manage-members.php:141
+msgid "Moderators"
+msgstr "Modérateurs"
+
+#: buddypress/groups/single/admin/manage-members.php:206
+#: buddypress/groups/single/admin/manage-members.php:330
+msgid "Promote to Admin"
+msgstr "Promouvoir en administrateur"
+
+#: buddypress/groups/single/admin/manage-members.php:246
+msgid "No group moderators were found."
+msgstr "Aucun modérateur de groupe n'a été trouvé."
+
+#: buddypress/groups/single/admin/manage-members.php:253
+#: inc/buddypress/reign-bp-group-customization.php:197
+#: peepso/groups/group-header.php:194 widgets/active-members.php:222
+msgid "Members"
+msgstr "Membres"
+
+#: buddypress/groups/single/admin/manage-members.php:299
+msgid "(banned)"
+msgstr "(banni)"
+
+#: buddypress/groups/single/admin/manage-members.php:324
+msgid "Remove Ban"
+msgstr "Supprimer l'interdiction"
+
+#: buddypress/groups/single/admin/manage-members.php:328
+msgid "Kick &amp; Ban"
+msgstr "Expulser &amp; Banir"
+
+#: buddypress/groups/single/admin/manage-members.php:329
+msgid "Promote to Mod"
+msgstr "Promouvoir en modérateur"
+
+#: buddypress/groups/single/admin/manage-members.php:334
+msgid "Remove from group"
+msgstr "Retirer du groupe"
+
+#: buddypress/groups/single/admin/manage-members.php:372
+msgid "No group members were found."
+msgstr "Aucun membre du groupe n'a été trouvé."
+
+#: buddypress/groups/single/cover-image-header.php:112
+#: sidebar-group-left.php:46
+msgid "Group Admins"
+msgstr "Administrateurs de groupe"
+
+#: buddypress/groups/single/cover-image-header.php:134
+#: sidebar-group-left.php:68
+msgid "Group Mods"
+msgstr "Modérateurs du groupe"
+
+#: buddypress/groups/single/invites-loop.php:90
+msgid "Remove Invite"
+msgstr "Supprimer l'invitation"
+
+#: buddypress/groups/single/invites-loop.php:128
+msgid "Select friends to invite."
+msgstr "Sélectionnez les amis que vous voulez inviter."
+
+#: buddypress/groups/single/members.php:133
+msgid "No members were found."
+msgstr "Aucun membre n'a été trouvé."
+
+#: buddypress/members/bps-filters.php:33
+#: buddypress/members/bps-form-wbcomdesigns.php:239
+#: peepso/photos/photo-album-custom.php:192
+#: peepso/photos/photo-group-album-custom.php:169
+msgid "Clear"
+msgstr "Effacer"
+
+#: buddypress/members/bps-form-wbcomdesigns.php:164
+msgid "Within"
+msgstr "Dans"
+
+#: buddypress/members/bps-form-wbcomdesigns.php:165
+msgid "of"
+msgstr "de"
+
+#: buddypress/members/bps-form-wbcomdesigns.php:166
+msgid "km"
+msgstr "km"
+
+#: buddypress/members/bps-form-wbcomdesigns.php:167
+msgid "miles"
+msgstr "miles"
+
+#: buddypress/members/bps-form-wbcomdesigns.php:182
+msgid "Start typing, then select a location"
+msgstr "Commencez à taper, puis sélectionnez un emplacement"
+
+#: buddypress/members/bps-form-wbcomdesigns.php:183
+msgid "get current location"
+msgstr "obtenir l'emplacement actuel"
+
+#: buddypress/members/bps-form-wbcomdesigns.php:267
+msgid "Search"
+msgstr "Rechercher"
+
+#: buddypress/members/members-loop.php:142
+msgid "Sorry, no members were found."
+msgstr "Désolé, aucun membre trouvé."
+
+#: buddypress/members/single/activity.php:10 sidebar-activity-left.php:38
+msgid "Member secondary navigation"
+msgstr "Membre navigation secondaire"
+
+#. translators: accessibility text
+#: buddypress/members/single/friends/requests.php:21
+msgid "Friendship requests"
+msgstr "Demandes de mise en relation"
+
+#: buddypress/members/single/friends/requests.php:84
+msgid "Accept"
+msgstr "Accepter"
+
+#: buddypress/members/single/friends/requests.php:85
+msgid "Reject"
+msgstr "Rejeter"
+
+#: buddypress/members/single/friends/requests.php:130
+msgid "You have no pending friendship requests."
+msgstr "Aucune demande de contact en attente."
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un commentaire sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réactions sur &ldquo;%2$s&rdquo;"
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr "Commentaires récents"
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: edd_templates/checkout_cart.php:11
+msgid "Item Name"
+msgstr "Nom de l'article"
+
+#: edd_templates/checkout_cart.php:12
+msgid "Item Price"
+msgstr "Prix de l’article"
+
+#: edd_templates/checkout_cart.php:13
+msgid "Actions"
+msgstr "Actions"
+
+#: edd_templates/checkout_cart.php:102
+#: paid-memberships-pro/pages/confirmation.php:91
+#: paid-memberships-pro/pages/invoice.php:73
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: edd_templates/checkout_cart.php:120
+#: paid-memberships-pro/pages/confirmation.php:92
+#: paid-memberships-pro/pages/invoice.php:74
+msgid "Tax"
+msgstr "Taxe"
+
+#: edd_templates/checkout_cart.php:129
+#: paid-memberships-pro/pages/confirmation.php:96
+#: paid-memberships-pro/pages/invoice.php:78 woocommerce/cart/cart.php:35
+#: woocommerce/cart/cart.php:115
+msgid "Total"
+msgstr "Total"
+
+#: edd_templates/shortcode-download.php:10
+#: edd_templates/shortcode-download.php:109
+#: template-parts/content-download.php:19
+msgid "Checkout"
+msgstr "Commander"
+
+#: edd_templates/shortcode-download.php:17
+#: edd_templates/shortcode-download.php:113
+#: template-parts/content-download.php:26
+msgid "Buy Now"
+msgstr "Acheter maintenant"
+
+#: edd_templates/shortcode-download.php:31
+#: template-parts/content-download.php:40
+msgid "Loading"
+msgstr "Chargement"
+
+#: edd_templates/shortcode-download.php:48
+#: edd_templates/shortcode-download.php:140
+#: template-parts/content-download.php:59
+msgid "Details"
+msgstr "Détails"
+
+#: edd_templates/shortcode-download.php:64
+#: template-parts/content-download.php:74
+#, php-format
+msgid "<span class=\"byline\"> by %1$s</span>"
+msgstr "<span class=\"byline\"> par %1$s</span>"
+
+#: edd_templates/shortcode-download.php:67
+#: template-parts/content-download.php:74
+#, php-format
+msgid "View all posts by %s"
+msgstr "Voir tous les articles de %s"
+
+#: inc/buddypress/reign-bp-group-customization.php:184
+msgid "Posts"
+msgstr "Articles"
+
+#: inc/buddypress/reign-bp-member-customization.php:169
+msgid "Profile Settings"
+msgstr "Paramètres du profil"
+
+#: inc/buddypress/reign-bp-member-customization.php:173
+msgid "You can manage your profile settings here."
+msgstr "Vous pouvez gérer vos paramètres de profil ici."
+
+#: inc/buddypress/reign-bp-member-customization.php:186
+msgid "Account Settings"
+msgstr "Paramètres du compte"
+
+#: inc/buddypress/reign-bp-member-customization.php:190
+msgid "You can manage your account settings here."
+msgstr "Vous pouvez gérer vos paramètres de compte ici."
+
+#: inc/buddypress/reign-bp-member-customization.php:223
+msgid "Message"
+msgstr "Message"
+
+#: inc/buddypress/reign-bp-member-customization.php:227
+msgid "Send a private message to this user."
+msgstr "Envoyer un message privé à cet usager."
+
+#: inc/buddypress/reign-bp-member-customization.php:356
+#: widgets/sidewide-activity-widget.php:413
+msgid "Friends"
+msgstr "Amis"
+
+#: inc/buddypress/reign-bp-member-customization.php:364
+msgid "Followers"
+msgstr "Abonnés"
+
+#: inc/buddypress/reign-bp-member-customization.php:369
+msgid "Following"
+msgstr "Abonnements"
+
+#: inc/buddypress/reign-bp-member-customization.php:380
+#: inc/buddypress/reign-bp-member-customization.php:391
+msgid "Points"
+msgstr "Points"
+
+#: inc/buddypress/reign-bp-profile-search.php:84
+#: inc/buddypress/reign-bp-profile-search.php:97
+msgid "Form Layout"
+msgstr "Disposition du formulaire"
+
+#: inc/buddypress/reign-bp-profile-search.php:94
+msgid "Note: "
+msgstr "Note: "
+
+#: inc/buddypress/reign-bp-profile-search.php:94
+msgid ""
+"All these options will work for \"members/bps-form-wbcomdesigns\" template "
+"only."
+msgstr ""
+"Toutes ces options fonctionneront pour le modèle \"members/bps-Form-"
+"wbcomdesigns\" seulement."
+
+#: inc/buddypress/reign-bp-profile-search.php:100
+msgid "Vertical"
+msgstr "Vertical"
+
+#: inc/buddypress/reign-bp-profile-search.php:101
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: inc/buddypress/reign-bp-profile-search.php:106
+msgid "Display Label"
+msgstr "Étiquette d'affichage"
+
+#: inc/buddypress/reign-bp-profile-search.php:109
+#: inc/buddypress/reign-bp-profile-search.php:119
+#: widgets/active-members.php:203 widgets/groups-widget.php:243
+msgid "Show"
+msgstr "Afficher"
+
+#: inc/buddypress/reign-bp-profile-search.php:110
+#: inc/buddypress/reign-bp-profile-search.php:118
+#: widgets/active-members.php:204 widgets/groups-widget.php:244
+#: widgets/peepso/widgetuserbar.php:175
+msgid "Hide"
+msgstr "Cacher"
+
+#: inc/buddypress/reign-bp-profile-search.php:115
+msgid "Display Placeholder"
+msgstr "Afficher le Contenu de Remplissage"
+
+#: inc/buddypress/reign-bp-profile-search.php:124
+msgid "Background Color"
+msgstr "Couleur d’arrière-plan"
+
+#: inc/buddypress/reign-bp-profile-search.php:130
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: inc/buddypress/reign-header-view-xprofile.php:51
+msgid "Profile Header View"
+msgstr "Vue d'en-tête de profil"
+
+#: inc/buddypress/reign-header-view-xprofile.php:56
+#: inc/buddypress/reign-header-view-xprofile.php:59
+msgid "Select Member Header Position"
+msgstr "Sélectionner la position d'en-tête de membre"
+
+#: inc/buddypress/reign-header-view-xprofile.php:75
+#: inc/reign-settings/peepso-extender-options.php:159
+msgid "Inside"
+msgstr "Intérieur"
+
+#: inc/buddypress/reign-header-view-xprofile.php:79
+#: inc/reign-settings/peepso-extender-options.php:163
+msgid "Top"
+msgstr "Haut"
+
+#: inc/buddypress/reign-header-view-xprofile.php:94
+#: inc/buddypress/reign-header-view-xprofile.php:97
+#: inc/reign-settings/buddy-extender-options.php:127
+#: inc/reign-settings/buddy-extender-options.php:131
+#: inc/reign-settings/peepso-extender-options.php:179
+#: inc/reign-settings/peepso-extender-options.php:183
+msgid "Select Member Header Layout"
+msgstr "Sélectionner la disposition d'en-tête de membre"
+
+#: inc/buddypress/reign-header-view-xprofile.php:110
+#: inc/reign-settings/buddy-extender-options.php:139
+#: inc/reign-settings/buddy-extender-options.php:181
+#: inc/reign-settings/peepso-extender-options.php:191
+#: inc/reign-settings/peepso-extender-options.php:233
+msgid "Layout #1"
+msgstr "Mise en page #1"
+
+#: inc/buddypress/reign-header-view-xprofile.php:114
+#: inc/reign-settings/buddy-extender-options.php:143
+#: inc/reign-settings/buddy-extender-options.php:185
+#: inc/reign-settings/peepso-extender-options.php:195
+#: inc/reign-settings/peepso-extender-options.php:237
+msgid "Layout #2"
+msgstr "Mise en page #2"
+
+#: inc/buddypress/reign-header-view-xprofile.php:118
+#: inc/reign-settings/buddy-extender-options.php:147
+#: inc/reign-settings/buddy-extender-options.php:189
+#: inc/reign-settings/peepso-extender-options.php:199
+#: inc/reign-settings/peepso-extender-options.php:241
+msgid "Layout #3"
+msgstr "Mise en page #3"
+
+#: inc/buddypress/reign-social-links-xprofile.php:12 inc/theme-functions.php:36
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/buddypress/reign-social-links-xprofile.php:16 inc/theme-functions.php:41
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/buddypress/reign-social-links-xprofile.php:20
+msgid "Google"
+msgstr "Google"
+
+#: inc/buddypress/reign-social-links-xprofile.php:24
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/buddypress/reign-social-links-xprofile.php:82
+#: inc/buddypress/reign-social-links-xprofile.php:100
+msgid "Social"
+msgstr "Social"
+
+#: inc/class-reign-theme-structure.php:159
+msgid "Name"
+msgstr "Nom"
+
+#: inc/class-reign-theme-structure.php:160
+msgid "Name *"
+msgstr "Nom *"
+
+#: inc/class-reign-theme-structure.php:161
+msgid "Email"
+msgstr "Email"
+
+#: inc/class-reign-theme-structure.php:162
+msgid "Email *"
+msgstr "Email *"
+
+#: inc/class-reign-theme-structure.php:163
+#: inc/class-reign-theme-structure.php:164
+msgid "Website"
+msgstr "Site web"
+
+#: inc/class-reign-theme-structure.php:168
+msgctxt "noun"
+msgid "Comment"
+msgstr "Commentaire"
+
+#: inc/class-reign-theme-structure.php:168
+msgid "Comment *"
+msgstr "Commentaire *"
+
+#: inc/edd-updater/theme-updater-admin.php:260
+msgid "Error"
+msgstr "Erreur"
+
+#: inc/edd-updater/theme-updater-admin.php:291
+#: inc/edd-updater/theme-updater-admin.php:338
+#: inc/edd-updater/theme-updater-admin.php:391
+msgid "An error occurred, please try again."
+msgstr "Une erreur est survenue, veuillez réessayer."
+
+#: inc/edd-updater/theme-updater-admin.php:305
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Votre clé de licence a expiré le %s."
+
+#: inc/edd-updater/theme-updater-admin.php:312
+msgid "Your license key has been disabled."
+msgstr "Votre clé de licence a été désactivée."
+
+#: inc/edd-updater/theme-updater-admin.php:317
+msgid "Invalid license."
+msgstr "Licence invalide."
+
+#: inc/edd-updater/theme-updater-admin.php:323
+msgid "Your license is not active for this URL."
+msgstr "Votre licence n'est pas active pour cette URL."
+
+#: inc/edd-updater/theme-updater-admin.php:328
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Cette clé de licence semble être invalide pour %s."
+
+#: inc/edd-updater/theme-updater-admin.php:333
+msgid "Your license key has reached its activation limit."
+msgstr "Votre clé de licence a atteint sa limite d'activation."
+
+#: inc/edd-updater/theme-updater.php:26
+msgid "Theme License"
+msgstr "Licence du thème"
+
+#: inc/edd-updater/theme-updater.php:27
+msgid "Enter your theme license key."
+msgstr "Entrer la clé de licence de votre thème."
+
+#: inc/edd-updater/theme-updater.php:28
+#: inc/reign-settings/class-reign-license-manager.php:92
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: inc/edd-updater/theme-updater.php:29
+#: inc/reign-settings/class-reign-license-manager.php:93
+msgid "License Action"
+msgstr "Action sur la licence"
+
+#: inc/edd-updater/theme-updater.php:30
+#: inc/reign-settings/class-reign-license-manager.php:94
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: inc/edd-updater/theme-updater.php:31
+#: inc/reign-settings/class-reign-license-manager.php:95
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: inc/edd-updater/theme-updater.php:32 inc/edd-updater/theme-updater.php:45
+#: inc/reign-settings/class-reign-license-manager.php:96
+#: inc/reign-settings/class-reign-license-manager.php:109
+msgid "License status is unknown."
+msgstr "Le status de la licence est inconnu."
+
+#: inc/edd-updater/theme-updater.php:33
+#: inc/reign-settings/class-reign-license-manager.php:97
+msgid "Renew?"
+msgstr "Renouveler?"
+
+#: inc/edd-updater/theme-updater.php:34
+#: inc/reign-settings/class-reign-license-manager.php:98
+msgid "unlimited"
+msgstr "illimité"
+
+#: inc/edd-updater/theme-updater.php:35
+#: inc/reign-settings/class-reign-license-manager.php:99
+msgid "License key is active."
+msgstr "La clé de licence est active."
+
+#: inc/edd-updater/theme-updater.php:36
+#: inc/reign-settings/class-reign-license-manager.php:100
+#, php-format
+msgid "Expires %s."
+msgstr "Expire %s."
+
+#: inc/edd-updater/theme-updater.php:37
+#: inc/reign-settings/class-reign-license-manager.php:101
+msgid "Lifetime License."
+msgstr "Licence à vie."
+
+#: inc/edd-updater/theme-updater.php:38
+#: inc/reign-settings/class-reign-license-manager.php:102
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr "Vous avez %1$s / %2$s sites activé(s)."
+
+#: inc/edd-updater/theme-updater.php:39
+#: inc/reign-settings/class-reign-license-manager.php:103
+#, php-format
+msgid "License key expired %s."
+msgstr "La clé de licence a expiré %s."
+
+#: inc/edd-updater/theme-updater.php:40
+#: inc/reign-settings/class-reign-license-manager.php:104
+msgid "License key has expired."
+msgstr "La clé de licence a expiré."
+
+#: inc/edd-updater/theme-updater.php:41
+#: inc/reign-settings/class-reign-license-manager.php:105
+msgid "License keys do not match."
+msgstr "Les clés de licence ne correspondent pas."
+
+#: inc/edd-updater/theme-updater.php:42
+#: inc/reign-settings/class-reign-license-manager.php:106
+msgid "License is inactive."
+msgstr "La licence est inactive."
+
+#: inc/edd-updater/theme-updater.php:43
+#: inc/reign-settings/class-reign-license-manager.php:107
+msgid "License key is disabled."
+msgstr "La clé de licence est désactivée."
+
+#: inc/edd-updater/theme-updater.php:44
+#: inc/reign-settings/class-reign-license-manager.php:108
+msgid "Site is inactive."
+msgstr "Le site est inactif."
+
+#: inc/edd-updater/theme-updater.php:46
+#: inc/reign-settings/class-reign-license-manager.php:110
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+"Mettre à jour ce thème vous fera perdre toutes les modifications que vous y "
+"avez apportées. ‘Annuler’ pour arrêter, ‘OKAY’ pour mettre à jour."
+
+#: inc/edd-updater/theme-updater.php:47
+#: inc/reign-settings/class-reign-license-manager.php:111
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</"
+"a>."
+msgstr ""
+"<strong>%1$s %2$s</strong> est disponible. <a href=\"%3$s\" class=\"thickbox"
+"\" title=\"%4s\">Découvrez les nouveautés</a> ou <a href=\"%5$s\"%6$s>mettre "
+"à jour maintenant</a>."
+
+#: inc/extra-plugins-support.php:144 inc/extra-plugins-support.php:164
+#: inc/extra-plugins-support.php:196 inc/extra-plugins-support.php:233
+#: inc/extra-plugins-support.php:363
+msgid "View your shopping cart"
+msgstr "Voir votre panier"
+
+#: inc/extra-plugins-support.php:481
+#: peepso/profile/profile-about-account.php:47
+msgid "Your Account"
+msgstr "Votre compte"
+
+#: inc/extras.php:86
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publié le %s"
+
+#: inc/extras.php:90
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#: inc/extras.php:113
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/extras.php:122 inc/extras.php:137
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/extras.php:148 inc/extras.php:178 inc/extras.php:184
+msgid ", "
+msgstr ", "
+
+#: inc/extras.php:180
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans %1$s"
+
+#: inc/extras.php:186
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Étiqueté %1$s"
+
+#. translators: %s: post title
+#: inc/extras.php:193
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Laisser un commentaire <span class=\"screen-reader-text\">sur %s</span>"
+
+#. translators: %s: Name of current post
+#: inc/extras.php:200 template-parts/content-buddypress.php:35
+#: template-parts/content-page.php:36
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: inc/init.php:65
+msgid "Primary"
+msgstr "Primaire"
+
+#: inc/init.php:66
+msgid "User Profile"
+msgstr "Profil de l'utilisateur"
+
+#: inc/init.php:148
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:68
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:105
+msgid "Right Sidebar"
+msgstr "Barre latérale droite"
+
+#: inc/init.php:150
+msgid "Widgets in this area are used in the right sidebar region."
+msgstr ""
+"Widgets dans ce domaine sont utilisés dans la zone de la barre latérale "
+"droite."
+
+#: inc/init.php:158
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:69
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:114
+msgid "Left Sidebar"
+msgstr "Barre latérale gauche"
+
+#: inc/init.php:160
+msgid "Widgets in this area are used in the left sidebar region."
+msgstr ""
+"Les widgets dans ce domaine sont utilisés dans la zone de gauche de la barre "
+"latérale."
+
+#: inc/init.php:169
+msgid "WooCommerce Right Sidebar"
+msgstr "WooCommerce droite Sidebar"
+
+#: inc/init.php:171
+msgid "Widgets in this area are used in the woocommerce right sidebar region."
+msgstr ""
+"Les widgets dans cette zone sont utilisés dans la région de woocommerce "
+"Right Sidebar."
+
+#: inc/init.php:179
+msgid "WooCommerce Left Sidebar"
+msgstr "WooCommerce gauche Sidebar"
+
+#: inc/init.php:181
+msgid "Widgets in this area are used in the woocommerce left sidebar region."
+msgstr ""
+"Les widgets dans cette zone sont utilisés dans la région de la barre "
+"latérale gauche de woocommerce."
+
+#: inc/init.php:192
+msgid "Groups Index"
+msgstr "Index des groupes"
+
+#: inc/init.php:194 inc/init.php:204 inc/init.php:214 inc/init.php:224
+#: inc/init.php:234 inc/init.php:271
+msgid "Add widgets here."
+msgstr "Ajouter des widgets ici."
+
+#: inc/init.php:202
+msgid "Member Index"
+msgstr "Index des membres"
+
+#: inc/init.php:212
+msgid "Activity Index"
+msgstr "Index des Activités"
+
+#: inc/init.php:222
+msgid "Group Single"
+msgstr "Groupe Simple"
+
+#: inc/init.php:232
+msgid "Member Profile"
+msgstr "Profil membre"
+
+#: inc/init.php:246
+msgid "Download Archive Sidebar"
+msgstr "Télécharger l'Archive de Sidebar"
+
+#: inc/init.php:248
+msgid "Widgets in this area are used in the EDD download archive page."
+msgstr ""
+"Les widgets dans ce domaine sont utilisés dans la page d'archive de "
+"téléchargement EDD."
+
+#: inc/init.php:256
+msgid "Single Download Sidebar"
+msgstr "Barre latérale de téléchargement"
+
+#: inc/init.php:258
+msgid "Widgets in this area are used in the EDD single download page."
+msgstr ""
+"Les widgets dans ce domaine sont utilisés dans la page de téléchargement "
+"unique EDD."
+
+#: inc/init.php:269
+msgid "Footer Widget Area"
+msgstr "Zone de widget du pied de page"
+
+#: inc/init.php:281
+msgid "Header Widget Area"
+msgstr "Widget en-tête"
+
+#: inc/init.php:400 inc/init.php:403
+#: inc/reign-settings/reign-theme-options-manager.php:65
+msgid "Reign Settings"
+msgstr "Paramètres de Reign"
+
+#: inc/init.php:458 template-parts/header-icons/notification.php:43
+msgid "No new notifications"
+msgstr "Pas de nouvelle notifications"
+
+#: inc/init.php:526
+msgid "Shopping Cart"
+msgstr "Panier"
+
+#: inc/init.php:528
+msgid "Checkout details"
+msgstr "Détails de Commande"
+
+#: inc/init.php:530
+msgid "Order Complete"
+msgstr "Commande terminée"
+
+#: inc/plugins-support/class-rtm-edd-customization.php:77
+msgid "Download"
+msgstr "Télécharger"
+
+#: inc/plugins-support/class-rtm-edd-customization.php:86
+#: inc/plugins-support/class-rtm-edd-customization.php:140
+msgid "Easy Digital Download"
+msgstr "Easy Digital Download"
+
+#: inc/plugins-support/class-rtm-edd-customization.php:99
+msgid "Downloads Per Row"
+msgstr "Téléchargements par Colonne"
+
+#: inc/plugins-support/class-rtm-edd-customization.php:100
+#: inc/plugins-support/class-rtm-edd-customization.php:155
+msgid ""
+"This setting helps you manage number of download items to show per row on "
+"download archive page."
+msgstr ""
+"Ce paramètre vous permet de gérer le nombre d'éléments de téléchargement à "
+"afficher par ligne sur la page d'archive de téléchargement."
+
+#: inc/plugins-support/class-rtm-edd-customization.php:151
+msgid "Number of downloads per row"
+msgstr "Nombre de téléchargements par rangée"
+
+#: inc/plugins-support/class-rtm-edd-customization.php:201
+msgid "Category"
+msgstr "Catégorie"
+
+#: inc/plugins-support/class-rtm-edd-customization.php:212
+msgid "Tag"
+msgstr "Tag"
+
+#: inc/plugins-support/class-rtm-edd-customization.php:240
+#: paid-memberships-pro/pages/levels.php:83
+msgid "Free"
+msgstr "Gratuit"
+
+#: inc/plugins-support/class-rtm-edd-customization.php:403
+#: inc/plugins-support/class-rtm-edd-customization.php:417
+msgid "You may also like"
+msgstr "Vous aimerez aussi"
+
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:196
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:216
+msgid "Reign: Site Logo"
+msgstr "Reign: logo du site"
+
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:197
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:242
+msgid "Reign: Menu Icons"
+msgstr "Reign: icônes de menu"
+
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:220
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:246
+#: inc/reign-settings/buddy-extender-options.php:807
+#: inc/reign-settings/buddy-extender-options.php:841
+#: inc/reign-settings/peepso-extender-options.php:107
+#: inc/reign-settings/reign-theme-options-manager.php:160
+msgid "Delete"
+msgstr "Supprimer"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:70
+#, php-format
+msgid "The price for membership is <strong>%s</strong> now"
+msgstr "Le coût de l'adhésion est de <strong>%s</strong>"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:72
+#, php-format
+msgid "<div class=\"rtm-pmpro-now-price\">%s</div>"
+msgstr "<div class=\"rtm-pmpro-now-price\">%s</div>"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:79
+#, php-format
+msgid ""
+"<div class=\"rtm-pmpro-recurring-price\">%1$s per %2$s for %3$d more %4$s</"
+"div>"
+msgstr ""
+"<div class=\"rtm-pmpro-recurring-price\">%1$s par %2$s pour %3$d plus %4$s</"
+"div>"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:81
+#, php-format
+msgid ""
+"<div class=\"rtm-pmpro-recurring-price\">%1$s every %2$d %3$s for %4$d more "
+"payments</div>"
+msgstr ""
+"<div class=\"rtm-pmpro-recurring-price\">%1$s chaque %2$d %3$s pour %4$d "
+"plus de payments</div>"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:84
+#, php-format
+msgid "<div class=\"rtm-pmpro-recurring-price\">%1$s after %2$d %3$s</div>"
+msgstr "<div class=\"rtm-pmpro-recurring-price\">%1$s après %2$d %3$s</div>"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:89
+#: inc/plugins-support/class-rtm-pmpro-customization.php:91
+#: inc/plugins-support/class-rtm-pmpro-customization.php:102
+#, php-format
+msgid "<div class=\"rtm-pmpro-recurring-price\">%1$s per %2$s</div>"
+msgstr "<div class=\"rtm-pmpro-recurring-price\">%1$s par %2$s</div>"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:95
+#: inc/plugins-support/class-rtm-pmpro-customization.php:97
+#: inc/plugins-support/class-rtm-pmpro-customization.php:104
+#, php-format
+msgid "<div class=\"rtm-pmpro-recurring-price\">%1$s every %2$d %3$s</div>"
+msgstr "<div class=\"rtm-pmpro-recurring-price\">%1$s chaque %2$d %3$s</div>"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:160
+msgid "Reign Custom Settings"
+msgstr "Paramètres personnalisés Reign"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:163
+msgid ""
+"This setting is used to enhance the appearance of membership level on "
+"frontend."
+msgstr ""
+"Ce paramètre est utilisé pour améliorer l'apparence des pages d'abonnement."
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:170
+msgid "Color"
+msgstr "Couleur"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:173
+msgid ""
+"This color will be used to color the membership level block at frontend."
+msgstr ""
+"Cette couleur sera utilisée pour colorer le bloc de niveau d'adhésion en "
+"page principale."
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:183
+msgid "Is Featured ?"
+msgstr "Mis à la une ?"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:186
+msgid "This option can be used to mark a membership label as featured."
+msgstr ""
+"Cette option peut être utilisée pour marquer une étiquette d'adhésion comme "
+"en vedette."
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:203
+msgid "Post Membership Pro"
+msgstr "Post Membership Pro"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:216
+msgid "Membership Levels Layout"
+msgstr "Mise en page des niveaux d'adhésion"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:217
+msgid "Select your membership level layout here."
+msgstr "Sélectionnez votre page de niveau d'adhésion ici."
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:222
+msgid "Default Layout"
+msgstr "Mise en page par défaut"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:223
+msgid "Multi-Color Layout"
+msgstr "Mise en page multi-couleurs"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:230
+msgid "Membership Levels Per Row"
+msgstr "Niveaux d'adhésion par rangée"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:231
+msgid "Select your membership level to show per row."
+msgstr "Sélectionnez votre niveau d'adhésion pour afficher par ligne."
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:236
+msgid "3 Column Layout"
+msgstr "Disposition en 3 Colonnes"
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:237
+msgid "4 Column Layout"
+msgstr "Disposition en 4 Colonnes"
+
+#: inc/plugins-support/class-rtm-woocommerce-customization.php:86
+#: inc/plugins-support/class-rtm-woocommerce-customization.php:108
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:44
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:97
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:44
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:94
+msgid "Product Categories"
+msgstr "Catégories de produits"
+
+#: inc/reign-settings/buddy-extender-options.php:64
+msgid "BuddyPress Settings"
+msgstr "Paramètres BuddyPress"
+
+#: inc/reign-settings/buddy-extender-options.php:70
+msgid "Avatar Settings"
+msgstr "Paramètres de l'avatar"
+
+#: inc/reign-settings/buddy-extender-options.php:71
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: inc/reign-settings/buddy-extender-options.php:72
+#: inc/reign-settings/peepso-extender-options.php:67
+msgid "Default Group Cover Image"
+msgstr "Image de couverture de groupe par défaut"
+
+#: inc/reign-settings/buddy-extender-options.php:73
+#: inc/reign-settings/peepso-extender-options.php:68
+msgid "Default Profile Cover Image"
+msgstr "Image de couverture de profil par défaut"
+
+#: inc/reign-settings/buddy-extender-options.php:74
+#: inc/reign-settings/peepso-extender-options.php:70
+msgid "Social Media Links"
+msgstr "Liens des réseaux sociaux"
+
+#: inc/reign-settings/buddy-extender-options.php:75
+msgid "BP Layout Management"
+msgstr "Gestion de la disposition BP"
+
+#: inc/reign-settings/buddy-extender-options.php:95
+#: inc/reign-settings/buddy-extender-options.php:99
+#: inc/reign-settings/peepso-extender-options.php:147
+#: inc/reign-settings/peepso-extender-options.php:151
+msgid "Select Header Position"
+msgstr "Sélectionner la position de l'en-tête"
+
+#: inc/reign-settings/buddy-extender-options.php:169
+#: inc/reign-settings/buddy-extender-options.php:173
+#: inc/reign-settings/peepso-extender-options.php:221
+#: inc/reign-settings/peepso-extender-options.php:225
+msgid "Select Group Header Layout"
+msgstr "Sélectionner la disposition d'en-tête de groupe"
+
+#: inc/reign-settings/buddy-extender-options.php:211
+#: inc/reign-settings/buddy-extender-options.php:215
+msgid "Select Member Directory Layout"
+msgstr "Sélectionner la disposition des répertoires des membres"
+
+#: inc/reign-settings/buddy-extender-options.php:252
+#: inc/reign-settings/buddy-extender-options.php:256
+msgid "Select Group Directory Layout"
+msgstr "Sélection de la disposition du répertoire de groupe"
+
+#: inc/reign-settings/buddy-extender-options.php:297
+msgid "Avatar Thumb Size"
+msgstr "Taille du thumbnail de l'Avatar"
+
+#: inc/reign-settings/buddy-extender-options.php:301
+msgid ""
+"Changes user and group avatar to selected dimensions in activity, members "
+"and group lists."
+msgstr ""
+"Change l'avatar de l'utilisateur et du groupe en dimensions sélectionnées "
+"dans l'activité, les membres et les listes de groupes."
+
+#: inc/reign-settings/buddy-extender-options.php:320
+msgid "Avatar Full Size"
+msgstr "Avatar pleine grandeur"
+
+#: inc/reign-settings/buddy-extender-options.php:324
+msgid "Changes user and group avatar to dimensions in user and group header."
+msgstr ""
+"Modifie l'avatar de l'utilisateur et du groupe en dimensions dans l'en-tête "
+"utilisateur et groupe."
+
+#: inc/reign-settings/buddy-extender-options.php:343
+msgid "Avatar Max Size."
+msgstr "Taille Max. de l'Avatar."
+
+#: inc/reign-settings/buddy-extender-options.php:347
+msgid "Changes maximum image size a user can uplaod for avatars."
+msgstr ""
+"Modifie la taille maximale d'image qu'un utilisateur peut télécharger pour "
+"les avatars."
+
+#: inc/reign-settings/buddy-extender-options.php:366
+msgid "Default User Avatar"
+msgstr "Activer l'avatar utilisateur"
+
+#: inc/reign-settings/buddy-extender-options.php:370
+msgid "Upload an image that displays before a user has added a custom image."
+msgstr ""
+"Télécharger une image qui s'affiche avant qu'un utilisateur ait ajouté une "
+"image personnalisée."
+
+#: inc/reign-settings/buddy-extender-options.php:393
+#: inc/reign-settings/buddy-extender-options.php:429
+#: inc/reign-settings/buddy-extender-options.php:687
+#: inc/reign-settings/buddy-extender-options.php:747
+#: inc/reign-settings/buddy-extender-options.php:834
+#: inc/reign-settings/peepso-extender-options.php:296
+#: inc/reign-settings/peepso-extender-options.php:332
+msgid "Remove Image"
+msgstr "Supprimer l'image"
+
+#: inc/reign-settings/buddy-extender-options.php:394
+#: inc/reign-settings/buddy-extender-options.php:430
+#: inc/reign-settings/buddy-extender-options.php:688
+#: inc/reign-settings/buddy-extender-options.php:748
+#: inc/reign-settings/buddy-extender-options.php:832
+#: inc/reign-settings/peepso-extender-options.php:297
+#: inc/reign-settings/peepso-extender-options.php:333
+msgid "Upload Image"
+msgstr "Télécharger une image"
+
+#: inc/reign-settings/buddy-extender-options.php:402
+msgid "Default Group Avatar"
+msgstr "Groupe par défaut Avatar"
+
+#: inc/reign-settings/buddy-extender-options.php:406
+msgid ""
+"Upload an image that displays before a custom image is added for a group."
+msgstr ""
+"Télécharger une image qui s'affiche avant qu'une image personnalisée soit "
+"ajoutée pour un groupe."
+
+#: inc/reign-settings/buddy-extender-options.php:446
+msgid "Members per page"
+msgstr "Membres par page"
+
+#: inc/reign-settings/buddy-extender-options.php:450
+msgid "Here you can manage number of members to show per page."
+msgstr "Ici, vous pouvez gérer le nombre de membres à afficher par page."
+
+#: inc/reign-settings/buddy-extender-options.php:461
+msgid "Groups per page"
+msgstr "Groupes par page"
+
+#: inc/reign-settings/buddy-extender-options.php:465
+msgid "Here you can manage number of groups to show per page."
+msgstr "Ici, vous pouvez gérer le nombre de groupes à afficher par page."
+
+#: inc/reign-settings/buddy-extender-options.php:476
+msgid "Select xProfile Field"
+msgstr "Sélectionner le champ xProfile"
+
+#: inc/reign-settings/buddy-extender-options.php:480
+msgid "You can select a xprofile field to show on member cover image header."
+msgstr ""
+"Vous pouvez sélectionner un champ xprofile à afficher sur l'en-tête de "
+"l'image de couverture de membre."
+
+#: inc/reign-settings/buddy-extender-options.php:490
+msgid "Disable xProfile Data"
+msgstr "Désactiver les données xProfile"
+
+#: inc/reign-settings/buddy-extender-options.php:507
+msgid "What's new activity lightbox"
+msgstr "Quoi de neuf activité lightbox"
+
+#: inc/reign-settings/buddy-extender-options.php:511
+#: inc/reign-settings/buddy-extender-options.php:517
+msgid "Disable What's new activity lightbox."
+msgstr "Désactiver Quoi de neuf activité lightbox."
+
+#: inc/reign-settings/buddy-extender-options.php:524
+msgid "Root Profiles"
+msgstr "Profils racine"
+
+#: inc/reign-settings/buddy-extender-options.php:528
+#: inc/reign-settings/buddy-extender-options.php:534
+msgid "Remove members slug from profile url."
+msgstr "Supprimer les membres Slug de l'URL du profil."
+
+#: inc/reign-settings/buddy-extender-options.php:541
+msgid "Auto Group Join"
+msgstr "Auto-Inscription au Groupe"
+
+#: inc/reign-settings/buddy-extender-options.php:545
+#: inc/reign-settings/buddy-extender-options.php:551
+msgid "Disable auto join when posting in a group."
+msgstr ""
+"Désactiver l'inscription automatique aux groupes lorsqu'on envois un message."
+
+#: inc/reign-settings/buddy-extender-options.php:557
+msgid "LDAP Usernames"
+msgstr "Noms d'utilisateur LDAP"
+
+#: inc/reign-settings/buddy-extender-options.php:561
+#: inc/reign-settings/buddy-extender-options.php:567
+msgid "Enable support for LDAP usernames that include dots."
+msgstr ""
+"Activer la prise en charge des noms d'utilisateur LDAP qui incluent des "
+"points."
+
+#: inc/reign-settings/buddy-extender-options.php:573
+msgid "WYSIWYG Textarea"
+msgstr "Champ zone de texte"
+
+#: inc/reign-settings/buddy-extender-options.php:577
+#: inc/reign-settings/buddy-extender-options.php:583
+msgid "Removes text editor from textarea profile field."
+msgstr "Supprime l'éditeur de texte du champ de profil textarea."
+
+#: inc/reign-settings/buddy-extender-options.php:589
+msgid "All Members Auto Complete"
+msgstr "Auto Complete chez tous les Membres"
+
+#: inc/reign-settings/buddy-extender-options.php:593
+#: inc/reign-settings/buddy-extender-options.php:599
+msgid "Auto-complete all members instead of just friends in messages."
+msgstr ""
+"Auto-compléter tous les membres au lieu de simplement amis dans les messages."
+
+#: inc/reign-settings/buddy-extender-options.php:605
+msgid "Profile Fields Auto Link"
+msgstr "Champs de profil lien automatique"
+
+#: inc/reign-settings/buddy-extender-options.php:609
+#: inc/reign-settings/buddy-extender-options.php:615
+msgid "Disable autolinking in profile fields."
+msgstr "Désactiver l'autoliaison dans les champs de profil."
+
+#: inc/reign-settings/buddy-extender-options.php:621
+msgid "User @ Mentions"
+msgstr "@ mentions utilisateur"
+
+#: inc/reign-settings/buddy-extender-options.php:625
+#: inc/reign-settings/buddy-extender-options.php:631
+msgid "Disable User @ mentions."
+msgstr "Désactiver la @ mention d'usagers."
+
+#: inc/reign-settings/buddy-extender-options.php:637
+msgid "Ignore Deprecated Code"
+msgstr "Ignorer le code obsolète"
+
+#: inc/reign-settings/buddy-extender-options.php:641
+#: inc/reign-settings/buddy-extender-options.php:647
+msgid "Do not load depricated code"
+msgstr "Ne pas charger les codes obsoletes"
+
+#: inc/reign-settings/buddy-extender-options.php:675
+#: inc/reign-settings/buddy-extender-options.php:735
+#: inc/reign-settings/peepso-extender-options.php:284
+#: inc/reign-settings/peepso-extender-options.php:320
+msgid "Select Image"
+msgstr "Sélectionner une image"
+
+#: inc/reign-settings/buddy-extender-options.php:679
+#: inc/reign-settings/peepso-extender-options.php:288
+msgid "Select image to set as Default Group Cover Image here."
+msgstr ""
+"Sélectionnez l'image à définir comme image de couverture de groupe par "
+"défaut ici."
+
+#: inc/reign-settings/buddy-extender-options.php:694
+#: inc/reign-settings/buddy-extender-options.php:754
+msgid "Select Image Size"
+msgstr "Sélectionnez la taille de l’image"
+
+#: inc/reign-settings/buddy-extender-options.php:698
+msgid "Select image size for Default Group Cover Image here."
+msgstr ""
+"Sélectionnez taille d'image pour l'image de couverture de groupe par défaut "
+"ici."
+
+#: inc/reign-settings/buddy-extender-options.php:739
+#: inc/reign-settings/peepso-extender-options.php:324
+msgid "Select image to set as Default Profile Cover Image here."
+msgstr ""
+"Sélectionnez l'image à définir comme image de couverture de profil par "
+"défaut ici."
+
+#: inc/reign-settings/buddy-extender-options.php:758
+msgid "Select image size to set as Default Profile Cover Image here."
+msgstr ""
+"Sélectionnez taille d'image à définir comme image de couverture de profil "
+"par défaut ici."
+
+#: inc/reign-settings/buddy-extender-options.php:798
+#: inc/reign-settings/peepso-extender-options.php:98
+#: inc/reign-settings/reign-theme-options-manager.php:147
+msgid "Upload Icon"
+msgstr "Télécharger une icône"
+
+#: inc/reign-settings/buddy-extender-options.php:800
+#: inc/reign-settings/peepso-extender-options.php:100
+#: inc/reign-settings/reign-theme-options-manager.php:149
+msgid "Remove Icon"
+msgstr "Retirer l’icône"
+
+#: inc/reign-settings/buddy-extender-options.php:804
+#: inc/reign-settings/buddy-extender-options.php:826
+#: inc/reign-settings/buddy-extender-options.php:838
+#: inc/reign-settings/peepso-extender-options.php:104
+#: inc/reign-settings/reign-theme-options-manager.php:137
+#: inc/reign-settings/reign-theme-options-manager.php:154
+#: inc/reign-settings/reign-theme-options-manager.php:156
+#: inc/reign-settings/reign-theme-options-manager.php:172
+msgid "New Site"
+msgstr "Nouvel établissement"
+
+#: inc/reign-settings/buddy-extender-options.php:816
+#: inc/reign-settings/buddy-extender-options.php:848
+#: inc/reign-settings/peepso-extender-options.php:116
+#: inc/reign-settings/peepso-extender-options.php:127
+msgid "Add New Site"
+msgstr "Ajouter un nouveau site"
+
+#: inc/reign-settings/buddy-extender-options.php:869
+msgid "1024 X 300"
+msgstr "1024 X 300"
+
+#: inc/reign-settings/buddy-extender-options.php:870
+msgid "1024 X 500"
+msgstr "1024 X 500"
+
+#: inc/reign-settings/buddy-extender-options.php:871
+msgid "1024 X 600"
+msgstr "1024 X 600"
+
+#: inc/reign-settings/buddy-extender-options.php:872
+msgid "1024 X 800"
+msgstr "1024 X 800"
+
+#: inc/reign-settings/buddy-extender-options.php:882
+msgid "25 x 25 px"
+msgstr "25 x 25 px"
+
+#: inc/reign-settings/buddy-extender-options.php:883
+msgid "50 x 50 px"
+msgstr "50 x 50 px"
+
+#: inc/reign-settings/buddy-extender-options.php:884
+msgid "75 x 75 px"
+msgstr "75 x 75 px"
+
+#: inc/reign-settings/buddy-extender-options.php:885
+#: inc/reign-settings/buddy-extender-options.php:902
+msgid "100 x 100 px"
+msgstr "100 x 100 px"
+
+#: inc/reign-settings/buddy-extender-options.php:886
+#: inc/reign-settings/buddy-extender-options.php:903
+msgid "125 x 125 px"
+msgstr "125 x 125 px"
+
+#: inc/reign-settings/buddy-extender-options.php:887
+#: inc/reign-settings/buddy-extender-options.php:904
+msgid "150 x 150 px"
+msgstr "150 x 150 px"
+
+#: inc/reign-settings/buddy-extender-options.php:888
+#: inc/reign-settings/buddy-extender-options.php:905
+msgid "175 x 175 px"
+msgstr "175 x 175 px"
+
+#: inc/reign-settings/buddy-extender-options.php:889
+#: inc/reign-settings/buddy-extender-options.php:906
+msgid "200 x 200 px"
+msgstr "200 x 200 px"
+
+#: inc/reign-settings/buddy-extender-options.php:890
+#: inc/reign-settings/buddy-extender-options.php:907
+msgid "225 x 225 px"
+msgstr "225 x 225 px"
+
+#: inc/reign-settings/buddy-extender-options.php:891
+#: inc/reign-settings/buddy-extender-options.php:908
+msgid "250 x 250 px"
+msgstr "250 x 250 px"
+
+#: inc/reign-settings/buddy-extender-options.php:892
+#: inc/reign-settings/buddy-extender-options.php:909
+msgid "275 x 275 px"
+msgstr "275 x 275 px"
+
+#: inc/reign-settings/buddy-extender-options.php:893
+#: inc/reign-settings/buddy-extender-options.php:910
+msgid "300 x 300 px"
+msgstr "300 x 300 px"
+
+#: inc/reign-settings/buddy-extender-options.php:911
+msgid "325 x 325 px"
+msgstr "325 x 325 px"
+
+#: inc/reign-settings/buddy-extender-options.php:912
+msgid "350 x 350 px"
+msgstr "350 x 350 px"
+
+#: inc/reign-settings/buddy-extender-options.php:913
+msgid "375 x 375 px"
+msgstr "375 x 375 px"
+
+#: inc/reign-settings/buddy-extender-options.php:922
+msgid "320 px"
+msgstr "320 px"
+
+#: inc/reign-settings/buddy-extender-options.php:923
+msgid "640 px"
+msgstr "640 px"
+
+#: inc/reign-settings/buddy-extender-options.php:924
+msgid "960 px"
+msgstr "960 px"
+
+#: inc/reign-settings/buddy-extender-options.php:925
+msgid "1280 px"
+msgstr "1280 px"
+
+#: inc/reign-settings/class-reign-license-manager.php:55
+#: inc/reign-settings/class-reign-license-manager.php:56
+#: inc/reign-settings/class-reign-license-manager.php:63
+msgid "License"
+msgstr "Licence"
+
+#: inc/reign-settings/class-reign-license-manager.php:90
+msgid "Reign Theme - License"
+msgstr "Reign Theme-licence"
+
+#: inc/reign-settings/class-reign-license-manager.php:91
+msgid "Enter your license key."
+msgstr "Entrez votre clé de licence."
+
+#: inc/reign-settings/get-started-options.php:51
+msgid "Get Started"
+msgstr "Commencer"
+
+#: inc/reign-settings/get-started-options.php:72
+msgid "Upload Your Logo"
+msgstr "Télécharger Votre Logo"
+
+#: inc/reign-settings/get-started-options.php:73
+msgid "Add your own logo here."
+msgstr "Ajoutez votre propre logo ici."
+
+#: inc/reign-settings/get-started-options.php:74
+#: inc/reign-settings/get-started-options.php:80
+#: inc/reign-settings/get-started-options.php:87
+#: inc/reign-settings/get-started-options.php:94
+#: inc/reign-settings/get-started-options.php:101
+#: inc/reign-settings/get-started-options.php:109
+#: inc/reign-settings/get-started-options.php:116
+#: inc/reign-settings/get-started-options.php:123
+#: inc/reign-settings/get-started-options.php:131
+#: inc/reign-settings/get-started-options.php:138
+#: inc/reign-settings/get-started-options.php:147
+#: inc/reign-settings/get-started-options.php:155
+msgid "Go To The Option"
+msgstr "Aller à l'option"
+
+#: inc/reign-settings/get-started-options.php:78
+msgid "Add Your Favicon"
+msgstr "Ajouter votre favicon"
+
+#: inc/reign-settings/get-started-options.php:79
+msgid "The favicon is used as a browser and app icon for your website."
+msgstr ""
+"Le favicon est utilisé comme un navigateur et l'icône de l'application pour "
+"votre site Web."
+
+#: inc/reign-settings/get-started-options.php:85
+msgid "Set Your Typography"
+msgstr "Définir votre typographie"
+
+#: inc/reign-settings/get-started-options.php:86
+msgid "Choose your own typography for any parts of your website."
+msgstr ""
+"Choisissez votre propre typographie pour toutes les parties de votre site "
+"Web."
+
+#: inc/reign-settings/get-started-options.php:92
+msgid "Let's Map Pages"
+msgstr "Carte des Pages"
+
+#: inc/reign-settings/get-started-options.php:93
+msgid "Map login, register and 404 page with custom pages."
+msgstr ""
+"Carter les pages de connection, inscription et page 404 avec des pages "
+"personnalisées."
+
+#: inc/reign-settings/get-started-options.php:99
+msgid "Switch Site Layout"
+msgstr "Changer la Mise en Page du site"
+
+#: inc/reign-settings/get-started-options.php:100
+msgid "Switch site layout between default view and boxed view."
+msgstr ""
+"Changer la disposition du site entre la vue par défaut et la vue en boîte."
+
+#: inc/reign-settings/get-started-options.php:107
+msgid "Pick Your Colors"
+msgstr "Choisissez vos couleurs"
+
+#: inc/reign-settings/get-started-options.php:108
+msgid "Replace the default primary and hover color by your own colors."
+msgstr ""
+"Remplacez la couleur principale par défaut et de survol par vos propres "
+"couleurs."
+
+#: inc/reign-settings/get-started-options.php:114
+msgid "Play With Header"
+msgstr "Jouer avec l'en-tête"
+
+#: inc/reign-settings/get-started-options.php:115
+msgid "Manage the look of your header in all way possible."
+msgstr "Gérez le look de votre en-tête de toutes les façons possibles."
+
+#: inc/reign-settings/get-started-options.php:121
+msgid "Play With Footer"
+msgstr "Jouer avec footer"
+
+#: inc/reign-settings/get-started-options.php:122
+msgid "Manage the copyright text, widgets and colors for footer."
+msgstr "Gérez le texte du Copyright, les widgets et les couleurs pour footer."
+
+#: inc/reign-settings/get-started-options.php:129
+msgid "Design WP Login Screen"
+msgstr "Design de la page de connection WP"
+
+#: inc/reign-settings/get-started-options.php:130
+msgid ""
+"Play with colors and images to give your default login screen a brand "
+"oriented look."
+msgstr ""
+"Jouez avec des couleurs et des images pour donner à votre écran de connexion "
+"par défaut un look orienté vers la marque."
+
+#: inc/reign-settings/get-started-options.php:136
+msgid "Add Custom Code"
+msgstr "Ajouter du code personnalisé"
+
+#: inc/reign-settings/get-started-options.php:137
+msgid ""
+"Add google analytics or facebook pixel tracking code here. Add custom "
+"javascript code also."
+msgstr ""
+"Ajouter votre code de traçage Google Analytics ou Facebook Pixel ici. "
+"Ajouter le code JavaScript personnalisé aussi."
+
+#: inc/reign-settings/get-started-options.php:145
+msgid "Manage Elementor Header"
+msgstr "En-tête Elementor"
+
+#: inc/reign-settings/get-started-options.php:146
+msgid ""
+"Choose the elements, style, height and colors for your site header made "
+"using Elementor."
+msgstr ""
+"Choisissez les éléments, le style, la hauteur et les couleurs de votre en-"
+"tête de site réalisé à l'aide de Elementor."
+
+#: inc/reign-settings/get-started-options.php:153
+msgid "Manage Elementor Footer"
+msgstr "Pied de Page Elementor"
+
+#: inc/reign-settings/get-started-options.php:154
+msgid ""
+"Choose the elements, style, height and colors for your site footer using "
+"Elementor."
+msgstr ""
+"Choisissez les éléments, le style, la hauteur et les couleurs du pied de "
+"page de votre site à l'aide de Elementor."
+
+#: inc/reign-settings/get-started-options.php:165
+msgid "Getting started with customization"
+msgstr "Commencer avec la personalisation"
+
+#: inc/reign-settings/get-started-options.php:166
+msgid "Begin customizing the website to give it a unique look."
+msgstr "Commencez à personnaliser le site Web pour lui donner un look unique."
+
+#: inc/reign-settings/peepso-extender-options.php:61
+msgid "PeepSo Settings"
+msgstr "Paramètres du thème"
+
+#: inc/reign-settings/peepso-extender-options.php:69
+msgid "PeepSo Layout Management"
+msgstr "Gestion de la disposition BP"
+
+#: inc/reign-settings/reign-theme-options-manager.php:74
+#: inc/wbcom-postmeta-mgmt/wbcom-postmeta-mgmt.php:147
+msgid " Theme Settings"
+msgstr " Paramètres du thème"
+
+#: inc/reign-settings/reign-theme-options-manager.php:77
+msgid " Theme Settings updated."
+msgstr " Paramètres du thème mis à jour."
+
+#: inc/reign-settings/vertical-tabs-skeleton.php:28
+msgid "Update Settings"
+msgstr "Mettre à jour les paramètres"
+
+#: inc/reign-settings/wbcom-support-tab.php:56
+#: inc/reign-settings/wbcom-support-tab.php:57
+#: inc/reign-settings/wbcom-support-tab.php:64
+msgid "Support"
+msgstr "Support"
+
+#: inc/reign-settings/wbcom-support-tab.php:179
+#: inc/reign-settings/wbcom-support-tab.php:186
+msgid "How to import demo data?"
+msgstr "Comment importer des données de démo?"
+
+#: inc/reign-settings/wbcom-support-tab.php:180
+#: inc/reign-settings/wbcom-support-tab.php:193
+msgid "Terms and conditions?"
+msgstr "Termes et conditions?"
+
+#: inc/reign-settings/wbcom-support-tab.php:181
+#: inc/reign-settings/wbcom-support-tab.php:199
+msgid "Need help with custom development?"
+msgstr "Besoin d'aide pour le développement personnalisé?"
+
+#: inc/reign-settings/wbcom-support-tab.php:182
+#: inc/reign-settings/wbcom-support-tab.php:205
+msgid "Contact us on support forum?"
+msgstr "Contactez-nous sur le Forum de soutien?"
+
+#: inc/reign-settings/wbcom-support-tab.php:187
+msgid ""
+"Reign comes with the support of \"Wbcom Demo Importer\" Plugin to make "
+"importing demo data a better experience than ever."
+msgstr ""
+"Reign est livré avec le soutien de \"Wbcom Demo importateur\" plugin pour "
+"rendre l'importation de données démo une meilleure expérience que jamais."
+
+#: inc/reign-settings/wbcom-support-tab.php:188
+msgid "Watch the video below for getting quick idea."
+msgstr "Regardez la vidéo ci-dessous pour obtenir une idée rapide."
+
+#: inc/reign-settings/wbcom-support-tab.php:194
+msgid "Please refer the following link to read our Terms And Conditions."
+msgstr "Veuillez consulter le lien suivant pour lire nos termes et conditions."
+
+#: inc/reign-settings/wbcom-support-tab.php:195
+msgid "Terms And Conditions"
+msgstr "Termes et Conditions"
+
+#: inc/reign-settings/wbcom-support-tab.php:200
+msgid ""
+"In case you need additional help you can contact us for Custom Development. "
+"Our team will love to help you."
+msgstr ""
+"Dans le cas où vous avez besoin d'aide supplémentaire, vous pouvez nous "
+"contacter pour le développement personnalisé. Notre équipe sera ravie de "
+"vous aider."
+
+#: inc/reign-settings/wbcom-support-tab.php:201
+msgid "Go for custom development"
+msgstr "Aller pour le développement personnalisé"
+
+#: inc/reign-settings/wbcom-support-tab.php:206
+msgid "In case you have any question, you can visit our support desk."
+msgstr ""
+"Dans le cas où vous avez n'importe quelle question, vous pouvez visiter "
+"notre bureau de support."
+
+#: inc/reign-settings/wbcom-support-tab.php:207
+msgid "Get support"
+msgstr "Obtenir de l'aide"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:334
+#: inc/required-plugins/required-plugins.php:121
+msgid "Install Required Plugins"
+msgstr "Installer les extensions requises"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:335
+#: inc/required-plugins/required-plugins.php:122
+msgid "Install Plugins"
+msgstr "Installer les plugins"
+
+#. translators: %s: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:337
+#: inc/required-plugins/required-plugins.php:123
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation de l'extension : %s"
+
+#. translators: %s: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Mise à jour de l'extension : %s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:340
+#: inc/required-plugins/required-plugins.php:125
+msgid "Something went wrong with the plugin API."
+msgstr "Une erreur s'est produite avec l'API du plugin."
+
+#. translators: 1: plugin name(s).
+#: inc/required-plugins/class-tgm-plugin-activation.php:343
+#: inc/required-plugins/required-plugins.php:126
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ce thème nécessite l’extension suivante : %1$s."
+msgstr[1] "Ce thème nécessite les plugin suivants : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/required-plugins/class-tgm-plugin-activation.php:349
+#: inc/required-plugins/required-plugins.php:128
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ce thème recommande l’extension suivante : %1$s."
+msgstr[1] "Ce thème recommande les extensions suivantes : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/required-plugins/class-tgm-plugin-activation.php:355
+#: inc/required-plugins/required-plugins.php:138
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"L’extensions suivante doit être mise à jour vers sa dernière version afin "
+"d’assurer une compatibilité maximale avec ce thème : %1$s."
+msgstr[1] ""
+"Les extensions suivantes doivent être mises à jour dans leur version la plus "
+"récente pour assurer une compatibilité maximale avec ce thème : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/required-plugins/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Une mise à jour est disponible pour: %1$s."
+msgstr[1] "Des mises à jour sont disponibles pour : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/required-plugins/class-tgm-plugin-activation.php:367
+#: inc/required-plugins/required-plugins.php:132
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "L’extension requise suivante est actuellement inactive : %1$s."
+msgstr[1] "Les plugins requis suivants sont actuellement désactivés : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/required-plugins/class-tgm-plugin-activation.php:373
+#: inc/required-plugins/required-plugins.php:134
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "L’extension recommandée suivante est actuellement inactive :%1$s."
+msgstr[1] ""
+"Les extensions recommandées suivantes sont actuellement inactives :%1$s."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:378
+#: inc/required-plugins/required-plugins.php:142
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Commencer l’installation de l’extention"
+msgstr[1] "Commencer l’installation des extentions"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Commencer la mise à jour de l’extension"
+msgstr[1] "Commencer la mise à jour des extensions"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Commencer l’activation de l’extension"
+msgstr[1] "Commencer l'activation des extensions"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:392
+#: inc/required-plugins/required-plugins.php:144
+msgid "Return to Required Plugins Installer"
+msgstr "Retourner à l'installateur de plugins requis"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:393
+#: inc/required-plugins/class-tgm-plugin-activation.php:920
+#: inc/required-plugins/class-tgm-plugin-activation.php:2650
+#: inc/required-plugins/class-tgm-plugin-activation.php:3697
+msgid "Return to the Dashboard"
+msgstr "Retour au tableau de bord"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:394
+#: inc/required-plugins/class-tgm-plugin-activation.php:3276
+#: inc/required-plugins/required-plugins.php:145
+msgid "Plugin activated successfully."
+msgstr "Extension activée avec succès."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:395
+#: inc/required-plugins/class-tgm-plugin-activation.php:3069
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "L’extension suivante a été activée avec succès :"
+msgstr[1] "Les extensions suivantes ont été activées avec succès :"
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Aucune mesure prise. L'extension %1$s était déjà active."
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Le plugin n’est pas activée. Une version plus récente de %s est nécessaire "
+"pour ce thème. Veuillez mettre à jour le plugin."
+
+#. translators: 1: dashboard link.
+#: inc/required-plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Toutes les extensions ont été installées et activées avec succès. %1$s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Ignorer cet avertissement"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Il y a une ou plusieurs extensions requises ou recommandées à installer, "
+"mettre à jour ou activer."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Veuillez contacter l’administrateur du site pour obtenir de l’aide."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Ce plugin doit être mis à jour pour être compatible avec votre thème."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Mise à jour requise"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Définissez la variable de configuration parent_slug à la place."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Le package de plugin distant ne contient pas de dossier avec le slug "
+"souhaité et le renommage n'a pas fonctionné."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1027
+#: inc/required-plugins/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Veuillez contacter le fournisseur de l'extension et demandez-lui de "
+"conditionner son extension selon les lignes directrices de WordPress."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Le package de plugin distant se compose de plusieurs fichiers, mais les "
+"fichiers ne sont pas emballés dans un dossier."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1214
+#: inc/required-plugins/class-tgm-plugin-activation.php:3065
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "et"
+
+#. translators: %s: version number
+#: inc/required-plugins/class-tgm-plugin-activation.php:2099
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2390
+msgid "Required"
+msgstr "Requis"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2393
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2409
+msgid "WordPress Repository"
+msgstr "Dépôt WordPress"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2412
+msgid "External Source"
+msgstr "Source externe"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2415
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2432
+msgid "Not Installed"
+msgstr "Non installé"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2436
+msgid "Installed But Not Activated"
+msgstr "Installé mais non activé"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2438
+#: widgets/active-members.php:195 widgets/groups-widget.php:235
+msgid "Active"
+msgstr "Actif"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2444
+msgid "Required Update not Available"
+msgstr "Mise à jour requise non disponible"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2447
+msgid "Requires Update"
+msgstr "Nécessite une mise à jour"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2450
+msgid "Update recommended"
+msgstr "Mise à jour recommandée"
+
+#. translators: 1: install status, 2: update status
+#: inc/required-plugins/class-tgm-plugin-activation.php:2459
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/required-plugins/class-tgm-plugin-activation.php:2505
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tous <span class=\"count\">(%s)</span>"
+msgstr[1] "Tous <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/required-plugins/class-tgm-plugin-activation.php:2509
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Pour installer <span class=\"count\">(%s)</span>"
+msgstr[1] "Pour installer <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/required-plugins/class-tgm-plugin-activation.php:2513
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Mise à jour disponible <span class=\"count\">(%s)</span>"
+msgstr[1] "Mise à jour disponible <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/required-plugins/class-tgm-plugin-activation.php:2517
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Activer <span class=\"count\">(%s)</span>"
+msgstr[1] "Activer <span class=\"count\">(%s)</span>"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2599
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "inconnu"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2607
+msgid "Installed version:"
+msgstr "Version installée :"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2615
+msgid "Minimum required version:"
+msgstr "Version minimum requise :"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2627
+msgid "Available version:"
+msgstr "Version disponible :"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2650
+msgid "No plugins to install, update or activate."
+msgstr "Pas de plugins à installer, à mettre à jour ou à activer."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2664
+msgid "Plugin"
+msgstr "Extension"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2665
+msgid "Source"
+msgstr "Source"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2666
+msgid "Type"
+msgstr "Type"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2670
+msgid "Version"
+msgstr "Version"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2671
+#: widgets/sidewide-activity-widget.php:415
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/required-plugins/class-tgm-plugin-activation.php:2720
+#, php-format
+msgid "Install %2$s"
+msgstr "Installer %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/required-plugins/class-tgm-plugin-activation.php:2725
+#, php-format
+msgid "Update %2$s"
+msgstr "Mettre à jour %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/required-plugins/class-tgm-plugin-activation.php:2731
+#, php-format
+msgid "Activate %2$s"
+msgstr "Activer %2$s"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2801
+msgid "Upgrade message from the plugin author:"
+msgstr "Message de mise à niveau de l’auteur de l’extension :"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2834
+msgid "Install"
+msgstr "Installer"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2840
+#: paid-memberships-pro/pages/billing.php:366
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2843
+msgid "Activate"
+msgstr "Activer"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2874
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Aucune extension n’a été sélectionnée pour être installée. Aucune mesure "
+"prise."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2876
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Aucune extension n’a été sélectionnée pour être mise à jour. Aucune mesure "
+"prise."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2917
+msgid "No plugins are available to be installed at this time."
+msgstr "Aucune extension n’est disponible pour être installée pour le moment."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2919
+msgid "No plugins are available to be updated at this time."
+msgstr "Aucune extension n'est disponible pour être mise à jour en ce moment."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3025
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Aucun plugin n'a été sélectionné pour être activé. Pas d'action prise."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3051
+msgid "No plugins are available to be activated at this time."
+msgstr "Aucune extension n'est disponible pour être activée en ce moment."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3275
+msgid "Plugin activation failed."
+msgstr "L’activation du plugin a échoué."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3615
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Mise à jour de l’extension %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3618
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Une erreur est survenue lors de l’installation %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3620
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "L'installation de %1$s a échoué."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3624
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Le processus d’installation et d’activation commence… Ce processus peut "
+"prendre un certain temps sur certains serveurs, soyez patients."
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3626
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installé et activé avec succès."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3626
+#: inc/required-plugins/class-tgm-plugin-activation.php:3634
+msgid "Show Details"
+msgstr "Afficher les détails"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3626
+#: inc/required-plugins/class-tgm-plugin-activation.php:3634
+msgid "Hide Details"
+msgstr "Masquer les détails"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3627
+msgid "All installations and activations have been completed."
+msgstr "Toutes les installations et activations ont été effectuées."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3629
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation et activation du plugin %1$s (%2$d/%3$d)"
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3632
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Le processus d'installation démarre. Ce processus peut prendre un certain "
+"temps sur certains hôtes, alors soyez patient."
+
+#. translators: 1: plugin name.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3634
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installé avec succès."
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3635
+msgid "All installations have been completed."
+msgstr "Toutes les installations sont terminées."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/required-plugins/class-tgm-plugin-activation.php:3637
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation du plugin %1$s (%2$d/%3$d)"
+
+#: inc/required-plugins/required-plugins.php:130
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+"Désolé, mais vous n’avez pas les autorisations adéquates pour installer "
+"l'extension %s. Contactez l’administrateur de ce site pour obtenir de l’aide."
+msgstr[1] ""
+"Désolé, mais vous n’avez pas l’autorisations nécessaires pour installer les "
+"extensions %s. Contactez l’administrateur de ce site pour obtenir de l’aide "
+"sur les extensions installées."
+
+#: inc/required-plugins/required-plugins.php:136
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"Désolé, mais vous n’avez pas les autorisations adéquates pour installer "
+"l'extension %s. Contactez l’administrateur de ce site pour obtenir de l’aide."
+msgstr[1] ""
+"Désolé, mais vous n’avez pas l’autorisations nécessaires pour activer les "
+"extensions %s. Contactez l’administrateur de ce site pour obtenir de l’aide "
+"sur les extensions activées."
+
+#: inc/required-plugins/required-plugins.php:140
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"Désolé, mais vous n’avez pas les autorisations adéquates pour installer "
+"l'extension %s. Contactez l’administrateur de ce site pour obtenir de l’aide."
+msgstr[1] ""
+"Désolé, mais vous n’avez pas l’autorisations nécessaires pour mettre à jour "
+"les extensions %s. Contactez l’administrateur de ce site pour obtenir de "
+"l’aide sur les extensions à mettre à jour."
+
+#: inc/required-plugins/required-plugins.php:143
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Activer le plugin installé"
+msgstr[1] "Activer les extension installées"
+
+#: inc/required-plugins/required-plugins.php:146
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Toutes les extensions ont été installées et activées avec succès. %s"
+
+#: inc/theme-functions.php:19
+msgid "Call Us Today! 1.555.555.555"
+msgstr "Appelez-nous dès aujourd'hui! 1.555.555.555"
+
+#: inc/theme-functions.php:24
+msgid "support@wbcomdesigns.com"
+msgstr "support@wbcomdesigns.com"
+
+#: inc/theme-functions.php:46
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/theme-functions.php:51
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/theme-functions.php:56
+msgid "Github"
+msgstr "Github"
+
+#: inc/theme-functions.php:347
+msgid "Page"
+msgstr "Page"
+
+#: inc/theme-functions.php:376
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/theme-functions.php:460
+msgid "others"
+msgstr "autres"
+
+#: inc/theme-functions.php:471
+msgid "likes this"
+msgstr "aime ça"
+
+#: inc/theme-functions.php:538
+msgid "See All"
+msgstr "Voir tout"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:54
+msgid "Header/Footer"
+msgstr "En-tête / Pied de page"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:82
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:118
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:147
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:67
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:93
+msgid "Default"
+msgstr "Par défaut"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:87
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:123
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:152
+msgid "Disable"
+msgstr "Désactiver"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:89
+msgid "Select Topbar"
+msgstr "Sélectionnez topbar"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:90
+msgid "Select your site topbar here."
+msgstr "Sélectionnez votre site topbar ici."
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:125
+msgid "Select Header"
+msgstr "Choisir l'en-tête"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:126
+msgid "Select your site header here."
+msgstr "Sélectionnez l'en-tête de votre site ici."
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:154
+msgid "Select footer"
+msgstr "Sélectionner le pied de page"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:155
+msgid "Select your site footer here."
+msgstr "Sélectionnez votre pied de page ici."
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:54
+msgid "Layout"
+msgstr "Mise en page"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:70
+msgid "Both Sidebars"
+msgstr "Les deux Sidebars"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:71
+msgid "Full Width"
+msgstr "Pleine largeur"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:72
+msgid "Full Width + No Title"
+msgstr "Pleine largeur + aucun titre"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:73
+msgid "Stretched View"
+msgstr "Vue étirée"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:74
+msgid "Stretched View + No Title"
+msgstr "Vue étirée + aucun titre"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:79
+msgid "Content Layout"
+msgstr "Disposition du contenu"
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:80
+msgid "Select your custom layout."
+msgstr "Sélectionnez votre disposition personnalisée."
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:106
+msgid "Select your custom right sidebar."
+msgstr "Sélectionnez votre barre latérale droite personnalisée."
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:115
+msgid "Select your custom left sidebar."
+msgstr "Sélectionnez votre barre latérale gauche personnalisée."
+
+#: paid-memberships-pro/pages/billing.php:27
+#, php-format
+msgid "Logged in as <strong>%s</strong>."
+msgstr "Vous êtes actuellement connecté en tant que <strong>%s</strong>."
+
+#: paid-memberships-pro/pages/billing.php:27
+msgid "logout"
+msgstr "déconnexion"
+
+#: paid-memberships-pro/pages/billing.php:45
+#: paid-memberships-pro/pages/invoice.php:102
+msgid "Level"
+msgstr "Niveau"
+
+#: paid-memberships-pro/pages/billing.php:47
+msgid "Membership Fee"
+msgstr "Frais d'adhésion"
+
+#: paid-memberships-pro/pages/billing.php:51
+#, php-format
+msgid "%s every %d %s."
+msgstr "%s chaque %d %s."
+
+#: paid-memberships-pro/pages/billing.php:53
+#, php-format
+msgid "%s per %s."
+msgstr "%s par %s."
+
+#: paid-memberships-pro/pages/billing.php:63
+msgid "Duration"
+msgstr "Durée"
+
+#: paid-memberships-pro/pages/billing.php:81
+msgid ""
+"Your payment subscription is managed by PayPal. Please <a href=\"http://www."
+"paypal.com\">login to PayPal here</a> to update your billing information."
+msgstr ""
+"Le paiement de votre abonnement est géré par PayPal. Veuillez <a href="
+"\"http://www.paypal.com\">vous connecter à PayPal ici</a> pour mettre à jour "
+"vos informations de facturation."
+
+#: paid-memberships-pro/pages/billing.php:104
+#: paid-memberships-pro/pages/confirmation.php:66
+#: paid-memberships-pro/pages/invoice.php:48
+msgid "Billing Address"
+msgstr "Adresse de facturation"
+
+#: paid-memberships-pro/pages/billing.php:108
+msgid "First Name"
+msgstr "Prénom"
+
+#: paid-memberships-pro/pages/billing.php:112
+msgid "Last Name"
+msgstr "Nom"
+
+#: paid-memberships-pro/pages/billing.php:116
+msgid "Address 1"
+msgstr "Adresse 1"
+
+#: paid-memberships-pro/pages/billing.php:120
+msgid "Address 2"
+msgstr "Adresse 2"
+
+#: paid-memberships-pro/pages/billing.php:121
+msgid "optional"
+msgstr "optionnel"
+
+#: paid-memberships-pro/pages/billing.php:130
+msgid "City"
+msgstr "Ville"
+
+#: paid-memberships-pro/pages/billing.php:134
+msgid "State"
+msgstr "État"
+
+#: paid-memberships-pro/pages/billing.php:138
+msgid "Postal Code"
+msgstr "Code postal"
+
+#: paid-memberships-pro/pages/billing.php:147
+msgid "City, State Zip"
+msgstr "Ville, Province, Code postal"
+
+#: paid-memberships-pro/pages/billing.php:200
+msgid "Country"
+msgstr "Pays"
+
+#: paid-memberships-pro/pages/billing.php:225
+msgid "Phone"
+msgstr "Téléphone"
+
+#: paid-memberships-pro/pages/billing.php:236
+msgid "E-mail Address"
+msgstr "Adresse e-mail"
+
+#: paid-memberships-pro/pages/billing.php:240
+msgid "Confirm E-mail"
+msgstr "Confirmer e-mail"
+
+#: paid-memberships-pro/pages/billing.php:263
+msgid "Credit Card Information"
+msgstr "Information de carte de crédit"
+
+#: paid-memberships-pro/pages/billing.php:264
+#, php-format
+msgid "We accept %s"
+msgstr "Nous acceptons %s"
+
+#: paid-memberships-pro/pages/billing.php:275
+msgid "Card Type"
+msgstr "Type de carte"
+
+#: paid-memberships-pro/pages/billing.php:313
+msgid "Card Number"
+msgstr "Numéro de la carte"
+
+#: paid-memberships-pro/pages/billing.php:317
+msgid "Expiration Date"
+msgstr "Date d'expiration"
+
+#: paid-memberships-pro/pages/billing.php:352
+msgid "CVV"
+msgstr "CVV"
+
+#: paid-memberships-pro/pages/billing.php:353
+msgid "what's this?"
+msgstr "qu'est ce que c'est ?"
+
+#: paid-memberships-pro/pages/billing.php:382
+msgid ""
+"This subscription is not recurring. So you don't need to update your billing "
+"information."
+msgstr ""
+"Votre abonnement n’est pas récurrent. Vous n’avez donc pas besoin de mettre "
+"à jour vos informations de facturation."
+
+#: paid-memberships-pro/pages/confirmation.php:12
+msgid ""
+"Your payment has been submitted. Your membership will be activated shortly."
+msgstr ""
+"Votre paiement a été traité. Votre abonnement sera activé très prochainement."
+
+#: paid-memberships-pro/pages/confirmation.php:14
+#, php-format
+msgid "Thank you for your membership to %s. Your %s membership is now active."
+msgstr ""
+"Nous vous remercions de votre adhésion à %s. Votre adhésion est maintenant "
+"active. ( %s )"
+
+#: paid-memberships-pro/pages/confirmation.php:28
+#, php-format
+msgid ""
+"Below are details about your membership account and a receipt for your "
+"initial membership invoice. A welcome email with a copy of your initial "
+"membership invoice has been sent to %s."
+msgstr ""
+"Voici les détails de votre compte d'abonné ainsi qu'une facture de votre "
+"abonnement initial. Un courriel de bienvenue avec une copie de votre facture "
+"d'abonnement a été envoyé à %s."
+
+#: paid-memberships-pro/pages/confirmation.php:47
+#: paid-memberships-pro/pages/invoice.php:22
+#, php-format
+msgid "Invoice #%s on %s"
+msgstr "Reçu #%s le %s"
+
+#: paid-memberships-pro/pages/confirmation.php:49
+#: paid-memberships-pro/pages/invoice.php:24
+msgid "Print"
+msgstr "Imprimer"
+
+#: paid-memberships-pro/pages/confirmation.php:52
+#: paid-memberships-pro/pages/confirmation.php:123
+#: paid-memberships-pro/pages/invoice.php:27
+msgid "Account"
+msgstr "Compte"
+
+#: paid-memberships-pro/pages/confirmation.php:53
+#: paid-memberships-pro/pages/confirmation.php:124
+#: paid-memberships-pro/pages/invoice.php:28
+msgid "Membership Level"
+msgstr "Niveau d'adhésion"
+
+#: paid-memberships-pro/pages/confirmation.php:55
+#: paid-memberships-pro/pages/invoice.php:30
+msgid "Membership Expires"
+msgstr "L'adhésion expire"
+
+#: paid-memberships-pro/pages/confirmation.php:58
+#: paid-memberships-pro/pages/invoice.php:33
+msgid "Discount Code"
+msgstr "Code promo"
+
+#: paid-memberships-pro/pages/confirmation.php:79
+#: paid-memberships-pro/pages/invoice.php:61
+msgid "Payment Method"
+msgstr "Mode de paiement"
+
+#: paid-memberships-pro/pages/confirmation.php:80
+#: paid-memberships-pro/pages/invoice.php:62
+msgid "ending in"
+msgstr "termine dans"
+
+#: paid-memberships-pro/pages/confirmation.php:81
+#: paid-memberships-pro/pages/invoice.php:63
+msgid "Expiration"
+msgstr "Expiration"
+
+#: paid-memberships-pro/pages/confirmation.php:88
+#: paid-memberships-pro/pages/invoice.php:70
+#: paid-memberships-pro/pages/invoice.php:103
+msgid "Total Billed"
+msgstr "Total facturé"
+
+#: paid-memberships-pro/pages/confirmation.php:94
+#: paid-memberships-pro/pages/invoice.php:76
+msgid "Coupon"
+msgstr "Coupon"
+
+#: paid-memberships-pro/pages/confirmation.php:111
+#, php-format
+msgid ""
+"Below are details about your membership account. A welcome email has been "
+"sent to %s."
+msgstr ""
+"Voici les détails de votre compte et un reçu pour votre facture. Un message "
+"de bienvenue a été envoyé à %s."
+
+#: paid-memberships-pro/pages/confirmation.php:124
+msgid "Pending"
+msgstr "En attente"
+
+#: paid-memberships-pro/pages/confirmation.php:132
+#: paid-memberships-pro/pages/invoice.php:134
+msgid "View Your Membership Account &rarr;"
+msgstr "Voir votre compte d'adhérent &rarr;"
+
+#: paid-memberships-pro/pages/confirmation.php:134
+msgid ""
+"If your account is not activated within a few minutes, please contact the "
+"site owner."
+msgstr ""
+"Si votre compte n'est pas activé dans quelques minutes, veuillez nous "
+"contacter."
+
+#: paid-memberships-pro/pages/invoice.php:100
+msgid "Date"
+msgstr "Date"
+
+#: paid-memberships-pro/pages/invoice.php:101
+msgid "Invoice #"
+msgstr "Facture #"
+
+#: paid-memberships-pro/pages/invoice.php:127
+msgid "No invoices found."
+msgstr "Aucune facture trouvée."
+
+#: paid-memberships-pro/pages/invoice.php:138
+msgid "&larr; View All Invoices"
+msgstr "&larr; Voir toutes les factures"
+
+#: paid-memberships-pro/pages/levels.php:111
+#: paid-memberships-pro/pages/levels.php:113
+msgid "Select"
+msgstr "Sélectionner"
+
+#: paid-memberships-pro/pages/levels.php:120
+msgid "Renew"
+msgstr "Renouveler"
+
+#: paid-memberships-pro/pages/levels.php:124
+msgid "Your&nbsp;Level"
+msgstr "Votre&nbsp;niveau"
+
+#: paid-memberships-pro/pages/levels.php:142
+msgid "&larr; Return to Your Account"
+msgstr "&larr; Retour à votre compte"
+
+#: paid-memberships-pro/pages/levels.php:144
+msgid "&larr; Return to Home"
+msgstr "&larr; Retour à l'accueil"
+
+#: peepso/friends/pending.php:45
+msgid "You currently have no friend requests"
+msgstr "Vous n’avez actuellement aucune demande de relation"
+
+#: peepso/groups/group-header.php:72 peepso/profile/focus.php:57
+msgid "Reposition"
+msgstr "Expiration"
+
+#: peepso/groups/group-header.php:76 peepso/profile/focus.php:61
+msgid "Modify"
+msgstr "Modifier"
+
+#: peepso/groups/group-header.php:84 peepso/groups/group-settings.php:53
+#: peepso/groups/group-settings.php:93 peepso/groups/group-settings.php:133
+#: peepso/groups/group-settings.php:196 peepso/groups/group-settings.php:242
+#: peepso/groups/group-settings.php:282 peepso/groups/group-settings.php:321
+#: peepso/groups/group-settings.php:360 peepso/photos/photo-album-custom.php:51
+#: peepso/photos/photo-group-album-custom.php:54 peepso/profile/focus.php:69
+#: peepso/profile/profile-about.php:170
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: peepso/groups/group-header.php:105
+msgid "Click to show more group details.."
+msgstr ""
+
+#: peepso/groups/group-header.php:113
+msgid "Group details"
+msgstr "Administrateurs de groupe"
+
+#: peepso/groups/group-header.php:116
+msgid "Group categories"
+msgstr "Catégories de produits"
+
+#: peepso/groups/group-header.php:116
+msgid "Group category"
+msgstr "Catégorie"
+
+#: peepso/groups/group-header.php:129
+#, php-format
+msgid "%s member"
+msgid_plural "%s members"
+msgstr[0] "membre %s"
+msgstr[1] "%s membres"
+
+#: peepso/groups/group-header.php:135
+#, php-format
+msgid "(%d pending)"
+msgstr "(%d en attente)"
+
+#: peepso/groups/group-header.php:156
+#, php-format
+msgid "%s Group"
+msgstr "Groupe %s"
+
+#: peepso/groups/group-header.php:181
+msgid "Stream"
+msgstr "Stream"
+
+#: peepso/groups/group-header.php:188
+msgid "Settings"
+msgstr "Paramètres"
+
+#: peepso/groups/group-header.php:230
+msgid "More"
+msgstr "Plus"
+
+#: peepso/groups/group-settings.php:35
+msgid "Group Name"
+msgstr "Nom du groupe"
+
+#: peepso/groups/group-settings.php:46 peepso/groups/group-settings.php:127
+msgid "Characters left"
+msgstr "Caractères libres"
+
+#: peepso/groups/group-settings.php:60 peepso/groups/group-settings.php:100
+#: peepso/groups/group-settings.php:140 peepso/groups/group-settings.php:203
+#: peepso/groups/group-settings.php:249 peepso/groups/group-settings.php:289
+#: peepso/groups/group-settings.php:328 peepso/groups/group-settings.php:367
+#: peepso/profile/profile-about.php:135
+msgid "Edit"
+msgstr "Modifier"
+
+#: peepso/groups/group-settings.php:74
+msgid "Group Slug"
+msgstr "Groupes Slug"
+
+#: peepso/groups/group-settings.php:85
+msgid "Letters, numbers and dashes are recommended, eg my-amazing-group-123."
+msgstr ""
+
+#: peepso/groups/group-settings.php:85
+msgid "This field might be automatically adjusted  after editing."
+msgstr ""
+
+#: peepso/groups/group-settings.php:111
+msgid "Group Description"
+msgstr "Description du groupe"
+
+#: peepso/groups/group-settings.php:121
+#: peepso/photos/photo-album-custom.php:117
+#: peepso/photos/photo-group-album-custom.php:86
+msgid "No description"
+msgstr "Pas de description"
+
+#: peepso/groups/group-settings.php:152
+msgid "Categories"
+msgstr "Catégories"
+
+#: peepso/groups/group-settings.php:218
+msgid "Enable \"Join\" button"
+msgstr "Activer le bouton \"rejoindre\""
+
+#: peepso/groups/group-settings.php:219
+msgid "Enable \"Request To Join\" button"
+msgstr "Activer le bouton \"Demander à rejoindre\""
+
+#: peepso/groups/group-settings.php:223
+msgid "Has no effect on Site Administrators"
+msgstr ""
+
+#: peepso/groups/group-settings.php:228 peepso/groups/group-settings.php:233
+#: peepso/groups/group-settings.php:268 peepso/groups/group-settings.php:273
+#: peepso/groups/group-settings.php:307 peepso/groups/group-settings.php:312
+#: peepso/groups/group-settings.php:346 peepso/groups/group-settings.php:351
+msgid "Yes"
+msgstr "Oui"
+
+#: peepso/groups/group-settings.php:228 peepso/groups/group-settings.php:234
+#: peepso/groups/group-settings.php:268 peepso/groups/group-settings.php:274
+#: peepso/groups/group-settings.php:307 peepso/groups/group-settings.php:313
+#: peepso/groups/group-settings.php:346 peepso/groups/group-settings.php:352
+msgid "No"
+msgstr "Non"
+
+#: peepso/groups/group-settings.php:260
+msgid "Enable \"Invite\" button"
+msgstr "Activer le bouton \"inviter\""
+
+#: peepso/groups/group-settings.php:263 peepso/groups/group-settings.php:302
+msgid "Has no effect on Owner and Site Administrators"
+msgstr ""
+
+#: peepso/groups/group-settings.php:299
+msgid "Disable new posts"
+msgstr ""
+
+#: peepso/groups/group-settings.php:338
+msgid "Disable new member notifications"
+msgstr "Pas de nouvelle notifications"
+
+#: peepso/groups/group-settings.php:341
+msgid "Group owners will not receive notifications about new members"
+msgstr ""
+
+#: peepso/groups/group.php:32
+msgid "You must join the group to be able to participate."
+msgstr ""
+
+#: peepso/groups/group.php:35
+msgid "This is an announcement Group, only the Owners can create new posts."
+msgstr ""
+
+#: peepso/groups/group.php:40
+msgid "Currently group is unpublished."
+msgstr "Actuellement, le groupe n'est pas publié."
+
+#: peepso/groups/group.php:65 peepso/groups/group.php:66
+#: peepso/profile/profile.php:65 peepso/profile/profile.php:66
+msgid "No posts found."
+msgstr "Aucun article trouvé."
+
+#: peepso/groups/group.php:67 peepso/profile/profile.php:67
+msgid "Nothing more to show."
+msgstr "Rien de plus à afficher."
+
+#: peepso/photos/photo-album-custom.php:28
+#: peepso/photos/photo-group-album-custom.php:32
+msgid "Back"
+msgstr "Retour"
+
+#: peepso/photos/photo-album-custom.php:39
+#: peepso/photos/photo-group-album-custom.php:42
+msgid "Add Photos"
+msgstr "Ajouter des photos"
+
+#: peepso/photos/photo-album-custom.php:62
+#: peepso/photos/photo-group-album-custom.php:65
+msgid "Are you sure you want to delete this album?"
+msgstr "Êtes-vous sûr de vouloir supprimer cet album?"
+
+#: peepso/photos/photo-album-custom.php:84
+#: peepso/photos/photo-group-album-custom.php:74
+msgid "Album description"
+msgstr "Description de l'album"
+
+#: peepso/photos/photo-album-custom.php:124
+#: peepso/photos/photo-group-album-custom.php:93
+msgid "Save description"
+msgstr "Description de section"
+
+#: peepso/photos/photo-album-custom.php:136 peepso/photos/photo-album.php:30
+#: peepso/photos/photo-group-album-custom.php:105
+#: peepso/photos/photo-group-album.php:33 peepso/photos/photos-group.php:51
+#: peepso/photos/photos.php:64 peepso/videos/videos-group.php:27
+#: peepso/videos/videos.php:25
+msgid "Newest first"
+msgstr "Les plus récents en premier"
+
+#: peepso/photos/photo-album-custom.php:137 peepso/photos/photo-album.php:31
+#: peepso/photos/photo-group-album-custom.php:106
+#: peepso/photos/photo-group-album.php:34 peepso/photos/photos-group.php:52
+#: peepso/photos/photos.php:65 peepso/videos/videos-group.php:28
+#: peepso/videos/videos.php:26
+msgid "Oldest first"
+msgstr "Les plus anciens en premier"
+
+#: peepso/photos/photo-album-custom.php:180
+#: peepso/photos/photo-group-album-custom.php:157
+msgid "Write a comment..."
+msgstr "Écrire un commentaire..."
+
+#: peepso/photos/photo-album.php:23 peepso/photos/photo-group-album.php:26
+msgid "Back to Photos"
+msgstr "Position de l’arrière-plan"
+
+#: peepso/photos/photo-album.php:26 peepso/photos/photo-group-album.php:29
+#, php-format
+msgid "%s Album"
+msgstr "%s album"
+
+#: peepso/photos/photos-group.php:30 peepso/photos/photos.php:29
+#: peepso/photos/photos.php:54
+msgid "Create Album"
+msgstr "Créer un album"
+
+#: peepso/photos/photos-group.php:37 peepso/photos/photos-group.php:42
+#: peepso/photos/photos.php:38
+msgid "Photos"
+msgstr "Photos"
+
+#: peepso/photos/photos-group.php:37 peepso/photos/photos-group.php:43
+#: peepso/photos/photos.php:39
+msgid "Albums"
+msgstr "Albums"
+
+#: peepso/photos/photos.php:46
+msgid "Recently added photos"
+msgstr ""
+
+#: peepso/photos/photos.php:48
+msgid "Photo Albums"
+msgstr "Albums photo"
+
+#: peepso/profile/profile-about-account.php:53
+msgid ""
+"Fields marked with an asterisk (<span class=\"required-sign\">*</span>) are "
+"required."
+msgstr ""
+
+#: peepso/profile/profile-about-account.php:58
+msgid "Profile Deletion"
+msgstr "Paramètres du profil"
+
+#: peepso/profile/profile-about-account.php:61
+msgid ""
+"Deleting your account will disable your profile and remove your name and "
+"photo from most things you've shared. Some information may still be visible "
+"to others, such as your name in their friends list and messages you sent."
+msgstr ""
+
+#: peepso/profile/profile-about-account.php:68
+msgid "Export Your Community Data"
+msgstr ""
+
+#: peepso/profile/profile-about-notifications.php:39
+msgid "Shortcuts"
+msgstr "Raccourcis"
+
+#: peepso/profile/profile-about-notifications.php:40
+msgid "Quickly manage all your preferences at once"
+msgstr ""
+
+#: peepso/profile/profile-about-notifications.php:44
+msgid "Disable all e-mail notifications"
+msgstr "Voir toutes les notifications"
+
+#: peepso/profile/profile-about-notifications.php:47
+msgid "Enable all e-mail notifications"
+msgstr "Voir toutes les notifications"
+
+#: peepso/profile/profile-about-notifications.php:50
+msgid "Disable all on-site notifications"
+msgstr "Voir toutes les notifications"
+
+#: peepso/profile/profile-about-notifications.php:53
+msgid "Enable all on-site notifications"
+msgstr "Voir toutes les notifications"
+
+#: peepso/profile/profile-about.php:134
+msgid "Edit "
+msgstr "Modifier "
+
+#: peepso/profile/profile-about.php:182
+msgid "Sorry, no data to show"
+msgstr ""
+
+#: peepso/profile/profile.php:24
+msgid "Finished Editing Apps Layout"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:153 peepso/widgets/userbar.tpl.php:30
+msgid "Preferences"
+msgstr "Préférences"
+
+#: peepso/widgets/me.tpl.php:168 peepso/widgets/userbar.tpl.php:36
+#: peepso/widgets/userbar.tpl.php:101
+msgid "Log Out"
+msgstr "Déconnexion"
+
+#: peepso/widgets/me.tpl.php:197
+msgid "Community"
+msgstr "Communauté"
+
+#: peepso/widgets/me.tpl.php:223
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: peepso/widgets/me.tpl.php:233
+msgid "Password"
+msgstr "Mot de passe"
+
+#: peepso/widgets/me.tpl.php:245
+msgid "TFA code"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:254 peepso/widgets/me.tpl.php:255
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: peepso/widgets/me.tpl.php:270
+msgid "Register"
+msgstr "S'inscrire"
+
+#: peepso/widgets/me.tpl.php:277
+msgid "Forgot Password"
+msgstr "Mot de passe oublié"
+
+#: peepso/widgets/me.tpl.php:284
+msgid "Resend activation code"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:292
+msgid "Login"
+msgstr "Connexion"
+
+#: peepso/widgets/userbar.tpl.php:107
+msgid "Log in"
+msgstr "Se connecter"
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: sidebar-activity-left.php:11
+msgid "Member primary navigation"
+msgstr "Navigation principale des membres"
+
+#: sidebar-activity-left.php:33 sidebar-group-left.php:91
+#: template-parts/activity-widgets.php:49
+msgid "Show By"
+msgstr "Afficher Par"
+
+#: sidebar-activity-left.php:46 sidebar-group-left.php:111
+#: template-parts/activity-widgets.php:60
+msgid "Everything"
+msgstr "Tout"
+
+#: sidebar-group-left.php:21
+msgid "Group primary navigation"
+msgstr "Navigation principale du projet"
+
+#: single-company.php:19 single-company.php:28
+msgid "company"
+msgstr "société"
+
+#: single-company.php:22
+#, php-format
+msgid "Jobs at %s"
+msgstr "Jobs chez %s"
+
+#: single-company.php:31
+#, php-format
+msgid "%d Job Available"
+msgid_plural "%d Jobs Available"
+msgstr[0] "%d Emploi Disponible"
+msgstr[1] "%d Emplois Disponibles"
+
+#: single.php:20
+msgid "Previous"
+msgstr "Précédent"
+
+#: single.php:21
+msgid "Next"
+msgstr "Prochain"
+
+#: template-parts/activity-widgets.php:3
+msgid "Activity By"
+msgstr "Activité par"
+
+#: template-parts/activity-widgets.php:7
+msgid "Sitewide activities navigation"
+msgstr "Activités au niveau du site de navigation"
+
+#: template-parts/activity-widgets.php:10 template-parts/members-widgets.php:19
+#, php-format
+msgid "All Members %s"
+msgstr "Tous les membres %s"
+
+#: template-parts/activity-widgets.php:17 template-parts/members-widgets.php:22
+#, php-format
+msgid "My Friends %s"
+msgstr "Mes amis %s"
+
+#: template-parts/activity-widgets.php:25 template-parts/groups-widgets.php:22
+#, php-format
+msgid "My Groups %s"
+msgstr "Mes groupes %s"
+
+#: template-parts/activity-widgets.php:32
+#, php-format
+msgid "My Favorites %s"
+msgstr "Mes favoris %s"
+
+#: template-parts/activity-widgets.php:37
+msgid "Mentions"
+msgstr "Mentions"
+
+#: template-parts/activity-widgets.php:37
+#, php-format
+msgctxt "Number of new activity mentions"
+msgid "%s new"
+msgid_plural "%s new"
+msgstr[0] "%s nouveau"
+msgstr[1] "%s nouveau"
+
+#: template-parts/activity-widgets.php:54
+msgid "Activity secondary navigation"
+msgstr "Activité navigation secondaire"
+
+#: template-parts/content-buddypress.php:14
+msgid "Create Group"
+msgstr "Créer un groupe"
+
+#: template-parts/content-buddypress.php:23 template-parts/content-page.php:24
+#: template-parts/content-search.php:38 template-parts/content.php:74
+msgid "Pages:"
+msgstr "Pages:"
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier article ? <a href=\"%1$s\">Commencez ici</a>."
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos termes de recherche. Veuillez "
+"réessayer avec d'autres mots-clés."
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que ce que vous cherchez est introuvable. Essayez une autre "
+"recherche."
+
+#: template-parts/content-search.php:13 template-parts/content-search.php:44
+#: template-parts/content.php:32 template-parts/content.php:40
+#: template-parts/content.php:80
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalien vers %s"
+
+#: template-parts/content-search.php:29 template-parts/content.php:62
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-search.php:44 template-parts/content.php:80
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: template-parts/groups-widgets.php:13
+msgid "Groups By"
+msgstr "Groupes Par"
+
+#: template-parts/groups-widgets.php:17
+msgid "Groups directory main navigation"
+msgstr "Navigation principale de l'annuiare des groupes"
+
+#: template-parts/groups-widgets.php:19
+#, php-format
+msgid "All Groups %s"
+msgstr "Tous les Groupes %s"
+
+#: template-parts/groups-widgets.php:33 template-parts/members-widgets.php:32
+msgid "Order By"
+msgstr "Trier par"
+
+#: template-parts/groups-widgets.php:37 template-parts/groups-widgets.php:78
+msgid "Groups directory secondary navigation"
+msgstr "Navigation secondaire de l'annuaire des structures"
+
+#: template-parts/groups-widgets.php:42 template-parts/members-widgets.php:41
+msgid "Last Active"
+msgstr "Dernière activité"
+
+#: template-parts/groups-widgets.php:43
+msgid "Most Members"
+msgstr "La plupart des membres"
+
+#: template-parts/groups-widgets.php:44
+msgid "Newly Created"
+msgstr "Récemment créé"
+
+#: template-parts/groups-widgets.php:45 template-parts/members-widgets.php:45
+#: widgets/groups-widget.php:237
+msgid "Alphabetical"
+msgstr "Alphabétique"
+
+#: template-parts/groups-widgets.php:61 template-parts/groups-widgets.php:62
+msgid "All Types"
+msgstr "Tous les Types"
+
+#: template-parts/groups-widgets.php:73
+msgid "Group Type By"
+msgstr "Par Type de Groupe"
+
+#: template-parts/header-icons/notification.php:36
+msgid "View all notifications"
+msgstr "Voir toutes les notifications"
+
+#: template-parts/members-widgets.php:13
+msgid "Members By"
+msgstr "Membres par"
+
+#: template-parts/members-widgets.php:17
+msgid "Members directory main navigation"
+msgstr "Annuaire des membres dans navigation principale"
+
+#: template-parts/members-widgets.php:36
+msgid "Members directory secondary navigation"
+msgstr "Répertoire des membres navigation secondaire"
+
+#: template-parts/members-widgets.php:42
+msgid "Newest Registered"
+msgstr "Derniers enregistrés"
+
+#: template-parts/reign-page-header.php:34
+msgid "Search results for: "
+msgstr "Résultats de recherche pour: "
+
+#: template-parts/widgets/rg-woo-product-category.php:68
+msgid "Shop Now"
+msgstr "Achetez maintenant"
+
+#: widgets/active-members.php:27
+msgctxt "widget name"
+msgid "REIGN Members"
+msgstr "Membres REIGN"
+
+#: widgets/active-members.php:28
+msgid "A slider for active, popular, and newest members"
+msgstr "Un diapo qui affiche les membres actifs, populaires ou nouveaux"
+
+#: widgets/active-members.php:123
+msgid "No one has signed up yet!"
+msgstr "Personne ne s’est encore inscrit!"
+
+#: widgets/active-members.php:177 widgets/groups-widget.php:226
+#: widgets/latest-news.php:135 widgets/latest-news.php:139
+#: widgets/sidewide-activity-widget.php:174
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:120
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:115
+msgid "Title:"
+msgstr "Titre:"
+
+#: widgets/active-members.php:186
+msgid "Max members to show:"
+msgstr "Maximum de membres à afficher :"
+
+#: widgets/active-members.php:192
+msgid "Default members to show:"
+msgstr "Membres par défaut à afficher :"
+
+#: widgets/active-members.php:194 widgets/groups-widget.php:234
+msgid "Newest"
+msgstr "Plus récent"
+
+#: widgets/active-members.php:196 widgets/groups-widget.php:236
+msgid "Popular"
+msgstr "Populaire"
+
+#: widgets/active-members.php:201
+msgid "Display Member Name:"
+msgstr "Afficher le Nom du Membre:"
+
+#: widgets/groups-widget.php:26
+msgid ""
+"A slider for list of recently active, popular, newest, or alphabetical groups"
+msgstr ""
+"Un diapo pour afficher les groupes actifs, populaires, nouveaux ou par ordre "
+"alphabétique"
+
+#: widgets/groups-widget.php:30
+msgctxt "widget name"
+msgid "REIGN Groups"
+msgstr "Groupes de REIGN"
+
+#: widgets/groups-widget.php:44 widgets/groups-widget.php:211
+#: widgets/sidewide-activity-widget.php:414
+msgid "Groups"
+msgstr "Groupes"
+
+#: widgets/groups-widget.php:158 widgets/sidewide-activity-widget.php:88
+msgid "View All"
+msgstr "Voir tout"
+
+#: widgets/groups-widget.php:167
+msgid "There are no groups to display."
+msgstr "Aucun groupe à afficher."
+
+#: widgets/groups-widget.php:228
+msgid "Max groups to show:"
+msgstr "Maximum de groupes à afficher :"
+
+#: widgets/groups-widget.php:229
+msgid "No Of Columns:"
+msgstr "Nombre de Colonnes:"
+
+#: widgets/groups-widget.php:232
+msgid "Default groups to show:"
+msgstr "Groupes par défaut à afficher :"
+
+#: widgets/groups-widget.php:241
+msgid "Display View All Button:"
+msgstr "Afficher le bouton Voir Tout:"
+
+#: widgets/latest-news.php:28
+msgid "Widget to show latest blog posts."
+msgstr "Widget pour afficher les derniers messages blog."
+
+#: widgets/latest-news.php:32
+msgid "REIGN News Widget"
+msgstr "Widget nouvelles REIGN"
+
+#: widgets/peepso/widgetuserbar.php:12
+msgid "Reign PeepSo UserBar"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:13
+msgid "PeepSo User Bar Widget"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:73
+msgid "Pending Notifications"
+msgstr "Notification"
+
+#: widgets/peepso/widgetuserbar.php:159
+msgid "Content Position"
+msgstr "Position du contenu"
+
+#: widgets/peepso/widgetuserbar.php:162
+msgid "Left"
+msgstr "Gauche"
+
+#: widgets/peepso/widgetuserbar.php:163
+msgid "Right"
+msgstr "Droite"
+
+#: widgets/peepso/widgetuserbar.php:164
+msgid "Center"
+msgstr "Centre"
+
+#: widgets/peepso/widgetuserbar.php:165
+msgid "Space Between"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:171
+msgid "Guest view"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:174
+msgid "Log-in link"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:184
+msgid "Show avatar"
+msgstr "Afficher l'avatar"
+
+#: widgets/peepso/widgetuserbar.php:192
+msgid "Show name"
+msgstr "Afficher le nom"
+
+#: widgets/peepso/widgetuserbar.php:200
+msgid "Show notifications"
+msgstr "Pas de nouvelle notifications"
+
+#: widgets/peepso/widgetuserbar.php:208
+msgid "Show User dropdown menu"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:216
+msgid "Show logout icon"
+msgstr "Afficher le nombre de produits"
+
+#: widgets/peepso/widgetuserbar.php:224
+msgid "Show VIP icons"
+msgstr "Afficher le nombre de produits"
+
+#: widgets/peepso/widgetuserbar.php:232
+msgid "Show Badges"
+msgstr "Afficher les badges"
+
+#: widgets/sidewide-activity-widget.php:9
+msgid "REIGN Site Wide Activity"
+msgstr "Reign: Activité à l'échelle du site"
+
+#: widgets/sidewide-activity-widget.php:67
+msgid "Site Wide Activity RSS Feed"
+msgstr "Activité du flux RSS sur le site"
+
+#: widgets/sidewide-activity-widget.php:67
+msgid "[RSS]"
+msgstr "[RSS]"
+
+#: widgets/sidewide-activity-widget.php:147
+msgid "Site Wide Activities"
+msgstr "Activités à l'échelle du site"
+
+#: widgets/sidewide-activity-widget.php:175
+msgid "Number of items Per Page:"
+msgstr "Nombre d'éléments par page:"
+
+#: widgets/sidewide-activity-widget.php:176
+msgid "Max items to show:"
+msgstr "Maximum d'éléments à afficher:"
+
+#: widgets/sidewide-activity-widget.php:180
+msgid "Limit to Logged In user's activity:"
+msgstr "Limite à l'activité de l'utilisateur connecté:"
+
+#: widgets/sidewide-activity-widget.php:187
+msgid "List My Activity Only:"
+msgstr "Lister mon activité uniquement:"
+
+#: widgets/sidewide-activity-widget.php:195
+msgid "Show Avatar:"
+msgstr "Afficher l'avatar :"
+
+#: widgets/sidewide-activity-widget.php:201
+msgid "Show Feed Link:"
+msgstr "Afficher le lien du feed:"
+
+#: widgets/sidewide-activity-widget.php:207
+msgid "Show Activity Content:"
+msgstr "Afficher le contenu de l'activité:"
+
+#: widgets/sidewide-activity-widget.php:214
+msgid "Limit activity content to:"
+msgstr "Limiter le contenu de l'activité à:"
+
+#: widgets/sidewide-activity-widget.php:215
+msgid "words. Zero means no limit."
+msgstr "mots. Zéro signifie pas de limite."
+
+#: widgets/sidewide-activity-widget.php:220
+msgid "Show Post Form"
+msgstr "Afficher le formulaire de publication"
+
+#: widgets/sidewide-activity-widget.php:226
+msgid "Allow reply to activity item:"
+msgstr "Autoriser la réponse à l'élément d'activité:"
+
+#: widgets/sidewide-activity-widget.php:233
+msgid "Show/Allow Activity Replies:"
+msgstr "Afficher/autoriser les réponses d'activité:"
+
+#: widgets/sidewide-activity-widget.php:239
+msgid "Show Activity Filters:"
+msgstr "Afficher les filtres d'activité:"
+
+#: widgets/sidewide-activity-widget.php:247
+msgid "Include only following Filters:"
+msgstr "Inclure uniquement les filtres suivants:"
+
+#: widgets/sidewide-activity-widget.php:257
+msgid "Exclude following Components activity"
+msgstr "Exclure l'activité des composants suivants"
+
+#: widgets/sidewide-activity-widget.php:411
+#: widgets/sidewide-activity-widget.php:412
+msgid "Profile"
+msgstr "Profil"
+
+#: widgets/sidewide-activity-widget.php:416
+msgid "Blogs"
+msgstr "Blogs"
+
+#: widgets/sidewide-activity-widget.php:417
+#: widgets/sidewide-activity-widget.php:418
+msgid "Forums"
+msgstr "Forums"
+
+#: widgets/sidewide-activity-widget.php:433
+msgid "Clear Filter"
+msgstr "Effacer le filtre"
+
+#: widgets/sidewide-activity-widget.php:557
+#, php-format
+msgid "You have no recent %s activity."
+msgstr "Vous n'avez aucune activité %s récente."
+
+#: widgets/sidewide-activity-widget.php:559
+msgid "There has been no recent site activity."
+msgstr "Il n'y a pas eu d'activité récente sur le site."
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:25
+msgid "WooCommerce product categories list."
+msgstr "Liste des catégories de produits WooCommerce."
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:28
+msgid "Reign - Product Categories"
+msgstr "Reign - catégories de produits"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:124
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:119
+msgid "No of category per row:"
+msgstr "Nbre de catégories par rangée:"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:128
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:123
+msgid "No of Category:"
+msgstr "Nombre de catégories:"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:133
+msgid "Show parent categories only"
+msgstr "Catégories Afficher les parents seulement"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:137
+msgid "Show product counts"
+msgstr "Afficher le nombre de produits"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:141
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:132
+msgid "Enable slider"
+msgstr "Activer le slider"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:144
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:135
+msgid "Layout:"
+msgstr "Mise en page:"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:146
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:137
+msgid "Layout - 1"
+msgstr "Mise en page - 1"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:147
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:138
+msgid "Layout - 2"
+msgstr "Mise en page - 2"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:148
+msgid "Layout - 3"
+msgstr "Mise en page - 3"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:149
+msgid "Layout - 4"
+msgstr "Mise en page - 4"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:150
+msgid "Layout - 5"
+msgstr "Mise en page - 5"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:151
+msgid "Layout - 6"
+msgstr "Mise en page - 6"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:155
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:142
+msgid "Selected Categories: ( \",\" separated ids )"
+msgstr "Catégories sélectionnées: (séparer les ID avec \",\")"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:25
+msgid "WooCommerce product category with subcategory list."
+msgstr "Catégorie de produits WooCommerce avec liste des sous-catégories."
+
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:28
+msgid "Reign - Product Category Subcategory"
+msgstr "Reign - catégorie de produit sous-catégorie"
+
+#: widgets/woocommerce/class-reign-woo-widget-product-category-subcat.php:127
+msgid "No of Sub Category:"
+msgstr "Nombre de sous-catégories:"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:72
+msgid "Product"
+msgstr "Produit"
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:91
+msgid "Price"
+msgstr "Prix"
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:97
+#: woocommerce/global/quantity-input.php:31
+msgid "Quantity"
+msgstr "Quantité"
+
+#: woocommerce/cart/cart.php:55
+msgid "Remove this item"
+msgstr "Enlever cet article"
+
+#: woocommerce/cart/cart.php:86
+msgid "Available on backorder"
+msgstr "Disponible sur commande"
+
+#: woocommerce/cart/cart.php:132
+msgid "Coupon:"
+msgstr "Code promo:"
+
+#: woocommerce/cart/cart.php:132
+msgid "Coupon code"
+msgstr "Code promo"
+
+#: woocommerce/cart/cart.php:132
+msgid "Apply coupon"
+msgstr "Appliquer le Code Promo"
+
+#: woocommerce/cart/cart.php:136
+msgid "Update cart"
+msgstr "Mettre à jour le panier"
+
+#: woocommerce/checkout/form-checkout.php:25
+msgid "You must be logged in to checkout."
+msgstr "Vous devez être identifié pour commander."
+
+#: woocommerce/checkout/form-checkout.php:48
+msgid "Your order"
+msgstr "Votre commande"
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr "quantité de %s"
+
+#: woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Qté"
+
+#. Theme Name of the plugin/theme
+msgid "REIGN"
+msgstr "REIGN"
+
+#. Theme URI of the plugin/theme
+msgid "https://wbcomdesigns.com/downloads/reign-buddypress-theme/"
+msgstr "https://wbcomdesigns.com/downloads/reign-buddypress-theme/"
+
+#. Description of the plugin/theme
+msgid "Premium BuddyPress Theme with Elementor Page Builder support."
+msgstr "Thème BuddyPress Premium avec support pour Elementor Page Builder."
+
+#. Author of the plugin/theme
+msgid "Wbcom Designs"
+msgstr "Wbcom Designs"
+
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com/"
+msgstr "https://wbcomdesigns.com/"
+
+#. Template Name of the plugin/theme
+msgid "PeepSo Layout"
+msgstr "Disposition du formulaire"
+
+#~ msgid ""
+#~ "Please install the Kirki plugin to take full advantage of this theme\\s "
+#~ "customizer capabilities"
+#~ msgstr ""
+#~ "Installez le plugin Kirki pour tirer pleinement parti des capacités de "
+#~ "personnalisation de ce thème"
+
+#~ msgid "Install Kirki Toolkit now"
+#~ msgstr "Installer Kirki Toolkit maintenant"
+
+#~ msgid "Install Now"
+#~ msgstr "Installer maintenant"
+
+#~ msgid ""
+#~ "You have installed Kirki. Activate it to take advantage of this theme's "
+#~ "features in the customizer."
+#~ msgstr ""
+#~ "Vous avez installé Kirki. Activez le plugin pour tirer parti des "
+#~ "fonctionnalités de ce thème dans le personnaliseur."
+
+#~ msgid "Activate Kirki Toolkit now"
+#~ msgstr "Activer Kirki Toolkit maintenant"
+
+#~ msgid "Activate Now"
+#~ msgstr "Activer maintenant"
+
+#~ msgid "Don't show this again"
+#~ msgstr "Ne plus afficher à nouveau"
+
+#~ msgid "Dismiss"
+#~ msgstr "Rejeter"
+
+#~ msgid ""
+#~ "Are you sure? Dismissing this message will hide the installation "
+#~ "recommendation and you will have to manually install and activate the "
+#~ "plugin in the future."
+#~ msgstr ""
+#~ "Êtes-vous sûr? Le rejet de ce message cachera la recommandation "
+#~ "d'installation et vous devrez installer et activer manuellement le plugin "
+#~ "dans le futur."
+
+#~ msgid "SitePoint Demo Panel"
+#~ msgstr "Panneau de démonstration SitePoint"
+
+#~ msgid "Kirki integration for SitePoint demo"
+#~ msgstr "Intégration de Kirki pour la démonstration de SitePoint"
+
+#~ msgid "Site Text Colors"
+#~ msgstr "Couleurs du texte"
+
+#~ msgid "Section description."
+#~ msgstr "Description de section"
+
+#~ msgid "Site Layout"
+#~ msgstr "Mise en page du site"
+
+#~ msgid "Footer Text"
+#~ msgstr "Texte de pied de page"
+
+#~ msgid "Typography"
+#~ msgstr "Typographie"
+
+#~ msgid "Body Color"
+#~ msgstr "Couleur du corps"
+
+#~ msgid "Description here"
+#~ msgstr "Description ici ..."
+
+#~ msgid "Change Footer Text"
+#~ msgstr "Modifier le texte du pied de page"
+
+#~ msgid "Add some text to the footer"
+#~ msgstr "Ajouter du texte au pied de page"
+
+#~ msgid "Font-Family"
+#~ msgstr "Famille de police"
+
+#~ msgid ""
+#~ "Please choose a font for your site. This font-family will be applied to "
+#~ "all elements on your page, including headers and body."
+#~ msgstr ""
+#~ "Veuillez choisir une police pour votre site. Cette famille de polices "
+#~ "sera appliquée à tous les éléments de votre page, y compris les en-têtes "
+#~ "et le corps."
+
+#~ msgid "Font-Size"
+#~ msgstr "Taille de la police"
+
+#~ msgid "Please choose a font-size for your body."
+#~ msgstr "Veuillez choisir une taille de police pour votre corps."
+
+#, fuzzy
+#~ msgid "Color Scheme"
+#~ msgstr "Jeu de couleurs"
+
+#, fuzzy
+#~ msgid "Dark"
+#~ msgstr "Sombre"
+
+#, fuzzy
+#~ msgid "Ectoplasm"
+#~ msgstr "Ectoplasme"
+
+#, fuzzy
+#~ msgid "Sunrise"
+#~ msgstr "Lever du soleil"
+
+#, fuzzy
+#~ msgid "Coffee"
+#~ msgstr "Café"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Body Background Color"
+#~ msgstr "Couleur de l'arrière-plan principal"
+
+#, fuzzy
+#~| msgid "Allows you to choose a primary color for site."
+#~ msgid "Allows you to choose a body text color for site."
+#~ msgstr "Vous permet de choisir une couleur primaire pour votre site."
+
+#, fuzzy
+#~| msgid "Text Color"
+#~ msgid "Body Text Color"
+#~ msgstr "Couleur du texte du corps"
+
+#, fuzzy
+#~| msgid "Button Background Color"
+#~ msgid "Sections Background Color"
+#~ msgstr "Couleur d’arrière plan du bouton"
+
+#, fuzzy
+#~| msgid "Allows you to choose a button background color for your site."
+#~ msgid "Allows you to choose a sections background color for site."
+#~ msgstr "Vous permet de choisir une couleur d'arrière-plan pour"
+
+#~ msgid "Theme Color"
+#~ msgstr "Couleur du thème"
+
+#, fuzzy
+#~| msgid "Allows you to choose a primary color for site."
+#~ msgid "Allows you to choose a primary color, active color for site."
+#~ msgstr "Vous permet de choisir une couleur primaire pour votre site."
+
+#, fuzzy
+#~| msgid "Heading 1"
+#~ msgid "Headings Color"
+#~ msgstr "Couleur des titres"
+
+#, fuzzy
+#~| msgid "Allows you to choose a primary color for site."
+#~ msgid "Allows you to choose a headings color for site."
+#~ msgstr "Vous permet de choisir une couleur primaire pour votre site."
+
+#~ msgid "Link Color"
+#~ msgstr "Couleur du lien"
+
+#, fuzzy
+#~| msgid "Allows you to choose a primary color for site."
+#~ msgid "Allows you to choose a links color for site."
+#~ msgstr "Vous permet de choisir une couleur primaire pour votre site."
+
+#~ msgid "Link Hover Color"
+#~ msgstr "Couleur des liens au survol de la souris"
+
+#, fuzzy
+#~| msgid "Allows you to choose a primary color for site."
+#~ msgid "Allows you to choose a links hover color for site."
+#~ msgstr "Vous permet de choisir une couleur primaire pour votre site."
+
+#, fuzzy
+#~| msgid "Text Color"
+#~ msgid "Button Text Color"
+#~ msgstr "Couleur du texte du bouton"
+
+#, fuzzy
+#~| msgid "Allows you to choose a button background color for your site."
+#~ msgid "Allows you to choose a button text color for site."
+#~ msgstr "Vous permet de choisir une couleur d'arrière-plan pour"
+
+#, fuzzy
+#~| msgid "Text Hover Color"
+#~ msgid "Button Text Hover Color"
+#~ msgstr "Couleur du texte d’en-tête"
+
+#, fuzzy
+#~| msgid "Allows you to choose a text hover color."
+#~ msgid "Allows you to choose a button text hover color for site."
+#~ msgstr "Vous permet de choisir la couleur de survol du texte."
+
+#~ msgid "Button Background Color"
+#~ msgstr "Couleur d’arrière plan du bouton"
+
+#~ msgid "Allows you to choose a button background color for your site."
+#~ msgstr "Vous permet de choisir une couleur d'arrière-plan pour"
+
+#, fuzzy
+#~| msgid "Button Background Color"
+#~ msgid "Button Background Hover Color"
+#~ msgstr "Couleur d’arrière-plan du bouton au survol"
+
+#, fuzzy
+#~| msgid "Allows you to choose a button background color for your site."
+#~ msgid "Allows you to choose a button background hover color for your site."
+#~ msgstr "Vous permet de choisir une couleur d'arrière-plan pour"
+
+#~ msgid "Accent Color"
+#~ msgstr "Couleur d’accentuation"
+
+#~ msgid "Allows you to choose links color of content area for your site."
+#~ msgstr ""
+#~ "Vous permet de choisir la couleur des liens de la zone de contenu de "
+#~ "votre site."
+
+#~ msgid "Accent Hover Color"
+#~ msgstr "Couleur accentuée au survol du bouton"
+
+#~ msgid ""
+#~ "Allows you to choose links hover color of content area for your site."
+#~ msgstr ""
+#~ "Vous permet de choisir la couleur du survol des liens de la zone de "
+#~ "contenu de votre site."
+
+#, fuzzy
+#~| msgid "Body Color"
+#~ msgid "Border Color"
+#~ msgstr "Couleurs bordure"
+
+#, fuzzy
+#~| msgid "Allows you to choose site title color."
+#~ msgid "Allows you to choose site border color."
+#~ msgstr "Vous permet de choisir la couleur du titre du site."
+
+#, fuzzy
+#~| msgid "Color"
+#~ msgid "HR Color"
+#~ msgstr "Couleur"
+
+#, fuzzy
+#~| msgid "Allows you to choose a primary color for site."
+#~ msgid "Allows you to choose a hr color for site."
+#~ msgstr "Vous permet de choisir une couleur primaire pour votre site."
+
+#~ msgid "Allows you to choose a primary color for site."
+#~ msgstr "Vous permet de choisir une couleur primaire pour votre site."
+
+#~ msgid "Plugins Support"
+#~ msgstr "Support des plugins"
+
+#~ msgid "Footer"
+#~ msgstr "Pied de page"
+
+#~ msgid "Copyright"
+#~ msgstr "Copyright"
+
+#~ msgid "Widget Title Color"
+#~ msgstr "Couleur du titre du widget"
+
+#~ msgid "Enable Footer Copyright"
+#~ msgstr "Activer pied de page droit d'auteur"
+
+#~ msgid "Enable"
+#~ msgstr "Activer"
+
+#~ msgid "Copyright Text"
+#~ msgstr "Texte de copyright"
+
+#~ msgid ""
+#~ "Enter the text that displays in the copyright bar. HTML markup can be "
+#~ "used."
+#~ msgstr ""
+#~ "Entrez le texte à afficher dans la barre du Copyright. Les balises HTML "
+#~ "peuvent être utilisées."
+
+#~ msgid "Alignment"
+#~ msgstr "Alignement"
+
+#~ msgid "Padding (px)"
+#~ msgstr "Marge (px)"
+
+#, fuzzy
+#~ msgid "Forms"
+#~ msgstr "Formulaires"
+
+#, fuzzy
+#~| msgid "Text Active Color"
+#~ msgid "Active Color Setting"
+#~ msgstr "Couleur active du texte"
+
+#, fuzzy
+#~| msgid "Login Form Text Color"
+#~ msgid "Form Text Color"
+#~ msgstr "Couleur du texte du formulaire"
+
+#, fuzzy
+#~| msgid "Allows you to choose a text color."
+#~ msgid "Allows you to choose form text color."
+#~ msgstr "Vous permet de choisir la couleur du texte."
+
+#, fuzzy
+#~| msgid "Login Form Background Color"
+#~ msgid "Form Background Color"
+#~ msgstr "Couleur d’arrière-plan du formulaire"
+
+#, fuzzy
+#~| msgid "Allows you to choose a background hover color."
+#~ msgid "Allows you to choose form background color."
+#~ msgstr "Vous permet de choisir une couleur de survol de fond."
+
+#, fuzzy
+#~| msgid "Icon Hover Color"
+#~ msgid "Form Border Color"
+#~ msgstr "Couleur de la forme"
+
+#, fuzzy
+#~| msgid "Allows you to choose icon hover color."
+#~ msgid "Allows you to choose form border color."
+#~ msgstr "Vous permet de choisir la couleur de survol de l'icône."
+
+#, fuzzy
+#~| msgid "Login Form Background Color"
+#~ msgid "Form Placeholder Color"
+#~ msgstr "Couleur de fond du formulaire de connexion"
+
+#, fuzzy
+#~| msgid "Allows you to choose icon hover color."
+#~ msgid "Allows you to choose form placeholder color."
+#~ msgstr "Vous permet de choisir la couleur de survol de l'icône."
+
+#, fuzzy
+#~| msgid "Login Form Text Color"
+#~ msgid "Form Focus Text Color"
+#~ msgstr "Login Form Text Color"
+
+#, fuzzy
+#~| msgid "Allows you to choose a text color."
+#~ msgid "Allows you to choose form focus text color."
+#~ msgstr "Vous permet de choisir la couleur du texte."
+
+#, fuzzy
+#~| msgid "Login Form Background Color"
+#~ msgid "Form Focus Background Color"
+#~ msgstr "Couleur de fond du formulaire de connexion"
+
+#, fuzzy
+#~| msgid "Allows you to choose a background hover color."
+#~ msgid "Allows you to choose form focus background color."
+#~ msgstr "Vous permet de choisir une couleur de survol de fond."
+
+#, fuzzy
+#~| msgid "Allows you to choose icon hover color."
+#~ msgid "Allows you to choose form focus border color."
+#~ msgstr "Vous permet de choisir la couleur de survol de l'icône."
+
+#, fuzzy
+#~| msgid "Allows you to choose icon hover color."
+#~ msgid "Allows you to choose form focus placeholder color."
+#~ msgstr "Vous permet de choisir la couleur de survol de l'icône."
+
+#~ msgid "Custom Code"
+#~ msgstr "Code personnalisé"
+
+#~ msgid "Tracking Code"
+#~ msgstr "Code de suivi"
+
+#~ msgid ""
+#~ "You can enter your tracking codes here. This code will be enqueued in "
+#~ "site header. For example : Google Tacking Code, Facebook Pixel Code, etc."
+#~ msgstr ""
+#~ "Vous pouvez entrer vos codes de suivi ici. Ce code sera mis en file "
+#~ "d'attente dans l'en-tête du site. Par exemple: Google Tracking code, "
+#~ "Facebook pixel code, etc"
+
+#~ msgid "Custom JS : Header"
+#~ msgstr "Custom JS: En-tête"
+
+#~ msgid ""
+#~ "Just want to do some quick JS changes? Enter them here, they will be "
+#~ "applied to your theme."
+#~ msgstr ""
+#~ "Vous voulez juste faire quelques changements JS rapides ? Entrer le thème "
+#~ "ici et ils seront appliqués au thème."
+
+#~ msgid "Custom JS : Footer"
+#~ msgstr "JS personnalisé: pied de page"
+
+#~ msgid "Page Mapping"
+#~ msgstr "Cartographie de la page"
+
+#~ msgid "Login Page"
+#~ msgstr "Page de connexion"
+
+#~ msgid "You can redirect user to custom login page using this setting."
+#~ msgstr ""
+#~ "Vous pouvez rediriger l'utilisateur vers la page de connexion "
+#~ "personnalisée à l'aide de ce paramètre."
+
+#~ msgid "Registration Page"
+#~ msgstr "Page d’inscription"
+
+#~ msgid ""
+#~ "You can redirect user to custom registration page using this setting."
+#~ msgstr ""
+#~ "Vous pouvez rediriger l'utilisateur vers la page d'inscription "
+#~ "personnalisée à l'aide de ce paramètre."
+
+#~ msgid "404"
+#~ msgstr "404"
+
+#~ msgid "You can redirect user to custom 404 page using this setting."
+#~ msgstr ""
+#~ "Vous pouvez rediriger l'utilisateur vers une page 404 personnalisée à "
+#~ "l'aide de ce paramètre."
+
+#~ msgid "Layouts"
+#~ msgstr "Mises en page"
+
+#~ msgid "Pre Content Loader"
+#~ msgstr "Pre Content Loader"
+
+#~ msgid "Show loader before loading content or not."
+#~ msgstr "Afficher le chargeur avant de charger le contenu ou non."
+
+#~ msgid "Loader Icon"
+#~ msgstr "Icône Télécharger"
+
+#~ msgid "Loader Background Color"
+#~ msgstr "Couleur d'arrière-plan du chargeur"
+
+#~ msgid "Select your site layout here."
+#~ msgstr "Sélectionnez la disposition de votre site ici."
+
+#~ msgid "Sticky Sidebar"
+#~ msgstr "Barre latérale collante"
+
+#~ msgid "Sub Header"
+#~ msgstr "Sous Entête"
+
+#~ msgid "Sub Header Height (px)"
+#~ msgstr "Hauteur de l'en-tête (px)"
+
+#~ msgid "Header Image Background Color"
+#~ msgstr "Couleur d'arrière-plan des images"
+
+#~ msgid "Header Image Overlay Color"
+#~ msgstr "Superposition d’image"
+
+#~ msgid "Header Image Text Color"
+#~ msgstr "En-tête Image Texte Couleur"
+
+#~ msgid "Enable Breadcrumb"
+#~ msgstr "Activer le fil d'Ariane"
+
+#, fuzzy
+#~| msgid "Hide Page Header"
+#~ msgid "Page Header"
+#~ msgstr "En-tête de page"
+
+#, fuzzy
+#~| msgid "Allows you to set page header image for single post page."
+#~ msgid ""
+#~ "Allows you to enable\\disable page sub header at single post types pages."
+#~ msgstr ""
+#~ "Vous permet de définir l'image d'en-tête de page pour une page de "
+#~ "publication unique."
+
+#~ msgid "Enable Header Image"
+#~ msgstr "Activer l'image d'en-tête SiteWide"
+
+#, fuzzy
+#~| msgid "Enable Header Image"
+#~ msgid "Sub Header Image"
+#~ msgstr "Image d'en-tête Sub"
+
+#, fuzzy
+#~| msgid "Allows you to set page header image for single post page."
+#~ msgid "Allows you to page header image for single custom post type page."
+#~ msgstr ""
+#~ "Vous permet de définir l'image d'en-tête de page pour une page de "
+#~ "publication unique."
+
+#~ msgid "Switch Header Image With Featured Image"
+#~ msgstr "Basculer l'image d'en-tête avec l'image sélectionnée"
+
+#, fuzzy
+#~| msgid ""
+#~| "This will show post featured image on top header section and featured "
+#~| "image will be removed from post content."
+#~ msgid ""
+#~ "This will show post featured image on top header section at single post "
+#~ "page and featured image will be removed from post content."
+#~ msgstr ""
+#~ "Ceci affichera l’image en vedette dans la partie supérieure de l’en-tête "
+#~ "et cette image sera supprimée du contenu de la publication."
+
+#~ msgid "General"
+#~ msgstr "Général"
+
+#~ msgid "Body Font"
+#~ msgstr "Police du corps"
+
+#~ msgid "Allows you to select all font properties of body tag for your site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner toutes les propriétés de police pour la "
+#~ "balise corps du texte de votre site"
+
+#~ msgid "Heading 1"
+#~ msgstr "Titre 1"
+
+#~ msgid "Allows you to select all font properties of H1 tag for your site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner toutes les propriétés de police pour la "
+#~ "balise H1 de votre site"
+
+#~ msgid "Heading 2"
+#~ msgstr "Titre 2"
+
+#~ msgid "Allows you to select all font properties of H2 tag for your site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner toutes les propriétés de police pour la "
+#~ "balise H2 de votre site"
+
+#~ msgid "Heading 3"
+#~ msgstr "Titre 3"
+
+#~ msgid "Allows you to select all font properties of H3 tag for your site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner toutes les propriétés de police pour la "
+#~ "balise H3 de votre site"
+
+#~ msgid "Heading 4"
+#~ msgstr "Titre 4"
+
+#~ msgid "Allows you to select all font properties of H4 tag for your site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner toutes les propriétés de police pour la "
+#~ "balise H4 de votre site"
+
+#~ msgid "Heading 5"
+#~ msgstr "Titre 5"
+
+#~ msgid "Allows you to select all font properties of H5 tag for your site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner toutes les propriétés de police pour la "
+#~ "balise H5 de votre site"
+
+#~ msgid "Heading 6"
+#~ msgstr "Titre 6"
+
+#~ msgid "Allows you to select all font properties of H6 tag for your site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner toutes les propriétés de police pour la "
+#~ "balise H6 de votre site"
+
+#~ msgid "Main Menu"
+#~ msgstr "Menu principal"
+
+#~ msgid "Menu Font"
+#~ msgstr "Police du menu"
+
+#~ msgid "Allows you to select font properties for menu of site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner les propriétés de police pour le menu du site."
+
+#~ msgid "Text Hover Color"
+#~ msgstr "Couleur du texte au survol"
+
+#~ msgid "Allows you to choose a text hover color."
+#~ msgstr "Vous permet de choisir la couleur de survol du texte."
+
+#~ msgid "Text Active Color"
+#~ msgstr "Couleur active du texte"
+
+#~ msgid "Allows you to choose a text active color."
+#~ msgstr "Vous permet de choisir la couleur du texte."
+
+#~ msgid "Background Hover Color"
+#~ msgstr "Couleur d'arrière plan au survol"
+
+#~ msgid "Allows you to choose a background hover color."
+#~ msgstr "Vous permet de choisir une couleur de survol de fond."
+
+#~ msgid "Background Active Color"
+#~ msgstr "Couleur active d’arrière-plan"
+
+#~ msgid "Allows you to choose a background active color."
+#~ msgstr "Vous permet de choisir une couleur active de fond."
+
+#, fuzzy
+#~| msgid "Allows you to enable or disable sticky header menu for your site."
+#~ msgid "Allows you to enable or disable 'More' menus option for header menu."
+#~ msgstr ""
+#~ "Vous permet d'activer ou de désactiver le menu d'en-tête collant pour "
+#~ "votre site."
+
+#~ msgid "Mobile Menu"
+#~ msgstr "Menu mobile"
+
+#~ msgid "Allows you to choose a background color for mobile menu."
+#~ msgstr ""
+#~ "Vous permet de choisir la couleur d'arrière-plan pour le menu mobile."
+
+#~ msgid "Config Mobile Logo"
+#~ msgstr "Config Mobile Logo"
+
+#~ msgid "Allows you to config logo for mobile menu."
+#~ msgstr "Vous permet de configurer le logo pour le menu mobile."
+
+#~ msgid "Custom"
+#~ msgstr "Personnalisé"
+
+#~ msgid "Mobile Logo"
+#~ msgstr "Logo pour Mobiles"
+
+#~ msgid "Allows you to add, remove, change mobile logo on your site."
+#~ msgstr ""
+#~ "Vous permet d'ajouter, de supprimer ou de changer le logo mobile de votre "
+#~ "site."
+
+#~ msgid "Sticky Menu"
+#~ msgstr "Immobilisation du Menu"
+
+#~ msgid "Sticky On Scroll"
+#~ msgstr "Sticky On Scroll"
+
+#~ msgid "Allows you to enable or disable sticky header menu for your site."
+#~ msgstr ""
+#~ "Vous permet d'activer ou de désactiver le menu d'en-tête collant pour "
+#~ "votre site."
+
+#~ msgid "Config Sticky Menu"
+#~ msgstr "Config Sticky Menu"
+
+#~ msgid "Allows you to config sticky menu style."
+#~ msgstr "Vous permet de configurer le style de menu fixe."
+
+#~ msgid "Allows you to choose a background color for sticky menu."
+#~ msgstr ""
+#~ "Vous permet de choisir la couleur d'arrière-plan pour le menu mobile."
+
+#~ msgid "Site Title"
+#~ msgstr "Titre du site"
+
+#~ msgid "Allows you to choose site title color."
+#~ msgstr "Vous permet de choisir la couleur du titre du site."
+
+#~ msgid "Allows you to choose a text color."
+#~ msgstr "Vous permet de choisir la couleur du texte."
+
+#~ msgid "Icon Color"
+#~ msgstr "Couleur de l’icône"
+
+#~ msgid "Allows you to choose icon color."
+#~ msgstr "Vous permet de choisir la couleur de l'icône."
+
+#~ msgid "Icon Hover Color"
+#~ msgstr "Couleur Icône Survol"
+
+#~ msgid "Allows you to choose icon hover color."
+#~ msgstr "Vous permet de choisir la couleur de survol de l'icône."
+
+#~ msgid "Sub Menu"
+#~ msgstr "Sous-menu"
+
+#~ msgid "Allows you to choose a background color for sub menu."
+#~ msgstr ""
+#~ "Vous permet de choisir la couleur d'arrière-plan pour le menu mobile."
+
+#~ msgid "Sub Menu Font"
+#~ msgstr "Police du sous-menu"
+
+#~ msgid "Allows you to select font properties for sub-menu of site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner les propriétés de police pour le sous-menu du "
+#~ "site."
+
+#~ msgid "Topbar"
+#~ msgstr "Barre du haut"
+
+#~ msgid "Enable Topbar"
+#~ msgstr "Activer la barre supérieure"
+
+#~ msgid "Allows you to enable or disable topbar for your site."
+#~ msgstr ""
+#~ "Vous permet d'activer ou de désactiver la barre supérieure pour votre "
+#~ "site."
+
+#~ msgid "Disable Topbar On Mobile View"
+#~ msgstr "Désactiver la barre supérieure en mode mobile"
+
+#~ msgid ""
+#~ "Allows you to disable or disable topbar for your site on mobile view."
+#~ msgstr ""
+#~ "Vous permet de désactiver ou de désactiver la barre supérieure pour votre "
+#~ "site en mode mobile."
+
+#~ msgid "Info Links"
+#~ msgstr "Masquer l’info des liens"
+
+#~ msgid ""
+#~ "Fontawesome classes are used to set icons. Check <a href=\"https://"
+#~ "fontawesome.com/icons\" target=\"_blank\">https://fontawesome.com/</a> "
+#~ "for further assistance."
+#~ msgstr ""
+#~ "Les classes Fontawesome sont utilisées pour définir des icônes. Consultez "
+#~ "<a href=\"https://fontawesome.com/icons\" target=\"_blank\">https://"
+#~ "fontawesome.com/</a> pour plus d'assistance."
+
+#~ msgid "Info Link"
+#~ msgstr "Lien info"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#~ msgid "Icon"
+#~ msgstr "Icône"
+
+#~ msgid "Link"
+#~ msgstr "Lien"
+
+#~ msgid "Social Links"
+#~ msgstr "Réseaux sociaux"
+
+#~ msgid "Social Link"
+#~ msgstr "Lien social"
+
+#~ msgid "Allows you to choose a background color for topbar."
+#~ msgstr ""
+#~ "Vous permet de choisir la couleur de l'arrière-plan pour le widget de la "
+#~ "barre d'outils."
+
+#, fuzzy
+#~| msgid "Select Header"
+#~ msgid "Desktop Header"
+#~ msgstr "Choisir l'en-tête"
+
+#~ msgid "Allows you to select header layout for header on your site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner une mise en page pour les en-têtes pour votre "
+#~ "site"
+
+#~ msgid "Allows you can choose background color for your header."
+#~ msgstr ""
+#~ "Vous permet de choisir une couleur d'arrière-plan pour votre en-tête"
+
+#~ msgid "Manage Icons Options"
+#~ msgstr "Options de gestion des icônes"
+
+#~ msgid "Cart"
+#~ msgstr "Panier"
+
+#~ msgid "Notification"
+#~ msgstr "Notification"
+
+#~ msgid "User Menu"
+#~ msgstr "Menu utilisateur"
+
+#~ msgid "Site Title Font"
+#~ msgstr "Police du titre du site"
+
+#~ msgid "Allows you to select font properties of site-title for your site."
+#~ msgstr ""
+#~ "Vous permet de sélectionner les propriétés de police de titre de site "
+#~ "pour votre site."
+
+#~ msgid "bbPress Forum"
+#~ msgstr "BBPress forum"
+
+#~ msgid "bbPress Topic"
+#~ msgstr "BBPress topic"
+
+#~ msgid "Archive"
+#~ msgstr "Archive"
+
+#~ msgid "Single"
+#~ msgstr "Unique"
+
+#~ msgid "Allows you to choose a layout for all archive pages."
+#~ msgstr ""
+#~ "Vous permet de choisir une mise en page pour toutes les pages d'archives."
+
+#~ msgid "Blog Header Image"
+#~ msgstr "Image d’en-tête du blog"
+
+#~ msgid "Allows you to set page header image for blog page."
+#~ msgstr ""
+#~ "Vous permet de définir l'image d'en-tête de page pour la page de blog."
+
+#, fuzzy
+#~| msgid "Select your custom left sidebar."
+#~ msgid "Allows you to set left sidebar."
+#~ msgstr "Sélectionnez votre barre latérale gauche personnalisée."
+
+#, fuzzy
+#~| msgid "Select your custom right sidebar."
+#~ msgid "Allows you to set right sidebar."
+#~ msgstr "Sélectionnez votre barre latérale droite personnalisée."
+
+#~ msgid "Allows you to choose a layout to display for all single post pages."
+#~ msgstr ""
+#~ "Vous permet de choisir une mise en page à afficher pour toutes les pages "
+#~ "de publication unique."
+
+#~ msgid "Hide Page Header"
+#~ msgstr "Cachez Entête de page"
+
+#~ msgid "Allows you to hide page header for this post type."
+#~ msgstr ""
+#~ "Vous permet de masquer l'en-tête de page pour ce type de publication."
+
+#~ msgid "Page Header Image"
+#~ msgstr "Image En-tête de la Page"
+
+#~ msgid "Allows you to set page header image for single post page."
+#~ msgstr ""
+#~ "Vous permet de définir l'image d'en-tête de page pour une page de "
+#~ "publication unique."
+
+#~ msgid "Blog Listing Layout"
+#~ msgstr "Mise en page des fiches"
+
+#~ msgid ""
+#~ "Select your log listing layout here. We have option to choose from 4 "
+#~ "different views."
+#~ msgstr ""
+#~ "Sélectionnez la disposition de votre liste de journal ici. Nous avons la "
+#~ "possibilité de choisir parmi 4 vues différentes."
+
+#~ msgid "Default View"
+#~ msgstr "Vue par défaut"
+
+#~ msgid "Thumbnail View"
+#~ msgstr "Affichage en vignettes"
+
+#~ msgid "Grid View"
+#~ msgstr "Vue en grille"
+
+#~ msgid "Masonry View"
+#~ msgstr "Vue en maçonnerie"
+
+#~ msgid "Blogs Per Row"
+#~ msgstr "Blogs par ligne"
+
+#~ msgid "Excerpt Length (words)"
+#~ msgstr "Longueur de l’Extrait (mots)"
+
+#~ msgid ""
+#~ "This will show post featured image on top header section and featured "
+#~ "image will be removed from post content."
+#~ msgstr ""
+#~ "Ceci affichera l’image en vedette dans la partie supérieure de l’en-tête "
+#~ "et cette image sera supprimée du contenu de la publication."
+
+#~ msgid "WordPress Login Screen"
+#~ msgstr "Écran de connexion WordPress"
+
+#~ msgid "Custom Logo"
+#~ msgstr "Logo personnalisé"
+
+#~ msgid "Select custom logo to replace default WordPress logo."
+#~ msgstr ""
+#~ "Sélectionnez le logo personnalisé pour remplacer le logo WordPress par "
+#~ "défaut."
+
+#~ msgid "Background Image"
+#~ msgstr "Image d’arrière-plan"
+
+#~ msgid "Select image to set as background image."
+#~ msgstr "Sélectionnez l'image à définir comme image d'arrière-plan."
+
+#~ msgid "Login Screen Background Color"
+#~ msgstr "Couleur du fond de l'écran de connexion :"
+
+#~ msgid "Select color to set as background color."
+#~ msgstr "Sélectionnez la couleur à définir comme couleur de fond."
+
+#~ msgid "Login Form Background Color"
+#~ msgstr "Couleur de fond du formulaire de connexion"
+
+#~ msgid "Select color to set as background color for login form."
+#~ msgstr ""
+#~ "Sélectionnez la couleur à définir comme couleur de fond pour le "
+#~ "formulaire de connexion."
+
+#~ msgid "Login Form Text Color"
+#~ msgstr "Login Form Text Color"
+
+#~ msgid "Select color to set for text in Login Form."
+#~ msgstr ""
+#~ "Sélectionnez la couleur à définir pour le texte dans le formulaire de "
+#~ "connexion."
+
+#~ msgid "Login Form Button Color"
+#~ msgstr "Couleur du bouton de formulaire de connexion"
+
+#~ msgid "Select color to set for button color in Login Form."
+#~ msgstr ""
+#~ "Sélectionnez la couleur à définir pour la couleur du bouton dans le "
+#~ "formulaire de connexion."
+
+#~ msgid "Custom CSS"
+#~ msgstr "CSS personnalisé"
+
+#~ msgid ""
+#~ "In case you need any custom CSS to apply on Login Screen, write it here."
+#~ msgstr ""
+#~ "Si vous avez besoin de CSS personnalisé à appliquer sur l'écran de "
+#~ "connexion, écrivez-le ici."
+
+#~ msgid "No File Selected"
+#~ msgstr "Aucun fichier sélectionné"
+
+#~ msgid "Remove"
+#~ msgstr "Supprimer"
+
+#~ msgid "Select File"
+#~ msgstr "Choisir un fichier"
+
+#~ msgid "Background Repeat"
+#~ msgstr "Répétition de l'arrière-plan"
+
+#~ msgid "No Repeat"
+#~ msgstr "Ne pas répéter"
+
+#, fuzzy
+#~| msgid "Repeat All"
+#~ msgid "Repeat All"
+#~ msgstr "Voir tout"
+
+#~ msgid "Repeat Horizontally"
+#~ msgstr "Répéter horizontalement"
+
+#~ msgid "Repeat Vertically"
+#~ msgstr "Répéter verticalement"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Background Position"
+#~ msgstr "Couleur d’arrière-plan"
+
+#~ msgid "Left Top"
+#~ msgstr "En haut à gauche"
+
+#~ msgid "Left Center"
+#~ msgstr "Centré à gauche"
+
+#~ msgid "Left Bottom"
+#~ msgstr "En bas à gauche"
+
+#~ msgid "Right Top"
+#~ msgstr "En haut à droite"
+
+#~ msgid "Right Center"
+#~ msgstr "Au centre à droite"
+
+#~ msgid "Right Bottom"
+#~ msgstr "En bas à droite"
+
+#~ msgid "Center Top"
+#~ msgstr "Centré en haut"
+
+#~ msgid "Center Center"
+#~ msgstr "Centre centre"
+
+#~ msgid "Center Bottom"
+#~ msgstr "Centré en bas"
+
+#~ msgid "Background Size"
+#~ msgstr "Taille de l’arrière plan"
+
+#~ msgid "Cover"
+#~ msgstr "Couverture"
+
+#, fuzzy
+#~| msgid "Contain"
+#~ msgid "Contain"
+#~ msgstr "Contenu"
+
+#, fuzzy
+#~| msgid "Auto"
+#~ msgid "Auto"
+#~ msgstr "Automatique"
+
+#~ msgid "Background Attachment"
+#~ msgstr "Positionnement de l'arrière-plan"
+
+#, fuzzy
+#~| msgid "Scroll"
+#~ msgid "Scroll"
+#~ msgstr "Défilement"
+
+#~ msgid "Fixed"
+#~ msgstr "Fixe"
+
+#~ msgid "Standard Fonts"
+#~ msgstr "Polices standards"
+
+#, fuzzy
+#~| msgid "Google"
+#~ msgid "Google Fonts"
+#~ msgstr "Google"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "CSS Defaults"
+#~ msgstr "Par défaut"
+
+#~ msgid "Default Browser Font-Family"
+#~ msgstr "Polices par défaut du navigateur"
+
+#~ msgid ""
+#~ "Please update your WordPress installation to a version newer than 4.9 to "
+#~ "access the code control."
+#~ msgstr ""
+#~ "Veuillez mettre à jour votre installation WordPress vers une version plus "
+#~ "récente que la version 4.9 pour accéder au contrôle de code."
+
+#~ msgid "Invalid Value"
+#~ msgstr "Valeur non valide"
+
+#~ msgid "Font Size"
+#~ msgstr "Taille de la police"
+
+#~ msgid "Font Weight"
+#~ msgstr "Épaisseur de la police"
+
+#~ msgid "Line Height"
+#~ msgstr "Hauteur de ligne"
+
+#, fuzzy
+#~| msgid "Font Size"
+#~ msgid "Font Style"
+#~ msgstr "Taille de la police"
+
+#~ msgid "Letter Spacing"
+#~ msgstr "Espacement des lettres"
+
+#~ msgid "Word Spacing"
+#~ msgstr "Espacement des mots"
+
+#~ msgid "Bottom"
+#~ msgstr "Bas"
+
+#~ msgid "Size"
+#~ msgstr "Taille"
+
+#~ msgid "Height"
+#~ msgstr "Hauteur"
+
+#~ msgid "Spacing"
+#~ msgstr "Espacement"
+
+#~ msgid "Width"
+#~ msgstr "Largeur"
+
+#~ msgid "Select image"
+#~ msgstr "Sélectionner une image"
+
+#~ msgid "Change image"
+#~ msgstr "Changer l’image"
+
+#~ msgid "No image selected"
+#~ msgstr "Aucune image sélectionnée"
+
+#~ msgid "Choose image"
+#~ msgstr "Choisir une image"
+
+#~ msgid "row"
+#~ msgstr "ligne"
+
+#~ msgid "Add new %s"
+#~ msgstr "Ajouter un nouveau %s"
+
+#~ msgid "Select a Page"
+#~ msgstr "Sélectionner une page"
+
+#~ msgid "Limit: %s rows"
+#~ msgstr "Limite : %s rangée(s)"
+
+#~ msgid "Hex Value"
+#~ msgstr "Valeur hexadécimale"
+
+#~ msgid "No Image Selected"
+#~ msgstr "Aucune image sélectionnée"
+
+#~ msgid "Add Image"
+#~ msgstr "Ajouter une image"
+
+#~ msgid "Change Image"
+#~ msgstr "Modifier l’image"
+
+#~ msgid "Add File"
+#~ msgstr "Ajouter un fichier"
+
+#~ msgid "Change File"
+#~ msgstr "Changer le fichier"
+
+#~ msgid "Reset"
+#~ msgstr "Réinitialiser"
+
+#~ msgid "On"
+#~ msgstr "On"
+
+#~ msgid "Off"
+#~ msgstr "Off"
+
+#~ msgid "Font Family"
+#~ msgstr "Famille de police"
+
+#~ msgid "Select Font Family"
+#~ msgstr "Choisir famille police"
+
+#~ msgid "Backup Font"
+#~ msgstr "Sauvegarde de la police"
+
+#~ msgid "Variant"
+#~ msgstr "Variante"
+
+#~ msgid "Download font-family to server instead of using the Google CDN."
+#~ msgstr ""
+#~ "Téléchargez la police de caractères sur le serveur au lieu d'utiliser le "
+#~ "CDN Google."
+
+#~ msgid "Text Align"
+#~ msgstr "Alignement du texte"
+
+#~ msgid "Inherit"
+#~ msgstr "Hériter"
+
+#~ msgid "Justify"
+#~ msgstr "Justifier"
+
+#~ msgid "Text Transform"
+#~ msgstr "Transformation du texte"
+
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#~ msgid "Capitalize"
+#~ msgstr "Mettre une majuscule"
+
+#~ msgid "Uppercase"
+#~ msgstr "Majuscule"
+
+#~ msgid "Lowercase"
+#~ msgstr "Minuscule"
+
+#~ msgid "Initial"
+#~ msgstr "Initial"
+
+#~ msgid "Text Decoration"
+#~ msgstr "Décoration de texte"
+
+#~ msgid "Underline"
+#~ msgstr "Souligner"
+
+#~ msgid "Overline"
+#~ msgstr "Surligner"
+
+#~ msgid "Line-Through"
+#~ msgstr "Ligne à travers"
+
+#~ msgid "Margin Top"
+#~ msgstr "Marge supérieure"
+
+#~ msgid "Margin Bottom"
+#~ msgstr "Marge inférieure"
+
+#~ msgid "Typo found in field %s - setting instead of settings."
+#~ msgstr "Typo trouvé dans le champ %s - réglage au lieu des paramètres."
+
+#~ msgid ""
+#~ "Config not defined for field %1$s - See %2$s for details on how to "
+#~ "properly add fields."
+#~ msgstr ""
+#~ "Config non définie pour le champ %1$s - Voir %2$s pour plus de détails "
+#~ "sur comment ajouter correctement des champs."
+
+#~ msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+#~ msgstr "Typo trouvée dans le champ %s - \"theme_mods\" vs \"theme_mod\""
+
+#~ msgid "\"partial_refresh\" invalid entry in field %s"
+#~ msgstr "\"partial_refresh\" entrée invalide dans le champ %s"
+
+#~ msgid ""
+#~ "\"output\" invalid format in field %s. The \"output\" argument should be "
+#~ "defined as an array of arrays."
+#~ msgstr ""
+#~ "\"output\" format invalide dans le champ %s. L'argument \"output\" doit "
+#~ "être défini comme un tableau de tableaux."
+
+#~ msgid ""
+#~ "We detected you're using Kirki_Init::get_variables(). Please use "
+#~ "Kirki_Util::get_variables() instead."
+#~ msgstr ""
+#~ "Nous avons détecté que vous utilisiez Kirki_Init::get_variables(). "
+#~ "Veuillez utiliser Kirki_Util::get_variables() à la place."
+
+#~ msgid ""
+#~ "Kirki fields should not be added on customize_register. Please add them "
+#~ "directly, or on init."
+#~ msgstr ""
+#~ "Les champs Kirki ne doivent pas être ajoutés à personnaliser_register. "
+#~ "S'il vous plaît ajoutez-les directement, ou sur init."
+
+#~ msgid "%1$s or %2$s"
+#~ msgstr "%1$s ou %2$s"
+
+#~ msgid ""
+#~ "Do not use \"alpha\" as an argument in color controls. Use "
+#~ "\"choices[alpha]\" instead."
+#~ msgstr ""
+#~ "N'utilisez pas \"alpha\" comme argument dans les contrôles de couleur. "
+#~ "Utilisez plutôt \"choices[alpha]\"."
+
+#~ msgid ""
+#~ "Error in field %1$s. The \"mode\" argument has been deprecated since "
+#~ "Kirki v0.8. Use the \"radio-%2$s\" type instead."
+#~ msgstr ""
+#~ "Erreur dans le champ %1$s. L'argument \"mode\" est obsolète depuis Kirki "
+#~ "v0.8. Utilisez plutôt le type \"radio-%2$s\"."
+
+#~ msgid "Customizing"
+#~ msgstr "Personnalisation"
+
+#~ msgid "Customizing &#9656; %s"
+#~ msgstr "Personnalisation &#9656; %s"
+
+#~ msgid "Ultra-Light 100"
+#~ msgstr "Ultra-Light 100"
+
+#~ msgid "Ultra-Light 100 Italic"
+#~ msgstr "Ultra-Light 100 Italic"
+
+#~ msgid "Light 200"
+#~ msgstr "Light 200"
+
+#~ msgid "Light 200 Italic"
+#~ msgstr "Light 200 Italic"
+
+#~ msgid "Book 300"
+#~ msgstr "Book 300"
+
+#~ msgid "Book 300 Italic"
+#~ msgstr "Book 300 Italic"
+
+#~ msgid "Normal 400"
+#~ msgstr "Normal 400"
+
+#~ msgid "Normal 400 Italic"
+#~ msgstr "Normal 400 Italic"
+
+#~ msgid "Medium 500"
+#~ msgstr "Medium 500"
+
+#~ msgid "Medium 500 Italic"
+#~ msgstr "Medium 500 Italic"
+
+#~ msgid "Semi-Bold 600"
+#~ msgstr "Semi-Bold 600"
+
+#~ msgid "Semi-Bold 600 Italic"
+#~ msgstr "Semi-Bold 600 Italic"
+
+#~ msgid "Bold 700"
+#~ msgstr "Bold 700"
+
+#~ msgid "Bold 700 Italic"
+#~ msgstr "Gras 700 italic"
+
+#~ msgid "Extra-Bold 800"
+#~ msgstr "Extra-Bold 800"
+
+#~ msgid "Extra-Bold 800 Italic"
+#~ msgstr "Extra-Bold 800 Italic"
+
+#~ msgid "Ultra-Bold 900"
+#~ msgstr "Ultra-Bold 900"
+
+#~ msgid "Ultra-Bold 900 Italic"
+#~ msgstr "Ultra-Bold 900 Italic"
+
+#~ msgid "Important Upgrade Notice:"
+#~ msgstr "Avis de mise à niveau important :"
+
+#, fuzzy
+#~| msgid "Main Menu"
+#~ msgid "Assigned Menu"
+#~ msgstr ""
+#~ "Affiche des widgets dans la section d'en-tête juste au-dessus de la barre "
+#~ "de navigation principale."
+
+#, fuzzy
+#~| msgid "Display Label"
+#~ msgid "Display Main Panel"
+#~ msgstr "Étiquette d'affichage"
+
+#, fuzzy
+#~ msgid "Edge"
+#~ msgstr "Bord"
+
+#, fuzzy
+#~ msgid "Skin"
+#~ msgstr "Apparence"
+
+#, fuzzy
+#~| msgid "Site Title"
+#~ msgid "Display Site Title"
+#~ msgstr "Afficher le titre du site"
+
+#, fuzzy
+#~| msgid "Display View All Button:"
+#~ msgid "Display Panel Close Button"
+#~ msgstr "Afficher le bouton Voir Tout:"
+
+#, fuzzy
+#~| msgid "Display Placeholder"
+#~ msgid "Display Toggle Bar"
+#~ msgstr "Afficher le Contenu de Remplissage"
+
+#, fuzzy
+#~| msgid " Theme Settings"
+#~ msgid "Hide Theme Menu"
+#~ msgstr " Paramètres du thème"
+
+#, fuzzy
+#~| msgid "Google Fonts"
+#~ msgid "Toggle Content"
+#~ msgstr "Contenu du Toggle"
+
+#~ msgid "Bars/Burger Icon Only"
+#~ msgstr "Barres/Burger Icon seulement"
+
+#, fuzzy
+#~| msgid "Remove Icon"
+#~ msgid "Close Icon"
+#~ msgstr "Fermer l'icône"
+
+#, fuzzy
+#~| msgid "Select Header Position"
+#~ msgid "Toggle Bar Position"
+#~ msgstr "Sélectionner la position de l'en-tête"
+
+#~ msgid "Absolute (scrolls out of viewport)"
+#~ msgstr "Absolu (défile de la fenêtre)"
+
+#, fuzzy
+#~| msgid "Alignment"
+#~ msgid "Align Text"
+#~ msgstr "Aligner le texte"
+
+#~ msgid "Align text left, right, or center.  Applies to inline elements only."
+#~ msgstr ""
+#~ "Alignez le texte à gauche, à droite ou au centre.  S'applique uniquement "
+#~ "aux éléments Inline."
+
+#, fuzzy
+#~ msgid "Transparent Background"
+#~ msgstr "Arrière-plan transparent"
+
+#, fuzzy
+#~| msgid "Text Color"
+#~ msgid "Text/Burger Color"
+#~ msgstr "Couleur du texte"
+
+#~ msgid ""
+#~ "By default, toggle will automatically determine if a gap is needed - in "
+#~ "short, space is left for the full bar toggle, and is not left for a "
+#~ "burger-only toggle.  If you wish to override this, you can do so here."
+#~ msgstr ""
+#~ "Par défaut, le basculement déterminera automatiquement si un écart est "
+#~ "nécessaire-en bref, l'espace est laissé pour la bascule de barre "
+#~ "complète, et n'est pas laissé pour une bascule de Burger-only.  Si vous "
+#~ "souhaitez remplacer cela, vous pouvez le faire ici."
+
+#, fuzzy
+#~| msgid "Auto"
+#~ msgid "Automatic"
+#~ msgstr "Automatique"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Disable Gap"
+#~ msgstr "Désactiver Gap"
+
+#, fuzzy
+#~| msgid "Enable"
+#~ msgid "Enable Gap"
+#~ msgstr "Activer"
+
+#, fuzzy
+#~| msgid "CSS Defaults"
+#~ msgid "CSS Tweaks"
+#~ msgstr "CSS par défaut"
+
+#~ msgid "Add custom CSS here, which will be printed in the site head."
+#~ msgstr ""
+#~ "Ajouter CSS personnalisé ici, qui sera imprimé dans la tête du site."
+
+#, fuzzy
+#~| msgid "Footer Text"
+#~ msgid "Footer Content"
+#~ msgstr "Contenu du pied de page"
+
+#~ msgid ""
+#~ "Add HTML or Shortcodes here and it will be injected at the wp_footer() "
+#~ "hook.  Useful for fixed position elements"
+#~ msgstr ""
+#~ "Ajouter HTML ou shortcodes ici et il sera injecté à la wp_footer () "
+#~ "crochet.  Utile pour les éléments de position fixe"
+
+#, fuzzy
+#~| msgid "Mobile Menu"
+#~ msgid "Mobile Only"
+#~ msgstr "Mobile seulement"
+
+#, fuzzy
+#~| msgid "Font Size"
+#~ msgid "Button Size"
+#~ msgstr "Taille du bouton"
+
+#, fuzzy
+#~| msgid "Font Size"
+#~ msgid "Text Size"
+#~ msgstr "Taille du texte"
+
+#, fuzzy
+#~| msgid "Font Size"
+#~ msgid "Icon Size"
+#~ msgstr "Taille de l’icône"
+
+#, fuzzy
+#~| msgid "Disable User @ mentions."
+#~ msgid "Disable Transforms &amp; Transitions"
+#~ msgstr "Désactiver la @ mention d'usagers."
+
+#, fuzzy
+#~| msgid "Scroll"
+#~ msgid "Scroll Offset"
+#~ msgstr "Défilement Offset"
+
+#~ msgid "Collapse Accordions"
+#~ msgstr "Réduire les accordéons"
+
+#~ msgid "Back Button Tag"
+#~ msgstr "Étiquette de bouton de retour"
+
+#~ msgid ""
+#~ "By default the tag is an anchor.  Some themes will try to add JS to the "
+#~ "anchor and break the back button functionality, so you can also switch "
+#~ "this to a span to avoid the issue."
+#~ msgstr ""
+#~ "Par défaut, la balise est une ancre.  Certains thèmes vont essayer "
+#~ "d'ajouter JS à l'ancre et briser la fonctionnalité de bouton de retour, "
+#~ "de sorte que vous pouvez également passer à une envergure pour éviter le "
+#~ "problème."
+
+#~ msgid "Back Button Text"
+#~ msgstr "Texte du bouton retour"
+
+#~ msgid ""
+#~ "By default, the Back button text will read \"Back\".  You can change this "
+#~ "here.  Note that if you set a value here, it will no longer be "
+#~ "translatable."
+#~ msgstr ""
+#~ "Par défaut, le texte du bouton retour se lira «retour».  Vous pouvez "
+#~ "changer ça ici.  Notez que si vous définissez une valeur ici, elle ne "
+#~ "sera plus traduisible."
+
+#~ msgid "Bottom Back Button"
+#~ msgstr "Bouton arrière inférieur"
+
+#, fuzzy
+#~| msgid "Horizontal"
+#~ msgid "Lock Horizontal Scroll"
+#~ msgstr "Horizontal"
+
+#~ msgid ""
+#~ "Attempt to prevent the content from scrolling horizontally when the menu "
+#~ "is active.  On some themes, may also prevent vertical scrolling.  May not "
+#~ "prevent touch scrolling in Chrome.  No effect if <strong>Shift Body</"
+#~ "strong> is disabled."
+#~ msgstr ""
+#~ "Essayez d'empêcher le défilement horizontal du contenu lorsque le menu "
+#~ "est actif.  Sur certains thèmes, peut également empêcher le défilement "
+#~ "vertical.  Peut ne pas empêcher le défilement tactile dans Chrome.  Aucun "
+#~ "effet si <strong> Shift Body </strong> est désactivé."
+
+#, fuzzy
+#~| msgid "Scroll"
+#~ msgid "Lock Scroll"
+#~ msgstr "Défilement"
+
+#, fuzzy
+#~ msgid "Load Font Awesome"
+#~ msgstr "Charger la police Font Awesome"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you are already loading Font Awesome 4 elsewhere in your setup, you "
+#~ "can disable this."
+#~ msgstr ""
+#~ "Si vous êtes déjà chargez police Impressionnant 4 ailleurs dans votre "
+#~ "installation, vous pouvez le désactiver."
+
+#, fuzzy
+#~| msgid "Terms And Conditions"
+#~ msgid "Inherit UberMenu Conditionals"
+#~ msgstr "Termes et Conditions"
+
+#, fuzzy
+#~| msgid "Avatar Settings"
+#~ msgid "Main ShiftNav Settings"
+#~ msgstr "Paramètres de l'avatar"
+
+#, fuzzy
+#~| msgid "Reign Settings"
+#~ msgid "General Settings"
+#~ msgstr "Réglages généraux"
+
+#, fuzzy
+#~| msgid "Reign Settings"
+#~ msgid "Reset Settings"
+#~ msgstr "Réinitialiser les paramètres"
+
+#, fuzzy
+#~ msgid "No content"
+#~ msgstr "Aucun contenu"
+
+#, fuzzy
+#~| msgid "WooCommerce Left Sidebar"
+#~ msgid "WooCommerce Cart"
+#~ msgstr "Panier WooCommerce"
+
+#, fuzzy
+#~| msgid "BuddyPress Settings"
+#~ msgid "BuddyPress User Menu"
+#~ msgstr "Paramètres BuddyPress"
+
+#, fuzzy
+#~| msgid "User Menu"
+#~ msgid "PeepSo User Menu"
+#~ msgstr "Menu utilisateur"
+
+#, fuzzy
+#~| msgid "Cart"
+#~ msgid "EDD Cart"
+#~ msgstr "Panier"
+
+#, fuzzy
+#~| msgid "WordPress Login Screen"
+#~ msgid "WordPress Menu"
+#~ msgstr "Menu WordPress"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Disable Link"
+#~ msgstr "Désactiver le lien"
+
+#, fuzzy
+#~ msgid "Highlight Link"
+#~ msgstr "Highlight Lien"
+
+#, fuzzy
+#~ msgid "Highlight this menu item"
+#~ msgstr "Mettez en surbrillance cet élément de menu"
+
+#, fuzzy
+#~| msgid "Scroll"
+#~ msgid "Scroll To"
+#~ msgstr "Défilement"
+
+#, fuzzy
+#~ msgid ""
+#~ "The selector for an item to scroll to when clicked, if present.  Example: "
+#~ "<code>#section-1</code>"
+#~ msgstr ""
+#~ "Le sélecteur d'un article pour faire défiler une fois cliqué, si elle est "
+#~ "présente. Exemple: <code>#section-1</code>"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Disable Current"
+#~ msgstr "Désactiver actuel"
+
+#, fuzzy
+#~ msgid "Disable the current menu item classes for this item"
+#~ msgstr "Désactiver les actuelles classes d'élément de menu pour cet article"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Disable Item"
+#~ msgstr "Désactiver l’élément"
+
+#, fuzzy
+#~ msgid "Submenu Type"
+#~ msgstr "Sous-menu Type"
+
+#~ msgid ""
+#~ "[Requires Pro Version] Overrides the default submenu type.  For the Lite "
+#~ "version, only \"Always visible\" is available.  Can be changed to "
+#~ "\"Accordion\" or \"Shift\" with the Pro version."
+#~ msgstr ""
+#~ "[Version Pro requise] Remplace le type de sous-menu par défaut.  Pour la "
+#~ "version Lite, seul \"toujours visible\" est disponible.  Peut être changé "
+#~ "en \"accordéon\" ou \"Shift\" avec la version Pro."
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Menu Default"
+#~ msgstr "Par défaut"
+
+#~ msgid "Always visible"
+#~ msgstr "Toujours visible"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Disable Submenu"
+#~ msgstr "Désactiver"
+
+#, fuzzy
+#~| msgid "Profile Settings"
+#~ msgid "Mobile Panel Settings"
+#~ msgstr "Paramètres du profil"
+
+#, fuzzy
+#~| msgid "Duration"
+#~ msgid "Configuration"
+#~ msgstr "Configuration"
+
+#, fuzzy
+#~| msgid "Font Style"
+#~ msgid "Styles"
+#~ msgstr "Styles"
+
+#, fuzzy
+#~| msgid "SitePoint Demo Panel"
+#~ msgid "Second Mobile Panel"
+#~ msgstr "Panneau de démonstration SitePoint"
+
+#, fuzzy
+#~ msgid "Panel"
+#~ msgstr "Panneau"
+
+#, fuzzy
+#~| msgid "Contain"
+#~ msgid "Content"
+#~ msgstr "Contenu"
+
+#, fuzzy
+#~| msgid "Site Title Font"
+#~ msgid "Styles - Font"
+#~ msgstr "Police du titre du site"
+
+#, fuzzy
+#~| msgid "Custom Logo"
+#~ msgid "Custom URL"
+#~ msgstr "Logo personnalisé"
+
+#, fuzzy
+#~| msgid "Collapse Accordions"
+#~ msgid "Accordion"
+#~ msgstr "Réduire les accordéons"
+
+#, fuzzy
+#~ msgid "Submenu Type Default"
+#~ msgstr "Sous-menu Type"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Disable Menu"
+#~ msgstr "Désactiver"
+
+#, fuzzy
+#~| msgid "Remove Image"
+#~ msgid "Top Image"
+#~ msgstr "Supprimer l'image"
+
+#, fuzzy
+#~| msgid "Add Image"
+#~ msgid "Pad Image"
+#~ msgstr "Ajouter une image"
+
+#, fuzzy
+#~| msgid "Google Fonts"
+#~ msgid "Toggle Content Left Edge"
+#~ msgstr "Contenu du Toggle"
+
+#, fuzzy
+#~| msgid "Google Fonts"
+#~ msgid "Toggle Content Right Edge"
+#~ msgstr "Contenu du Toggle"
+
+#, fuzzy
+#~| msgid "Tracking Code"
+#~ msgid "Integration Code"
+#~ msgstr "Code de suivi"
+
+#, fuzzy
+#~| msgid "Item Name"
+#~ msgid "Instance Name"
+#~ msgstr "Nom de l'article"
+
+#, fuzzy
+#~| msgid "Display Label"
+#~ msgid "Display Menu"
+#~ msgstr "Étiquette d'affichage"
+
+#, fuzzy
+#~| msgid "Theme License"
+#~ msgid "Theme Location"
+#~ msgstr "Licence du thème"
+
+#, fuzzy
+#~| msgid "Select your site topbar here."
+#~ msgid "Select which edge of your site to display the menu on"
+#~ msgstr "Sélectionnez votre site topbar ici."
+
+#, fuzzy
+#~| msgid "Site Title"
+#~ msgid "Display the site title in the menu"
+#~ msgstr "Afficher le titre du site"
+
+#, fuzzy
+#~| msgid "Display Member Name:"
+#~ msgid "Display Instance Name"
+#~ msgstr "Afficher le Nom du Membre:"
+
+#, fuzzy
+#~| msgid "Loader Background Color"
+#~ msgid "Panel Background Color"
+#~ msgstr "Couleur d'arrière-plan du chargeur"
+
+#, fuzzy
+#~| msgid "Widget Title Color"
+#~ msgid "Panel Title Font Color"
+#~ msgstr "Couleur du titre du widget"
+
+#, fuzzy
+#~| msgid "Site Title Font"
+#~ msgid "Panel Title Font Size"
+#~ msgstr "Police du titre du site"
+
+#, fuzzy
+#~| msgid "Post Meta Alignment"
+#~ msgid "Panel Title Text Alignment"
+#~ msgstr "Alignement méta"
+
+#, fuzzy
+#~| msgid "Font Weight"
+#~ msgid "Panel Title Font Weight"
+#~ msgstr "Épaisseur de la police"
+
+#, fuzzy
+#~| msgid "Normal 400"
+#~ msgid "Normal"
+#~ msgstr "Normal 400"
+
+#, fuzzy
+#~| msgid "Bold 700"
+#~ msgid "Bold"
+#~ msgstr "Bold 700"
+
+#, fuzzy
+#~| msgid "Button Background Color"
+#~ msgid "Menu Item Background Color"
+#~ msgstr "Couleur d’arrière plan du bouton"
+
+#, fuzzy
+#~| msgid "Menu Font"
+#~ msgid "Menu Item Font Color"
+#~ msgstr "Police du menu"
+
+#, fuzzy
+#~| msgid "Header Image Background Color"
+#~ msgid "Menu Item Background Color [Active]"
+#~ msgstr "Couleur d'arrière-plan des images"
+
+#, fuzzy
+#~| msgid "Header Image Background Color"
+#~ msgid "Menu Item Background Color [Current]"
+#~ msgstr "Couleur d'arrière-plan des images"
+
+#, fuzzy
+#~| msgid "Allows you to choose a background color for sub menu."
+#~ msgid "The background color of current menu items."
+#~ msgstr ""
+#~ "Vous permet de choisir la couleur d'arrière-plan pour le menu mobile."
+
+#, fuzzy
+#~| msgid "Header Image Background Color"
+#~ msgid "Menu Item Background Color [Highlight]"
+#~ msgstr "Couleur d'arrière-plan des images"
+
+#, fuzzy
+#~| msgid "Allows you to choose a background color for mobile menu."
+#~ msgid "The background color of highlighted menu items."
+#~ msgstr ""
+#~ "Vous permet de choisir la couleur d'arrière-plan pour le menu mobile."
+
+#, fuzzy
+#~ msgid "The color of highlighted menu items"
+#~ msgstr "Mettez en surbrillance cet élément de menu"
+
+#, fuzzy
+#~| msgid "Font Size"
+#~ msgid "Menu Item Font Size"
+#~ msgstr "Taille de la police"
+
+#, fuzzy
+#~| msgid "Font Weight"
+#~ msgid "Menu Item Font Weight"
+#~ msgstr "Épaisseur de la police"
+
+#, fuzzy
+#~ msgid "The weight of the menu item text."
+#~ msgstr "Mettez en surbrillance cet élément de menu"
+
+#, fuzzy
+#~| msgid "Icon Hover Color"
+#~ msgid "Menu Item Top Border Color"
+#~ msgstr "Couleur de la forme"
+
+#, fuzzy
+#~| msgid "Icon Hover Color"
+#~ msgid "Menu Item Bottom Border Color"
+#~ msgstr "Couleur de la forme"
+
+#, fuzzy
+#~| msgid "Disable"
+#~ msgid "Disable Menu Item Borders"
+#~ msgstr "Désactiver l’élément"
+
+#, fuzzy
+#~| msgid "Button Background Color"
+#~ msgid "Submenu Background Color"
+#~ msgstr "Couleur d’arrière plan du bouton"
+
+#, fuzzy
+#~| msgid "Allows you to choose a background color for sub menu."
+#~ msgid "The background color of the submenu"
+#~ msgstr ""
+#~ "Vous permet de choisir la couleur d'arrière-plan pour le menu mobile."
+
+#, fuzzy
+#~| msgid "Button Background Color"
+#~ msgid "Submenu Item Background Color"
+#~ msgstr "Couleur d’arrière plan du bouton"
+
+#, fuzzy
+#~| msgid "Sub Menu Font"
+#~ msgid "Submenu Item Font Color"
+#~ msgstr "Police du sous-menu"
+
+#, fuzzy
+#~| msgid "Icon Hover Color"
+#~ msgid "Submenu Item Top Border Color"
+#~ msgstr "Couleur de la forme"
+
+#, fuzzy
+#~| msgid "Icon Hover Color"
+#~ msgid "Submenu Item Bottom Border Color"
+#~ msgstr "Couleur de la forme"
+
+#, fuzzy
+#~| msgid "Sub Menu Font"
+#~ msgid "Submenu Item Font Size"
+#~ msgstr "Police du sous-menu"
+
+#, fuzzy
+#~| msgid "Font Weight"
+#~ msgid "Submenu Item Font Weight"
+#~ msgstr "Épaisseur de la police"
+
+#, fuzzy
+#~ msgid "The font weight of the submenu items"
+#~ msgstr "Mettez en surbrillance cet élément de menu"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "Search..."
+#~ msgstr "Rechercher"
+
+#, fuzzy
+#~| msgid ""
+#~| "<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class="
+#~| "\"thickbox\" title=\"%4s\">Check out what's new</a> or <a href=\"%5$s"
+#~| "\"%6$s>update now</a>."
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a target=\"_blank\" class="
+#~ "\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+#~ "\">update now</a>."
+#~ msgstr ""
+#~ "<strong>%1$s %2$s</strong> est disponible. <a href=\"%3$s\" class="
+#~ "\"thickbox\" title=\"%4s\">Découvrez les nouveautés</a> ou <a href=\"%5$s"
+#~ "\"%6$s>mettre à jour maintenant</a>."
+
+#, fuzzy
+#~| msgid "Update"
+#~ msgid "Updates"
+#~ msgstr "Mettre à jour"
+
+#, fuzzy
+#~| msgid "Enter your license key."
+#~ msgid "Enter your license code to receive updates"
+#~ msgstr "Entrez votre clé de licence."
+
+#, fuzzy
+#~| msgid "License"
+#~ msgid "License Invalid"
+#~ msgstr "Licence"
+
+#, fuzzy
+#~| msgid "License key expired %s."
+#~ msgid "License Expired"
+#~ msgstr "La clé de licence a expiré %s."
+
+#, fuzzy
+#~| msgid "License is inactive."
+#~ msgid "License is valid"
+#~ msgstr "La licence est inactive."
+
+#, fuzzy
+#~| msgid "Back Button Text"
+#~ msgid "Backup custom assets"
+#~ msgstr "Texte du bouton retour"
+
+#, fuzzy
+#~| msgid "License Key"
+#~ msgid "License Code"
+#~ msgstr "Clé de licence"
+
+#, fuzzy
+#~| msgid "Post"
+#~ msgctxt "verb"
+#~ msgid "Post"
+#~ msgstr "Article"
+
+#~ msgid "Header"
+#~ msgstr "En-tête"
+
+#~ msgid "Site Title Font Size In Mobile View (px)"
+#~ msgstr "Titre du site Taille de la police en mode mobile (px)"
+
+#~ msgid ""
+#~ "Allows you to select font properties of site-title for your site in "
+#~ "mobile view."
+#~ msgstr ""
+#~ "Vous permet de sélectionner les propriétés de police de titre de site "
+#~ "pour votre site en mode mobile."
+
+#~ msgid "Select alignment for post-meta information on single post page."
+#~ msgstr ""
+#~ "Sélectionnez l'alignement pour les informations post-méta sur une seule "
+#~ "page."
+
+#~ msgid "Hit enter to search"
+#~ msgstr "Cliquez sur Entrer pour Valider"

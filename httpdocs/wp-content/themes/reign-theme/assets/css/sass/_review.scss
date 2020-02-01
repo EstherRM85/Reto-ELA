@@ -1,0 +1,102 @@
+/*
+BuddyPress Member Reviews
+*/
+.bupr-col-2.bupr-members-profiles .item-avatar img {
+    max-width: 50px;
+    border-radius: 100%;
+}
+
+.reviewer h4 {
+    font-size: 18px;
+}
+
+@media(min-width: 768px) {
+    .bupr-row {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/*
+Review BuddyPress Groups
+*/
+.group-request-list .avatar {
+    border-radius: 100%;
+}
+
+.rating-text,
+.rating-total {
+    color: $color_white;
+    font-size: $font__size-smaller;
+}
+
+.group-content-wrap {
+    position: relative;
+
+    .item {
+        font-size: $font__size-smallest;
+        margin-bottom: 10px;
+    }
+}
+
+.bgr-group-header-ratings {
+    padding: 0;
+}
+
+.bgr-submit-review,
+button#bupr_save_review {
+    width: 100%;
+    margin: auto;
+    max-width: 130px;
+    justify-content: center;
+    display: flex;
+}
+
+/* mycred-balance */
+.rtm-header-meta-info {
+    color: $color_white;
+    font-size: $font__size-smaller;
+    float: right;
+    padding-top: 20px;
+}
+
+.rtm-header-meta-info br {
+    display: none;
+}
+
+.reign-xprofile-data {
+    color: $color_white;
+    font-size: $font__size-smaller;
+
+    a {
+        color: $color_white;
+        text-decoration: underline;
+    }
+}
+
+.reign-bp-follow-followers,
+.reign-bp-follow-following,
+.reign-mycred-points,
+.reign-badgeos-points {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+@media(max-width: 767px) {
+    .reign-bp-follow-followers,
+    .reign-bp-follow-following,
+    .reign-mycred-points,
+    .reign-badgeos-points {
+        max-width: 50%;
+        margin: auto;
+    }
+
+    body .rtm-header-meta-info {
+        color: $color_white;
+        font-size: $font__size-smaller;
+        float: none;
+        text-align: center;
+        clear: both;
+    }
+}

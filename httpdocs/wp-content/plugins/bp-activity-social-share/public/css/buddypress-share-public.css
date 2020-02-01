@@ -1,0 +1,120 @@
+/**
+
+ * All of the CSS for your public-facing functionality should be
+
+ * included in this file.
+
+ */
+
+.activity ul li .activity-meta .service-buttons a.bp-share {
+
+    background: none !important;
+
+    color: black !important;
+
+}
+
+.activity ul li .activity-meta .service-buttons a.bp-share:hover {
+
+    background: none !important;
+
+    color: #686868 !important;
+
+}
+
+
+
+.activity ul li .activity-meta .service-buttons {
+
+    padding: 2px !important;
+
+    margin: 4px !important;
+
+}
+
+a.bp-share.has-popup {
+
+    border-bottom: none;
+
+}
+
+
+
+.service-buttons a {
+
+    padding: 4px 8px;
+
+}
+
+
+
+.service-buttons {
+
+	padding: 10px;
+
+}
+
+
+
+.bp-share .fa-facebook {
+
+    color: #3B5998;
+
+}
+
+.bp-share .fa-twitter {
+
+    color: #1DA1F2;
+
+}
+
+.bp-share .fa-linkedin {
+
+    color: #007BB6;
+
+}
+
+.bp-share .fa-google-plus {
+
+    color: #DF4B37;
+
+}
+
+.bp-share .fa-envelope {
+
+    color: #AD0000;
+
+}
+
+.bp-share .fa-pinterest-p {
+
+    color: #BD081C;
+
+}
+
+.bp-share .fa-reddit-alien {
+
+    color: #FF4501;
+
+}
+
+.bp-share .fa-wordpress {
+
+    color: #21759B;
+
+}
+
+.bp-share .fa-get-pocket {
+
+    color: #EF3E56;
+
+}
+
+.bp-nouveau .activity-list .activity-item .activity-meta.action .bp-share-button::before {
+    content: "\f237";
+}
+.bp-nouveau .button.item-button.bp-secondary-action.bp-share-button {
+    line-height: 0;
+    font-size: 0;
+    vertical-align: middle;
+}

@@ -1,0 +1,142 @@
+
+/*******************************/
+/****** PeepSo CSS Start *******/
+/*******************************/
+@media (max-width: 420px) {
+    .reign_peepso_active #shiftnav-toggle-main .rg-icon-wrap {
+        width: 22px !important;
+        font-size: 16px;
+    }
+
+    .reign_peepso_active:not(.logged-in) #shiftnav-toggle-main .rg-icon-wrap {
+        width: 46px !important;
+        font-size: 18px;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .shiftnav-main-toggle-content {
+        padding: 16px 45px !important;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main a.ps-user-name {
+        font-size: 12px;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__avatar {
+        width: 20px !important;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .ps-avatar img {
+        max-width: 20px !important;
+        max-height: 20px !important;
+    }
+
+    .reign_peepso_active .widget_peepsowidgetuserbar {
+        margin-left: 0 !important;
+    }
+
+}
+
+@media (max-width: 959px) {
+    .reign_peepso_active .ps-widget--userbar__notifications,
+    .reign_peepso_active .ps-widget--userbar__notifications .rg-icon-wrap {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .widget_peepsowidgetuserbar .fa {
+        font-weight: 600;
+    }
+
+    .reign_peepso_active .widget_peepsowidgetuserbar {
+        margin-left: 10px;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__avatar {
+        width: 25px;
+        margin: 0;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .ps-avatar img {
+        max-width: 22px;
+        max-height: 22px;
+        padding: 0;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .ps-dropdown--userbar,
+    .reign_peepso_active #shiftnav-toggle-main .ps-icon-angle-down:before,
+    .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__logout {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ps-dropdown--right .ps-dropdown__menu {
+        top: -webkit-calc(100% + 20px);
+        top: calc(100% + 20px);
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .ps-dropdown--right .ps-dropdown__menu a,
+    .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__notifications .app-box {
+        color: #333;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .ps-widget--userbar__notifications .rg-count {
+        top: 0;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .ps-popover {
+        top: 100% !important;
+    }
+
+    .reign_peepso_active #shiftnav-toggle-main .ps-notification__body,
+    .reign_peepso_active #shiftnav-toggle-main .ps-comment-body {
+        text-align: right;
+    }
+
+    .reign-header-icons-enable div#shiftnav-toggle-main {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .reign-header-icons-enable .rg-mobile-header-icon-wrap,
+    #shiftnav-toggle-main a,
+    #shiftnav-toggle-main section {
+        display: inline-block;
+    }
+
+    .reign-header-icons-enable #shiftnav-toggle-main.shiftnav-toggle-main-align-center .shiftnav-main-toggle-content {
+        display: -webkit-flex !important;
+        -webkit-justify-content: space-between !important;
+        -webkit-align-items: center !important;
+    }
+}
+
+.ps-widget--userbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/**
+ * Reign Dokan :: Product Edit Page
+ */
+.rda-product-edit-screen .wb-grid > .dokan-clearfix,
+.rda-product-edit-screen #content script#tmpl-dokan-add-attribute {
+    display: none;
+}
+
+.rda-product-edit-screen.dokan-dashboard .dokan-dashboard-wrap {
+    margin-bottom: 40px;
+}
+
+/****** PeepSo CSS End *******/
+/*# sourceMappingURL=extra-plugins.css.map */

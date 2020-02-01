@@ -1,0 +1,45 @@
+ho.nf-form-fields-required {
+    display: none;
+}
+
+.nf-form-content .nf-field-container {
+    margin-bottom: 30px;
+}
+
+.field-wrap > div input[type="text"],
+.field-wrap > div input[type="email"] {
+    height: 44px;
+}
+
+.field-wrap textarea {
+    padding: 8px 8px;
+}
+
+.field-wrap > div ::placeholder {
+    font-family: inherit;
+    font-size: $font__size-extrasmall;
+    color: #aab4b9;
+    font-weight: 100;
+}
+
+#nf-form-1-cont {
+    .field-wrap > div input[type="text"],
+    .field-wrap > div input[type="email"] {
+        background: #f5f6f8;
+    }
+
+    .field-wrap textarea {
+        background: #f5f6f8;
+    }
+}
+
+#nf-form-2-cont {
+    .field-wrap > div input[type="text"],
+    .field-wrap > div input[type="email"] {
+        background: transparent;
+    }
+
+    .field-wrap textarea {
+        background: transparent;
+    }
+}

@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	
+	<title>Page not found - wpex</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v11.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found - wpex" />
+<meta property="og:site_name" content="wpex" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Page not found - wpex" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://wpex.in/#website","url":"https://wpex.in/","name":"wpex","potentialAction":{"@type":"SearchAction","target":"https://wpex.in/?s={search_term_string}","query-input":"required name=search_term_string"}}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="wpex &raquo; Feed" href="https://wpex.in/feed/" />
+<link rel="alternate" type="application/rss+xml" title="wpex &raquo; Comments Feed" href="https://wpex.in/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/wpex.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.5"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://wpex.in/wp-includes/css/dist/block-library/style.min.css?ver=5.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://wpex.in/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='contentberg-fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C700%7CPT+Serif%3A400%2C400i%2C600%7CIBM+Plex+Serif%3A500' type='text/css' media='all' />
+<link rel='stylesheet' id='contentberg-core-css'  href='http://wpex.in/wp-content/themes/contentberg/style.css?ver=1.5.0' type='text/css' media='all' />
+<style id='contentberg-core-inline-css' type='text/css'>
+::selection { background: rgba(8,196,141, 0.7); }
+
+::-moz-selection { background: rgba(8,196,141, 0.7); }
+
+:root { --main-color: #08c48d; }
+
+.cart-action .cart-link .counter,
+.main-head.compact .posts-ticker .heading,
+.single-cover .overlay .post-cat a,
+.main-footer.bold-light .lower-footer .social-link,
+.cat-label a:hover,
+.cat-label.color a,
+.post-thumb:hover .cat-label a,
+.carousel-slider .category,
+.grid-b-slider .category,
+.page-links .current,
+.page-links a:hover,
+.page-links > span,
+.post-content .read-more a:after,
+.widget-posts .posts.full .counter:before,
+.dark .widget_mc4wp_form_widget input[type="submit"],
+.dark .widget-subscribe input[type="submit"],
+.woocommerce span.onsale,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button.alt,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt,
+.woocommerce input.button.alt:hover,
+.woocommerce #respond input#submit.alt,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce .widget_price_filter .price_slider_amount .button { background: #08c48d; }
+
+blockquote:before,
+.modern-quote:before,
+.wp-block-quote.is-style-large:before,
+.main-color,
+.top-bar .social-icons a:hover,
+.navigation .menu > li:hover > a,
+.navigation .menu > .current-menu-item > a,
+.navigation .menu > .current-menu-parent > a,
+.navigation .menu li li:hover > a,
+.navigation .menu li li.current-menu-item > a,
+.navigation.simple .menu > li:hover > a,
+.navigation.simple .menu > .current-menu-item > a,
+.navigation.simple .menu > .current-menu-parent > a,
+.tag-share .post-tags a:hover,
+.post-share-icons a:hover,
+.post-share-icons .likes-count,
+.author-box .author > span,
+.comments-area .section-head .number,
+.comments-list .comment-reply-link,
+.comment-form input[type=checkbox],
+.main-footer.dark .social-link:hover,
+.lower-footer .social-icons .fa,
+.archive-head .sub-title,
+.social-share a:hover,
+.social-icons a:hover,
+.post-meta .post-cat > a,
+.post-meta-c .post-author > a,
+.large-post-b .post-footer .author a,
+.main-pagination .next a:hover,
+.main-pagination .previous a:hover,
+.main-pagination.number .current,
+.post-content a,
+.textwidget a,
+.widget-about .more,
+.widget-about .social-icons .social-btn:hover,
+.widget-social .social-link:hover,
+.wp-block-pullquote blockquote:before,
+.egcf-modal .checkbox,
+.woocommerce .star-rating:before,
+.woocommerce .star-rating span:before,
+.woocommerce .amount,
+.woocommerce .order-select .drop a:hover,
+.woocommerce .order-select .drop li.active,
+.woocommerce-page .order-select .drop a:hover,
+.woocommerce-page .order-select .drop li.active,
+.woocommerce .widget_price_filter .price_label .from,
+.woocommerce .widget_price_filter .price_label .to,
+.woocommerce div.product div.summary p.price,
+.woocommerce div.product div.summary span.price,
+.woocommerce #content div.product div.summary p.price,
+.woocommerce #content div.product div.summary span.price,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle { color: #08c48d; }
+
+.page-links .current,
+.page-links a:hover,
+.page-links > span,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce nav.woocommerce-pagination ul li a:hover { border-color: #08c48d; }
+
+.block-head-b .title { border-bottom: 1px solid #08c48d; }
+
+.widget_categories a:before,
+.widget_product_categories a:before,
+.widget_archive a:before { border: 1px solid #08c48d; }
+
+.post-content, .entry-content { color: #2d2d2d; }
+
+.entry-content { color: #2d2d2d; }
+
+body { background-color: #f7f7f7; }
+
+.lower-footer { background-color: #2d2d2d; border-top: 0; }
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+input[type="submit"],
+button,
+input[type="button"],
+.button,
+blockquote cite,
+blockquote .wp-block-pullquote__citation,
+.modern-quote cite,
+.wp-block-quote.is-style-large cite,
+.top-bar-content,
+.search-action .search-field,
+.main-head .title,
+.navigation,
+.tag-share,
+.post-share-b .service,
+.post-share-float .share-text,
+.author-box,
+.comments-list .comment-content,
+.post-nav .label,
+.main-footer.dark .back-to-top,
+.lower-footer .social-icons,
+.main-footer .social-strip .social-link,
+.main-footer.bold .links .menu-item,
+.main-footer.bold .copyright,
+.archive-head,
+.archive-head .description,
+.cat-label a,
+.text,
+.section-head,
+.post-title-alt,
+.post-title,
+.block-heading,
+.block-head-b,
+.block-head-c,
+.small-post .post-title,
+.likes-count .number,
+.post-meta,
+.post-meta .text-in,
+.grid-post-b .read-more-btn,
+.list-post-b .read-more-btn,
+.post-footer .read-more,
+.post-footer .social-share,
+.post-footer .social-icons,
+.large-post-b .post-footer .author a,
+.main-slider,
+.slider-overlay .heading,
+.carousel-slider .category,
+.carousel-slider .heading,
+.grid-b-slider .heading,
+.bold-slider,
+.bold-slider .heading,
+.main-pagination,
+.main-pagination .load-button,
+.page-links,
+.post-content .wp-block-image figcaption,
+.textwidget .wp-block-image figcaption,
+.post-content .wp-caption-text,
+.textwidget .wp-caption-text,
+.post-content figcaption,
+.textwidget figcaption,
+.post-content,
+.post-content .read-more,
+.entry-content table,
+.widget-about .more,
+.widget-posts .post-title,
+.widget-posts .posts.full .counter:before,
+.widget-cta .label,
+.social-follow .service-link,
+.widget-twitter .meta .date,
+.widget-twitter .follow,
+.textwidget,
+.widget_categories,
+.widget_product_categories,
+.widget_archive,
+.widget_categories a,
+.widget_product_categories a,
+.widget_archive a,
+.wp-caption-text,
+figcaption,
+.wp-block-button .wp-block-button__link,
+.mobile-menu,
+.woocommerce .woocommerce-message,
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce form .form-row,
+.woocommerce .main .button,
+.woocommerce .quantity .qty,
+.woocommerce nav.woocommerce-pagination,
+.woocommerce-cart .post-content,
+.woocommerce .woocommerce-ordering,
+.woocommerce-page .woocommerce-ordering,
+.woocommerce ul.products,
+.woocommerce.widget,
+.woocommerce .woocommerce-noreviews,
+.woocommerce div.product,
+.woocommerce #content div.product,
+.woocommerce #reviews #comments ol.commentlist .description,
+.woocommerce-cart .cart-empty,
+.woocommerce-cart .cart-collaterals .cart_totals table,
+.woocommerce-cart .cart-collaterals .cart_totals .button,
+.woocommerce .checkout .shop_table thead th,
+.woocommerce .checkout .shop_table .amount,
+.woocommerce-checkout #payment #place_order,
+.top-bar .posts-ticker,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6
+ { font-family: "Lato", Arial, sans-serif; }
+
+blockquote,
+.archive-head .description,
+.text,
+.post-content,
+.entry-content,
+.textwidget
+ { font-family: "Lato", Arial, sans-serif; }
+.post-title-alt { font-family: "Lato", Arial, sans-serif; }
+
+.post-title,
+.post-title-alt { font-family: "Lato", Arial, sans-serif; }
+.sidebar .widget-title { font-size: 18px; }
+.navigation .menu > li > a, .navigation.inline .menu > li > a { font-family: "Lato", Arial, sans-serif; font-size: 14px; }
+.navigation .menu > li li a, .navigation.inline .menu > li li a { font-family: "Lato", Arial, sans-serif; font-size: 14px; }
+.list-post .post-tite { font-family: "Lato", Arial, sans-serif; }
+.entry-content { font-family: "Lato", Arial, sans-serif; }
+.top-bar-content, .top-bar.dark .top-bar-content, .main-head.simple .inner { background-color: #ffffff; border-color: #ffffff; }
+
+.top-bar .navigation { background: transparent; }
+
+.main-head.simple-boxed { border-top-color: #ffffff; }
+
+::selection { background: rgba(8,196,141, 0.7); }
+
+::-moz-selection { background: rgba(8,196,141, 0.7); }
+
+:root { --main-color: #08c48d; }
+
+.cart-action .cart-link .counter,
+.main-head.compact .posts-ticker .heading,
+.single-cover .overlay .post-cat a,
+.main-footer.bold-light .lower-footer .social-link,
+.cat-label a:hover,
+.cat-label.color a,
+.post-thumb:hover .cat-label a,
+.carousel-slider .category,
+.grid-b-slider .category,
+.page-links .current,
+.page-links a:hover,
+.page-links > span,
+.post-content .read-more a:after,
+.widget-posts .posts.full .counter:before,
+.dark .widget_mc4wp_form_widget input[type="submit"],
+.dark .widget-subscribe input[type="submit"],
+.woocommerce span.onsale,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button.alt,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt,
+.woocommerce input.button.alt:hover,
+.woocommerce #respond input#submit.alt,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce .widget_price_filter .price_slider_amount .button { background: #08c48d; }
+
+blockquote:before,
+.modern-quote:before,
+.wp-block-quote.is-style-large:before,
+.main-color,
+.top-bar .social-icons a:hover,
+.navigation .menu > li:hover > a,
+.navigation .menu > .current-menu-item > a,
+.navigation .menu > .current-menu-parent > a,
+.navigation .menu li li:hover > a,
+.navigation .menu li li.current-menu-item > a,
+.navigation.simple .menu > li:hover > a,
+.navigation.simple .menu > .current-menu-item > a,
+.navigation.simple .menu > .current-menu-parent > a,
+.tag-share .post-tags a:hover,
+.post-share-icons a:hover,
+.post-share-icons .likes-count,
+.author-box .author > span,
+.comments-area .section-head .number,
+.comments-list .comment-reply-link,
+.comment-form input[type=checkbox],
+.main-footer.dark .social-link:hover,
+.lower-footer .social-icons .fa,
+.archive-head .sub-title,
+.social-share a:hover,
+.social-icons a:hover,
+.post-meta .post-cat > a,
+.post-meta-c .post-author > a,
+.large-post-b .post-footer .author a,
+.main-pagination .next a:hover,
+.main-pagination .previous a:hover,
+.main-pagination.number .current,
+.post-content a,
+.textwidget a,
+.widget-about .more,
+.widget-about .social-icons .social-btn:hover,
+.widget-social .social-link:hover,
+.wp-block-pullquote blockquote:before,
+.egcf-modal .checkbox,
+.woocommerce .star-rating:before,
+.woocommerce .star-rating span:before,
+.woocommerce .amount,
+.woocommerce .order-select .drop a:hover,
+.woocommerce .order-select .drop li.active,
+.woocommerce-page .order-select .drop a:hover,
+.woocommerce-page .order-select .drop li.active,
+.woocommerce .widget_price_filter .price_label .from,
+.woocommerce .widget_price_filter .price_label .to,
+.woocommerce div.product div.summary p.price,
+.woocommerce div.product div.summary span.price,
+.woocommerce #content div.product div.summary p.price,
+.woocommerce #content div.product div.summary span.price,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle { color: #08c48d; }
+
+.page-links .current,
+.page-links a:hover,
+.page-links > span,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce nav.woocommerce-pagination ul li a:hover { border-color: #08c48d; }
+
+.block-head-b .title { border-bottom: 1px solid #08c48d; }
+
+.widget_categories a:before,
+.widget_product_categories a:before,
+.widget_archive a:before { border: 1px solid #08c48d; }
+
+.post-content, .entry-content { color: #2d2d2d; }
+
+.entry-content { color: #2d2d2d; }
+
+body { background-color: #f7f7f7; }
+
+.lower-footer { background-color: #2d2d2d; border-top: 0; }
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+input[type="submit"],
+button,
+input[type="button"],
+.button,
+blockquote cite,
+blockquote .wp-block-pullquote__citation,
+.modern-quote cite,
+.wp-block-quote.is-style-large cite,
+.top-bar-content,
+.search-action .search-field,
+.main-head .title,
+.navigation,
+.tag-share,
+.post-share-b .service,
+.post-share-float .share-text,
+.author-box,
+.comments-list .comment-content,
+.post-nav .label,
+.main-footer.dark .back-to-top,
+.lower-footer .social-icons,
+.main-footer .social-strip .social-link,
+.main-footer.bold .links .menu-item,
+.main-footer.bold .copyright,
+.archive-head,
+.archive-head .description,
+.cat-label a,
+.text,
+.section-head,
+.post-title-alt,
+.post-title,
+.block-heading,
+.block-head-b,
+.block-head-c,
+.small-post .post-title,
+.likes-count .number,
+.post-meta,
+.post-meta .text-in,
+.grid-post-b .read-more-btn,
+.list-post-b .read-more-btn,
+.post-footer .read-more,
+.post-footer .social-share,
+.post-footer .social-icons,
+.large-post-b .post-footer .author a,
+.main-slider,
+.slider-overlay .heading,
+.carousel-slider .category,
+.carousel-slider .heading,
+.grid-b-slider .heading,
+.bold-slider,
+.bold-slider .heading,
+.main-pagination,
+.main-pagination .load-button,
+.page-links,
+.post-content .wp-block-image figcaption,
+.textwidget .wp-block-image figcaption,
+.post-content .wp-caption-text,
+.textwidget .wp-caption-text,
+.post-content figcaption,
+.textwidget figcaption,
+.post-content,
+.post-content .read-more,
+.entry-content table,
+.widget-about .more,
+.widget-posts .post-title,
+.widget-posts .posts.full .counter:before,
+.widget-cta .label,
+.social-follow .service-link,
+.widget-twitter .meta .date,
+.widget-twitter .follow,
+.textwidget,
+.widget_categories,
+.widget_product_categories,
+.widget_archive,
+.widget_categories a,
+.widget_product_categories a,
+.widget_archive a,
+.wp-caption-text,
+figcaption,
+.wp-block-button .wp-block-button__link,
+.mobile-menu,
+.woocommerce .woocommerce-message,
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce form .form-row,
+.woocommerce .main .button,
+.woocommerce .quantity .qty,
+.woocommerce nav.woocommerce-pagination,
+.woocommerce-cart .post-content,
+.woocommerce .woocommerce-ordering,
+.woocommerce-page .woocommerce-ordering,
+.woocommerce ul.products,
+.woocommerce.widget,
+.woocommerce .woocommerce-noreviews,
+.woocommerce div.product,
+.woocommerce #content div.product,
+.woocommerce #reviews #comments ol.commentlist .description,
+.woocommerce-cart .cart-empty,
+.woocommerce-cart .cart-collaterals .cart_totals table,
+.woocommerce-cart .cart-collaterals .cart_totals .button,
+.woocommerce .checkout .shop_table thead th,
+.woocommerce .checkout .shop_table .amount,
+.woocommerce-checkout #payment #place_order,
+.top-bar .posts-ticker,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6
+ { font-family: "Lato", Arial, sans-serif; }
+
+blockquote,
+.archive-head .description,
+.text,
+.post-content,
+.entry-content,
+.textwidget
+ { font-family: "Lato", Arial, sans-serif; }
+.post-title-alt { font-family: "Lato", Arial, sans-serif; }
+
+.post-title,
+.post-title-alt { font-family: "Lato", Arial, sans-serif; }
+.sidebar .widget-title { font-size: 18px; }
+.navigation .menu > li > a, .navigation.inline .menu > li > a { font-family: "Lato", Arial, sans-serif; font-size: 14px; }
+.navigation .menu > li li a, .navigation.inline .menu > li li a { font-family: "Lato", Arial, sans-serif; font-size: 14px; }
+.list-post .post-tite { font-family: "Lato", Arial, sans-serif; }
+.entry-content { font-family: "Lato", Arial, sans-serif; }
+.top-bar-content, .top-bar.dark .top-bar-content, .main-head.simple .inner { background-color: #ffffff; border-color: #ffffff; }
+
+.top-bar .navigation { background: transparent; }
+
+.main-head.simple-boxed { border-top-color: #ffffff; }
+
+
+
+</style>
+<link rel='stylesheet' id='contentberg-lightbox-css'  href='http://wpex.in/wp-content/themes/contentberg/css/lightbox.css?ver=1.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://wpex.in/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='contentberg-gfonts-custom-css'  href='https://fonts.googleapis.com/css?family=Lato%3A400%7CLato%3A600%7CLato%3A700%7CLato%3A400%7CLato%3A600%7CLato%3A700%7CLato%3A%7CLato%3A400%7CLato%3A600%7CLato%3A700%7CLato%3A%7CLato%3A%7CLato%3A%7CLato%3A%7CLato%3A400%7CLato%3A600%7CLato%3A700%7CLato%3A400%7CLato%3A600%7CLato%3A700%7CLato%3A%7CLato%3A400%7CLato%3A600%7CLato%3A700%7CLato%3A%7CLato%3A%7CLato%3A%7CLato%3A' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var Sphere_Plugin = {"ajaxurl":"https:\/\/wpex.in\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wpex.in/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://wpex.in/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://wpex.in/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wpex.in/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wpex.in/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.5" />
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://wpex.in/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->		<style type="text/css" id="wp-custom-css">
+			.main-head.compact .top-bar-content{    background: rgb(58,76,180);
+    background: -moz-linear-gradient(90deg, rgba(58,76,180,1) 0%, rgba(253,29,29,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(58,76,180,1) 0%, rgba(253,29,29,1) 100%);
+    background: linear-gradient(90deg, rgba(58,76,180,1) 0%, rgba(253,29,29,1) 100%);}
+
+.main-head.compact .posts-ticker a{color:#fff;}
+
+#top-cate .posts-dynamic .grid-post, .archive .grid-post {
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+		background:#fff;
+    box-shadow: 0 0 20px #ddd;
+}
+#top-cate .grid-post .post-thumb, .archive .grid-post .post-thumb {
+    margin: 0 0 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#top-cate .grid-post .post-footer{display:none}
+.list-post .image-link img {
+    border-radius: 10px;
+}
+.widget-posts .image-link img{
+	border-radius: 8px;
+	box-shadow: 0 0 0;
+}
+.posts-dynamic .overlay-post {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-footer.bold .copyright, .main-footer.bold .copyright a{
+	color:#fff;
+}
+.single  .main-content{
+	  border-radius: 10px;
+	  background: #fff;    
+		padding-top:30px;
+		box-shadow: 0 0 20px #eee;
+}    
+
+.sidebar .widget{
+	  background: #fff;
+    padding: 18px;
+    border-radius: 10px;
+		box-shadow: 0 0 20px #ddd;
+}
+
+		</style>
+		<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+</head>
+
+<body class="error404 right-sidebar  has-lb wpb-js-composer js-comp-ver-5.7 vc_responsive">
+
+
+<div class="main-wrap">
+
+	
+		
+		
+<header id="main-head" class="main-head head-nav-below has-search-overlay compact">
+
+	
+	<div class="top-bar dark top-bar-b cf">
+	
+		<div class="top-bar-content" data-sticky-bar="0">
+			<div class="wrap cf">
+			
+			<span class="mobile-nav"><i class="fa fa-bars"></i></span>
+			
+						
+			<div class="posts-ticker">
+				<span class="heading">Latest Posts:</span>
+
+				<ul>
+										
+										
+						<li><a href="https://wpex.in/responsive-education-wordpress-themes/" title="Most Responsive Education WordPress Themes In 2019">Most Responsive Education WordPress Themes In 2019</a></li>
+					
+										
+						<li><a href="https://wpex.in/real-estate-wordpress-themes/" title="2019&#8217;s Best Real Estate WordPress Themes For Business Owners And Agents">2019&#8217;s Best Real Estate WordPress Themes For Business Owners And Agents</a></li>
+					
+										
+						<li><a href="https://wpex.in/wordpress-entertainment-themes/" title="2019&#8217;s Stunning WordPress Entertainment Themes">2019&#8217;s Stunning WordPress Entertainment Themes</a></li>
+					
+										
+						<li><a href="https://wpex.in/wordpress-hosting-companies/" title="Top WordPress Hosting Companies Of 2019">Top WordPress Hosting Companies Of 2019</a></li>
+					
+										
+						<li><a href="https://wpex.in/best-mobile-friendly-wordpress-themes/" title="Best Mobile Friendly WordPress Theme To Make Your Website Responsive">Best Mobile Friendly WordPress Theme To Make Your Website Responsive</a></li>
+					
+										
+						<li><a href="https://wpex.in/best-wordpress-technology-themes/" title="Most Responsive WordPress Technology Themes In 2019">Most Responsive WordPress Technology Themes In 2019</a></li>
+					
+										
+						<li><a href="https://wpex.in/top-web-hosting-services/" title="Top Web Hosting Services 2019">Top Web Hosting Services 2019</a></li>
+					
+										
+						<li><a href="https://wpex.in/best-wedding-wordpress-themes-for-online-wedding-planner/" title="Best Wedding WordPress Themes For Online Wedding Planner">Best Wedding WordPress Themes For Online Wedding Planner</a></li>
+					
+										
+									</ul>
+			</div>
+			
+						
+						
+			
+							
+			<div class="actions">
+				<div class="search-action cf">
+				
+					
+	
+	<form method="get" class="search-form" action="https://wpex.in/">
+		<span class="screen-reader-text">Search for:</span>
+
+		<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+		<input type="search" class="search-field" name="s" placeholder="Search" value="" required />
+								
+	</form>
+
+					
+				</div>
+			</div>
+			
+						
+			
+			
+								
+			</div>			
+		</div>
+		
+	</div>
+
+	<div class="inner inner-head" data-sticky-bar="0">	
+		<div class="wrap cf">
+		
+				<div class="title">
+		
+		<a href="https://wpex.in/" title="wpex" rel="home">
+		
+					
+			<span class="text-logo">wpex</span>
+			
+				
+		</a>
+	
+	</div>	
+			<div class="navigation-wrap inline">
+								
+				<nav class="navigation inline light" data-sticky-bar="0">
+					<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-97" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-15 menu-item-97"><a href="https://wpex.in/category/graphic-design/">Graphic Design</a></li>
+<li id="menu-item-98" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-16 menu-item-98"><a href="https://wpex.in/category/online-marketing/">Online Marketing</a></li>
+<li id="menu-item-99" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-13 menu-item-99"><a href="https://wpex.in/category/web-design/">Web Design</a></li>
+<li id="menu-item-100" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-14 menu-item-100"><a href="https://wpex.in/category/web-development/">Web Development</a></li>
+<li id="menu-item-101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-cat-17 menu-item-101"><a href="https://wpex.in/category/wordpress/">WordPress</a></li>
+		
+		<li class="nav-icons">
+			
+			
+						
+			<a href="#" title="Search" class="search-link"><i class="fa fa-search"></i></a>
+			
+			<div class="search-box-overlay">
+				
+	
+	<form method="get" class="search-form" action="https://wpex.in/">
+		<span class="screen-reader-text">Search for:</span>
+
+		<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+		<input type="search" class="search-field" name="s" placeholder="Type and press enter" value="" required />
+								
+	</form>
+
+			</div>
+			
+					</li>
+		
+		</ul></div>				</nav>
+				
+							</div>
+			
+		</div>
+	</div>
+
+</header> <!-- .main-head -->
+
+	
+		
+	
+<div class="main wrap">
+	<div class="ts-row cf">
+		<div class="col-12 main-content cf">
+	
+		<div class="the-post the-page page-404 cf">
+		
+			<header class="post-title-alt">
+				<h1 class="main-heading">Page Not Found!</h1>
+			</header>
+		
+			<div class="post-content error-page row">
+				
+				<div class="col-3 text-404 main-color">404</div>
+				
+				<div class="col-8 post-content">
+					<p>
+					We&#039;re sorry, but we can&#039;t find the page you were looking for. It&#039;s probably some thing we&#039;ve done wrong but now we know about it and we&#039;ll try to fix it. In the meantime, try one of these options:					</p>
+					<ul class="links fa-ul">
+						<li> <a href="#" class="go-back">Go to Previous Page</a></li>
+						<li> <a href="https://wpex.in">Go to Homepage</a></li>
+					</ul>
+					
+					
+	
+	<form method="get" class="search-form" action="https://wpex.in/">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field" placeholder="Type and hit enter..." value="" name="s" title="Search for:" />
+		</label>
+		<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+	</form>
+
+				</div>
+				
+			</div>
+
+		</div>
+
+		</div> <!-- .main-content -->
+		
+	</div> <!-- .ts-row -->
+</div> <!-- .main -->
+
+
+	
+	
+	<footer class="main-footer bold bold-light">
+		
+				
+		
+				
+		
+
+				
+		<section class="lower-footer cf">
+			<div class="wrap">
+			
+				<ul class="social-icons">
+					
+							
+				</ul>
+
+			
+				
+				
+				<p class="copyright">© 2019. Designed by <a href="https://wbcomdesigns.com/downloads/reign-buddypress-theme/">Reign</a>.				</p>
+
+
+				
+									<div class="to-top">
+						<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i> Top</a>
+					</div>
+									
+			</div>
+		</section>
+		
+				
+		
+	</footer>	
+	
+</div> <!-- .main-wrap -->
+
+
+
+<div class="mobile-menu-container off-canvas" id="mobile-menu">
+
+	<a href="#" class="close"><i class="fa fa-times"></i></a>
+	
+	<div class="logo">
+			</div>
+	
+	
+		<ul id="menu-main-menu-1" class="mobile-menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-97"><a href="https://wpex.in/category/graphic-design/">Graphic Design</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98"><a href="https://wpex.in/category/online-marketing/">Online Marketing</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-99"><a href="https://wpex.in/category/web-design/">Web Design</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100"><a href="https://wpex.in/category/web-development/">Web Development</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-101"><a href="https://wpex.in/category/wordpress/">WordPress</a></li>
+</ul>
+	</div>
+
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/wpex.in\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wpex.in/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.5'></script>
+<script type='text/javascript' src='http://wpex.in/wp-content/themes/contentberg/js/magnific-popup.js?ver=1.5.0'></script>
+<script type='text/javascript' src='http://wpex.in/wp-content/themes/contentberg/js/jquery.fitvids.js?ver=1.5.0'></script>
+<script type='text/javascript' src='http://wpex.in/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://wpex.in/wp-content/themes/contentberg/js/object-fit-images.js?ver=1.5.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var Bunyad = {"custom_ajax_url":"\/buddypress-reign\/wp-content\/uploads\/sites\/2\/2019\/07\/testimonials.png"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wpex.in/wp-content/themes/contentberg/js/theme.js?ver=1.5.0'></script>
+<script type='text/javascript' src='http://wpex.in/wp-content/themes/contentberg/js/theia-sticky-sidebar.js?ver=1.5.0'></script>
+<script type='text/javascript' src='http://wpex.in/wp-content/themes/contentberg/js/jquery.slick.js?ver=1.5.0'></script>
+<script type='text/javascript' src='http://wpex.in/wp-content/themes/contentberg/js/jarallax.js?ver=1.5.0'></script>
+<script type='text/javascript' src='http://wpex.in/wp-includes/js/wp-embed.min.js?ver=5.2.5'></script>
+
+</body>
+</html>

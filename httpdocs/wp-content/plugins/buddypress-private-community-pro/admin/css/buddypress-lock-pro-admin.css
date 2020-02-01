@@ -1,0 +1,140 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /*----------  Active tab design  ----------*/
+ .nav-tab.active {
+  background: #f1f1f1;
+  color: #000;
+ }
+
+  /*----------  Radio tab css  ----------*/
+  .blpro-label-padding {
+  	padding-right: 100px;
+  }
+
+ /*----------  Support tab css  ----------*/
+.blpro-support-setting{
+  float: left;
+  width: 90%;
+}
+.blpro-faq-row{
+  border-top: 1px solid #ddd;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+.blpro-admin-col-12 {
+  float: left;
+  padding: 10px 0;
+  width: 100%;
+}
+button.blpro-accordion {
+  background-color: hsl(0, 0%, 87%);
+  border: medium none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: hsl(0, 0%, 27%);
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0 5%;
+  outline: medium none;
+  padding: 15px 20px;
+  text-align: left;
+  transition: all 0.4s ease 0s;
+  width: 90%;
+}
+button.blpro-accordion.active, button.blpro-accordion:hover {
+  background-color: hsl(207, 90%, 54%);
+  color:white;
+}
+div.blpro-panel {
+  background-color: white;
+  margin:0px 5%;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 18px;
+  transition: max-height 0.2s ease-out;
+}
+button.blpro-accordion::after {
+  color: hsl(0, 0%, 47%);
+  content: "+";
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+button.blpro-accordion::after:hover {
+  color: white;
+}
+button.blpro-accordion.active::after {
+  content: "−";
+  color:white;
+} 
+
+/* check box design */
+.blpro-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.blpro-switch input {display:none;}
+
+.blpro-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.blpro-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .blpro-slider {
+    background-color: #2196F3;
+}
+
+input:focus + .blpro-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .blpro-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.blpro-slider.blpro-round {
+    border-radius: 34px;
+}
+
+.blpro_excluding_member{
+    width:70%;
+}
+.blpro-slider.blpro-round:before {
+    border-radius: 50%;
+}
+#lock_acc_roles .selectize-dropdown-content {
+  max-height: 85px;
+}
+#hide-bp-primary-nav .selectize-dropdown-content{
+    max-height: 100px !important;
+}

@@ -1,0 +1,1342 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-17 09:37:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Varun Dubey\n"
+"Language-Team: Wbcom Designs\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/class-buddypress-lock-pro-admin.php:121
+msgid "WB Plugins"
+msgstr ""
+
+#: admin/class-buddypress-lock-pro-admin.php:122
+msgid "General"
+msgstr ""
+
+#: admin/class-buddypress-lock-pro-admin.php:124
+msgid "BuddyPress Private Community Pro Settings Page"
+msgstr ""
+
+#: admin/class-buddypress-lock-pro-admin.php:124
+msgid "Community Pro"
+msgstr ""
+
+#: admin/class-buddypress-lock-pro-admin.php:142
+msgid "BuddyPress Private Community Pro Settings"
+msgstr ""
+
+#: admin/class-buddypress-lock-pro-admin.php:148
+msgid "Logged-Out user settings"
+msgstr ""
+
+#: admin/class-buddypress-lock-pro-admin.php:149
+msgid "Logged-In user settings"
+msgstr ""
+
+#: admin/class-buddypress-lock-pro-admin.php:150
+msgid "Member Groups"
+msgstr ""
+
+#: admin/class-buddypress-lock-pro-admin.php:151
+#: admin/wbcom/templates/wbcom-support-page.php:3
+#: admin/wbcom/wbcom-admin-settings.php:543
+#: admin/wbcom/wbcom-admin-settings.php:628
+msgid "Support"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:15
+#: admin/inc/blpro-loggedin-setting-tab.php:15
+msgid "Community Members"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:16
+#: admin/inc/blpro-loggedin-setting-tab.php:16
+msgid "Account Settings"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:17
+#: admin/inc/blpro-loggedin-setting-tab.php:17
+msgid "Friend Connections"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:18
+#: admin/inc/blpro-loggedin-setting-tab.php:18
+msgid "Private Messaging"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:19
+#: admin/inc/blpro-loggedin-setting-tab.php:19
+msgid "Activity Streams"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:20
+#: admin/inc/blpro-loggedin-setting-tab.php:20
+msgid "Profile"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:21
+#: admin/inc/blpro-loggedin-setting-tab.php:21
+msgid "Notifications"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:22
+#: admin/inc/blpro-loggedin-setting-tab.php:22
+msgid "User Groups"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:23
+#: admin/inc/blpro-loggedin-setting-tab.php:23
+msgid "Group Forums"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:24
+#: admin/inc/blpro-loggedin-setting-tab.php:24
+msgid "Site Tracking"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:41
+msgid "Note: These settings are only for non logged-in users."
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:49
+msgid "Lock buddypress components"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:56
+msgid ""
+"Enabled: non logged-in users will not be able to access buddypress "
+"components."
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:61
+#: admin/inc/blpro-loggedin-setting-tab.php:216
+msgid "Hide Buddypress Primary Nav"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:77
+#: admin/inc/blpro-loggedin-setting-tab.php:232
+msgid "Select primary nav menus which you want to hide from buddypress nav."
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:89
+msgid "Select components to lock"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:97
+#: admin/inc/blpro-general-setting-tab.php:128
+msgid ""
+"Select the buddypress components that you wish to restrict access for "
+"logged out users."
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:102
+msgid "Lock custom post types"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:108
+msgid ""
+"Enabled: non logged-in users will not be able to access custom post types "
+"pages."
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:120
+msgid "Select cpt to lock"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:133
+msgid "Lock pages"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:139
+msgid "Enabled: non logged-in users will not be able to access wordpress pages."
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:151
+msgid "Select wp pages to lock"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:161
+msgid "Select the wordpress pages that you wish to get locked for loggedout users."
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:166
+msgid "Custom restriction message"
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:171
+#: public/class-buddypress-lock-pro-public.php:279
+msgid ""
+"Hey Member! Thanks for checking this page out -- however, it’s restricted "
+"to logged members only. If you’d like to access it, please login to the "
+"website."
+msgstr ""
+
+#: admin/inc/blpro-general-setting-tab.php:176
+msgid "Above message will be displayed on the protected pages."
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:27
+msgid "Private Message"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:28
+msgid "Public Message"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:29
+msgid "Friendship Requests"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:30
+msgid "Posting"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:31
+msgid "Commenting"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:53
+msgid "Note: These settings are only for logged-in users."
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:61
+msgid "Remove admin roles from members directory"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:67
+msgid ""
+"Enabled: members with user role Administrator will not be listed in member "
+"directory."
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:72
+msgid "Remove users from member directory list"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:83
+msgid "Display profile progress bar"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:89
+msgid "Enabled: profile progress bar will be displayed at member profile page."
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:94
+msgid "User profile completeness percentage to get listed in member directory "
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:96
+msgid ""
+"User with profile completeness percentage greater than or equal to the "
+"entered value will get listed in member directory."
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:98
+msgid "Note : Leave blank to list all users."
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:103
+msgid "Enable profile visibility settings at front end"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:109
+msgid "Enabled: users will be able to set profile visibility at front end."
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:114
+msgid "Lock buddypress activities"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:120
+msgid ""
+"Enabled: selected users or user roles will not be able to access marked "
+"buddypress components."
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:132
+msgid "Select buddypress activities to lock"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:143
+msgid "Lock buddypress components according to"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:148
+#: admin/inc/blpro-member-groups-setting-tab.php:51
+#: admin/inc/blpro-member-groups-setting-tab.php:133
+msgid "User roles"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:152
+#: admin/inc/blpro-member-groups-setting-tab.php:55
+#: admin/inc/blpro-member-groups-setting-tab.php:137
+msgid "Users"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:156
+#: admin/inc/blpro-member-groups-setting-tab.php:59
+#: admin/inc/blpro-member-groups-setting-tab.php:141
+msgid "Member Types"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:169
+#: admin/inc/blpro-member-groups-setting-tab.php:72
+#: admin/inc/blpro-member-groups-setting-tab.php:154
+msgid "Select user roles"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:187
+#: admin/inc/blpro-member-groups-setting-tab.php:90
+#: admin/inc/blpro-member-groups-setting-tab.php:172
+msgid "Select users"
+msgstr ""
+
+#: admin/inc/blpro-loggedin-setting-tab.php:205
+#: admin/inc/blpro-member-groups-setting-tab.php:108
+#: admin/inc/blpro-member-groups-setting-tab.php:190
+msgid "Select member types"
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:29
+msgid ""
+"Note: These settings are only for logged-in users and not applicable for "
+"administrator roles."
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:37
+msgid "Number of groups a member can create"
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:39
+msgid "This setting restrict members to create only specified number of groups."
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:41
+#: admin/inc/blpro-member-groups-setting-tab.php:123
+#: admin/inc/blpro-member-groups-setting-tab.php:205
+msgid "Note : Leave blank for no limit"
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:46
+msgid "Restrict no of groups creation limit according to"
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:119
+msgid "Number of groups a member can join"
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:121
+msgid "This setting restrict members to join only specified number of groups."
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:128
+msgid "Restrict no of groups join limit according to"
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:201
+msgid "Limit number of member per group"
+msgstr ""
+
+#: admin/inc/blpro-member-groups-setting-tab.php:203
+msgid "Enter the limit a group can contain members."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:14
+msgid "FAQ(s) "
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:21
+msgid "Does This plugin requires BuddyPress?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:25
+msgid "Yes, It needs you to have BuddyPress installed and activated."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:33
+msgid "What are the settings for non logged-in users ?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:37
+msgid ""
+"This plugin allows the site administrator to secure components of "
+"BuddyPress (if active), WordPress pages, custom post types from non-logged "
+"in users."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:39
+msgid ""
+"You can lockdown WordPress Pages, any Custom Post Type and any BuddyPress "
+"Component and can have some content displayed like if you want to show any "
+"shortcode content or any simple message."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:46
+msgid ""
+"What will happen if BuddyPress 'groups' component is locked for non logged "
+"in users?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:50
+msgid ""
+"If BuddyPress 'groups' component is locked by admin, then groups page will "
+"not display groups list and restrict access on the single group page too "
+"and show content which will be set by admin in Locked Content."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:58
+msgid ""
+"What will happen if BuddyPress 'members' component is locked for non logged "
+"in users?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:62
+msgid ""
+"If BuddyPress 'members' component is locked by admin, members page will be "
+"resctricted and will show content which will be set by admin in Locked "
+"Content."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:70
+msgid "What restrictions plugin provide to list members at member directory?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:74
+msgid ""
+"Site admin can enable/disable 'Remove admin roles from members directory' "
+"setting under logged-in user settings to exclude/include administrator "
+"roles to list at member directory page."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:77
+msgid ""
+"Site admin can select users 'Remove users from member directory list' "
+"setting under logged-in user settings to exclude selected users to list at "
+"member directory page."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:80
+msgid ""
+"Site admin can set 'User profile completeness percentage to get listed in "
+"member directory' setting under logged-in user settings to exclude users "
+"with profile percentage less than percentage set by admin."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:88
+#: admin/inc/blpro-support-setting-tab.php:100
+msgid "How to display profile progress bar at members page?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:92
+#: admin/inc/blpro-support-setting-tab.php:104
+msgid ""
+"Site admin can enable/disable 'Display profile progress bar' setting under "
+"logged-in user settings to show/hide profile progress bar at member's page."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:112
+msgid "How can members set their individual profile visibility?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:116
+msgid ""
+"Site admin can enable/disable 'Enable profile visibility settings at front "
+"end' setting under logged-in user settings to show/hide profile visibility "
+"setting under Profile Visibility settings at member's page."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:119
+msgid ""
+"Profile visibility setting gives options to members to select the "
+"visibility level.Suppose if member selects My Friedns then only member's "
+"friends will be able to see the profile and rest will not be able to access "
+"members pages and will be given a message ' You must be Friends in order to "
+"access { member's name } profile.' "
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:122
+msgid ""
+"The plugin overrides buddypress members single home page template to "
+"achieve the functionality, if your theme overrides buddypress template file "
+"then you may loss the theme members single page template structure when "
+"'Enable profile visibility settings at front end' setting is active."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:125
+msgid ""
+"You will be needed to copy the members/single/home.php code from your theme "
+"directory and use it in the "
+"buddypress-private-community-pro/templates/members/single/home.php, as the "
+"plugin uses buddypress core template file for override, add below filter "
+"after do_action( 'bp_before_member_body' );"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:127
+msgid "Find following content in the home.php file"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:165
+msgid "Wrap above code with an if condition, the code will become:"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:211
+msgid ""
+"How can site admin add buddypress activities locks for logged-in members "
+"according to user roles or specific user?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:215
+msgid ""
+"Site admin can enable/disable 'Lock buddypress activities' setting under "
+"logged-in user settings to lock/unlock buddypress several activities."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:218
+msgid ""
+"If 'Lock buddypress activities' setting is enabled site admin can select "
+"activities for eg. Private Message, Public Message, Posting etc to lock for "
+"users. Further site admin is required to select the type User Roles or "
+"Users to implement the functionality."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:221
+msgid ""
+"If site admin selects 'User Role' type then 'Select User Roles' is "
+"available to set roles for which admin want to implement the lock."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:224
+msgid ""
+"If site admin selects 'Users' type then 'Select users' is available to "
+"select users for which admin want to implement the lock."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:232
+msgid "How can site admin restrict members from creating large number of groups?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:236
+msgid ""
+"Site admin can set maximium numbers 'Number of groups a member can create' "
+"setting under member groups tab to limit members from creating large number "
+"of groups."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:244
+msgid "How can site admin restrict members from joining groups?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:248
+msgid ""
+"Site admin can set maximium numbers 'Number of groups a member can join' "
+"setting under member groups tab to limit members from joining large number "
+"of groups."
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:256
+msgid "How can site admin restrict number of members in a group?"
+msgstr ""
+
+#: admin/inc/blpro-support-setting-tab.php:260
+msgid ""
+"Site admin can set maximium numbers 'Limit number of member per group' "
+"setting under member groups tab to limit number of members from joining "
+"groups."
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:3
+msgid "Plugin License Settings"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:8
+#: admin/wbcom/templates/wbcom-license-page.php:21
+#: edd-license/edd-plugin-license.php:402
+msgid "Product"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:9
+#: admin/wbcom/templates/wbcom-license-page.php:22
+#: edd-license/edd-plugin-license.php:403
+msgid "Version"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:10
+#: admin/wbcom/templates/wbcom-license-page.php:23
+#: edd-license/edd-plugin-license.php:404
+msgid "Key"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:11
+#: admin/wbcom/templates/wbcom-license-page.php:24
+#: edd-license/edd-plugin-license.php:405
+msgid "Status"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-license-page.php:12
+#: admin/wbcom/templates/wbcom-license-page.php:25
+#: edd-license/edd-plugin-license.php:406
+msgid "Action"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:8
+msgid "Free Addons"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:14
+msgid "Install"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:18
+#: admin/wbcom/wbcom-admin-settings.php:488
+msgid "Activate"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:22
+#: admin/wbcom/wbcom-admin-settings.php:489
+msgid "Deactivate"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:50
+msgid "Paid Addons"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:67
+msgid "View"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:5
+msgid "Having any question or issue ?"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:7
+msgid ""
+"Our team is here to help you out at anytime. If you have any idea about how "
+"we could improve. You can share access to your site on our helpdesk if it "
+"can help getting faster. There are two ways to in touch with us :"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:19
+msgid "Tickets Support"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:20
+msgid ""
+"Open a ticket on our helpdesk, we don't guarantee a fast response but "
+"within a week. Except if you've purchased one of our product we'll reply "
+"within 24 hours."
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:24
+msgid "Open a ticket"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:39
+#: admin/wbcom/templates/wbcom-support-page.php:44
+msgid "Contact Us"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-support-page.php:40
+msgid ""
+"Create a new thread on our plugin page, participation is open to anyone "
+"from all around the world. We'll be there to help as well but can't "
+"guarantee any delay."
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:4
+msgid "Reign BuddyPress"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:12
+msgid "REIGN Community"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:14
+msgid "Multiple Member Directory Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:15
+msgid "Multiple Member Header Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:16
+msgid "Multiple Group Directory Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:17
+msgid "Multiple Group Header Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:18
+msgid "BuddyPress Customization Options"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:19
+msgid "BuddyPress Extra Widgets"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:20
+msgid "Inbuilt Social Profile Module"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:23
+#: admin/wbcom/templates/wbcom-themes-page.php:49
+#: admin/wbcom/templates/wbcom-themes-page.php:73
+#: admin/wbcom/templates/wbcom-themes-page.php:96
+msgid "Purchase"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:24
+#: admin/wbcom/templates/wbcom-themes-page.php:50
+#: admin/wbcom/templates/wbcom-themes-page.php:74
+#: admin/wbcom/templates/wbcom-themes-page.php:97
+msgid "Preview"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:30
+msgid "LearnMate"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:38
+msgid "Learnmate"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:40
+msgid "Add Review to your course"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:41
+msgid "Course Coming Soon"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:42
+#: admin/wbcom/templates/wbcom-themes-page.php:69
+msgid "Grid And List Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:43
+msgid "Learndash/LifterLMS Extra Widgets"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:44
+msgid "Unparalleled Course Layout"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:45
+msgid "Awesome Learndash/LifterLMS Pages"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:46
+msgid "Distraction Free Reading"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:56
+msgid "StoreMate"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:64
+msgid "ShopMate Dokan"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:66
+msgid "Dokan Extra Widgets"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:67
+msgid "Unique Single Product Page Customization"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:68
+msgid "Awesome WooCommerce Pages"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:70
+msgid "Automated Mega Menu Support"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:80
+msgid "Jobmate"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:88
+msgid "Jobmate Theme"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:90
+msgid "Simple live searching and filtering"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:91
+msgid "Unique Job listing Page"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:92
+msgid "Awesome Resume list Page"
+msgstr ""
+
+#: admin/wbcom/templates/wbcom-themes-page.php:93
+msgid "Outstanding all job maanger pagesLayout"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:178
+msgid "Custom Font Uploader"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:180
+msgid ""
+"It also allows you to upload your own custom font to your site and use them "
+"using custom css."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:186
+msgid "BuddyPress Activity Filter"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:188
+msgid "Admin can set default and customised activities to be listed on front-end."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:194
+msgid "BuddyPress Activity Social Share"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:196
+msgid ""
+"This plugin allows anyone easily share BuddyPress Activites on major social "
+"media (Facebook, Twitter, Google+, Linkedin )."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:202
+msgid "BuddyPress Create Group Type"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:204
+msgid "It will help to create group type for BuddyPress Groups."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:210
+msgid "BuddyPress Member Reviews"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:212
+msgid ""
+"This plugin allows only site members to add reviews to the buddypress "
+"members on the site and even rate the member’s profile out of 5 points with "
+"multiple review criteria."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:218
+msgid "BuddyPress Group Reviews"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:220
+msgid ""
+"This plugin allows the BuddyPress Members to give reviews to the BuddyPress "
+"groups on the site. The review form allows the users to give text review, "
+"even rate the group on the basis of multiple criterias."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:226
+msgid "BuddyPress Favorite Notification"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:228
+msgid ""
+"BuddyPress Favorite Notification adds a notification for BuddyPress "
+"activity."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:234
+msgid "Custom Email Options"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:236
+msgid "Override default email options of Worpdress."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:242
+msgid "BuddyPress Checkins"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:244
+msgid ""
+"This plugin allows BuddyPress members to share their location when they are "
+"posting activities, you can add places where you visited, nearby locations "
+"based on google places."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:250
+msgid "BuddyPress Job Manager"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:252
+msgid ""
+"Incorporates BuddyPress with the WP Job Manager plugin by creating specific "
+"tabs in employer’s and candidate’s profiles."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:258
+msgid "BuddyPress user ToDo List"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:260
+msgid ""
+"This plugin allows you to create your personal task list with timestamp. "
+"You can mark them complete when you are done with them. It will also send "
+"reminder when you have any overdue task."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:266
+msgid "Shortcodes for BuddyPress"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:268
+msgid ""
+"This plugin will add an extended feature to the big name “BuddyPress” that "
+"will generate Shortcode for Listing Activity Streams , Members and Groups "
+"on any post/page in website."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:274
+msgid "Woo Open Graph"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:276
+msgid ""
+"This plugin will add an extended feature to the big name “WooCommerce” that "
+"will adds well executed and accurate Open Graph Meta Tags to your site with "
+"title,description and WooCommerce featured image."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:282
+msgid "BuddyPress Lock"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:284
+msgid ""
+"This plugin allows the administrator to lock the certain parts of their "
+"site. It help to create private BuddyPress community by locking certain "
+"BuddyPress Components, WordPress Pages, Custom Post Types for public view "
+"without using any membership plugin."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:290
+msgid "Woo Audio Preview"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:292
+msgid ""
+"This plugin Allows playing the audio files in sample mode to prevent "
+"unauthorized downloading of the audio files. It helps to display sample "
+"files at single product page."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:298
+msgid "WordPress System Log"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:300
+msgid ""
+"This plugin helps administrators of the site see their environment on which "
+"the site is currently running that includes WordPress environment, tha "
+"database it requires, Server Environment and the plugins installed and "
+"activated on the site."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:306
+msgid "BP Post From Anywhere"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:308
+msgid ""
+"This plugin will generate shortcode and widgets for post updates section "
+"for activities so you can post update from anywhere, it might be sidebar, "
+"some page or any template file."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:314
+msgid "Woo Document Preview"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:316
+msgid ""
+"This will allow you to add document preview at single product page. Which "
+"helps to offer more better idea when you are selling ebooks, pdf or some "
+"documents."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:322
+msgid "WordPress Media Category"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:324
+#: admin/wbcom/wbcom-admin-settings.php:340
+msgid ""
+"This plugin helps administrators of the site categorize their wordpress "
+"media."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:330
+msgid "Woo Price Quotes"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:332
+msgid ""
+"This plugin helps in quoting the products that admin wishes to hide its "
+"purchasing details."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:338
+msgid "EDD Service Extended"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:346
+msgid "WB Ads Rotator with Split Test"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:348
+msgid ""
+"This plugin is designed for the SPLIT TESTING, you can check performance of "
+"your ads layout and on the basis of them you can select one of them for "
+"your regular use."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:366
+msgid "BuddyPress Moderation Pro"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:367
+msgid ""
+"BuddyPress Community Moderation offers a solution for site owners to keep "
+"their communities straight. With community policing strategy, members of "
+"the community have an option for moderation sitewide by attaching flags to "
+"content created within the various components."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:372
+msgid "BuddyPress Polls"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:373
+msgid ""
+"Use BuddyPress Polls plugin to create polls inside the activity, let your "
+"user response to your polls. Members can create pools like activities, "
+"easily votes on them."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:378
+msgid "BuddyPress Resume Manager"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:379
+msgid ""
+"BuddyPress Resume Manager adds a separate BuddyPress Resume menu at a "
+"user’s BuddyPress Profile Page to display individual member resume. We have "
+"added predefined fields for the resumes and site admin and enable and "
+"disable them."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:384
+msgid "BuddyPress Profanity"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:385
+msgid ""
+"Use BuddyPress Profanity plugin to censor content in your community! Easily "
+"Censor all the unwanted words in activities, private messages contents by "
+"specifying a list of keywords to be filtered."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:390
+msgid "BuddyPress Private Community Pro"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:391
+msgid ""
+"This plugin offers a lockdown for BuddyPress Component and will ask users "
+"to log in go further to check profile or any other protected details."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:396
+msgid "BuddyPress Profile Pro"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:397
+msgid ""
+"This plugin gives you the power to extend BuddyPress Profiles with repeater "
+"fields and groups. You can easily add multiple field groups and display "
+"them at member’s profile."
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:537
+#: admin/wbcom/wbcom-admin-settings.php:616
+msgid "Components"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:540
+#: admin/wbcom/wbcom-admin-settings.php:622
+msgid "Themes"
+msgstr ""
+
+#: admin/wbcom/wbcom-admin-settings.php:610 buddypress-lock-pro.php:148
+msgid "Settings"
+msgstr ""
+
+#: admin/wbcom/wbcom-paid-plugin-settings.php:29
+#: admin/wbcom/wbcom-paid-plugin-settings.php:43
+#: edd-license/edd-plugin-license.php:45
+msgid "License"
+msgstr ""
+
+#: buddypress-lock-pro.php:115 buddypress-lock-pro.php:132
+msgid ""
+"BuddyPress Private Community Pro requires to be activated on the blog where "
+"BuddyPress is activated."
+msgstr ""
+
+#: buddypress-lock-pro.php:120 buddypress-lock-pro.php:138
+msgid ""
+"BuddyPress Private Community Pro and BuddyPress need to share the same "
+"network configuration."
+msgstr ""
+
+#: edd-license/EDD_BLPRO_Plugin_Updater.php:206
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: edd-license/EDD_BLPRO_Plugin_Updater.php:214
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: edd-license/EDD_BLPRO_Plugin_Updater.php:408
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: edd-license/EDD_BLPRO_Plugin_Updater.php:408
+msgid "Error"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:55
+msgid "Plugin License Options"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:64
+msgid "License Key"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:68
+msgid "Enter your license key"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:74
+msgid "License Status"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:78
+msgid "active"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:83
+msgid "Inactive"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:90 edd-license/edd-plugin-license.php:93
+#: edd-license/edd-plugin-license.php:422
+msgid "Deactivate License"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:94
+msgid "Click for deactivate license."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:102
+msgid "Save Settings"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:167
+#: edd-license/edd-plugin-license.php:203
+#: edd-license/edd-plugin-license.php:278
+#: edd-license/edd-plugin-license.php:472
+#: edd-license/edd-plugin-license.php:508
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:176
+#: edd-license/edd-plugin-license.php:481
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:182
+#: edd-license/edd-plugin-license.php:487
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:186
+#: edd-license/edd-plugin-license.php:491
+msgid "Invalid license."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:191
+#: edd-license/edd-plugin-license.php:496
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:195
+#: edd-license/edd-plugin-license.php:500
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:199
+#: edd-license/edd-plugin-license.php:504
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:426
+msgid "Activate License"
+msgstr ""
+
+#: edd-license/edd-plugin-license.php:429
+msgid "Save Changes"
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:286
+#: public/templates/bplock-login-form.php:14
+#: public/templates/bplock-register-form.php:16
+msgid "Login"
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:287
+#: public/templates/bplock-login-form.php:15
+#: public/templates/bplock-register-form.php:15
+msgid "Register"
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:331
+msgid "Login successfull! Redirecting..."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:354
+msgid "User account already exists with the requested email!"
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:369
+msgid "User registered! Logging in..."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:507
+msgid "Profile completion rate."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:511
+msgid "Your profile is %d%% completed."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:565
+msgid "Profile page visibility settings"
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:566
+msgid "Visibility"
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:571
+msgid "Select profile page visibility"
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:1115
+msgid ""
+"Group invite could not be accepted as the maximum group joining limit is "
+"reached."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:1237
+msgid "You have reached the maximum member groups restriction limit."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:1270
+#: public/class-buddypress-lock-pro-public.php:1275
+#: public/class-buddypress-lock-pro-public.php:1281
+#: public/class-buddypress-lock-pro-public.php:1285
+msgid "You are not allowed to send any private message."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:1432
+#: public/class-buddypress-lock-pro-public.php:1437
+#: public/class-buddypress-lock-pro-public.php:1446
+msgid "Private"
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:1432
+msgid "%s has kept the profile private."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:1437
+msgid "You must be logged in order to view %s profile."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:1446
+msgid "You must be Friends in order to access %s profile."
+msgstr ""
+
+#: public/class-buddypress-lock-pro-public.php:1526
+msgid "You reached the maximum group joining limit."
+msgstr ""
+
+#: public/templates/bplock-locked-content-template.php:6
+msgid "Logged in members only!"
+msgstr ""
+
+#: public/templates/bplock-login-form.php:9
+msgid "Either of the detail is empty!"
+msgstr ""
+
+#: public/templates/bplock-login-form.php:12
+#: public/templates/bplock-register-form.php:13
+msgid "Username"
+msgstr ""
+
+#: public/templates/bplock-login-form.php:13
+#: public/templates/bplock-register-form.php:14
+msgid "Password"
+msgstr ""
+
+#: public/templates/bplock-login-form.php:15
+msgid "New to this site?"
+msgstr ""
+
+#: public/templates/bplock-login-form.php:15
+#: public/templates/bplock-register-form.php:16
+msgid "here!"
+msgstr ""
+
+#: public/templates/bplock-register-form.php:12
+msgid "Email"
+msgstr ""
+
+#: public/templates/bplock-register-form.php:16
+msgid "Already a member? "
+msgstr ""
+
+#: templates/bp-legacy/members/single/home.php:37
+msgid "Member primary navigation"
+msgstr ""

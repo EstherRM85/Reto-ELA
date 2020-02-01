@@ -1,0 +1,222 @@
+/* Container */
+.container,
+.container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $wb-grid-gutter / 2;
+    padding-right: $wb-grid-gutter / 2;
+}
+
+/* .container-fluid required for full with layouts */
+
+/* Grid Cell Wrapper */
+.wb-grid {
+    display: flex;
+    margin-left: -$wb-grid-gutter / 2;
+    margin-right: -$wb-grid-gutter / 2;
+    flex-wrap: wrap;
+}
+
+/* Grid Cell */
+.wb-grid > *,
+.wb-grid-cell {
+    flex: 1;
+    min-width: 1px; // Firefox-34-ignoring-max-width-for-flexbox
+    display: inline-block; // In IE 10, setting -ms-flex-flow: row wrap will not wrap unless display: inline-block is set on child elements.
+    list-style: none; // Need when added this class to li
+
+    &:not(.no-gutter) {
+        padding-left: $wb-grid-gutter / 2;
+        padding-right: $wb-grid-gutter / 2;
+    }
+}
+
+.wb-grid style,
+.wb-grid-cell style {
+    opacity: 0;
+}
+
+// ***** Custom styles for additional flex alignment options. ***** //
+.wb-grid-flex {
+    display: flex;
+}
+
+.wb-grid-reverse {
+    flex-flow: row-reverse;
+}
+
+// ***** Alignment per row ***** //
+
+/* Alignment Top */
+.wb-grid-top {
+    align-items: flex-start;
+}
+
+/* Alignment Bottom */
+.wb-grid-bottom {
+    align-items: flex-end;
+}
+
+/* Alignment Center */
+.wb-grid-center {
+    align-items: center;
+}
+
+.wb-grid-space-between {
+    justify-content: space-between;
+}
+
+.wb-grid-content-right {
+    justify-content: flex-end;
+}
+
+// ***** Alignment per cell ***** //
+
+/* Alignment Top */
+.wb-grid-cell-top {
+    align-self: flex-start;
+}
+
+/* Alignment Bottom */
+.wb-grid-cell-bottom {
+    align-self: flex-end;
+}
+
+/* Alignment Center */
+.wb-grid-cell-center {
+    align-self: center;
+}
+
+.widget-area {
+    /*    background-color: #ebebeb;*/
+    flex: 0 0 100%;
+}
+
+/* Extra small screen / phone */
+@media( max-width: $wb-grid-breakpoint-small - 1 ) {
+
+    .wb-grid {
+        flex-flow: row wrap;
+    }
+
+    .wb-grid-cell {
+        flex: 0 0 100%;
+    }
+}
+
+/* Small screen / phone */
+@media (min-width: $wb-grid-breakpoint-small) {
+
+    .container {
+        //max-width: $container-width-small;
+    }
+
+    @for $i from 1 through 6 {
+        $width: percentage(1 / $i);
+        .sm-wb-grid-1-#{$i} {
+            flex: 0 0 $width;
+            max-width: $width; // IE11 Fix
+        }
+    }
+
+    .sm-wb-grid-2-3 {
+        flex: 0 0 66.66%;
+        max-width: 66.66%; // IE11 Fix
+    }
+
+    .sm-wb-grid-3-4 {
+        flex: 0 0 75%;
+        max-width: 75%; // IE11 Fix
+    }
+
+}
+
+/* Medium screen / tablet */
+@media (min-width: $wb-grid-breakpoint-medium) {
+
+    .container {
+        //max-width: $container-width-medium;
+    }
+
+    @for $i from 1 through 6 {
+        $width: percentage(1 / $i);
+        .md-wb-grid-1-#{$i} {
+            flex: 0 0 $width;
+            max-width: $width; // IE11 Fix
+        }
+    }
+
+    .md-wb-grid-2-3 {
+        flex: 0 0 66.66%;
+        max-width: 66.66%; // IE11 Fix
+    }
+
+    .md-wb-grid-3-4 {
+        flex: 0 0 75%;
+        max-width: 75%; // IE11 Fix
+    }
+}
+
+/* Large screen / desktop */
+@media (min-width: $wb-grid-breakpoint-large) {
+
+    .container {
+        //max-width: $container-width-large;
+    }
+
+    .widget-area {
+        flex: 0 0 28.125%;
+        /*                max-width: 28.125%;*/
+    }
+
+    #secondary.member-profile-widget-area,
+    #secondary.group-single-widget-area {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    #secondary.member-activity-widget-area {
+        /*        flex: 0 0 23.973%;
+                max-width: 23.973%;*/
+    }
+
+    @for $i from 1 through 6 {
+        $width: percentage(1 / $i);
+        .lg-wb-grid-1-#{$i} {
+            flex: 0 0 $width;
+            max-width: $width; // IE11 Fix
+        }
+    }
+
+    .lg-wb-grid-2-3 {
+        flex: 0 0 66.66%;
+        max-width: 66.66%; // IE11 Fix
+    }
+
+    .lg-wb-grid-3-4 {
+        flex: 0 0 75%;
+        max-width: 75%; // IE11 Fix
+    }
+}
+
+/* Extra large screen / wide desktop */
+@media (min-width: $wb-grid-breakpoint-extra-large) {
+    .container {
+        max-width: $container-width-extra-large;
+    }
+}
+
+@media (max-width: $wb-grid-breakpoint-large - 1) {
+
+    #secondary.activity-index-widget-area {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: $wb-grid-breakpoint-large) {
+    body .site-content .widget-area {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

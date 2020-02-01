@@ -1,0 +1,33 @@
+<svg class="lds-blocks" width="70px"  height="70px"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" style="background: none;"><rect x="0" y="0" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="0s" calcMode="discrete"></animate>
+</rect><rect x="20" y="0" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="0.11875s" calcMode="discrete"></animate>
+</rect><rect x="40" y="0" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="0.2375s" calcMode="discrete"></animate>
+</rect><rect x="60" y="0" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="0.35624999999999996s" calcMode="discrete"></animate>
+</rect><rect x="80" y="0" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="0.475s" calcMode="discrete"></animate>
+</rect><rect x="0" y="20" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="1.78125s" calcMode="discrete"></animate>
+</rect><rect x="80" y="20" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="0.59375s" calcMode="discrete"></animate>
+</rect><rect x="0" y="40" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="1.6624999999999999s" calcMode="discrete"></animate>
+</rect><rect x="80" y="40" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="0.7124999999999999s" calcMode="discrete"></animate>
+</rect><rect x="0" y="60" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="1.54375s" calcMode="discrete"></animate>
+</rect><rect x="80" y="60" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="0.8312499999999999s" calcMode="discrete"></animate>
+</rect><rect x="0" y="80" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="1.4249999999999998s" calcMode="discrete"></animate>
+</rect><rect x="20" y="80" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="1.30625s" calcMode="discrete"></animate>
+</rect><rect x="40" y="80" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="1.1875s" calcMode="discrete"></animate>
+</rect><rect x="60" y="80" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="1.0687499999999999s" calcMode="discrete"></animate>
+</rect><rect x="80" y="80" width="20" height="20" fill="#399dff">
+  <animate attributeName="fill" values="#ffffff;#399dff;#399dff" keyTimes="0;0.0625;1" dur="1.9s" repeatCount="indefinite" begin="0.95s" calcMode="discrete"></animate>
+</rect></svg>

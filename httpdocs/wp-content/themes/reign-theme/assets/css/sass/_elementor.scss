@@ -1,0 +1,463 @@
+.elementor-button.elementor-button {
+    background: #399dff;
+    line-height: initial;
+}
+
+.elmentor-banner-button {
+    max-width: 210px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .counter-image:after {
+        content: ' ';
+        width: 1px;
+        height: 80%;
+        background: rgba(0,0,0,0.2);
+        position: absolute;
+        top: 15px;
+        right: 0px;
+    }
+}
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript,
+if it's not present, don't show loader */
+.rg-page-loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/svg/puff.svg) center no-repeat $color_white;
+    transition: 0.3s all;
+
+    .rg-remove-loader & {
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1111;
+    }
+}
+
+.elementor-editor-active .rg-page-loader,
+.elementor-editor-preview .rg-page-loader {
+    display: none;
+}
+
+.elementor-text-editor p {
+    margin-bottom: 0;
+}
+
+.elementor-text-editor.elementor-text-editor p {
+    color: inherit;
+}
+
+.elementor-default .main-navigation ul li.menu-item-has-children ul li {
+    background: transparent !important;
+}
+
+/* elementor svg icon size */
+
+.svg-icon-small {
+    max-width: 40px;
+    height: auto;
+    margin: auto;
+}
+
+.svg-icon-small-left {
+    max-width: 40px;
+    height: auto;
+}
+
+.svg-icon-medium {
+    max-width: 50px;
+    height: auto;
+    margin: auto;
+}
+
+.svg-icon-medium-left {
+    max-width: 50px;
+    height: auto;
+}
+
+.svg-icon-large-center {
+    max-width: 72px;
+    height: auto;
+    margin: auto;
+}
+
+.svg-icon-large-left {
+    max-width: 72px;
+    height: auto;
+}
+
+/* topbar */
+
+.topbar3 .menu {
+    margin: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+        margin-right: 8px;
+
+        a {
+            font-size: $font__size-smallest;
+            color: $color_white;
+
+            &:hover {
+                color: #333;
+            }
+        }
+    }
+}
+
+.topbar4 #primary-menu li a {
+    color: #999;
+
+    &:hover {
+        color: $color_black;
+    }
+}
+
+.topbar4 .menu {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+        display: inline-block;
+        margin-left: 8px;
+
+        a {
+            font-size: $font__size-smallest;
+            color: #999;
+
+            &:hover {
+                color: $color_black;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    .topbar3 .menu,
+    .topbar4 .menu {
+        display: block;
+        text-align: center;
+    }
+}
+
+/**
+ * Elementor header user link image and menu style
+ */
+.elementor-editor-active,
+.elementor-editor-preview {
+    .user-link-wrap {
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .user-link {
+            font-size: $font__size-extrasmall;
+            color: $color_white;
+        }
+
+        .rg-user {
+            margin: 0 5px 0 15px;
+            position: relative;
+            padding-right: 6px;
+
+            &:after {
+                color: inherit;
+                content: '\f107';
+                font-family: $font__icon;
+                font-weight: normal;
+                display: inline-block;
+                position: relative;
+                right: -5px;
+                font-size: inherit;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+        }
+
+        img.avatar {
+            width: 40px;
+            max-width: 40px;
+            height: 40px;
+            border-radius: 100%;
+        }
+
+        &:hover .user-profile-menu {
+            opacity: 1;
+            margin-top: -4px;
+            visibility: visible;
+        }
+    }
+
+    .user-profile-menu {
+        min-width: 160px;
+        background: $color_white;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 0 0 3px 3px;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s;
+        top: 94px;
+        z-index: 1000;
+        right: 0;
+        margin: 0;
+        padding: 5px 0;
+        transition: all 0.3s;
+
+        &:after {
+            content: ' ';
+            width: 12px;
+            height: 12px;
+            background: $color_white;
+            position: absolute;
+            top: -6px;
+            right: 12px;
+            transform: rotate(45deg);
+            z-index: -1;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            border-left: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        li {
+            list-style: none;
+            padding: 0;
+            position: relative;
+
+            & > a {
+                font-size: $font__size-smaller;
+                display: block;
+                padding: rem-calc(12 20);
+                line-height: initial;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                &:hover {
+                    background-color: transparent;
+
+                    & span {
+                        color: inherit;
+                    }
+                }
+
+                &:after {
+                    display: none;
+                }
+
+                span {
+                    color: inherit;
+                    font-size: 10px;
+
+                    &:before {
+                        content: ' ';
+                        position: absolute;
+                        z-index: -1;
+                        top: 0;
+                        left: -5px;
+                        margin: auto;
+                    }
+                }
+            }
+
+            ul.sub-menu {
+                display: none;
+                margin: 0;
+                padding: 10px 0;
+                position: absolute;
+                left: -187px;
+                background: $color_white;
+                height: auto;
+                width: 187px;
+                top: 0;
+                box-shadow: 0 1px 4px 0 rgba(50,50,50,.2);
+                transition: all .3s;
+
+                &:before {
+                    background-color: $color_white;
+                    box-shadow: 2px -2px 2px -1px rgba(0,0,0,.1);
+                    content: "";
+                    display: block;
+                    height: 12px;
+                    position: absolute;
+                    right: -5px;
+                    top: 11px;
+                    transform: rotate(45deg);
+                    width: 12px;
+                    z-index: 1;
+                }
+            }
+        }
+
+        li.menu-item-has-children:hover ul.sub-menu {
+            display: block;
+        }
+    }
+}
+
+/**
+ * Box Model, Html & Body
+ */
+
+[canvas=container], [off-canvas] {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/**
+ * Canvas
+ */
+.rg-cancel {
+    color: #999;
+    font-size: 24px !important;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+
+    &:hover {
+        color: $color_black;
+    }
+}
+
+[canvas] {
+    z-index: 1;
+}
+
+[canvas=container] {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+    background-color: white; /* Basic background color, overwrite this in your own css. */
+    -webkit-overflow-scrolling: touch; /* Enables momentum scrolling on iOS devices, may be removed by setting to 'auto' in your own CSS. */
+}
+
+[canvas=container]:before, [canvas=container]:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/**
+ * Off-Canavs
+ */
+
+[off-canvas] {
+    display: none;
+    position: fixed;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: inherit; /* Basic background color, overwrite this in your own css. */
+    color: inherit; /* Basic colors, overwrite this in your own css. */
+    -webkit-overflow-scrolling: touch; /* Enables momentum scrolling on iOS devices, may be removed by setting to 'auto' in your own CSS. */
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+[off-canvas*=top] {
+    width: 100%;
+    height: 255px;
+    top: 0;
+}
+
+[off-canvas*=right] {
+    width: 255px;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+[off-canvas*=bottom] {
+    width: 100%;
+    height: 255px;
+    bottom: 0;
+}
+
+[off-canvas*=left] {
+    width: 255px;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+[off-canvas*=reveal] {
+    z-index: 0;
+}
+
+[off-canvas*=push] {
+    z-index: 1;
+}
+
+[off-canvas*=overlay] {
+    padding-top: 70px;
+    z-index: 9999;
+}
+
+[off-canvas*=shift] {
+    z-index: 0;
+}
+
+/**
+ * Animation
+ */
+
+[canvas], [off-canvas] {
+    -webkit-transform: translate( 0px, 0px );
+    -ms-transform: translate( 0px, 0px );
+    transform: translate( 0px, 0px );
+    -webkit-transition: -webkit-transform 300ms;
+    transition:         transform 300ms;
+    -webkit-backface-visibility: hidden; /* Prevents flickering, may be removed if experiencing problems with fixed background images in Chrome. */
+}
+
+[off-canvas*=shift][off-canvas*=top] {
+    -webkit-transform: translate( 0px, 50% );
+    transform: translate( 0px, 50% );
+}
+
+[off-canvas*=shift][off-canvas*=right] {
+    -webkit-transform: translate( -50%, 0px );
+    transform: translate( -50%, 0px );
+}
+
+[off-canvas*=shift][off-canvas*=bottom] {
+    -webkit-transform: translate( 0px, -50% );
+    transform: translate( 0px, -50% );
+}
+
+[off-canvas*=shift][off-canvas*=left] {
+    -webkit-transform: translate( 50%, 0px );
+    transform: translate( 50%, 0px );
+}
+
+/**
+ * Print
+ */
+
+@media print {
+    [canvas] {
+        -webkit-transform: translate( 0px, 0px ) !important;
+        -ms-transform: translate( 0px, 0px ) !important;
+        transform: translate( 0px, 0px ) !important;
+    }
+
+    [off-canvas] {
+        display: none !important;
+    }
+}

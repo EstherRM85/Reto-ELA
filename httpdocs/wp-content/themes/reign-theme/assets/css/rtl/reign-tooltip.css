@@ -1,0 +1,543 @@
+/* tooltip css */
+.rtm-tooltip {
+    position: relative;
+    font-size: 11px;
+    color: #fff;
+    line-height: 16px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: #202e5b;
+    border-radius: 100%;
+    text-align: center;
+    cursor: help;
+}
+.rtm-tooltip .rtm-tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    right: 50%;
+    margin-right: -110px;
+}
+.rtm-tooltip .rtm-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    margin-right: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.rtm-tooltip:hover .rtm-tooltiptext {
+    visibility: visible;
+    bottom: 150%;
+}
+@media screen and (max-width: 670px) {
+    .rtm-tooltip {
+        margin-right: 50px;
+    }
+}
+/* Activity page fav avatar listing */
+.wbtm_fav_avatar_listing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.wbtm_fav_avatar_listing .rtm-tooltip {
+    width: auto;
+    height: auto;
+    background: transparent;
+    cursor: pointer;
+    margin: inherit;
+}
+#buddypress .activity ul.item-list li .wbtm_fav_avatar_listing img.avatar,
+.widget .wbtm_fav_avatar_listing img.avatar {
+    margin-left: -6px;
+    max-width: 35px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+}
+.widget-area .rtm-tooltiptext a {
+    font-size: 11px !important;
+}
+.wbtm_fav_avatar_listing span.wbtm-likes-this {
+    font-size: 13px;
+    margin-right: 15px;
+    color: #777777;
+    margin-top: -4px;
+}
+.wbtm_fav_avatar_listing .rtm-tooltip .rtm-tooltiptext {
+    max-width: 100px;
+    bottom: 115%;
+    margin-right: -46px;
+    padding: 5px;
+}
+.wbtm_fav_avatar_listing .rtm-tooltip:last-child .rtm-tooltiptext {
+    margin-right: -50px;
+}
+.wbtm_fav_avatar_listing .rtm-tooltip .rtm-tooltiptext a {
+    color: #fff;
+    -webkit-transition: initial;
+    transition: initial;
+}
+.wbtm_fav_avatar_listing .rtm-tooltip .rtm-tooltiptext a:hover {
+    color: #399dff;
+}
+.wbtm_fav_avatar_listing span.round-fav-counter {
+    background: #e8e8e8;
+    width: 35px;
+    height: 35px;
+    line-height: 31px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 3px solid #fff;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #999;
+}
+.wbtm_fav_avatar_listing ul.wbtm-rest-member-list {
+    margin: 0;
+    list-style: none;
+}
+.wbtm_fav_avatar_listing ul.wbtm-rest-member-list > li a {
+    margin-bottom: 4px;
+    display: block;
+}
+/*replace the content value with the
+corresponding value from the list below*/
+#item-nav #object-nav ul li a:before,
+.single-item.groups #subnav.item-list-tabs ul li a:before,
+.bp-user #subnav.item-list-tabs ul li a:before{
+    content: "\f129";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-left: 0.5em;
+}
+#item-nav #object-nav ul li a#user-activity:before {
+    content: "\f040";
+}
+#item-nav #object-nav ul li a#user-xprofile:before {
+    content: "\f007";
+}
+#item-nav #object-nav ul li a#user-notifications:before {
+    content: "\f0f3";
+}
+#item-nav #object-nav ul li a#user-messages:before {
+    content: "\f0e0";
+}
+#item-nav #object-nav ul li a#user-friends:before,
+#subnav.item-list-tabs ul li a#activity-friends:before {
+    content: "\f234";
+}
+#item-nav #object-nav ul li a#user-groups:before,
+#subnav.item-list-tabs ul li a#activity-groups:before {
+    content: "\f0c0";
+}
+#item-nav #object-nav ul li a#user-settings:before {
+    content: "\f013";
+}
+#item-nav #object-nav ul li a#user-members-following:before,
+#subnav.item-list-tabs ul li a#activity-following:before {
+    content: "\f04e";
+}
+#item-nav #object-nav ul li a#user-members-followers:before {
+    content: "\f183";
+}
+#item-nav #object-nav ul li a#user-reviews:before {
+    content: "\f005";
+}
+#item-nav #object-nav ul li a#user-geodir-places:before {
+    content: "\f041";
+}
+#item-nav #object-nav ul li a#user-forums:before {
+    content: "\f086";
+}
+#item-nav #object-nav ul li a#user-media:before {
+    content: "\f03e";
+}
+#item-nav #object-nav ul li a#user-mycred-history:before {
+    content: "\f1da";
+}
+#item-nav #object-nav ul li a#user-jobs:before,
+#subnav.item-list-tabs ul li a#my-jobs:before {
+    content: "\f0b1";
+}
+#item-nav #object-nav ul li a#user-resumes:before,
+#subnav.item-list-tabs ul li a#my-resumes:before {
+    content: "\f0c5";
+}
+#item-nav #object-nav ul li a#user-resume:before,
+#subnav.item-list-tabs ul li a#resume:before,
+#subnav.item-list-tabs ul li a#add:before {
+    content: "\f0f6";
+}
+#item-nav #object-nav ul li a#user-achievements:before,
+#subnav.item-list-tabs ul li a#achievements:before {
+    content: "\f091";
+}
+#subnav.item-list-tabs ul li a#just-me:before {
+    content: "\f21b";
+}
+#subnav.item-list-tabs ul li a#activity-mentions:before {
+    content: "\f1fa";
+}
+#subnav.item-list-tabs ul li a#activity-favs:before {
+    content: "\f004";
+}
+#subnav.item-list-tabs ul li a#public:before {
+    content: "\f06e";
+}
+#subnav.item-list-tabs ul li a#edit:before {
+    content: "\f044";
+}
+#subnav.item-list-tabs ul li a#change-avatar:before,
+#subnav.item-list-tabs ul li a#change-cover-image:before {
+    content: "\f044";
+}
+#subnav.item-list-tabs ul li a#notifications-my-notifications:before {
+    content: "\f0e0";
+}
+#subnav.item-list-tabs ul li a#read:before {
+    content: "\f2b6";
+}
+#subnav.item-list-tabs ul li a#inbox:before {
+    content: "\f01c";
+}
+#subnav.item-list-tabs ul li a#starred:before {
+    content: "\f005";
+}
+#subnav.item-list-tabs ul li a#sentbox:before {
+    content: "\f14d";
+}
+#subnav.item-list-tabs ul li a#view:before {
+    content: "\f06e";
+}
+#subnav.item-list-tabs ul li a#add-review:before {
+    content: "\f0fe";
+}
+#subnav.item-list-tabs ul li a#general:before {
+    content: "\f085";
+}
+#subnav.item-list-tabs ul li a#notifications:before {
+    content: "\f0e0";
+}
+#subnav.item-list-tabs ul li a#profile:before {
+    content: "\f1de";
+}
+#subnav.item-list-tabs ul li a#capabilities:before {
+    content: "\f0ad";
+}
+#subnav.item-list-tabs ul li a#delete-account:before {
+    content: "\f1f8";
+}
+#subnav.item-list-tabs ul li a#mycred-history:before {
+    content: "\f133";
+}
+#subnav.item-list-tabs ul li a#today:before {
+    content: "\f274";
+}
+#subnav.item-list-tabs ul li a#yesterday:before {
+    content: "\f073";
+}
+#subnav.item-list-tabs ul li a#thisweek:before {
+    content: "\f073";
+}
+#subnav.item-list-tabs ul li a#thismonth:before {
+    content: "\f073";
+}
+#subnav.item-list-tabs ul li a#post-job:before {
+    content: "\f08d";
+}
+#subnav.item-list-tabs ul li a#add-resume:before {
+    content: "\f0f6";
+}
+/* Groups single / Member single filter icon */
+.single-item.groups .group-activity-filter #subnav.item-list-tabs ul li a:before,
+.member-activity-filter #subnav.item-list-tabs ul li a:before {
+    content: "\f0b0";
+}
+/* Groups */
+#item-nav #object-nav ul li a#home:before {
+    content: "\f015";
+}
+#item-nav #object-nav ul li a#members:before {
+    content: "\f0c0";
+}
+#item-nav #object-nav ul li a#invite:before {
+    content: "\f0e0";
+}
+#item-nav #object-nav ul li a#nav-forum:before {
+    content: "\f086";
+}
+#item-nav #object-nav ul li a#media:before {
+    content: "\f03e";
+}
+#item-nav #object-nav ul li a#nav-add-review:before {
+    content: "\f0fe";
+}
+#item-nav #object-nav ul li a#reviews:before {
+    content: "\f005";
+}
+#item-nav #object-nav ul li a#admin:before {
+    content: "\f013";
+}
+#subnav.item-list-tabs ul li a.bp-tooltip:before {
+    content: "\f09e" !important;
+}
+#subnav.item-list-tabs ul li a#edit-details:before {
+    content: "\f15b";
+}
+#subnav.item-list-tabs ul li a#group-settings:before {
+    content: "\f0ad";
+}
+#subnav.item-list-tabs ul li a#group-avatar:before {
+    content: "\f044";
+}
+#subnav.item-list-tabs ul li a#group-cover-image:before {
+    content: "\f044";
+}
+#subnav.item-list-tabs ul li a#manage-members:before {
+    content: "\f0c0";
+}
+#subnav.item-list-tabs ul li a#manage-reviews:before {
+    content: "\f005";
+}
+#subnav.item-list-tabs ul li a#delete-group:before {
+    content: "\f1f8";
+}
+/** BuddyPress Dokan Icons :: Start **/
+#item-nav #object-nav ul li a#user-dokan:before,
+#subnav.item-list-tabs ul li#store-personal-li a#store:before {
+    content: "\f07a";
+}
+#subnav.item-list-tabs ul li#whislists-personal-li a#whislists:before {
+    content: "\f004";
+}
+/** BuddyPress Dokan Icons :: End **/
+/** CSS for BP PROFILE SEARCH **/
+/****** BP Profile Search ****/
+#buddypress div#members-dir-search {
+    position: static;
+    margin: 10px 0 15px;
+}
+.wbtm-bps-form-wrapper {
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    clear: both;
+    /*margin-top: 40px;*/
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+#buddypress .bps_filters {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+}
+.wbtm-bps_filter {
+    background-color: #fff;
+    float: right;
+    margin: 5px 0 5px 10px;
+    padding: 5px 10px;
+}
+.bps_filters > a {
+    color: red;
+    float: right;
+    line-height: 2.8em;
+}
+.item-list-tabs.bps_header h4 {
+    margin-bottom: 0;
+}
+#buddypress .wbtm-bps-form-wrapper div.item-list-tabs ul li.last {
+    float: left;
+    margin-top: 0;
+}
+#buddypress .wbtm-bps-form-wrapper .standard-form select,
+#buddypress .wbtm-bps-form-wrapper .standard-form input[type=number] {
+    height: 38px;
+}
+.wbtm-bps-form-wrapper.wbtm-bps-form-wrapper-horizontal .standard-form div {
+    margin-left: 10px;
+    width: 100%;
+}
+.wbtm-bps-form-wrapper.wbtm-bps-form-wrapper-horizontal .standard-form div.submit {
+    line-height: 5em;
+}
+#buddypress .wbtm-bps-form-wrapper.wbtm-bps-form-wrapper-horizontal .standard-form div.submit input {
+    width: 100%;
+    height: 38px;
+    margin-top: 30px;
+}
+span.wbtm-bps-form-toggle {
+    background: #e5e5e5;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+.wbtm-bps-form-open i.fa.fa-angle-down {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+/* member search */
+body #buddypress div#members-dir-search {
+    position: relative;
+    left: 0;
+    margin: 0;
+    background: url(../img/svg/search.svg) no-repeat center right 14px;
+    background-size: 16px;
+    margin-bottom: 20px;
+}
+.member-index-widget-area .editfield label {
+    display: block;
+    margin-bottom: 5px;
+}
+.member-index-widget-area .editfield select,
+.member-index-widget-area input[type="text"] {
+    width: 100%;
+}
+.member-index-widget-area .field_113_age_range input[type="text"] {
+    width: 30% !important;
+}
+/* revolution slider member search */
+.ls-wp-container #buddypress .wbtm-bps-form-wrapper .standard-form .field_birthday input[type=text] {
+    width: 22%!important;
+}
+.ls-wp-container #buddypress .wbtm-bps-form-wrapper .standard-form select,
+.ls-wp-container #buddypress .wbtm-bps-form-wrapper .standard-form input[type=text]{
+    width: 56%!important;
+}
+.ls-wp-container #buddypress .standard-form div.submit {
+    clear: both;
+    padding: 0px 10% 0 0;
+}
+.ls-wp-container #buddypress .standard-form label {
+    font-size: 14px;
+    width: 40%;
+    float: right;
+    padding-left: 10px;
+    text-align: left;
+    font-weight: 100;
+    margin-top: 0;
+}
+.ls-wp-container .wbtm-bps-form-wrapper .search-desc {
+    font-size: 14px;
+    padding: 10px 0;
+    color: white;
+    line-height: 18px;
+    text-align: right;
+}
+.ls-wp-container .wbtm-bps-form-wrapper{
+    border: 0px !important;
+    border-radius: 0px !important;
+    min-width: 320px!important;
+}
+.ls-wp-container #buddypress .wbtm-bps-form-wrapper .standard-form select{
+    height: 34px;
+    border-radius: 0px;
+}
+/* wbtm-radio-img-selector-sec */
+.wbtm-radio-img-selector-sec ul li {
+    list-style-type: none;
+}
+.wbtm-radio-img-selector-sec ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+.wbtm-radio-img-selector-sec ul li {
+    margin: 5px;
+    text-align: center;
+}
+.wbtm-radio-img-selector-sec ul li label {
+    font-size: 14px;
+    display: inline-grid;
+}
+.wbtm-radio-img-selector-sec ul li label img {
+    margin-bottom: 10px;
+    opacity: 0.4;
+    max-width: 100px;
+}
+.wbtm-radio-img-selector-sec ul li label img:hover {
+    opacity: 1;
+}
+.wbtm-radio-img-selector-sec input[type=radio] {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+.wbtm-radio-img-selector-sec input[type=radio]:checked +  label img {
+    opacity: 1;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.wbtm-radio-img-selector-sec input[type=radio]:checked +  label {
+    color: #2872aa;
+}
+/* managing on frontend */
+.wbtm-rtm-header-view .wbtm-radio-img-selector-sec li span {
+    display: block;
+}
+.wbtm-rtm-header-view .bp-profile-field.editfield select {
+    width: 180px !important;
+}
+.wbtm-rtm-header-view .bp-profile-field.editfield > label {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wbtm-rtm-header-view .bp-profile-field.editfield > label .rtm-tooltip {
+    margin-right: 8px;
+}
+.wbtm-rtm-header-view .bp-profile-field.editfield > label .rtm-tooltip .rtm-tooltiptext {
+    margin-right: -65px;
+    width: 130px;
+}
+@media screen and (max-width: 359px) {
+    .wbtm-rtm-header-view .bp-profile-field.editfield > label .rtm-tooltip .rtm-tooltiptext {
+        margin-right: -145px;
+    }
+    .wbtm-rtm-header-view .bp-profile-field.editfield > label .rtm-tooltip .rtm-tooltiptext::after {
+        content: "";
+        top: 42%;
+        left: -10px;
+        right: auto;
+        margin-right: 0;
+        -webkit-transform: rotate(-270deg);
+        -ms-transform: rotate(-270deg);
+        transform: rotate(-270deg);
+    }
+    .wbtm-rtm-header-view .bp-profile-field.editfield > label .rtm-tooltip:hover .rtm-tooltiptext {
+        visibility: visible;
+        bottom: -110%;
+    }
+}
+/*# sourceMappingURL=reign-tooltip.css.map */

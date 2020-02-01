@@ -1,0 +1,497 @@
+body {
+
+    &:before {
+        position: fixed;
+        content: '';
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        z-index: -1;
+        visibility: hidden;
+        transition: opacity 0.6s, visibility 0.6s, z-index 1s;
+    }
+
+    &.activity-modal {
+
+        &:before {
+            visibility: visible;
+            opacity: 1;
+            z-index: 99;
+            transition: all 0.3s;
+        }
+
+        #buddypress form#whats-new-form #whats-new-content {
+            position: relative;
+            margin-left: 0;
+            padding: 0;
+            background: $color_white;
+            z-index: 99;
+            transition: all 0.15s;
+        }
+    }
+}
+
+/*body.activity.buddypress {
+    background: #fafafa;
+}*/
+
+#buddypress .activity-list li.mini .activity-avatar img.FB_profile_pic,
+#buddypress .activity-list li.mini .activity-avatar img.avatar {
+    height: auto;
+    margin-left: 0;
+    width: auto;
+    min-width: 45px;
+    max-width: 45px;
+}
+
+#buddypress #activity-stream {
+    margin-top: 0;
+}
+
+#buddypress #activity-stream p {
+    margin: 0;
+}
+
+#buddypress .activity-header {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    p {
+        //font-size: $font__size-smaller;
+        line-height: 1.6;
+        font-weight: 300;
+        color: #767676;
+
+        a {
+            //font-size: $font__size-extrasmall;
+            //font-size: inherit;
+            font-weight: 600;
+        }
+
+        & a:last-child {
+            display: block;
+            //font-size: $font__size-smallest;
+
+            span.time-since {
+                font-weight: 300;
+            }
+        }
+
+        & strong a:last-child {
+            display: inline-block;
+        }
+    }
+}
+
+#buddypress .activity ul.item-list li img.avatar {
+    margin-right: 15px;
+    max-width: 45px;
+    border-radius: 100%;
+}
+
+#buddypress .activity ul.item-list li .activity-header p img.avatar {
+    float: none;
+    margin: -2px 4px 0 4px;
+}
+
+#buddypress .activity .item-list {
+    border: none;
+
+    > li {
+        margin-bottom: 15px;
+        padding: 15px;
+        border: 0;
+        background-color: $color_white;
+        border-radius: 3px;
+        overflow: visible;
+        box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    }
+}
+
+body.activity-permalink #buddypress ul.item-list li.activity-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: visible;
+}
+
+#buddypress .activity-list .activity-content,
+body.activity-permalink #buddypress .activity-list li .activity-content,
+body.activity-permalink #buddypress div.activity-comments {
+    margin: 0;
+}
+
+body.activity-permalink #buddypress .activity-list li .activity-header>p {
+    padding: 0;
+
+    span {
+        display: block;
+    }
+}
+
+.logged-in #buddypress .activity-list .activity-content .activity-inner,
+.logged-in #buddypress .activity-list .activity-content blockquote {
+    margin: 15px 0;
+}
+
+#buddypress .activity-list .activity-content .activity-inner,
+#buddypress .activity-list .activity-content blockquote {
+    margin: 0 0  15px;
+}
+
+#buddypress .activity-list .activity-content .activity-inner ul {
+    margin: 0;
+}
+
+#buddypress .activity-list .activity-content .activity-inner {
+    p>img {
+        margin-top: 0.5rem;
+    }
+
+    /*    .rtmedia-activity-container {
+            display: flex;
+            flex-flow: column-reverse;
+        }*/
+
+    li {
+        display: block;
+        line-height: 0;
+        margin-bottom: 10px;
+    }
+
+    > p {
+        //font-size: $font__size-extrasmall;
+    }
+
+    .rtmedia-activity-text {
+        font-size: $font__size-extrasmall;
+
+        & span {
+            font-size: inherit;
+        }
+    }
+
+    .rtmedia-activity-text > span {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .rtmedia-list.rtmedia-list .rtmedia-item-title {
+        display: none;
+    }
+}
+
+body:not(.logged-in) #buddypress .activity-content .activity-meta {
+    display: none;
+    line-height: 1;
+}
+
+#buddypress .activity-content .activity-meta {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+#buddypress .activity-content .activity-meta,
+body.activity-permalink #buddypress div.activity-meta {
+    margin: 0 -15px;
+    margin-bottom: -15px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+
+    a {
+        //font-size: $font__size-extrasmall;
+        color: #777;
+        font-weight: 600;
+        background: transparent;
+        padding: 5px 25px;
+        padding-right: 5px;
+        border: none;
+        position: relative;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+        span {
+            color: inherit;
+            background: transparent;
+        }
+
+        &:hover,
+            &:focus {
+            border: none;
+            box-shadow: none;
+        }
+
+        &:before {
+            content: "";
+            font-family: $font__icon;
+            width: 18px;
+            height: 18px;
+            //font-size: $font__size-extrasmall;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            color: inherit;
+            position: absolute;
+            top: 5px;
+            left: 4px;
+        }
+
+        &.view:before {
+            content: "\f0e5";
+        }
+
+        &.acomment-reply:before {
+            content: "\f0e5";
+        }
+
+        &.fav:before {
+            content: "\f004";
+        }
+
+        &.unfav:before {
+            content: "\f004";
+            color: red;
+        }
+
+        &.delete-activity:before,
+            &.delete-activity-single:before {
+            content: "\f1f8";
+        }
+
+        &.bp-share-button:before {
+            content: "\f064";
+        }
+
+        &.bmpro-flag-activity-btn:before {
+            content: "\f11d";
+        }
+
+        &.bmpro-unflag-activity-btn:before {
+            content: "\f024";
+        }
+    }
+
+    select {
+        //color: #777;
+        margin-left: auto;
+        height: 34px;
+        order: 2;
+    }
+}
+
+#buddypress div.activity-comments,
+body.activity-permalink #buddypress div.activity-comments {
+    margin: 0 -15px;
+
+    ul {
+        padding: 0;
+        margin-top: 15px;
+        border-top: 1px solid rgba(0,0,0,0.1);
+
+        li {
+            padding: 15px;
+            border-top: 0;
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+#buddypress div.activity-comments form.ac-form {
+    padding: 15px;
+}
+
+#buddypress .activity div.activity-comments form div.ac-reply-avatar img {
+    max-width: 36px;
+}
+
+#buddypress div.activity-comments form.ac-form {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+#buddypress div.activity-comments li form.ac-form {
+    margin: 0 -15px;
+}
+
+#buddypress div.activity-comments form div.ac-reply-content a {
+    font-size: $font__size-extrasmall;
+}
+
+#buddypress div.activity-comments,
+body #buddypress div.activity-comments ul li {
+
+    form div.ac-reply-content {
+        padding: 0;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+
+        input[type=submit] {
+            display: flex;
+            justify-content: center;
+            margin: 0 10px 0 15px;
+        }
+
+        .comment-submit-button {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    form.root {
+        padding: 15px;
+        padding-bottom: 0;
+
+        .ac-textarea {
+            width: 100%;
+            background: transparent;
+            border: none;
+            margin-bottom: 0;
+            padding: 0;
+        }
+    }
+
+    .ac-textarea {
+        width: 100%;
+        background: transparent;
+        border: none;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    form textarea {
+        width: 97%;
+        height: 32px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        resize: none;
+
+        &:focus {
+            border-bottom: 1px solid #399dff;
+        }
+    }
+}
+
+body #buddypress .activity-list li.load-more,
+body #buddypress .activity-list li.load-newest {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+#buddypress .activity-list li.mini {
+    font-size: inherit;
+}
+
+/* rtmedia thumbnail */
+/*== rt-media-image-buttons-style ==*/
+.mfp-content #item-header {
+    display: none;
+}
+
+body {
+    .mfp-arrow {
+        cursor: pointer;
+        position: absolute;
+        opacity: 0.65;
+        filter: alpha(opacity=65);
+        margin: 0;
+        top: 50%;
+        margin-top: -50px;
+        padding: 0;
+        width: 50px;
+        height: 60px;
+        -webkit-tap-highlight-color: transparent;
+        opacity: 0;
+        z-index: 10;
+        -webkit-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        background: transparent;
+        -webkit-appearance: none;
+    }
+
+    .mfp-arrow:after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-top: 10px;
+        margin-left: 35px;
+        border: medium inset transparent;
+    }
+
+    .mfp-arrow:after {
+        border-top-width: 13px;
+        border-bottom-width: 13px;
+        top: 8px;
+    }
+
+    .mfp-arrow-left:after,
+        .mfp-arrow-right:after {
+        font-family: $font__icon;
+        font-size: 24px;
+        color: $color_white;
+        border-left: 0;
+        margin-left: 13px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .mfp-arrow-left:after {
+        content: '\f137';
+    }
+
+    .mfp-arrow-right:after {
+        content: '\f138';
+    }
+
+    .mfp-arrow-left:before {
+        border: none;
+    }
+
+    .mfp-arrow-right:before {
+        border: none;
+    }
+}
+
+.rtm-lightbox-container a {
+    color: $color_gray;
+
+    &:hover {
+        color: $color_black;
+    }
+}
+
+.rtm-lightbox-container div,
+.rtm-lightbox-container p {
+    color: $color_gray !important;
+}
+
+.rtmedia-popup label {
+    color: #666;
+}
+
+/* share button */
+body:not(.logged-in) #buddypress a.bp-share-button:hover {
+    padding: 4px 8px;
+}
+
+/* Badgeos Item Image */
+#buddypress .activity-list li .activity-content .badgeos-item-image img {
+    width: 100px;
+    max-width: 100px;
+    height: auto;
+}

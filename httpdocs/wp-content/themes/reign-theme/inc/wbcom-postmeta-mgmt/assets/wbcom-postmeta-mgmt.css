@@ -1,0 +1,160 @@
+.wbcom-metabox-tab span {
+    margin-right: 5px;
+}
+
+/**
+* CSS for vertical tabs :: Start
+*/
+
+#reign_postmeta_settings.postbox .inside {
+    margin: 0;
+    padding: 0;
+}
+.wbcom-metabox-wrapper {
+    display: flex;
+}
+/* Style the tab */
+.wbcom-metabox-tab {
+    border: 1px solid #eee;
+    border-top: 0;
+    border-left: 0;
+    background: linear-gradient(90deg,#fafafa 0,#fafafa 180px,#fff 180px,#fff 100%);
+    min-width: 180px;
+    min-height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.wbcom-metabox-tab button {
+    display: block;
+    background-color: inherit;
+    color: #555;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+/*.wbcom-metabox-tab button:hover {
+    background-color: #ddd;
+}*/
+
+/* Create an active/current "tab button" class */
+.wbcom-metabox-tab button.active {
+    background-color: #fff;
+    position: relative;
+}
+
+.wbcom-metabox-tab button.active:after {
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    display: block;
+    height: 36px;
+    right: -1px;
+    background: #ffffff;
+    z-index: 999;
+    top: 0;
+}
+
+/*.wbcom-metabox-wrapper .wbcom-metabox-tablinks {
+    border-bottom: 1px solid #eee;
+}*/
+
+/* Style the tab content */
+.wbcom-metabox-content {
+    padding: 20px 30px;
+    border-left: 0;
+    border-top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.wbcom-metabox-control {
+    display: flex;
+    width: 100%;
+    padding: 12px 0;
+    border-top: 1px solid #eee;
+}
+
+.wbcom-metabox-control:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.wbcom-metabox-desc {
+    flex: 0 0 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.wbcom-metabox-desc .rtm-tooltip {
+    margin-left: 5px;
+}
+
+.wbcom-metabox-field {
+    width: 50%;
+}
+
+.wbcom-metabox-field .select2.select2-container.select2-container--default {
+    width: 100% !important;
+}
+
+.wbcom-metabox-field .select2-container--default .select2-selection--single {
+    background-color: #f5f5f5 !important;;
+    color: #333;
+    border: 1px solid #aaa !important;
+    font-size: 13px;
+    padding: 5px 12px;
+    height: 34px !important;;
+    line-height: 22px !important;;
+    width: 100%;
+    border-radius: 0 !important;;
+    margin: 0;
+    outline: 0;
+    box-shadow: none !important;
+    box-sizing: border-box;
+}
+
+.wbcom-metabox-field .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: inherit;
+    padding: 0;
+}
+
+.wbcom-metabox-field .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 34px;
+    top: 0;
+    right: 7px;
+}
+/**
+* CSS for vertical tabs :: End
+*/
+
+button.wbcom-metabox-tablinks.header_footer {
+    position: relative;
+}
+
+/**
+* Media Query
+*/
+@media (max-width: 480px) {
+    .wbcom-metabox-wrapper {
+        display: block;
+    }
+
+    .wbcom-metabox-tab button {
+        width: 70%;
+    }
+
+    .wbcom-metabox-content {
+        padding: 20px 0;
+    }
+
+    .wbcom-metabox-tab {
+        min-height: 150px;
+    }
+}

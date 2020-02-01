@@ -1,0 +1,126 @@
+/* group-single */
+.bp-nouveau {
+    div#item-header-cover-image {
+        border-radius: 0;
+    }
+    .wbtm-group-cover-image-container a{
+        color:$color_white;
+    }
+
+    .wbtm-group-cover-image-container.wbtm-cover-header-type-3 a {
+        color: inherit;
+    }
+
+    #buddypress #item-header-cover-image #item-buttons div {
+        display: block;
+    }
+
+    .single-headers .activity {
+        display: block;
+        font-size: $font__size-smallest;
+        padding: 0;
+    }
+
+    .single-headers .wbtm-group-cover-image-container .activity {
+        margin-bottom: 10px;
+    }
+
+    .single-headers .wbtm-cover-header-type-1 .group-status,
+    .single-headers .wbtm-cover-header-type-2 .group-status {
+        color: $color_white;
+    }
+
+    .groups-header .moderators-lists {
+        margin-top: 14px;
+    }
+
+    .groups-header .wbtm-cover-header-type-1 .moderators-lists .moderators-title,
+    .groups-header .wbtm-cover-header-type-2 .moderators-lists .moderators-title {
+        color: $color_white;
+    }
+
+    .groups-header .wbtm-cover-header-type-1 #item-header-content .activity,
+    .groups-header .wbtm-cover-header-type-2 #item-header-content .activity {
+        color: $color_white;
+    }
+
+    .groups-header .moderators-lists .moderators-title {
+        text-align: center;
+    }
+
+    ul#group-admins,
+    ul#group-mods {
+        margin: 0;
+        text-align: center;
+        list-style: none;
+    }
+
+    #buddypress .single-group-content-area div#item-header div#item-meta {
+        display: block;
+        margin: 0;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .single-headers .group-status {
+        color: inherit;
+    }
+}
+
+body.single-item.groups.bp-nouveau #buddypress div#item-header #item-header-cover-image #item-header-content,
+body.single-item.groups.bp-nouveau #buddypress div#item-header #item-header-cover-image #item-actions {
+    margin-top: 0;
+}
+
+body.single-item.groups.bp-nouveau #buddypress div#item-header .wbtm-cover-header-type-1 #item-header-cover-image #item-actions,
+body.single-item.groups.bp-nouveau #buddypress div#item-header .wbtm-cover-header-type-3 #item-header-cover-image #item-actions {
+    @media (min-width: 782px) {
+        margin-left: 50px;
+    }
+
+    @media (max-width: 781px) {
+        padding-top: 0;
+    }
+}
+
+body.single-item.groups.bp-nouveau #buddypress div#item-header #item-header-cover-image #item-header-content {
+    margin: 0;
+}
+
+body.single-item.groups.bp-nouveau #buddypress div#item-header .wbtm-group-cover-image-container.wbtm-cover-header-type-2 #item-header-cover-image #item-header-content,
+body.single-item.groups.bp-nouveau #buddypress div#item-header .wbtm-cover-header-type-2 #item-header-cover-image #item-actions {
+    min-width: 100%;
+    text-align: center;
+}
+
+body.single-item.groups.bp-nouveau #buddypress div#item-header .wbtm-cover-header-type-2 #item-header-cover-image #item-actions {
+    padding-top: 0;
+    min-width: 100%;
+    margin: 0;
+    float: none;
+}
+
+body.single-item.groups.bp-nouveau #buddypress div#item-header .wbtm-cover-header-type-2 .wbtm-member-info-section {
+    padding-top: 30px;
+}
+
+.single-headers .wbtm-cover-header-type-2 .group-status {
+    padding-right: 0;
+}
+
+body.bp-nouveau:not(.logged-in) #buddypress .item-list.rg-group-list.wbtm-group-directory-type-2 div.action {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* wbtm-group-directory-type-3 */
+
+body.single-item.groups.bp-nouveau #buddypress div#item-header .wbtm-cover-header-type-3 #item-header-cover-image #item-actions {
+    @media (min-width: 782px) {
+        padding-top: 80px;
+        margin-bottom: 0;
+    }
+}

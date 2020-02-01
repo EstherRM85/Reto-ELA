@@ -1,0 +1,167 @@
+.bp-nouveau {
+    &.buddypress.groups .activity-update-form {
+        margin-top: 15px;
+    }
+
+    .groups-header .desc-wrap {
+        padding: 0;
+        box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    }
+
+    .groups-header .desc-wrap .group-description {
+        background: $color_white;
+        box-shadow: none;
+    }
+
+    .bp-invites-content ul.item-list>li .item-avatar img.avatar {
+        max-width: 50px;
+    }
+
+    .bp-invites-content ul.item-list .invite-button {
+        box-shadow: none;
+        border: 0;
+        padding: 0 7px;
+
+        &:hover {
+            border: 0;
+        }
+    }
+
+    &.buddypress .bp-invites-content ul.item-list li .action {
+        top: 15px;
+        right: 15px;
+    }
+
+    &.buddypress .bp-invites-content ul.item-list>li {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    &.buddypress .bp-invites-content li .status {
+        font-size: $font__size-extrasmall;
+        margin-bottom: 0;
+    }
+
+    &.buddypress .bp-invites-content li .item-meta {
+        margin-bottom: 0;
+    }
+
+    &.buddypress .bp-invites-content li ul.group-inviters {
+
+        li {
+            font-size: $font__size-extrasmall;
+
+            @media (max-width: 46.8em) {
+                float: none;
+                padding: 2px 0;
+            }
+        }
+    }
+
+    .buddypress-wrap .group-settings-selections fieldset legend {
+        padding: 0 6px;
+    }
+
+    .group-settings-selections fieldset {
+        margin-bottom: 20px;
+    }
+
+    .buddypress-wrap .bp-invites-content .item-list li .invite-button span.icons:before {
+        font-size: 27px;
+    }
+
+    form#group-settings-form {
+        margin-bottom: 30px;
+    }
+
+    .groups-manage-members-list .section-title {
+        padding: 10px;
+        background: rgba(0,0,0,.2);
+    }
+
+    .groups-manage-members-list ul {
+        margin: 0;
+
+        li {
+            border: 0;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(0,0,0,.2);
+            box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+        }
+    }
+
+    .groups-manage-members-list ul li .action {
+        margin: 20px 0 0;
+
+        @media (max-width: 32em) {
+            text-align: center;
+        }
+    }
+
+    .groups-manage-members-list ul .members-manage-buttons.text-links-list a.button {
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .buddypress-wrap .subnav-filters>ul {
+        margin: 0;
+    }
+
+    .buddypress-wrap .members-group-list li .joined {
+        text-align: left;
+    }
+
+    .buddypress-wrap .members-group-list.wbtm-member-directory-type-2 li .joined,
+    .buddypress-wrap .members-group-list.wbtm-member-directory-type-3 li .joined {
+        text-align: center;
+    }
+}
+
+.bp-nouveau.group-home {
+    @media (max-width: 32em) {
+        .buddypress-wrap .subnav-filters>ul {
+            margin: 0;
+            width: 100%;
+        }
+
+        .buddypress-wrap .subnav-filters div {
+            float: right;
+            width: 100%;
+        }
+    }
+}
+
+.single-item.group-members.bp-nouveau .item-body .filters {
+    margin-top: 15px;
+}
+
+/* invite-anyone */
+
+.bp-nouveau.invite-anyone {
+    .wb-grid-cell > p {
+        margin: 15px 0;
+    }
+
+    form#send-invite-form {
+        background: $color_white;
+        padding: 15px;
+        box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+
+        .submit {
+            clear: both;
+        }
+
+        ul#invite-anyone-invite-list {
+            list-style: none;
+
+            li {
+                margin-bottom: 15px;
+
+                h4 {
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,196 @@
+// Variables.
+@import "variables";
+
+// Color Controls.
+@import "modules/colors";
+
+// Image.
+@import "modules/image";
+
+// Reset.
+@import "modules/reset";
+
+// Controls.
+@import "controls/gallery";
+@import "controls/license";
+@import "controls/range";
+@import "controls/template";
+@import "controls/title";
+@import "controls/toggle";
+@import "controls/upgrade";
+
+.customize-control.disabled {
+	display: none !important;
+}
+
+#customize-control-login_designer_settings-branding {
+	margin-bottom: 9px;
+}
+
+#customize-control-login_designer-bg_repeat {
+	margin-top: 15px;
+}
+
+// Hide the Styles section.
+#accordion-section-login_designer__section--styles {
+	display: none !important;
+}
+
+// Title spacing.
+#customize-control-login_designer_settings-logo_url {
+	margin-bottom: 20px !important;
+	margin-top: 13px;
+}
+
+#customize-control-login_designer-field_text_title,
+#customize-control-login_designer-button_text_title {
+	margin-top: 15px;
+}
+
+#customize-control-login_designer-logo_width {
+	margin-top: 3px;
+}
+
+// 50/50, Small text input fields
+#customize-control-login_designer-username_label,
+#customize-control-login_designer-password_label,
+#customize-control-login_designer-back_to_label {
+	position: relative;
+
+	.customize-control-title {
+		width: 40%;
+		margin-bottom: 0;
+		position: relative;
+	}
+
+	input {
+		width: 60%;
+		position: absolute;
+		right: 0;
+		top: -2px;
+		margin: 0;
+	}
+}
+
+#customize-control-login_designer_settings-login_redirect,
+#customize-control-login_designer_settings-logout_redirect {
+
+	.customize-control-title {
+		margin-bottom: 0;
+		float: left;
+		position: relative;
+		width: 35%;
+	}
+
+	select {
+		padding-right: 20px;
+		width: 65%;
+	}
+}
+
+// Customizer Select
+#sub-accordion-section-login_designer__section--styles,
+#sub-accordion-section-login_designer__section--settings {
+
+	.customize-control {
+		margin-bottom: 10px;
+	}
+
+	&.open {
+		border: none !important;
+	}
+
+	.customize-control-dropdown-pages {
+		position: relative;
+
+		&::after {
+			font: 400 11px/11px dashicons;
+			content: "\f341";
+			position: absolute;
+			right: 6px;
+			bottom: 7px;
+			transform: rotate(-90deg);
+			color: currentColor;
+		}
+
+		label {
+			display: block;
+		}
+
+		.description {
+			margin-bottom: 15px;
+		}
+
+		select {
+			box-shadow: none;
+			margin: 0;
+			background: #fff;
+			padding: 0;
+			padding-left: 8px;
+			appearance: none;
+			cursor: pointer;
+			font-weight: 400;
+			font-size: 14px;
+
+			&:hover {
+				color: $blue;
+			}
+
+			select::-ms-expand {
+				display: none;
+			}
+
+			option {
+				text-align: right;
+			}
+		}
+	}
+
+	.customize-control-select {
+		position: relative;
+
+		&:after {
+			font: 400 11px/11px dashicons;
+			content: "\f341";
+			position: absolute;
+			right: 6px;
+			top: 7px;
+			transform: rotate(-90deg);
+		}
+
+		.customize-control-title {
+			width: 40%;
+			margin-bottom: 0;
+			position: relative;
+		}
+
+		select {
+			width: 60%;
+			position: absolute;
+			box-shadow: none;
+			top: -2px;
+			right: 0;
+			margin: 0;
+			font-size: 14px;
+			min-height: 30px;
+			background: #fff;
+			padding: 0;
+			appearance: none;
+			padding-left: 8px;
+			cursor: pointer;
+			font-weight: 400;
+
+			&:hover {
+				color: $blue;
+			}
+
+			select::-ms-expand {
+				display: none;
+			}
+
+			option {
+				text-align: right;
+			}
+		}
+	}
+}

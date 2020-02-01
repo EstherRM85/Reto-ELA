@@ -1,0 +1,106 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#wpsl-enquiry-message{
+	width: 38%;
+}
+.wpsl-header {
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+}
+.wpsl-header .wpsl-plugin-heading {
+	float: left;
+	margin: 0px;
+}
+.wpsl-header .wpsl-extra-actions {
+	float: right;
+	padding-bottom: 10px;
+}
+.notice-success, div.updated {
+	clear: both;
+}
+.wpsl-plugin-author-td, .wpsl-theme-author-td{
+	width: 25%;
+}
+.wpsl-plugin-name-th, .wpsl-theme-name-th{
+	width: 40% !important;
+}
+/*SUPPORT*/
+.wpsl-adming-setting{
+	float: left;
+	width: 90%;
+}
+button.wpsl-accordion {
+	background-color: hsl(0, 0%, 87%);
+	border: medium none;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: hsl(0, 0%, 27%);
+	cursor: pointer;
+	font-size: 15px;
+	margin: 0 5%;
+	outline: medium none;
+	padding: 15px 20px;
+	text-align: left;
+	transition: all 0.4s ease 0s;
+	width: 90%;
+}
+button.wpsl-accordion.active, button.wpsl-accordion:hover {
+	background-color: hsl(207, 90%, 54%);
+	color:white;
+}
+div.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	margin:0px 5%;
+}
+button.wpsl-accordion::after {
+	color: hsl(0, 0%, 47%);
+	content: "+";
+	float: right;
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+button.wpsl-accordion::after:hover {
+	color: white;
+}
+button.wpsl-accordion.active::after {
+	content: "−";
+	color:white;
+}
+.wpsl-admin-row{
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+.wpsl-tab-header h3{
+	margin-left: 5%;
+}
+/*SUPPORT*/
+
+.wpsl-server-log {
+	padding: 10px 20px;
+	background: white;
+	max-width: 600px;
+	border-radius: 10px;
+}
+.wpsl-server-log .form-table td {
+	padding: 5px 10px;
+}
+.wpsl-server-log .form-table th {
+	padding: 10px 10px 10px 0;
+	width: 165px;
+}
+.wpsl-server-log .form-table tr {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.wpsl-wp-debug-mode button{
+	margin-left: 100px !important;
+}

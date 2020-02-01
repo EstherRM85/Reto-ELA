@@ -1,0 +1,112 @@
+/**
+* Elementor Footer Menu
+**/
+/*.footer-menu {
+    h5 {
+        font-size: 20px;
+        color: $color_white;
+        margin: 0 0 15px;
+    }
+
+    ul {
+        list-style: none;
+        margin-left: 0;
+
+         ul{
+            display:none;
+         }
+    }
+
+    a {
+        font-size: $font__size-small;
+        color: #888;
+        line-height: 2;
+    }
+}*/
+
+
+footer div#reign-copyright-text {
+    border-top: 1px solid $color__border-input;
+}
+
+/* Elementor footer template 5 */
+
+.section-footer5 .elementor-widget-wrap {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-footer5 .elementor-heading-title.elementor-size-default.elementor-size-default:after {
+    content: ' ';
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    position: absolute;
+    right: auto;
+    width: 100%;
+    bottom: 0;
+}
+
+.section-footer5 .elementor-heading-title.elementor-size-default.elementor-size-default {
+    color: #f5f5f5;
+    font-weight: 600;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #399dff;
+    display: inline-block;
+}
+
+.footer-wrap {
+    padding: 70px 0;
+    background: #04080e;
+
+    h2 {
+        font-size: 20px;
+        color: $color_white;
+        margin: 0 0 15px;
+    }
+
+    ul {
+        list-style: none;
+        margin-left: 0;
+    }
+
+    a {
+        display: block;
+        font-size: $font__size-small;
+        color: #888;
+        line-height: 2;
+
+        &:hover {
+            color: $color_white;
+        }
+    }
+
+    .widget-title {
+        border-bottom: 1px solid #1e2227;
+    }
+
+    .widget-area .widget-area-inner {
+        padding: 0;
+    }
+
+    .widget-area .widget {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: $wb-grid-breakpoint-medium) {
+    .footer-wrap {
+        .wb-grid-cell {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}
+
+@media (max-width: $wb-grid-breakpoint-small) {
+    .footer-wrap {
+        .wb-grid-cell {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}

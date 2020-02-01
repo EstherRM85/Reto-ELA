@@ -1,0 +1,6690 @@
+# <!=Copyright (C) 2020 Wbcom Designs
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: REIGN 3.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 11:29:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Reign\n"
+"Language-Team: Reign\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: lib/kirki-addon/options/general/class-reign-kirki-page-mapping.php:90
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "page not found"
+msgstr ""
+
+#: bp-nouveau/groups/single/cover-image-header.php:48
+#: buddypress/groups/groups-loop.php:97
+#: buddypress/groups/single/cover-image-header.php:98
+#: buddypress/groups/single/group-header.php:19 widgets/groups-widget.php:131
+#. translators: %s = last activity timestamp (e.g. "active 1 hour ago")
+msgid "active %s"
+msgstr ""
+
+#: bp-nouveau/members/single/friends/requests.php:19
+#: bp-nouveau/members/single/friends/requests.php:91
+msgid "Friendship Requests"
+msgstr ""
+
+#: buddypress/activity/entry.php:55
+msgid "View Conversation"
+msgstr ""
+
+#: buddypress/activity/entry.php:63
+msgid "Comment %s"
+msgstr ""
+
+#: buddypress/activity/entry.php:71
+msgid "Favorite"
+msgstr ""
+
+#: buddypress/activity/entry.php:75
+msgid "Remove Favorite"
+msgstr ""
+
+#: buddypress/activity/entry.php:125
+#. translators: accessibility text
+msgid "Comment"
+msgstr ""
+
+#: buddypress/activity/entry.php:130 buddypress/activity/post-form.php:48
+#: peepso/photos/photo-album-custom.php:193
+#: peepso/photos/photo-group-album-custom.php:170
+msgid "Post"
+msgstr ""
+
+#: buddypress/activity/entry.php:130 paid-memberships-pro/pages/billing.php:367
+#: peepso/groups/group-header.php:83 peepso/groups/group-settings.php:49
+#: peepso/groups/group-settings.php:89 peepso/groups/group-settings.php:130
+#: peepso/groups/group-settings.php:193 peepso/groups/group-settings.php:238
+#: peepso/groups/group-settings.php:278 peepso/groups/group-settings.php:317
+#: peepso/groups/group-settings.php:356 peepso/photos/photo-album-custom.php:47
+#: peepso/photos/photo-album-custom.php:121
+#: peepso/photos/photo-group-album-custom.php:50
+#: peepso/photos/photo-group-album-custom.php:90 peepso/profile/focus.php:68
+#: peepso/profile/profile-about.php:164
+msgid "Cancel"
+msgstr ""
+
+#: buddypress/activity/index.php:45 buddypress/groups/single/activity.php:11
+msgid "RSS Feed"
+msgstr ""
+
+#: buddypress/activity/index.php:45 buddypress/groups/single/activity.php:11
+msgid "RSS"
+msgstr ""
+
+#: buddypress/activity/post-form.php:24
+msgid "What's new in %1$s, %2$s?"
+msgstr ""
+
+#: buddypress/activity/post-form.php:26
+msgid "What's new, %s?"
+msgstr ""
+
+#: buddypress/activity/post-form.php:40
+#. translators: accessibility text
+msgid "Post what's new"
+msgstr ""
+
+#: buddypress/activity/post-form.php:55 buddypress/activity/post-form.php:60
+#. translators: accessibility text
+msgid "Post in"
+msgstr ""
+
+#: buddypress/activity/post-form.php:64 peepso/widgets/me.tpl.php:145
+msgid "My Profile"
+msgstr ""
+
+#: buddypress/buddypress-funtions.php:90
+#: inc/buddypress/buddypress-funtions.php:89
+msgid "Public"
+msgstr ""
+
+#: buddypress/buddypress-funtions.php:92
+#: inc/buddypress/buddypress-funtions.php:91
+msgid "Hidden"
+msgstr ""
+
+#: buddypress/buddypress-funtions.php:94
+#: inc/buddypress/buddypress-funtions.php:93
+msgid "Private"
+msgstr ""
+
+#: buddypress/buddypress-funtions.php:96
+#: inc/buddypress/buddypress-funtions.php:95
+msgid "Group"
+msgstr ""
+
+#: buddypress/buddypress-funtions.php:131
+#: inc/buddypress/buddypress-funtions.php:129
+msgid "Profile picture of %s"
+msgstr ""
+
+#: buddypress/buddypress-funtions.php:137
+#: inc/buddypress/buddypress-funtions.php:135
+msgid "Created by"
+msgstr ""
+
+#: buddypress/buddypress-funtions.php:150
+#: inc/buddypress/buddypress-funtions.php:148
+msgid "No Admins"
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:171
+msgid "There were no groups found."
+msgstr ""
+
+#: buddypress/groups/single/activity.php:9 sidebar-group-left.php:96
+msgid "Group secondary navigation"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:10
+msgid "Manage Members"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:24
+msgid "Administrators"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:121
+#: buddypress/groups/single/admin/manage-members.php:253
+msgid "Demote to Member"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:165
+msgid "No group administrators were found."
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:172
+msgid "Moderators"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:252
+#: buddypress/groups/single/admin/manage-members.php:395
+msgid "Promote to Admin"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:297
+msgid "No group moderators were found."
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:304
+#: inc/buddypress/reign-bp-group-customization.php:197
+#: peepso/groups/group-header.php:194 template-parts/members-widgets.php:13
+#: widgets/active-members.php:222
+msgid "Members"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:364
+msgid "(banned)"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:389
+msgid "Remove Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:393
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:394
+msgid "Promote to Mod"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:399
+msgid "Remove from group"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:442
+msgid "No group members were found."
+msgstr ""
+
+#: buddypress/groups/single/cover-image-header.php:112
+#: sidebar-group-left.php:46
+msgid "Group Admins"
+msgstr ""
+
+#: buddypress/groups/single/cover-image-header.php:134
+#: sidebar-group-left.php:68
+msgid "Group Mods"
+msgstr ""
+
+#: buddypress/groups/single/invites-loop.php:108
+msgid "Remove Invite"
+msgstr ""
+
+#: buddypress/groups/single/invites-loop.php:151
+msgid "Select friends to invite."
+msgstr ""
+
+#: buddypress/groups/single/members.php:164
+msgid "No members were found."
+msgstr ""
+
+#: buddypress/members/bps-filters.php:33
+#: buddypress/members/bps-form-wbcomdesigns.php:239
+#: peepso/photos/photo-album-custom.php:192
+#: peepso/photos/photo-group-album-custom.php:169
+msgid "Clear"
+msgstr ""
+
+#: buddypress/members/bps-form-wbcomdesigns.php:164
+msgid "Within"
+msgstr ""
+
+#: buddypress/members/bps-form-wbcomdesigns.php:165
+msgid "of"
+msgstr ""
+
+#: buddypress/members/bps-form-wbcomdesigns.php:166
+msgid "km"
+msgstr ""
+
+#: buddypress/members/bps-form-wbcomdesigns.php:167
+msgid "miles"
+msgstr ""
+
+#: buddypress/members/bps-form-wbcomdesigns.php:182
+msgid "Start typing, then select a location"
+msgstr ""
+
+#: buddypress/members/bps-form-wbcomdesigns.php:183
+msgid "get current location"
+msgstr ""
+
+#: buddypress/members/bps-form-wbcomdesigns.php:267
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:154
+msgid "Search"
+msgstr ""
+
+#: buddypress/members/members-loop.php:169
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: buddypress/members/single/activity.php:10 sidebar-activity-left.php:38
+msgid "Member secondary navigation"
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:21
+#. translators: accessibility text
+msgid "Friendship requests"
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:105
+msgid "Accept"
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:106
+msgid "Reject"
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:156
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: edd_templates/checkout_cart.php:11
+msgid "Item Name"
+msgstr ""
+
+#: edd_templates/checkout_cart.php:12
+msgid "Item Price"
+msgstr ""
+
+#: edd_templates/checkout_cart.php:13
+msgid "Actions"
+msgstr ""
+
+#: edd_templates/checkout_cart.php:102
+#: paid-memberships-pro/pages/confirmation.php:91
+#: paid-memberships-pro/pages/invoice.php:73
+msgid "Subtotal"
+msgstr ""
+
+#: edd_templates/checkout_cart.php:120
+#: paid-memberships-pro/pages/confirmation.php:92
+#: paid-memberships-pro/pages/invoice.php:74
+msgid "Tax"
+msgstr ""
+
+#: edd_templates/checkout_cart.php:129
+#: paid-memberships-pro/pages/confirmation.php:96
+#: paid-memberships-pro/pages/invoice.php:78 woocommerce/cart/cart.php:35
+#: woocommerce/cart/cart.php:115
+msgid "Total"
+msgstr ""
+
+#: edd_templates/shortcode-download.php:10
+#: edd_templates/shortcode-download.php:109
+#: template-parts/content-download.php:19
+msgid "Checkout"
+msgstr ""
+
+#: edd_templates/shortcode-download.php:17
+#: edd_templates/shortcode-download.php:113
+#: template-parts/content-download.php:26
+msgid "Buy Now"
+msgstr ""
+
+#: edd_templates/shortcode-download.php:31
+#: template-parts/content-download.php:40
+msgid "Loading"
+msgstr ""
+
+#: edd_templates/shortcode-download.php:48
+#: edd_templates/shortcode-download.php:140
+#: template-parts/content-download.php:59
+msgid "Details"
+msgstr ""
+
+#: edd_templates/shortcode-download.php:64
+#: template-parts/content-download.php:74
+msgid "<span class=\"byline\"> by %1$s</span>"
+msgstr ""
+
+#: edd_templates/shortcode-download.php:67
+#: template-parts/content-download.php:74
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/buddypress/reign-bp-group-customization.php:184
+msgid "Posts"
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:171
+msgid "Profile Settings"
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:175
+msgid "You can manage your profile settings here."
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:188
+msgid "Account Settings"
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:192
+msgid "You can manage your account settings here."
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:227
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:156
+#: mobile-menu/customizer/customizer.php:370
+msgid "Message"
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:231
+msgid "Send a private message to this user."
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:365
+#: widgets/sidewide-activity-widget.php:409
+msgid "Friends"
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:373
+msgid "Followers"
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:378
+msgid "Following"
+msgstr ""
+
+#: inc/buddypress/reign-bp-member-customization.php:389
+#: inc/buddypress/reign-bp-member-customization.php:400
+msgid "Points"
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:84
+#: inc/buddypress/reign-bp-profile-search.php:97
+msgid "Form Layout"
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:94
+msgid "Note: "
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:94
+msgid ""
+"All these options will work for \"members/bps-form-wbcomdesigns\" template "
+"only."
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:100
+msgid "Vertical"
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:101
+msgid "Horizontal"
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:106
+msgid "Display Label"
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:109
+#: inc/buddypress/reign-bp-profile-search.php:119
+#: widgets/active-members.php:203 widgets/groups-widget.php:241
+msgid "Show"
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:110
+#: inc/buddypress/reign-bp-profile-search.php:118
+#: widgets/active-members.php:204 widgets/groups-widget.php:242
+#: widgets/peepso/widgetuserbar.php:175
+msgid "Hide"
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:115
+msgid "Display Placeholder"
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:124
+#: lib/kirki/controls/php/class-kirki-control-background.php:48
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:70
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:116
+#: mobile-menu/admin/settings.config.php:291
+msgid "Background Color"
+msgstr ""
+
+#: inc/buddypress/reign-bp-profile-search.php:130
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:212
+msgid "Text Color"
+msgstr ""
+
+#: inc/buddypress/reign-header-view-xprofile.php:54
+msgid "Profile Header View"
+msgstr ""
+
+#: inc/buddypress/reign-header-view-xprofile.php:59
+#: inc/buddypress/reign-header-view-xprofile.php:62
+msgid "Select Member Header Position"
+msgstr ""
+
+#: inc/buddypress/reign-header-view-xprofile.php:77
+#: inc/reign-settings/peepso-extender-options.php:159
+msgid "Inside"
+msgstr ""
+
+#: inc/buddypress/reign-header-view-xprofile.php:81
+#: inc/reign-settings/peepso-extender-options.php:163
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: lib/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr ""
+
+#: inc/buddypress/reign-header-view-xprofile.php:95
+#: inc/buddypress/reign-header-view-xprofile.php:98
+#: inc/reign-settings/buddy-extender-options.php:124
+#: inc/reign-settings/buddy-extender-options.php:128
+#: inc/reign-settings/peepso-extender-options.php:179
+#: inc/reign-settings/peepso-extender-options.php:183
+msgid "Select Member Header Layout"
+msgstr ""
+
+#: inc/buddypress/reign-header-view-xprofile.php:110
+#: inc/reign-settings/buddy-extender-options.php:136
+#: inc/reign-settings/buddy-extender-options.php:178
+#: inc/reign-settings/peepso-extender-options.php:191
+#: inc/reign-settings/peepso-extender-options.php:233
+msgid "Layout #1"
+msgstr ""
+
+#: inc/buddypress/reign-header-view-xprofile.php:114
+#: inc/reign-settings/buddy-extender-options.php:140
+#: inc/reign-settings/buddy-extender-options.php:182
+#: inc/reign-settings/peepso-extender-options.php:195
+#: inc/reign-settings/peepso-extender-options.php:237
+msgid "Layout #2"
+msgstr ""
+
+#: inc/buddypress/reign-header-view-xprofile.php:118
+#: inc/reign-settings/buddy-extender-options.php:144
+#: inc/reign-settings/buddy-extender-options.php:186
+#: inc/reign-settings/peepso-extender-options.php:199
+#: inc/reign-settings/peepso-extender-options.php:241
+msgid "Layout #3"
+msgstr ""
+
+#: inc/buddypress/reign-social-links-xprofile.php:12
+#: inc/extra-plugins-support.php:386 inc/theme-functions.php:36
+msgid "Facebook"
+msgstr ""
+
+#: inc/buddypress/reign-social-links-xprofile.php:16
+#: inc/extra-plugins-support.php:390 inc/theme-functions.php:41
+msgid "Twitter"
+msgstr ""
+
+#: inc/buddypress/reign-social-links-xprofile.php:20
+#: inc/extra-plugins-support.php:394
+msgid "Linkedin"
+msgstr ""
+
+#: inc/buddypress/reign-social-links-xprofile.php:78
+#: inc/buddypress/reign-social-links-xprofile.php:96
+msgid "Social"
+msgstr ""
+
+#: inc/class-reign-theme-structure.php:165
+msgid "Name"
+msgstr ""
+
+#: inc/class-reign-theme-structure.php:166
+msgid "Name *"
+msgstr ""
+
+#: inc/class-reign-theme-structure.php:167
+msgid "Email"
+msgstr ""
+
+#: inc/class-reign-theme-structure.php:168
+msgid "Email *"
+msgstr ""
+
+#: inc/class-reign-theme-structure.php:169
+#: inc/class-reign-theme-structure.php:170
+msgid "Website"
+msgstr ""
+
+#: inc/class-reign-theme-structure.php:174
+msgid "Comment *"
+msgstr ""
+
+#: inc/edd-updater/theme-updater-admin.php:260
+#: mobile-menu/pro/updates/EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr ""
+
+#: inc/edd-updater/theme-updater-admin.php:291
+#: inc/edd-updater/theme-updater-admin.php:338
+#: inc/edd-updater/theme-updater-admin.php:391
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: inc/edd-updater/theme-updater-admin.php:305
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: inc/edd-updater/theme-updater-admin.php:312
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: inc/edd-updater/theme-updater-admin.php:317
+msgid "Invalid license."
+msgstr ""
+
+#: inc/edd-updater/theme-updater-admin.php:323
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: inc/edd-updater/theme-updater-admin.php:328
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: inc/edd-updater/theme-updater-admin.php:333
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:26
+msgid "Theme License"
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:27
+msgid "Enter your theme license key."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:28
+#: inc/reign-settings/class-reign-license-manager.php:92
+msgid "License Key"
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:29
+#: inc/reign-settings/class-reign-license-manager.php:93
+msgid "License Action"
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:30
+#: inc/reign-settings/class-reign-license-manager.php:94
+msgid "Deactivate License"
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:31
+#: inc/reign-settings/class-reign-license-manager.php:95
+msgid "Activate License"
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:32 inc/edd-updater/theme-updater.php:45
+#: inc/reign-settings/class-reign-license-manager.php:96
+#: inc/reign-settings/class-reign-license-manager.php:109
+msgid "License status is unknown."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:33
+#: inc/reign-settings/class-reign-license-manager.php:97
+msgid "Renew?"
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:34
+#: inc/reign-settings/class-reign-license-manager.php:98
+msgid "unlimited"
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:35
+#: inc/reign-settings/class-reign-license-manager.php:99
+msgid "License key is active."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:36
+#: inc/reign-settings/class-reign-license-manager.php:100
+msgid "Expires %s."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:37
+#: inc/reign-settings/class-reign-license-manager.php:101
+msgid "Lifetime License."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:38
+#: inc/reign-settings/class-reign-license-manager.php:102
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:39
+#: inc/reign-settings/class-reign-license-manager.php:103
+msgid "License key expired %s."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:40
+#: inc/reign-settings/class-reign-license-manager.php:104
+msgid "License key has expired."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:41
+#: inc/reign-settings/class-reign-license-manager.php:105
+msgid "License keys do not match."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:42
+#: inc/reign-settings/class-reign-license-manager.php:106
+msgid "License is inactive."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:43
+#: inc/reign-settings/class-reign-license-manager.php:107
+msgid "License key is disabled."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:44
+#: inc/reign-settings/class-reign-license-manager.php:108
+msgid "Site is inactive."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:46
+#: inc/reign-settings/class-reign-license-manager.php:110
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: inc/edd-updater/theme-updater.php:47
+#: inc/reign-settings/class-reign-license-manager.php:111
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" "
+"class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a "
+"href=\"%5$s\"%6$s>update now</a>."
+msgstr ""
+
+#: inc/extra-plugins-support.php:144 inc/extra-plugins-support.php:164
+#: inc/extra-plugins-support.php:199 inc/extra-plugins-support.php:236
+#: inc/extra-plugins-support.php:366
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/extra-plugins-support.php:528
+#: peepso/profile/profile-about-account.php:47
+msgid "Your Account"
+msgstr ""
+
+#: inc/extras.php:154
+msgid " "
+msgstr ""
+
+#: inc/extras.php:184 inc/extras.php:190
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/extras.php:186
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/extras.php:192
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/extras.php:199
+#. translators: %s: post title
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/extras.php:206 template-parts/content-buddypress.php:35
+#: template-parts/content-page.php:55
+#. translators: %s: Name of current post
+msgid "Edit %s"
+msgstr ""
+
+#: inc/init.php:66
+msgid "Primary"
+msgstr ""
+
+#: inc/init.php:67
+msgid "User Profile"
+msgstr ""
+
+#: inc/init.php:149
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:68
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:103
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:199
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:402
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/init.php:151
+msgid "Widgets in this area are used in the right sidebar region."
+msgstr ""
+
+#: inc/init.php:159
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:69
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:112
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:187
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:390
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/init.php:161
+msgid "Widgets in this area are used in the left sidebar region."
+msgstr ""
+
+#: inc/init.php:170
+msgid "WooCommerce Right Sidebar"
+msgstr ""
+
+#: inc/init.php:172
+msgid "Widgets in this area are used in the woocommerce right sidebar region."
+msgstr ""
+
+#: inc/init.php:180
+msgid "WooCommerce Left Sidebar"
+msgstr ""
+
+#: inc/init.php:182
+msgid "Widgets in this area are used in the woocommerce left sidebar region."
+msgstr ""
+
+#: inc/init.php:193
+msgid "Groups Index"
+msgstr ""
+
+#: inc/init.php:195 inc/init.php:205 inc/init.php:215 inc/init.php:225
+#: inc/init.php:235 inc/init.php:272
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/init.php:203
+msgid "Member Index"
+msgstr ""
+
+#: inc/init.php:213
+msgid "Activity Index"
+msgstr ""
+
+#: inc/init.php:223
+msgid "Group Single"
+msgstr ""
+
+#: inc/init.php:233
+msgid "Member Profile"
+msgstr ""
+
+#: inc/init.php:247
+msgid "Download Archive Sidebar"
+msgstr ""
+
+#: inc/init.php:249
+msgid "Widgets in this area are used in the EDD download archive page."
+msgstr ""
+
+#: inc/init.php:257
+msgid "Single Download Sidebar"
+msgstr ""
+
+#: inc/init.php:259
+msgid "Widgets in this area are used in the EDD single download page."
+msgstr ""
+
+#: inc/init.php:270
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/init.php:282
+msgid "Header Widget Area"
+msgstr ""
+
+#: inc/init.php:357
+msgid "[Read more]"
+msgstr ""
+
+#: inc/init.php:434 inc/init.php:437
+#: inc/reign-settings/reign-theme-options-manager.php:65
+msgid "Reign Settings"
+msgstr ""
+
+#: inc/init.php:492 template-parts/header-icons/notification.php:43
+msgid "No new notifications"
+msgstr ""
+
+#: inc/init.php:626
+msgid "Shopping Cart"
+msgstr ""
+
+#: inc/init.php:628
+msgid "Checkout details"
+msgstr ""
+
+#: inc/init.php:630
+msgid "Order Complete"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-edd-customization.php:77
+msgid "Download"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-edd-customization.php:86
+#: inc/plugins-support/class-rtm-edd-customization.php:140
+msgid "Easy Digital Download"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-edd-customization.php:99
+msgid "Downloads Per Row"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-edd-customization.php:100
+#: inc/plugins-support/class-rtm-edd-customization.php:155
+msgid ""
+"This setting helps you manage number of download items to show per row on "
+"download archive page."
+msgstr ""
+
+#: inc/plugins-support/class-rtm-edd-customization.php:151
+msgid "Number of downloads per row"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-edd-customization.php:201
+msgid "Category"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-edd-customization.php:212
+msgid "Tag"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-edd-customization.php:240
+#: paid-memberships-pro/pages/levels.php:83
+msgid "Free"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-edd-customization.php:403
+#: inc/plugins-support/class-rtm-edd-customization.php:417
+#. translators: Variable price start
+msgid "You may also like"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:196
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:216
+msgid "Reign: Site Logo"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:197
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:242
+msgid "Reign: Menu Icons"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:220
+#: inc/plugins-support/class-rtm-mega-menu-customization.php:246
+#: inc/reign-settings/buddy-extender-options.php:820
+#: inc/reign-settings/buddy-extender-options.php:854
+#: inc/reign-settings/peepso-extender-options.php:107
+#: inc/reign-settings/reign-theme-options-manager.php:160
+msgid "Delete"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:70
+msgid "The price for membership is <strong>%s</strong> now"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:72
+msgid "<div class=\"rtm-pmpro-now-price\">%s</div>"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:79
+msgid ""
+"<div class=\"rtm-pmpro-recurring-price\">%1$s per %2$s for %3$d more "
+"%4$s</div>"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:81
+msgid ""
+"<div class=\"rtm-pmpro-recurring-price\">%1$s every %2$d %3$s for %4$d more "
+"payments</div>"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:84
+msgid "<div class=\"rtm-pmpro-recurring-price\">%1$s after %2$d %3$s</div>"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:89
+#: inc/plugins-support/class-rtm-pmpro-customization.php:91
+#: inc/plugins-support/class-rtm-pmpro-customization.php:102
+msgid "<div class=\"rtm-pmpro-recurring-price\">%1$s per %2$s</div>"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:95
+#: inc/plugins-support/class-rtm-pmpro-customization.php:97
+#: inc/plugins-support/class-rtm-pmpro-customization.php:104
+msgid "<div class=\"rtm-pmpro-recurring-price\">%1$s every %2$d %3$s</div>"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:160
+msgid "Reign Custom Settings"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:163
+msgid ""
+"This setting is used to enhance the appearance of membership level on "
+"frontend."
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:170
+#: lib/kirki/controls/php/class-kirki-control-typography.php:221
+msgid "Color"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:173
+msgid "This color will be used to color the membership level block at frontend."
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:183
+msgid "Is Featured ?"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:186
+msgid "This option can be used to mark a membership label as featured."
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:203
+msgid "Post Membership Pro"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:216
+msgid "Membership Levels Layout"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:217
+msgid "Select your membership level layout here."
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:222
+msgid "Default Layout"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:223
+msgid "Multi-Color Layout"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:230
+msgid "Membership Levels Per Row"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:231
+msgid "Select your membership level to show per row."
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:236
+msgid "3 Column Layout"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-pmpro-customization.php:237
+msgid "4 Column Layout"
+msgstr ""
+
+#: inc/plugins-support/class-rtm-woocommerce-customization.php:86
+#: inc/plugins-support/class-rtm-woocommerce-customization.php:108
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:44
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:97
+msgid "Product Categories"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:64
+msgid "BuddyPress Settings"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:70
+msgid "Avatar Settings"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:71
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:72
+#: inc/reign-settings/peepso-extender-options.php:67
+msgid "Default Group Cover Image"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:73
+#: inc/reign-settings/peepso-extender-options.php:68
+msgid "Default Profile Cover Image"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:74
+#: inc/reign-settings/peepso-extender-options.php:70
+msgid "Social Media Links"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:75
+msgid "BP Layout Management"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:93
+#: inc/reign-settings/buddy-extender-options.php:97
+#: inc/reign-settings/peepso-extender-options.php:147
+#: inc/reign-settings/peepso-extender-options.php:151
+msgid "Select Header Position"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:166
+#: inc/reign-settings/buddy-extender-options.php:170
+#: inc/reign-settings/peepso-extender-options.php:221
+#: inc/reign-settings/peepso-extender-options.php:225
+msgid "Select Group Header Layout"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:208
+#: inc/reign-settings/buddy-extender-options.php:212
+msgid "Select Member Directory Layout"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:253
+#: inc/reign-settings/buddy-extender-options.php:257
+msgid "Select Group Directory Layout"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:306
+msgid "Avatar Thumb Size"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:310
+msgid ""
+"Changes user and group avatar to selected dimensions in activity, members "
+"and group lists."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:329
+msgid "Avatar Full Size"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:333
+msgid "Changes user and group avatar to dimensions in user and group header."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:352
+msgid "Avatar Max Size."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:356
+msgid "Changes maximum image size a user can uplaod for avatars."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:375
+msgid "Default User Avatar"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:379
+msgid "Upload an image that displays before a user has added a custom image."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:402
+#: inc/reign-settings/buddy-extender-options.php:438
+#: inc/reign-settings/buddy-extender-options.php:697
+#: inc/reign-settings/buddy-extender-options.php:757
+#: inc/reign-settings/buddy-extender-options.php:847
+#: inc/reign-settings/peepso-extender-options.php:296
+#: inc/reign-settings/peepso-extender-options.php:332
+msgid "Remove Image"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:403
+#: inc/reign-settings/buddy-extender-options.php:439
+#: inc/reign-settings/buddy-extender-options.php:698
+#: inc/reign-settings/buddy-extender-options.php:758
+#: inc/reign-settings/buddy-extender-options.php:845
+#: inc/reign-settings/peepso-extender-options.php:297
+#: inc/reign-settings/peepso-extender-options.php:333
+msgid "Upload Image"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:411
+msgid "Default Group Avatar"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:415
+msgid "Upload an image that displays before a custom image is added for a group."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:455
+msgid "Members per page"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:459
+msgid "Here you can manage number of members to show per page."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:470
+msgid "Groups per page"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:474
+msgid "Here you can manage number of groups to show per page."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:486
+msgid "Select xProfile Field"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:490
+msgid "You can select a xprofile field to show on member cover image header."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:500
+msgid "Disable xProfile Data"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:517
+msgid "What's new activity lightbox"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:521
+#: inc/reign-settings/buddy-extender-options.php:527
+msgid "Disable What's new activity lightbox."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:534
+msgid "Root Profiles"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:538
+#: inc/reign-settings/buddy-extender-options.php:544
+msgid "Remove members slug from profile url."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:551
+msgid "Auto Group Join"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:555
+#: inc/reign-settings/buddy-extender-options.php:561
+msgid "Disable auto join when posting in a group."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:567
+msgid "LDAP Usernames"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:571
+#: inc/reign-settings/buddy-extender-options.php:577
+msgid "Enable support for LDAP usernames that include dots."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:583
+msgid "WYSIWYG Textarea"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:587
+#: inc/reign-settings/buddy-extender-options.php:593
+msgid "Removes text editor from textarea profile field."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:599
+msgid "All Members Auto Complete"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:603
+#: inc/reign-settings/buddy-extender-options.php:609
+msgid "Auto-complete all members instead of just friends in messages."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:615
+msgid "Profile Fields Auto Link"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:619
+#: inc/reign-settings/buddy-extender-options.php:625
+msgid "Disable autolinking in profile fields."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:631
+msgid "User @ Mentions"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:635
+#: inc/reign-settings/buddy-extender-options.php:641
+msgid "Disable User @ mentions."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:647
+msgid "Ignore Deprecated Code"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:651
+#: inc/reign-settings/buddy-extender-options.php:657
+msgid "Do not load depricated code"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:685
+#: inc/reign-settings/buddy-extender-options.php:745
+#: inc/reign-settings/peepso-extender-options.php:284
+#: inc/reign-settings/peepso-extender-options.php:320
+msgid "Select Image"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:689
+#: inc/reign-settings/peepso-extender-options.php:288
+msgid "Select image to set as Default Group Cover Image here."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:704
+#: inc/reign-settings/buddy-extender-options.php:764
+msgid "Select Image Size"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:708
+msgid "Select image size for Default Group Cover Image here."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:749
+#: inc/reign-settings/peepso-extender-options.php:324
+msgid "Select image to set as Default Profile Cover Image here."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:768
+msgid "Select image size to set as Default Profile Cover Image here."
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:811
+#: inc/reign-settings/peepso-extender-options.php:98
+#: inc/reign-settings/reign-theme-options-manager.php:147
+msgid "Upload Icon"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:813
+#: inc/reign-settings/peepso-extender-options.php:100
+#: inc/reign-settings/reign-theme-options-manager.php:149
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:817
+#: inc/reign-settings/buddy-extender-options.php:839
+#: inc/reign-settings/buddy-extender-options.php:851
+#: inc/reign-settings/peepso-extender-options.php:104
+#: inc/reign-settings/reign-theme-options-manager.php:137
+#: inc/reign-settings/reign-theme-options-manager.php:154
+#: inc/reign-settings/reign-theme-options-manager.php:156
+#: inc/reign-settings/reign-theme-options-manager.php:172
+msgid "New Site"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:829
+#: inc/reign-settings/buddy-extender-options.php:861
+#: inc/reign-settings/peepso-extender-options.php:116
+#: inc/reign-settings/peepso-extender-options.php:127
+msgid "Add New Site"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:882
+msgid "1024 X 300"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:883
+msgid "1024 X 500"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:884
+msgid "1024 X 600"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:885
+msgid "1024 X 800"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:895
+msgid "25 x 25 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:896
+msgid "50 x 50 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:897
+msgid "75 x 75 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:898
+#: inc/reign-settings/buddy-extender-options.php:915
+msgid "100 x 100 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:899
+#: inc/reign-settings/buddy-extender-options.php:916
+msgid "125 x 125 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:900
+#: inc/reign-settings/buddy-extender-options.php:917
+msgid "150 x 150 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:901
+#: inc/reign-settings/buddy-extender-options.php:918
+msgid "175 x 175 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:902
+#: inc/reign-settings/buddy-extender-options.php:919
+msgid "200 x 200 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:903
+#: inc/reign-settings/buddy-extender-options.php:920
+msgid "225 x 225 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:904
+#: inc/reign-settings/buddy-extender-options.php:921
+msgid "250 x 250 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:905
+#: inc/reign-settings/buddy-extender-options.php:922
+msgid "275 x 275 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:906
+#: inc/reign-settings/buddy-extender-options.php:923
+msgid "300 x 300 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:924
+msgid "325 x 325 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:925
+msgid "350 x 350 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:926
+msgid "375 x 375 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:935
+msgid "320 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:936
+msgid "640 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:937
+msgid "960 px"
+msgstr ""
+
+#: inc/reign-settings/buddy-extender-options.php:938
+msgid "1280 px"
+msgstr ""
+
+#: inc/reign-settings/class-reign-license-manager.php:55
+#: inc/reign-settings/class-reign-license-manager.php:56
+#: inc/reign-settings/class-reign-license-manager.php:63
+msgid "License"
+msgstr ""
+
+#: inc/reign-settings/class-reign-license-manager.php:90
+msgid "Reign Theme - License"
+msgstr ""
+
+#: inc/reign-settings/class-reign-license-manager.php:91
+msgid "Enter your license key."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:51
+msgid "Get Started"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:72
+msgid "Upload Your Logo"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:73
+msgid "Add your own logo here."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:74
+#: inc/reign-settings/get-started-options.php:80
+#: inc/reign-settings/get-started-options.php:87
+#: inc/reign-settings/get-started-options.php:94
+#: inc/reign-settings/get-started-options.php:101
+#: inc/reign-settings/get-started-options.php:109
+#: inc/reign-settings/get-started-options.php:116
+#: inc/reign-settings/get-started-options.php:123
+#: inc/reign-settings/get-started-options.php:131
+#: inc/reign-settings/get-started-options.php:138
+#: inc/reign-settings/get-started-options.php:147
+#: inc/reign-settings/get-started-options.php:155
+msgid "Go To The Option"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:78
+msgid "Add Your Favicon"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:79
+msgid "The favicon is used as a browser and app icon for your website."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:85
+msgid "Set Your Typography"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:86
+msgid "Choose your own typography for any parts of your website."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:92
+msgid "Let's Map Pages"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:93
+msgid "Map login, register and 404 page with custom pages."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:99
+msgid "Switch Site Layout"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:100
+msgid "Switch site layout between default view and boxed view."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:107
+msgid "Pick Your Colors"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:108
+msgid "Replace the default primary and hover color by your own colors."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:114
+msgid "Play With Header"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:115
+msgid "Manage the look of your header in all way possible."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:121
+msgid "Play With Footer"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:122
+msgid "Manage the copyright text, widgets and colors for footer."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:129
+msgid "Design WP Login Screen"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:130
+msgid ""
+"Play with colors and images to give your default login screen a brand "
+"oriented look."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:136
+msgid "Add Custom Code"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:137
+msgid ""
+"Add google analytics or facebook pixel tracking code here. Add custom "
+"javascript code also."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:145
+msgid "Manage Elementor Header"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:146
+msgid ""
+"Choose the elements, style, height and colors for your site header made "
+"using Elementor."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:153
+msgid "Manage Elementor Footer"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:154
+msgid ""
+"Choose the elements, style, height and colors for your site footer using "
+"Elementor."
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:165
+msgid "Getting started with customization"
+msgstr ""
+
+#: inc/reign-settings/get-started-options.php:166
+msgid "Begin customizing the website to give it a unique look."
+msgstr ""
+
+#: inc/reign-settings/peepso-extender-options.php:61
+msgid "PeepSo Settings"
+msgstr ""
+
+#: inc/reign-settings/peepso-extender-options.php:69
+msgid "PeepSo Layout Management"
+msgstr ""
+
+#: inc/reign-settings/reign-theme-options-manager.php:74
+#: inc/wbcom-postmeta-mgmt/wbcom-postmeta-mgmt.php:147
+msgid " Theme Settings"
+msgstr ""
+
+#: inc/reign-settings/reign-theme-options-manager.php:77
+msgid " Theme Settings updated."
+msgstr ""
+
+#: inc/reign-settings/vertical-tabs-skeleton.php:28
+msgid "Update Settings"
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:56
+#: inc/reign-settings/wbcom-support-tab.php:57
+#: inc/reign-settings/wbcom-support-tab.php:64
+msgid "Support"
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:179
+#: inc/reign-settings/wbcom-support-tab.php:186
+msgid "How to import demo data?"
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:180
+#: inc/reign-settings/wbcom-support-tab.php:193
+msgid "Terms and conditions?"
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:181
+#: inc/reign-settings/wbcom-support-tab.php:199
+msgid "Need help with custom development?"
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:182
+#: inc/reign-settings/wbcom-support-tab.php:205
+msgid "Contact us on support forum?"
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:187
+msgid ""
+"Reign comes with the support of \"Wbcom Demo Importer\" Plugin to make "
+"importing demo data a better experience than ever."
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:188
+msgid "Watch the video below for getting quick idea."
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:194
+msgid "Please refer the following link to read our Terms And Conditions."
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:195
+msgid "Terms And Conditions"
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:200
+msgid ""
+"In case you need additional help you can contact us for Custom Development. "
+"Our team will love to help you."
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:201
+msgid "Go for custom development"
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:206
+msgid "In case you have any question, you can visit our support desk."
+msgstr ""
+
+#: inc/reign-settings/wbcom-support-tab.php:207
+msgid "Get support"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:334
+#: inc/required-plugins/required-plugins.php:91
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:335
+#: inc/required-plugins/required-plugins.php:92
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:337
+#: inc/required-plugins/required-plugins.php:93
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:339
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:340
+#: inc/required-plugins/required-plugins.php:95
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:377
+#: inc/required-plugins/required-plugins.php:112
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:392
+#: inc/required-plugins/required-plugins.php:114
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:393
+#: inc/required-plugins/class-tgm-plugin-activation.php:920
+#: inc/required-plugins/class-tgm-plugin-activation.php:2650
+#: inc/required-plugins/class-tgm-plugin-activation.php:3697
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:394
+#: inc/required-plugins/class-tgm-plugin-activation.php:3276
+#: inc/required-plugins/required-plugins.php:115
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:395
+#: inc/required-plugins/class-tgm-plugin-activation.php:3069
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:397
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:399
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:401
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1027
+#: inc/required-plugins/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2099
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2390
+msgid "Required"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2393
+msgid "Recommended"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2409
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2412
+msgid "External Source"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2415
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2432
+msgid "Not Installed"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2436
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2438
+#: widgets/active-members.php:195 widgets/groups-widget.php:233
+msgid "Active"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2444
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2447
+msgid "Requires Update"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2450
+msgid "Update recommended"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2509
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2513
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2517
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2607
+msgid "Installed version:"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2615
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2627
+msgid "Available version:"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2650
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2664
+msgid "Plugin"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2665
+msgid "Source"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2666
+msgid "Type"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2670
+msgid "Version"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2671
+#: widgets/sidewide-activity-widget.php:411
+msgid "Status"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2720
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2725
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2731
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2801
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2834
+msgid "Install"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2840
+#: paid-memberships-pro/pages/billing.php:366
+msgid "Update"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2843
+msgid "Activate"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2874
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2876
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2917
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2919
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3025
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3051
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3275
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3615
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3618
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3620
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3624
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3626
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3627
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3629
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3632
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3634
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3635
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:3637
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/required-plugins/required-plugins.php:96
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/required-plugins.php:98
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/required-plugins.php:100
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/required-plugins.php:102
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/required-plugins.php:104
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/required-plugins.php:106
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/required-plugins.php:108
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/required-plugins.php:110
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/required-plugins.php:113
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/required-plugins.php:116
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/theme-functions.php:19
+msgid "Call Us Today! 1.555.555.555"
+msgstr ""
+
+#: inc/theme-functions.php:24
+msgid "support@wbcomdesigns.com"
+msgstr ""
+
+#: inc/theme-functions.php:46
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/theme-functions.php:51
+msgid "Dribbble"
+msgstr ""
+
+#: inc/theme-functions.php:56
+msgid "Github"
+msgstr ""
+
+#: inc/theme-functions.php:153
+msgid "Homepage"
+msgstr ""
+
+#: inc/theme-functions.php:157
+msgid "Home"
+msgstr ""
+
+#: inc/theme-functions.php:364
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:58
+msgid "Page"
+msgstr ""
+
+#: inc/theme-functions.php:393
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:54
+msgid "Blog"
+msgstr ""
+
+#: inc/theme-functions.php:484
+msgid "others"
+msgstr ""
+
+#: inc/theme-functions.php:495
+msgid "likes this"
+msgstr ""
+
+#: inc/theme-functions.php:562
+msgid "See All"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:54
+msgid "Header/Footer"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:82
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:118
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:147
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:67
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:91
+#: lib/kirki/controls/php/class-kirki-control-base.php:134
+#: lib/kirki/controls/views/image.php:36
+#: lib/kirki/field/class-kirki-field-image.php:49
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:78
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:239
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:97
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:124
+#: mobile-menu/pro/admin/settings.pro.php:795
+#: mobile-menu/pro/admin/settings.pro.php:812
+#: mobile-menu/pro/admin/settings.pro.php:922
+#: mobile-menu/pro/admin/settings.pro.php:1006
+#: mobile-menu/pro/admin/settings.pro.php:1092
+#: mobile-menu/pro/admin/settings.pro.php:1179
+msgid "Default"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:87
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:123
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:152
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:223
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:74
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:165
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:161
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:175
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:189
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:231
+#: lib/kirki-addon/options/header/class-reign-kirki-header-main-menu.php:318
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:76
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:76
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:163
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:235
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:249
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:265
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:280
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:367
+msgid "Disable"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:89
+msgid "Select Topbar"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:90
+msgid "Select your site topbar here."
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:125
+msgid "Select Header"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:126
+msgid "Select your site header here."
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:154
+msgid "Select footer"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-header-footer-section.php:155
+msgid "Select your site footer here."
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:54
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:71
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:86
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:140
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:211
+msgid "Layout"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:70
+msgid "Both Sidebars"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:71
+msgid "Full Width"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:72
+msgid "Full Width( No Subheader )"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:73
+msgid "Stretched View"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:74
+msgid "Stretched View( No Subheader )"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:77
+msgid "Content Layout"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:78
+msgid "Select your custom layout."
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:104
+msgid "Select your custom right sidebar."
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:113
+msgid "Select your custom left sidebar."
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:123
+msgid "Display Page Title"
+msgstr ""
+
+#: inc/wbcom-postmeta-mgmt/sections/class-layout-section.php:124
+msgid "Allows you to display page title for this post."
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:59
+#: lib/kirki/controls/php/class-kirki-control-base.php:132
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:408
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:62
+#: lib/kirki/controls/php/class-kirki-control-base.php:133
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:386
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:418
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:443
+#: lib/kirki/controls/views/image.php:37
+#: lib/kirki/field/class-kirki-field-image.php:50
+msgid "Remove"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:63
+#: lib/kirki/controls/php/class-kirki-control-base.php:135
+msgid "Select File"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:83
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:84
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:85
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:86
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:87
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:88
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:89
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:90
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:91
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimension.php:41
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:123
+#: lib/kirki/controls/php/class-kirki-control-typography.php:102
+#: mobile-menu/admin/settings.config.php:324
+msgid "Font Size"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:125
+#: lib/kirki/controls/php/class-kirki-control-typography.php:110
+msgid "Line Height"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:127
+#: lib/kirki/controls/php/class-kirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: lib/kirki/controls/php/class-kirki-control-typography.php:126
+msgid "Word Spacing"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: lib/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: lib/kirki/controls/php/class-kirki-control-typography.php:145
+#: lib/kirki/field/class-kirki-field-spacing.php:34
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:268
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:380
+#: mobile-menu/pro/admin/settings.pro.php:797
+#: mobile-menu/pro/admin/settings.pro.php:1094
+#: widgets/peepso/widgetuserbar.php:162
+msgid "Left"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: lib/kirki/controls/php/class-kirki-control-typography.php:157
+#: lib/kirki/field/class-kirki-field-spacing.php:35
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:269
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:382
+#: mobile-menu/pro/admin/settings.pro.php:798
+#: mobile-menu/pro/admin/settings.pro.php:1095
+#: widgets/peepso/widgetuserbar.php:163
+msgid "Right"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: lib/kirki/controls/php/class-kirki-control-typography.php:151
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:270
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:381
+#: mobile-menu/pro/admin/settings.pro.php:796
+#: mobile-menu/pro/admin/settings.pro.php:1093
+#: widgets/peepso/widgetuserbar.php:164
+msgid "Center"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:136
+msgid "Width"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:86
+#. translators: %s represents the label of the row.
+msgid "Add new %s"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:227
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+msgid "Limit: %s rows"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:376
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:387
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:387
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:419
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:419
+#: lib/kirki/controls/php/class-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-slider.php:67
+msgid "Reset"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-switch.php:52
+#: lib/kirki/field/class-kirki-field-switch.php:39
+msgid "On"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-switch.php:56
+#: lib/kirki/field/class-kirki-field-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:82
+#: mobile-menu/pro/admin/settings.pro.php:1192
+msgid "Font Family"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:83
+#: lib/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:87
+msgid "Backup Font"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:134
+msgid "Text Align"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:139
+#: lib/kirki/controls/php/class-kirki-control-typography.php:181
+#: lib/kirki/controls/php/class-kirki-control-typography.php:197
+msgid "Inherit"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:163
+msgid "Justify"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:173
+msgid "Text Transform"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:176
+#: lib/kirki/controls/php/class-kirki-control-typography.php:192
+#: mobile-menu/pro/admin/settings.pro.php:1007
+msgid "None"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:177
+msgid "Capitalize"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:178
+#: mobile-menu/pro/admin/settings.pro.php:1008
+msgid "Uppercase"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Lowercase"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:180
+#: lib/kirki/controls/php/class-kirki-control-typography.php:196
+msgid "Initial"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:189
+msgid "Text Decoration"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:193
+msgid "Underline"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:194
+msgid "Overline"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:195
+msgid "Line-Through"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:205
+msgid "Margin Top"
+msgstr ""
+
+#: lib/kirki/controls/php/class-kirki-control-typography.php:213
+msgid "Margin Bottom"
+msgstr ""
+
+#: lib/kirki/controls/views/image.php:34 lib/kirki/controls/views/image.php:39
+#: lib/kirki/field/class-kirki-field-image.php:47
+#: lib/kirki/field/class-kirki-field-image.php:52
+msgid "Select image"
+msgstr ""
+
+#: lib/kirki/controls/views/image.php:35
+#: lib/kirki/field/class-kirki-field-image.php:48
+msgid "Change image"
+msgstr ""
+
+#: lib/kirki/controls/views/image.php:38
+#: lib/kirki/field/class-kirki-field-image.php:51
+msgid "No image selected"
+msgstr ""
+
+#: lib/kirki/controls/views/image.php:40
+#: lib/kirki/field/class-kirki-field-image.php:53
+msgid "Choose image"
+msgstr ""
+
+#: lib/kirki/core/class-kirki-field.php:248
+#. translators: %s represents the field ID where the error occurs.
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#: lib/kirki/core/class-kirki-field.php:257
+#: lib/kirki/core/class-kirki-field.php:267
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+msgid ""
+"Config not defined for field %1$s - See %2$s for details on how to properly "
+"add fields."
+msgstr ""
+
+#: lib/kirki/core/class-kirki-field.php:375
+#. translators: %1$s represents the field ID where the error occurs.
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#: lib/kirki/core/class-kirki-field.php:498
+#: lib/kirki/core/class-kirki-field.php:509
+#. translators: The field ID where the error occurs.
+msgid ""
+"\"output\" invalid format in field %s. The \"output\" argument should be "
+"defined as an array of arrays."
+msgstr ""
+
+#: lib/kirki/core/class-kirki-init.php:289
+msgid ""
+"We detected you're using Kirki_Init::get_variables(). Please use "
+"Kirki_Util::get_variables() instead."
+msgstr ""
+
+#: lib/kirki/core/class-kirki-init.php:365
+msgid ""
+"Your theme uses a Font Awesome field for icons. To avoid issues with "
+"missing icons on your frontend we recommend you install the official Font "
+"Awesome plugin."
+msgstr ""
+
+#: lib/kirki/core/class-kirki-init.php:368
+msgid "Install Plugin"
+msgstr ""
+
+#: lib/kirki/core/class-kirki-init.php:369
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:145
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:146
+msgid "Don't show this again"
+msgstr ""
+
+#: lib/kirki/core/class-kirki.php:237
+msgid ""
+"Kirki fields should not be added on customize_register. Please add them "
+"directly, or on init."
+msgstr ""
+
+#: lib/kirki/deprecated/functions.php:19
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: lib/kirki/field/class-kirki-field-color.php:52
+msgid ""
+"Do not use \"alpha\" as an argument in color controls. Use "
+"\"choices[alpha]\" instead."
+msgstr ""
+
+#: lib/kirki/field/class-kirki-field-radio.php:37
+#. translators: %1$s represents the field ID where the error occurs. %2%s is
+#. buttonset/image.
+msgid ""
+"Error in field %1$s. The \"mode\" argument has been deprecated since Kirki "
+"v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: lib/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr ""
+
+#: lib/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
+#. translators: The title.
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:146
+msgid "Help us improve Kirki."
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:147
+msgid ""
+"Help us begin a dialogue with theme developers, collaborate and improve "
+"both the theme you are using and the Kirki framework by agreeing to send "
+"anonymous data. <strong>The data is completely anonymous and we will never "
+"collect any identifyable information about you or your website.</strong>"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:151
+msgid "Data that will be sent"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:156
+msgid "PHP Version"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:160
+msgid "Theme Name"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:164
+msgid "Theme Author"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:168
+msgid "Theme URI"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:172
+msgid "Field Types Used"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:182
+#. translators: %1$s: URL to the server plugin code. %2$s: URL to the stats
+#. page.
+msgid ""
+"We believe in complete transparency. You can see the code used on our "
+"server <a href=\"%1$s\" rel=\"nofollow\">here</a>, and the results of the "
+"statistics we're gathering on <a href=\"%2$s\" rel=\"nofollow\">this "
+"page</a>."
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:193
+msgid "I agree"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:194
+msgid "No thanks"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:195
+msgid "Show me the data"
+msgstr ""
+
+#: lib/kirki/modules/telemetry/class-kirki-modules-telemetry.php:196
+msgid "Collapse data"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:198
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:201
+msgid "Light 200"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:203
+msgid "Book 300"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:205
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:206
+msgid "Normal 400"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:208
+msgid "Medium 500"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Bold 700"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:215
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:218
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: lib/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: lib/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr ""
+
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:106
+msgid ""
+"Please install the Kirki plugin to take full advantage of this theme\\s "
+"customizer capabilities"
+msgstr ""
+
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:108
+msgid "Install Kirki Toolkit now"
+msgstr ""
+
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:109
+msgid "Install Now"
+msgstr ""
+
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:123
+msgid ""
+"You have installed Kirki. Activate it to take advantage of this theme's "
+"features in the customizer."
+msgstr ""
+
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:125
+msgid "Activate Kirki Toolkit now"
+msgstr ""
+
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:126
+msgid "Activate Now"
+msgstr ""
+
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:145
+msgid "Dismiss"
+msgstr ""
+
+#: lib/kirki-addon/inc/class-kirki-installer-section.php:156
+msgid ""
+"Are you sure? Dismissing this message will hide the installation "
+"recommendation and you will have to manually install and activate the "
+"plugin in the future."
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:135
+msgid "SitePoint Demo Panel"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:136
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:56
+msgid "Kirki integration for SitePoint demo"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:146
+msgid "Site Text Colors"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:149 lib/kirki-addon/kirki-addon.php:159
+#: lib/kirki-addon/kirki-addon.php:169 lib/kirki-addon/kirki-addon.php:177
+msgid "Section description."
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:156
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:130
+msgid "Site Layout"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:166 lib/kirki-addon/kirki-addon.php:231
+msgid "Footer Text"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:174
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:62
+msgid "Typography"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:192
+msgid "Body Color"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:193 lib/kirki-addon/kirki-addon.php:223
+msgid "Description here"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:222
+msgid "Change Footer Text"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:232
+msgid "Add some text to the footer"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:256
+msgid "Font-Family"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:257
+msgid ""
+"Please choose a font for your site. This font-family will be applied to all "
+"elements on your page, including headers and body."
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:282
+msgid "Font-Size"
+msgstr ""
+
+#: lib/kirki-addon/kirki-addon.php:283
+msgid "Please choose a font-size for your body."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:73
+msgid "Color Scheme"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:79
+msgid "Clean"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:80
+msgid "Dark"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:81
+msgid "Ectoplasm"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:82
+msgid "Sunrise"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:83
+msgid "Coffee"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:94
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:95
+msgid "Allows you to choose a background color for topbar."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:126
+msgid "Top Bar Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:127
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:213
+msgid "Allows you to choose a text color."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:168
+msgid "Top Bar Text Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:169
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:303
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:496
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:251
+msgid "Allows you to choose a text hover color."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:207
+msgid "Header Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:208
+msgid "Allows you can choose background color for your header."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:240
+msgid "Site Title Font Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:241
+msgid "Allows you to choose a site title color for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:271
+msgid "Main Menu Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:272
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:464
+msgid "Allows you to choose a menu text color."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:302
+msgid "Main Menu Text Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:334
+msgid "Main Menu Text Active Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:335
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:288
+msgid "Allows you to choose a text active color."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:366
+msgid "Main Menu Background Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:367
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:529
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:325
+msgid "Allows you to choose a background hover color."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:398
+msgid "Main Menu Background Active Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:399
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:362
+msgid "Allows you to choose a background active color."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:431
+msgid "Sub Menu Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:432
+msgid "Allows you to choose a background color for sub menu."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:463
+msgid "Sub Menu Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:495
+msgid "Sub Menu Text Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:528
+msgid "Sub Menu Background Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:562
+msgid "Header Icon Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:563
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:399
+#: mobile-menu/customizer/customizer.php:397
+msgid "Allows you to choose icon color."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:603
+msgid "Header Icon Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:604
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:445
+#: mobile-menu/customizer/customizer.php:438
+msgid "Allows you to choose icon hover color."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:635
+msgid "Body Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:636
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:669
+msgid "Allows you to choose a body text color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:668
+msgid "Body Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:701
+msgid "Sections Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:702
+msgid "Allows you to choose a sections background color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:733
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1479
+msgid "Theme Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:734
+msgid "Allows you to choose a primary color, active color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:822
+msgid "Headings Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:823
+msgid "Allows you to choose a headings color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:855
+msgid "Link Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:856
+msgid "Allows you to choose a links color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:888
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1490
+msgid "Link Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:889
+msgid "Allows you to choose a links hover color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:921
+msgid "Button Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:922
+msgid "Allows you to choose a button text color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:954
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:955
+msgid "Allows you to choose a button text hover color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:987
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1516
+msgid "Button Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:988
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1517
+msgid "Allows you to choose a button background color for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1019
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1020
+msgid "Allows you to choose a button background hover color for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1051
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1541
+msgid "Accent Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1052
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1542
+msgid "Allows you to choose links color of content area for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1084
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1567
+msgid "Accent Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1085
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1568
+msgid "Allows you to choose links hover color of content area for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1117
+msgid "Border Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1118
+msgid "Allows you to choose site border color."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1149
+msgid "HR Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1150
+msgid "Allows you to choose a hr color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1183
+msgid "Footer Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1215
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1247
+msgid "Footer Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1279
+msgid "Footer Link Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1311
+msgid "Footer Link Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1344
+msgid "Copyright Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1376
+msgid "Copyright Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1408
+msgid "Copyright Link Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1440
+msgid "Copyright Link Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/colors/class-reign-kirki-colors.php:1480
+msgid "Allows you to choose a primary color for site."
+msgstr ""
+
+#: lib/kirki-addon/options/extras/class-reign-kirki-plugins-support.php:55
+msgid "Plugins Support"
+msgstr ""
+
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:60
+msgid "Footer"
+msgstr ""
+
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:67
+#: peepso/groups/group-header.php:188
+msgid "Settings"
+msgstr ""
+
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:76
+msgid "Copyright"
+msgstr ""
+
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:216
+msgid "Enable Footer Copyright"
+msgstr ""
+
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:222
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:73
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:164
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:160
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:174
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:188
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:230
+#: lib/kirki-addon/options/header/class-reign-kirki-header-main-menu.php:317
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:75
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:75
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:162
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:234
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:248
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:264
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:279
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:366
+msgid "Enable"
+msgstr ""
+
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:230
+msgid "Copyright Text"
+msgstr ""
+
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:231
+msgid "Enter the text that displays in the copyright bar. HTML markup can be used."
+msgstr ""
+
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:262
+msgid "Alignment"
+msgstr ""
+
+#: lib/kirki-addon/options/footer/class-reign-kirki-footer.php:300
+msgid "Padding (px)"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:55
+msgid "Forms"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:62
+msgid "Active Color Setting"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:71
+msgid "Focus Color Setting"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:88
+msgid "Form Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:89
+msgid "Allows you to choose form text color."
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:120
+msgid "Form Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:121
+msgid "Allows you to choose form background color."
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:152
+msgid "Form Border Color"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:153
+msgid "Allows you to choose form border color."
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:184
+msgid "Form Placeholder Color"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:185
+msgid "Allows you to choose form placeholder color."
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:231
+msgid "Form Focus Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:232
+msgid "Allows you to choose form focus text color."
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:263
+msgid "Form Focus Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:264
+msgid "Allows you to choose form focus background color."
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:295
+msgid "Form Focus Border Color"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:296
+msgid "Allows you to choose form focus border color."
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:327
+msgid "Form Focus Placeholder Color"
+msgstr ""
+
+#: lib/kirki-addon/options/forms/class-reign-kirki-forms.php:328
+msgid "Allows you to choose form focus placeholder color."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:54
+msgid "Custom Code"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:64
+msgid "Comment Box"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:78
+msgid "Tracking Code"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:79
+msgid ""
+"You can enter your tracking codes here. This code will be enqueued in site "
+"header. For example : Google Tacking Code, Facebook Pixel Code, etc."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:92
+msgid "Custom JS : Header"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:93
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:107
+msgid ""
+"Just want to do some quick JS changes? Enter them here, they will be "
+"applied to your theme."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:106
+msgid "Custom JS : Footer"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:129
+msgid "Enable Comment box"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-custom-code.php:130
+msgid "you can enable comment box on single page."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-page-mapping.php:54
+msgid "Page Mapping"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-page-mapping.php:68
+msgid "Login Page"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-page-mapping.php:69
+msgid "You can redirect user to custom login page using this setting."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-page-mapping.php:79
+msgid "Registration Page"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-page-mapping.php:80
+msgid "You can redirect user to custom registration page using this setting."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-page-mapping.php:91
+msgid "You can redirect user to custom 404 page using this setting."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:54
+msgid "Layouts"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:67
+msgid "Pre Content Loader"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:68
+msgid "Show loader before loading content or not."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:81
+msgid "Loader Icon"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:103
+msgid "Loader Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:131
+msgid "Select your site layout here."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:158
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:172
+msgid "Site Container Width"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:173
+msgid ""
+"Set the width of the container that holds the site area ( px or % ). "
+"Default is 1170px."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:190
+msgid "Site Sidebar Width"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-site-layout.php:191
+msgid "Set the width of the sidebar ( px or % ). Default is 28.125%."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:54
+msgid "Sub Header"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:66
+msgid "Sub Header Height (px)"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:76
+msgid "Header Image Background Color"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:101
+msgid "Header Image Overlay Color"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:127
+msgid "Header Image Text Color"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:154
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:168
+msgid "Page Header"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:169
+msgid "Allows you to enable\\disable page sub header at single post types pages."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:182
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:156
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:273
+msgid "Enable Header Image"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:203
+msgid "Sub Header Image"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:204
+msgid "Allows you to page header image for single custom post type page."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:224
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:360
+msgid "Switch Header Image With Featured Image"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-sub-header.php:225
+msgid ""
+"This will show post featured image on top header section at single post "
+"page and featured image will be removed from post content."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:55
+msgid "General"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:81
+msgid "Font Awesome"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:82
+msgid "Allows you to select font awesome version for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:88
+msgid "Font Awesome v4.7"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:89
+msgid "Font Awesome v5"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:90
+msgid "Font Awesome v4.7 + v5"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:97
+msgid "Body Font"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:98
+msgid "Allows you to select all font properties of body tag for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:160
+msgid "Heading 1"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:161
+msgid "Allows you to select all font properties of H1 tag for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:213
+msgid "Heading 2"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:214
+msgid "Allows you to select all font properties of H2 tag for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:266
+msgid "Heading 3"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:267
+msgid "Allows you to select all font properties of H3 tag for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:319
+msgid "Heading 4"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:320
+msgid "Allows you to select all font properties of H4 tag for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:373
+msgid "Heading 5"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:374
+msgid "Allows you to select all font properties of H5 tag for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:427
+msgid "Heading 6"
+msgstr ""
+
+#: lib/kirki-addon/options/general/class-reign-kirki-typography.php:428
+msgid "Allows you to select all font properties of H6 tag for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-main-menu.php:54
+msgid "Main Menu"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-main-menu.php:69
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:95
+msgid "Menu Font"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-main-menu.php:70
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:96
+msgid "Allows you to select font properties for menu of site."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-main-menu.php:311
+msgid "Enable 'More' menus wrap in header menu."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-main-menu.php:312
+msgid "Allows you to enable or disable 'More' menus option for header menu."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:54
+msgid "Mobile Menu"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:71
+msgid "Allows you to choose a background color for mobile menu."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:232
+msgid "Config Mobile Logo"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:233
+msgid "Allows you to config logo for mobile menu."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:238
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:96
+msgid "Custom"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:246
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:190
+msgid "Mobile Logo"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-mobile-menu.php:247
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:191
+msgid "Allows you to add, remove, change mobile logo on your site."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:54
+msgid "Sticky Menu"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:69
+msgid "Sticky On Scroll"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:70
+msgid "Allows you to enable or disable sticky header menu for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:90
+msgid "Config Sticky Menu"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:91
+msgid "Allows you to config sticky menu style."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:117
+msgid "Allows you to choose a background color for sticky menu."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:153
+msgid "Site Title"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:154
+msgid "Allows you to choose site title color."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:250
+msgid "Text Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:287
+msgid "Text Active Color"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:324
+msgid "Background Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:361
+msgid "Background Active Color"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:398
+#: mobile-menu/customizer/customizer.php:396
+msgid "Icon Color"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sticky-menu.php:444
+#: mobile-menu/customizer/customizer.php:437
+msgid "Icon Hover Color"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sub-menu.php:54
+msgid "Sub Menu"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sub-menu.php:102
+msgid "Sub Menu Font"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-sub-menu.php:103
+msgid "Allows you to select font properties for sub-menu of site."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:54
+msgid "Topbar"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:69
+msgid "Enable Topbar"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:70
+msgid "Allows you to enable or disable topbar for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:84
+msgid "Disable Topbar On Mobile View"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:85
+msgid "Allows you to disable or disable topbar for your site on mobile view."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:90
+#: peepso/groups/group-settings.php:228 peepso/groups/group-settings.php:233
+#: peepso/groups/group-settings.php:268 peepso/groups/group-settings.php:273
+#: peepso/groups/group-settings.php:307 peepso/groups/group-settings.php:312
+#: peepso/groups/group-settings.php:346 peepso/groups/group-settings.php:351
+#: peepso/learndash/courses.php:235 widgets/sidewide-activity-widget.php:167
+#: widgets/sidewide-activity-widget.php:174
+#: widgets/sidewide-activity-widget.php:182
+#: widgets/sidewide-activity-widget.php:188
+#: widgets/sidewide-activity-widget.php:194
+#: widgets/sidewide-activity-widget.php:207
+#: widgets/sidewide-activity-widget.php:214
+#: widgets/sidewide-activity-widget.php:220
+msgid "Yes"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:91
+#: peepso/groups/group-settings.php:228 peepso/groups/group-settings.php:234
+#: peepso/groups/group-settings.php:268 peepso/groups/group-settings.php:274
+#: peepso/groups/group-settings.php:307 peepso/groups/group-settings.php:313
+#: peepso/groups/group-settings.php:346 peepso/groups/group-settings.php:352
+#: peepso/learndash/courses.php:235 widgets/sidewide-activity-widget.php:168
+#: widgets/sidewide-activity-widget.php:175
+#: widgets/sidewide-activity-widget.php:183
+#: widgets/sidewide-activity-widget.php:189
+#: widgets/sidewide-activity-widget.php:195
+#: widgets/sidewide-activity-widget.php:208
+#: widgets/sidewide-activity-widget.php:215
+#: widgets/sidewide-activity-widget.php:221
+msgid "No"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:104
+msgid "Info Links"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:105
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:157
+msgid ""
+"Fontawesome classes are used to set icons. Check <a "
+"href=\"https://fontawesome.com/icons\" "
+"target=\"_blank\">https://fontawesome.com/</a> for further assistance."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:110
+msgid "Info Link"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:113
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:165
+msgid "Add"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:119
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:171
+msgid "Title"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:125
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:177
+#: mobile-menu/pro/admin/item.settings.pro.php:9
+msgid "Icon"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:131
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:183
+msgid "Link"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:156
+msgid "Social Links"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header-topbar.php:162
+msgid "Social Link"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:64
+msgid "Desktop Header"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:87
+msgid "Allows you to select header layout for header on your site."
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:148
+#: mobile-menu/customizer/customizer.php:364
+msgid "Manage Icons Options"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:155
+msgid "Cart"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:157
+#: mobile-menu/customizer/customizer.php:371
+msgid "Notification"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:158
+msgid "User Menu"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:159
+#: mobile-menu/customizer/customizer.php:372 peepso/widgets/me.tpl.php:292
+msgid "Login"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:160
+#: mobile-menu/customizer/customizer.php:373 peepso/widgets/me.tpl.php:270
+msgid "Register"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:257
+msgid "Site Title Font"
+msgstr ""
+
+#: lib/kirki-addon/options/header/class-reign-kirki-header.php:258
+msgid "Allows you to select font properties of site-title for your site."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:65
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:72
+msgid "Product"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:72
+msgid "bbPress Forum"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:76
+msgid "bbPress Topic"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:100
+msgid "Archive"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:110
+msgid "Single"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:141
+msgid "Allows you to choose a layout for all archive pages."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:170
+msgid "Blog Header Image"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:171
+msgid "Allows you to set page header image for blog page."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:188
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:391
+msgid "Allows you to set left sidebar."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:200
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:403
+msgid "Allows you to set right sidebar."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:212
+msgid "Allows you to choose a layout to display for all single post pages."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:229
+msgid "Allows you to hide page header for this post type."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:242
+msgid "Hide Page Header"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:243
+msgid "Allows you to hide page header."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:259
+msgid "Allows you to hide page title for this post type."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:294
+msgid "Page Header Image"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:295
+msgid "Allows you to set page header image for single post page."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:317
+msgid "Blog Listing Layout"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:318
+msgid ""
+"Select your log listing layout here. We have option to choose from 4 "
+"different views."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:323
+msgid "Default View"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:324
+msgid "Thumbnail View"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:325
+msgid "Grid View"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:326
+msgid "Masonry View"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:333
+msgid "Blogs Per Row"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:350
+msgid "Excerpt Length (words)"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:361
+msgid ""
+"This will show post featured image on top header section and featured image "
+"will be removed from post content."
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:374
+msgid "Post Meta Alignment"
+msgstr ""
+
+#: lib/kirki-addon/options/post-types/class-reign-kirki-post-types.php:375
+msgid "Select alignment for post-meta information on single post page."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:51
+msgid "Assigned Menu"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:59
+msgid "Display Main Panel"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:60
+msgid "Do not uncheck this unless you want to disable the first panel entirely."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:80
+#: mobile-menu/pro/admin/settings.pro.php:543
+msgid "Edge"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:82
+msgid "Which edge of the viewport should the first panel appear on?"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:96
+#: mobile-menu/pro/admin/settings.pro.php:565
+msgid "Skin"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:107
+#: mobile-menu/pro/admin/settings.pro.php:611
+msgid "Indent Always Visible Submenus"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:108
+#: mobile-menu/pro/admin/settings.pro.php:612
+msgid "Check this to indent submenu items of always-visible submenus"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:117
+#: mobile-menu/pro/admin/settings.pro.php:628
+msgid "Display Site Title"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:118
+msgid "Display the site title in the menu panel"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:127
+#: mobile-menu/pro/admin/settings.pro.php:646
+msgid "Display Panel Close Button"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:128
+#: mobile-menu/pro/admin/settings.pro.php:647
+msgid "Display an &times; close button in the upper right of the ShiftNav panel"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:138
+msgid "Custom Toggle Integration Code"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:168
+msgid "Display Toggle Bar"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:169
+msgid ""
+"Uncheck this to disable the default toggle bar and add your own custom "
+"toggle"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:177
+msgid "Toggle Bar Style"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:178
+msgid ""
+"Choose whether to have a full width bar, which can include a title and "
+"other content, or just a hamburger button only which will appear in the "
+"upper corner of the site."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:181
+msgid "Full Bar"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:182
+msgid "Hamburger button only"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:190
+msgid "Toggle Breakpoint"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:191
+msgid ""
+"Show the toggle bar only below this pixel width. 960 is a good default for "
+"most sites.  Leave blank to show the toggle bar at all times.  No need to "
+"include \"px\""
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:191
+msgid "Set this to use ShiftNav only at mobile sizes"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:199
+msgid "Hide Theme Menu"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:200
+msgid ""
+"Enter the selector of the theme's menu if you wish to hide it below the "
+"breakpoint above.  For example, <code>#primary-nav</code> or "
+"<code>.topnav</code>. "
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:200
+msgid ""
+"This setting requires you to set the <strong>Toggle Breakpoint</strong> "
+"setting for it to have an effect"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:208
+msgid "Hide UberMenu 3"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:209
+msgid ""
+"Hide all UberMenu 3 instances when toggle panel is displayed.  If you would "
+"like to only hide a specific UberMenu, use the setting above with a "
+"specific UberMenu ID."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:217
+#: mobile-menu/pro/admin/settings.pro.php:620
+msgid "Toggle Content"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:218
+msgid ""
+"The content to display in the main toggle bar (only valid for Full Width "
+"toggle bar style).  Can contain shortcodes and HTML, including <img> tags.  "
+"Default: [reign_toggle_title] will print the site title"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:227
+msgid "Display site logo in toggle content."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:236
+msgid "Toggle Target"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:237
+msgid ""
+"The area which will trigger the ShiftNav Panel to open.  (Not relevant for "
+"Full Bar toggle style)"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:240
+msgid "Bars/Burger Icon Only"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:241
+msgid "Entire Bar"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:248
+msgid "Close Icon"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:249
+msgid "When the toggle is open, choose which icon to display."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:262
+msgid "Toggle Bar Position"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:263
+msgid ""
+"Choose Fixed if you'd like the toggle bar to always be visible, or Absolute "
+"if you'd like it only to be visible when scrolled to the very top of the "
+"page"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:266
+msgid "Fixed (always in viewport)"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:267
+msgid "Absolute (scrolls out of viewport)"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:276
+msgid "Align Text"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:277
+msgid "Align text left, right, or center.  Applies to inline elements only."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:302
+msgid "Transparent Background"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:303
+msgid ""
+"Make the toggle bar transparent.  Note that this only make sense if you are "
+"using a hamburger-only Toggle Bar Style, or remove the Toggle Bar Gap"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:314
+msgid "Text/Burger Color"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:325
+msgid "Override the default font size of the toggle bar by setting a value here."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:335
+msgid "Hamburger Size"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:336
+msgid "Size of the hamburger icon in pixes (font size)."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:347
+msgid "Toggle Bar Gap"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:348
+msgid ""
+"By default, toggle will automatically determine if a gap is needed - in "
+"short, space is left for the full bar toggle, and is not left for a "
+"burger-only toggle.  If you wish to override this, you can do so here."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:351
+msgid "Automatic"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:352
+msgid "Disable Gap"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:353
+msgid "Enable Gap"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:388
+msgid "CSS Tweaks"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:389
+msgid "Add custom CSS here, which will be printed in the site head."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:396
+msgid "Shift Body"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:397
+msgid ""
+"Shift the body of the site when the menu is revealed.  For some themes, "
+"this may negatively affect the site content, so this can be disabled."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:404
+msgid "Shift Body Wrapper"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:405
+msgid ""
+"Leave this blank to automatically create a ShiftNav Wrapper via javascript "
+"(this may have side effects).  Set a selector here to turn a specific div "
+"(which must wrap all body contents) into the wrapper.  Please note that if "
+"the wrapper you select is also styled by the theme, this may cause a "
+"conflict."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:412
+msgid "Footer Content"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:413
+msgid ""
+"Add HTML or Shortcodes here and it will be injected at the wp_footer() "
+"hook.  Useful for fixed position elements"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:420
+msgid "Mobile Only"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:421
+msgid ""
+"Only display ShiftNav when a mobile device is detected via wp_is_mobile().  "
+"If you are using a caching plugin, make sure you have separate mobile and "
+"desktop caches."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:421
+msgid ""
+"This is NOT the preferred way to make your menu appear on mobile devices.  "
+"For 99% of users, you will want to set a Toggle Breakpoint in the Toggle "
+"Bar Panel, rather than using this setting."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:428
+msgid "Button Size"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:429
+msgid ""
+"The size of the padding on the links in the menu.  The larger the setting, "
+"the easier to click; but fewer menu items will appear on the screen at a "
+"time."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:442
+msgid "Text Size"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:443
+msgid "The size of the font on the links in the menu (will override all levels)."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:457
+msgid "Icon Size"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:458
+msgid "The size of the icons in the menu."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:474
+msgid "Disable Transforms &amp; Transitions"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:475
+msgid ""
+"Disable CSS3 transformations and transitions.  This will disable smooth "
+"animations, but may work better on browsers that don't properly implement "
+"CSS3 transforms, especially old non-standard Android browsers.  Note that "
+"ShiftNav attempts to detect these browsers and fall back automatically, but "
+"some browsers have incomplete implementations of CSS3 transforms, which "
+"produce false positives when testing."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:482
+msgid "Touch-off close"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:483
+msgid ""
+"Close the ShiftNav panel or search dropdown when touching any content not "
+"in the panel."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:491
+msgid "Scroll Offset"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:492
+msgid ""
+"When using the ScrollTo functionality, this is the number of pixels to "
+"offset the scroll by, to account for the toggle bar and any spacing you "
+"want."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:501
+msgid "Open Current Accordion Submenu"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:502
+msgid ""
+"Open the submenu of the current menu item on page load (accordion submenus "
+"only)."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:509
+msgid "Collapse Accordions"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:510
+msgid ""
+"When an accordion menu is opened, collapse any other accordions on that "
+"level."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:517
+msgid "Scroll Shift Submenus to Top"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:518
+msgid ""
+"When a Shift submenu is activated, scroll that item to the top to maximize "
+"submenu visibility."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:526
+msgid "Highlight Targets on Hover"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:527
+msgid ""
+"With this setting enabled, the links will be highlighted when hovered or "
+"touched."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:534
+msgid "Highlight Targets on :active"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:535
+msgid ""
+"With this setting enabled, the links will be highlighted while in the "
+":active state.  May not be desirable for touch scrolling."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:542
+msgid "Back Button Tag"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:543
+msgid ""
+"By default the tag is an anchor.  Some themes will try to add JS to the "
+"anchor and break the back button functionality, so you can also switch this "
+"to a span to avoid the issue."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:554
+msgid "Back Button Text"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:555
+msgid ""
+"By default, the Back button text will read \"Back\".  You can change this "
+"here.  Note that if you set a value here, it will no longer be translatable."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:561
+msgid "Top Back Button"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:562
+msgid "Display a back button at the top of shift submenus (below the parent item)"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:568
+msgid "Bottom Back Button"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:569
+msgid ""
+"Display a back button at the bottom of shift submenus.  Note that you must "
+"leave at least one back button enabled for users to be able to move back up "
+"a level."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:576
+msgid "Show Tips to Admins"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:577
+msgid "Display tips to admin users"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:584
+msgid "Lock Horizontal Scroll"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:585
+msgid ""
+"Attempt to prevent the content from scrolling horizontally when the menu is "
+"active.  On some themes, may also prevent vertical scrolling.  May not "
+"prevent touch scrolling in Chrome.  No effect if <strong>Shift "
+"Body</strong> is disabled."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:592
+msgid "Lock Scroll"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:593
+msgid ""
+"Lock both vertical and horizontal scrolling on site content when menu is "
+"active.  No effect if <strong>Shift Body</strong> is disabled."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:600
+msgid "Load Font Awesome"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:601
+msgid ""
+"If you are already loading Font Awesome 4 elsewhere in your setup, you can "
+"disable this."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:608
+msgid "Inherit UberMenu Conditionals"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:609
+msgid "Display menu items based on UberMenu Conditionals settings"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:616
+msgid "Process UberMenu Menu Segments"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:617
+msgid ""
+"Most UberMenu Advanced Items will be ignored by ShiftNav, as they are "
+"UberMenu-specific.  However, ShiftNav can process UberMenu Menu Segments "
+"with this setting enabled."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:625
+msgid "Force Filter Menu Args"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:626
+msgid ""
+"Some themes will filter the menu arguments on all menus on the site, which "
+"can break things.  This will re-filter those arguments for ShiftNav menus "
+"only."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:633
+msgid "Kill Menu Class Filter"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:634
+msgid ""
+"Some themes filter the menu item classes and strip out core WordPress "
+"functionality.  This will change the structure of ShiftNav and prevent "
+"styles from being applies.  This will prevent any actions on the "
+"<code>nav_menu_css_class</code> filter."
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:697
+msgid "Main ShiftNav Settings"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:701
+msgid "Toggle Bar"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:709
+msgid "General Settings"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:734
+msgid "Reset Settings"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:989
+msgid "No content"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:991
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:994
+msgid "BuddyPress User Menu"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:997
+msgid "EDD Cart"
+msgstr ""
+
+#: mobile-menu/admin/settings.config.php:999
+msgid "WordPress Menu"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:273
+msgid "Disable Link"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:276
+msgid ""
+"Check this box to remove the link from this item; clicking a disabled link "
+"will not result in any URL being followed.  Instead, this item will act as "
+"a toggle for its submenu, if one exists."
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:281
+msgid "Highlight Link"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:284
+msgid "Highlight this menu item"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:300
+msgid "Scroll To"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:303
+msgid ""
+"The selector for an item to scroll to when clicked, if present.  Example: "
+"<code>#section-1</code>"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:308
+msgid "Disable Current"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:311
+msgid "Disable the current menu item classes for this item"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:316
+msgid "Disable Item"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:319
+msgid ""
+"Hide this item.  Useful if this menu is being reused in multiple locations, "
+"but item should not be displayed in ShiftNav"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:334
+#: mobile-menu/pro/admin/item.settings.pro.php:41
+msgid "Submenu Type"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:337
+msgid ""
+"[Requires Pro Version] Overrides the default submenu type.  For the Lite "
+"version, only \"Always visible\" is available.  Can be changed to "
+"\"Accordion\" or \"Shift\" with the Pro version."
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:339
+#: mobile-menu/pro/admin/item.settings.pro.php:46
+msgid "Menu Default"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:340
+#: mobile-menu/pro/admin/item.settings.pro.php:47
+#: mobile-menu/pro/admin/settings.pro.php:291
+#: mobile-menu/pro/admin/settings.pro.php:579
+msgid "Always visible"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:346
+msgid "Disable Submenu"
+msgstr ""
+
+#: mobile-menu/admin/settings.menu.php:349
+msgid "Disable the submenu for this menu item within ShiftNav."
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:14
+msgid "Mobile Panel Settings"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:18
+#: mobile-menu/customizer/customizer.php:73
+msgid "Configuration"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:23
+msgid "Styles"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:29
+msgid "Mobile Header Icons"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:30
+msgid "Select icons for display in mobile device's header."
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:59
+#: mobile-menu/includes/functions.php:338
+msgid "First Mobile Panel"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:61
+msgid "Second Mobile Panel"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:63
+msgid "Panel"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:79
+msgid "Content"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:86
+msgid "Styles - Panel"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:91
+msgid "Styles - Menu Items"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:96
+msgid "Styles - Activators &amp; Retractors"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:101
+msgid "Styles - Submenus"
+msgstr ""
+
+#: mobile-menu/customizer/customizer.php:106
+msgid "Styles - Font"
+msgstr ""
+
+#: mobile-menu/includes/ShiftNavWalker.class.php:68
+#: peepso/photos/photo-album-custom.php:28
+#: peepso/photos/photo-group-album-custom.php:32
+msgid "Back"
+msgstr ""
+
+#: mobile-menu/pro/admin/item.settings.pro.php:17
+msgid "Custom Icon Class"
+msgstr ""
+
+#: mobile-menu/pro/admin/item.settings.pro.php:33
+msgid "Custom URL"
+msgstr ""
+
+#: mobile-menu/pro/admin/item.settings.pro.php:36
+msgid ""
+"Customize your link URL - you can use shortcodes here.  Your setting will "
+"be escaped with the esc_url() function"
+msgstr ""
+
+#: mobile-menu/pro/admin/item.settings.pro.php:44
+msgid ""
+"Overrides the default submenu type, which can be set in the Control Panel "
+"for each menu. "
+msgstr ""
+
+#: mobile-menu/pro/admin/item.settings.pro.php:48
+#: mobile-menu/pro/admin/settings.pro.php:292
+#: mobile-menu/pro/admin/settings.pro.php:580
+msgid "Accordion"
+msgstr ""
+
+#: mobile-menu/pro/admin/item.settings.pro.php:49
+#: mobile-menu/pro/admin/settings.pro.php:293
+#: mobile-menu/pro/admin/settings.pro.php:581
+msgid "Shift"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:287
+#: mobile-menu/pro/admin/settings.pro.php:575
+msgid "Submenu Type Default"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:288
+#: mobile-menu/pro/admin/settings.pro.php:576
+msgid ""
+"This submenu type will be used by any Menu Item whose Submenu Type is set "
+"to \"Menu Default\""
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:321
+#: mobile-menu/pro/admin/settings.pro.php:589
+msgid "Accordion Toggle Open Icon"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:322
+#: mobile-menu/pro/admin/settings.pro.php:590
+msgid "The icon that, when tapped, will open the accordion submenu"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:355
+#: mobile-menu/pro/admin/settings.pro.php:600
+msgid "Accordion Toggle Close Icon"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:356
+#: mobile-menu/pro/admin/settings.pro.php:601
+msgid "The icon that, when tapped, will close the accordion submenu"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:369
+#: mobile-menu/pro/admin/settings.pro.php:556
+msgid "Disable Menu"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:370
+msgid ""
+"Check this to disable the menu entirely; the panel will still be displayed "
+"and can be used for custom content"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:379
+#: mobile-menu/pro/admin/settings.pro.php:655
+msgid "Top Image"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:389
+#: mobile-menu/pro/admin/settings.pro.php:664
+msgid "Pad Image"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:390
+#: mobile-menu/pro/admin/settings.pro.php:665
+msgid ""
+"Add padding to align image with menu item text.  Uncheck to expand to the "
+"edges of the panel."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:399
+#: mobile-menu/pro/admin/settings.pro.php:673
+msgid "Image Link (URL)"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:400
+#: mobile-menu/pro/admin/settings.pro.php:674
+msgid "Make the image a link to this URL."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:409
+#: mobile-menu/pro/admin/settings.pro.php:682
+msgid "Custom Content Before Menu"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:410
+msgid ""
+"Can contain shortcodes and HTML, including <img> tags.  For eg: "
+"[reign-search] will print the search before menu."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:420
+#: mobile-menu/pro/admin/settings.pro.php:692
+msgid "Custom Content After Menu"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:421
+msgid ""
+"Can contain shortcodes and HTML, including <img> tags.  For eg: "
+"[reign-search] will print the search after menu."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:438
+msgid "Toggle Content Left Edge"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:440
+msgid ""
+"This content will appear at the left edge of the toggle bar, to the right "
+"of the toggle icon."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:465
+msgid "Toggle Content Right Edge"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:467
+msgid ""
+"This content will appear at the right edge of the toggle bar, to the right "
+"of the toggle icon."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:499
+msgid "Integration Code"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:505
+msgid "Instance Name"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:514
+msgid "Automatically Generate Panel"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:515
+msgid ""
+"Automatically generate this ShiftNav instance.  It'll be added to each page "
+"of the site"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:523
+msgid "Display Menu"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:533
+msgid "Theme Location"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:534
+msgid ""
+"Select the Theme Location to display.  The Menu setting will override this "
+"setting if a menu is selected."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:544
+msgid "Select which edge of your site to display the menu on"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:557
+msgid ""
+"Check this to disable the menu entirely; the panel can be used for custom "
+"content"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:566
+msgid "Select which skin to use for this instance"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:621
+msgid ""
+"Enter the content to be displayed in the toggle, which you will insert into "
+"your template with the integration code at the top of this tab."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:629
+msgid "Display the site title in the menu"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:637
+msgid "Display Instance Name"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:638
+msgid "Display the instance name in the menu"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:718
+msgid "Delete Instance"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:719
+msgid "Permanently Delete Instance"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:742
+msgid "Panel Background Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:753
+msgid "Panel Default Font Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:754
+msgid ""
+"The default font color for custom content within the panel (menu-specific "
+"styles will override this for menu items)"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:769
+msgid "Panel Title Font Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:770
+msgid "The font color for the header/title within the panel."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:780
+msgid "Panel Title Font Size"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:781
+#: mobile-menu/pro/admin/settings.pro.php:1003
+msgid "The font size for the header/title within the panel."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:791
+msgid "Panel Title Text Alignment"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:792
+msgid "The alignment of the text in the header/title within the panel."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:808
+msgid "Panel Title Font Weight"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:809
+msgid "The font weight of the text in the header/title within the panel."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:813
+#: mobile-menu/pro/admin/settings.pro.php:923
+#: mobile-menu/pro/admin/settings.pro.php:1180
+msgid "Normal"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:814
+#: mobile-menu/pro/admin/settings.pro.php:924
+#: mobile-menu/pro/admin/settings.pro.php:1181
+msgid "Bold"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:827
+msgid "Menu Item Background Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:828
+msgid ""
+"The color of the menu item background.  Normally not necessary to set "
+"unless you want it to differ from the panel background"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:836
+msgid "Menu Item Font Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:837
+msgid "The color of the menu item text."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:847
+msgid "Menu Item Background Color [Active]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:848
+msgid "The color of the menu item background when activated."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:856
+msgid "Menu Item Font Color [Active]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:857
+msgid "The color of the menu item text when activated."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:867
+msgid "Menu Item Background Color [Current]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:868
+msgid "The background color of current menu items."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:876
+msgid "Menu Item Font Color [Current]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:877
+msgid "The font color of current menu items"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:887
+msgid "Menu Item Background Color [Highlight]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:888
+msgid "The background color of highlighted menu items."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:896
+msgid "Menu Item Font Color [Highlight]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:897
+msgid "The color of highlighted menu items"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:908
+msgid "Menu Item Font Size"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:909
+msgid "The size of the menu item text."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:918
+msgid "Menu Item Font Weight"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:919
+msgid "The weight of the menu item text."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:932
+msgid "Menu Item Padding"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:933
+msgid "The padding around the menu item text."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:941
+msgid "Menu Item Top Border Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:942
+msgid "The color of the top border of the menu item."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:950
+msgid "Menu Item Top Border Color [Active]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:951
+msgid "The color of the top border of an active menu item."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:959
+msgid "Menu Item Bottom Border Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:960
+msgid "The color of the bottom border of the menu item."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:969
+msgid "Menu Item Bottom Border Color [Active]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:970
+msgid "The color of the bottom border of the active menu item."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:979
+#: mobile-menu/pro/admin/settings.pro.php:1155
+msgid "Disable Menu Item Borders"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:980
+#: mobile-menu/pro/admin/settings.pro.php:1156
+msgid "Remove the borders between menu items."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:990
+msgid "Disable Menu Item Text Shadow"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:991
+msgid "Remove the text shadow on the menu items."
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1002
+msgid "Top Level Menu Item Text Transform"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1023
+msgid "Menu Item Activator Button Background"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1024
+msgid "The background color of the button used to open and close the submenus"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1032
+msgid "Menu Item Activator Button Background [Active]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1033
+msgid ""
+"The active background color of the button used to open and close the "
+"submenus"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1041
+msgid "Menu Item Activator Arrow Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1042
+msgid "The arrow color of the button used to open and close the submenus"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1050
+msgid "Menu Item Activator Arrow Color [Active]"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1051
+msgid "The active arrow color of the button used to open and close the submenus"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1070
+msgid "Submenu Retractor / Back Button Background"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1071
+msgid "The background color of the submenu retractor button"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1079
+msgid "Submenu Retractor / Back Button Font Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1080
+msgid "The font color of the submenu retractor button"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1088
+msgid "Submenu Retractor / Back Button Alignment"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1089
+msgid "The alignment of the submenu retractor button text"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1107
+msgid "Submenu Background Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1108
+msgid "The background color of the submenu"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1117
+msgid "Submenu Item Background Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1118
+msgid "The background color of the individual submenu items"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1127
+msgid "Submenu Item Font Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1128
+msgid "The font color of the submenu items"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1136
+msgid "Submenu Item Top Border Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1137
+msgid "The color of the submenu item top border"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1145
+msgid "Submenu Item Bottom Border Color"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1146
+msgid "The color of the bottom border of the submenu items"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1165
+msgid "Submenu Item Font Size"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1166
+msgid "The font size of the submenu items"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1175
+msgid "Submenu Item Font Weight"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1176
+msgid "The font weight of the submenu items"
+msgstr ""
+
+#: mobile-menu/pro/admin/settings.pro.php:1193
+msgid ""
+"The font family the panel.  This should be a system font or else the font "
+"assets should already be loaded on your site, via @font-face or Google "
+"Fonts for example."
+msgstr ""
+
+#: mobile-menu/pro/search.php:23 mobile-menu/pro/search.php:66
+msgid "Search..."
+msgstr ""
+
+#: mobile-menu/pro/updates/EDD_SL_Plugin_Updater.php:177
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: mobile-menu/pro/updates/EDD_SL_Plugin_Updater.php:184
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: mobile-menu/pro/updates/EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: mobile-menu/pro/updates/backup.php:169
+msgid ""
+"ShiftNav: Could not restore custom.css file, as the directory is not "
+"writable.  You can manually restore the file from the "
+"wp-content/uploads/shiftnav_backups directory"
+msgstr ""
+
+#: mobile-menu/pro/updates/backup.php:172
+msgid "ShiftNav: Successfully restored custom.css file"
+msgstr ""
+
+#: mobile-menu/pro/updates/backup.php:183
+msgid ""
+"ShiftNav: Could not restore custom.less file, as the directory is not "
+"writable.  You can manually restore the file from the "
+"wp-content/uploads/shiftnav_backups directory"
+msgstr ""
+
+#: mobile-menu/pro/updates/backup.php:186
+msgid "ShiftNav: Successfully restored custom.less file"
+msgstr ""
+
+#: mobile-menu/pro/updates/backup.php:197
+msgid ""
+"ShiftNav: Could not restore custom.js file, as the directory is not "
+"writable.  You can manually restore the file from the "
+"wp-content/uploads/shiftnav_backups directory"
+msgstr ""
+
+#: mobile-menu/pro/updates/backup.php:200
+msgid "ShiftNav: Successfully restored custom.js file"
+msgstr ""
+
+#: mobile-menu/pro/updates/updater.php:45
+msgid "Updates"
+msgstr ""
+
+#: mobile-menu/pro/updates/updater.php:57
+msgid "Enter your license code to receive updates"
+msgstr ""
+
+#: mobile-menu/pro/updates/updater.php:129
+msgid "License Invalid"
+msgstr ""
+
+#: mobile-menu/pro/updates/updater.php:138
+msgid "License Expired"
+msgstr ""
+
+#: mobile-menu/pro/updates/updater.php:143
+msgid "License is valid"
+msgstr ""
+
+#: mobile-menu/pro/updates/updater.php:207
+msgid "Backup custom assets"
+msgstr ""
+
+#: mobile-menu/pro/updates/updater.php:208
+msgid ""
+"Automatically backup custom.css and custom.less so that they can be "
+"restored after updating the plugin"
+msgstr ""
+
+#: mobile-menu/pro/updates/updater.php:216
+msgid "Automatic backups status"
+msgstr ""
+
+#: mobile-menu/pro/updates/updater.php:234
+msgid "License Code"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:27
+msgid "Logged in as <strong>%s</strong>."
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:27
+msgid "logout"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:45
+#: paid-memberships-pro/pages/invoice.php:102
+msgid "Level"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:47
+msgid "Membership Fee"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:51
+msgid "%s every %d %s."
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:53
+msgid "%s per %s."
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:63
+msgid "Duration"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:81
+msgid ""
+"Your payment subscription is managed by PayPal. Please <a "
+"href=\"http://www.paypal.com\">login to PayPal here</a> to update your "
+"billing information."
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:104
+#: paid-memberships-pro/pages/confirmation.php:66
+#: paid-memberships-pro/pages/invoice.php:48
+msgid "Billing Address"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:108
+msgid "First Name"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:112
+msgid "Last Name"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:116
+msgid "Address 1"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:120
+msgid "Address 2"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:121
+msgid "optional"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:130
+msgid "City"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:134
+msgid "State"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:138
+msgid "Postal Code"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:147
+msgid "City, State Zip"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:200
+msgid "Country"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:225
+msgid "Phone"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:236
+msgid "E-mail Address"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:240
+msgid "Confirm E-mail"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:263
+msgid "Credit Card Information"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:264
+msgid "We accept %s"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:275
+msgid "Card Type"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:313
+msgid "Card Number"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:317
+msgid "Expiration Date"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:352
+msgid "CVV"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:353
+msgid "what's this?"
+msgstr ""
+
+#: paid-memberships-pro/pages/billing.php:382
+msgid ""
+"This subscription is not recurring. So you don't need to update your "
+"billing information."
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:12
+msgid "Your payment has been submitted. Your membership will be activated shortly."
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:14
+msgid "Thank you for your membership to %s. Your %s membership is now active."
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:28
+msgid ""
+"Below are details about your membership account and a receipt for your "
+"initial membership invoice. A welcome email with a copy of your initial "
+"membership invoice has been sent to %s."
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:47
+#: paid-memberships-pro/pages/invoice.php:22
+msgid "Invoice #%s on %s"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:49
+#: paid-memberships-pro/pages/invoice.php:24
+msgid "Print"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:52
+#: paid-memberships-pro/pages/confirmation.php:123
+#: paid-memberships-pro/pages/invoice.php:27
+msgid "Account"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:53
+#: paid-memberships-pro/pages/confirmation.php:124
+#: paid-memberships-pro/pages/invoice.php:28
+msgid "Membership Level"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:55
+#: paid-memberships-pro/pages/invoice.php:30
+msgid "Membership Expires"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:58
+#: paid-memberships-pro/pages/invoice.php:33
+msgid "Discount Code"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:79
+#: paid-memberships-pro/pages/invoice.php:61
+msgid "Payment Method"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:80
+#: paid-memberships-pro/pages/invoice.php:62
+msgid "ending in"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:81
+#: paid-memberships-pro/pages/invoice.php:63
+msgid "Expiration"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:88
+#: paid-memberships-pro/pages/invoice.php:70
+#: paid-memberships-pro/pages/invoice.php:103
+msgid "Total Billed"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:94
+#: paid-memberships-pro/pages/invoice.php:76
+msgid "Coupon"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:111
+msgid ""
+"Below are details about your membership account. A welcome email has been "
+"sent to %s."
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:124
+msgid "Pending"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:132
+#: paid-memberships-pro/pages/invoice.php:134
+msgid "View Your Membership Account &rarr;"
+msgstr ""
+
+#: paid-memberships-pro/pages/confirmation.php:134
+msgid ""
+"If your account is not activated within a few minutes, please contact the "
+"site owner."
+msgstr ""
+
+#: paid-memberships-pro/pages/invoice.php:100
+msgid "Date"
+msgstr ""
+
+#: paid-memberships-pro/pages/invoice.php:101
+msgid "Invoice #"
+msgstr ""
+
+#: paid-memberships-pro/pages/invoice.php:127
+msgid "No invoices found."
+msgstr ""
+
+#: paid-memberships-pro/pages/invoice.php:138
+msgid "&larr; View All Invoices"
+msgstr ""
+
+#: paid-memberships-pro/pages/levels.php:111
+#: paid-memberships-pro/pages/levels.php:113
+msgid "Select"
+msgstr ""
+
+#: paid-memberships-pro/pages/levels.php:120
+msgid "Renew"
+msgstr ""
+
+#: paid-memberships-pro/pages/levels.php:124
+msgid "Your&nbsp;Level"
+msgstr ""
+
+#: paid-memberships-pro/pages/levels.php:142
+msgid "&larr; Return to Your Account"
+msgstr ""
+
+#: paid-memberships-pro/pages/levels.php:144
+msgid "&larr; Return to Home"
+msgstr ""
+
+#: peepso/friends/pending.php:45
+msgid "You currently have no friend requests"
+msgstr ""
+
+#: peepso/groups/group-header.php:72 peepso/profile/focus.php:57
+msgid "Reposition"
+msgstr ""
+
+#: peepso/groups/group-header.php:76 peepso/profile/focus.php:61
+msgid "Modify"
+msgstr ""
+
+#: peepso/groups/group-header.php:84 peepso/groups/group-settings.php:53
+#: peepso/groups/group-settings.php:93 peepso/groups/group-settings.php:133
+#: peepso/groups/group-settings.php:196 peepso/groups/group-settings.php:242
+#: peepso/groups/group-settings.php:282 peepso/groups/group-settings.php:321
+#: peepso/groups/group-settings.php:360 peepso/photos/photo-album-custom.php:51
+#: peepso/photos/photo-group-album-custom.php:54 peepso/profile/focus.php:69
+#: peepso/profile/profile-about.php:170
+msgid "Save"
+msgstr ""
+
+#: peepso/groups/group-header.php:105
+msgid "Click to show more group details.."
+msgstr ""
+
+#: peepso/groups/group-header.php:113
+msgid "Group details"
+msgstr ""
+
+#: peepso/groups/group-header.php:116
+msgid "Group categories"
+msgstr ""
+
+#: peepso/groups/group-header.php:116
+msgid "Group category"
+msgstr ""
+
+#: peepso/groups/group-header.php:129
+msgid "%s member"
+msgid_plural "%s members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: peepso/groups/group-header.php:135
+msgid "(%d pending)"
+msgstr ""
+
+#: peepso/groups/group-header.php:156
+msgid "%s Group"
+msgstr ""
+
+#: peepso/groups/group-header.php:181
+msgid "Stream"
+msgstr ""
+
+#: peepso/groups/group-header.php:230
+msgid "More"
+msgstr ""
+
+#: peepso/groups/group-settings.php:35
+msgid "Group Name"
+msgstr ""
+
+#: peepso/groups/group-settings.php:46 peepso/groups/group-settings.php:127
+msgid "Characters left"
+msgstr ""
+
+#: peepso/groups/group-settings.php:60 peepso/groups/group-settings.php:100
+#: peepso/groups/group-settings.php:140 peepso/groups/group-settings.php:203
+#: peepso/groups/group-settings.php:249 peepso/groups/group-settings.php:289
+#: peepso/groups/group-settings.php:328 peepso/groups/group-settings.php:367
+#: peepso/profile/profile-about.php:135
+msgid "Edit"
+msgstr ""
+
+#: peepso/groups/group-settings.php:74
+msgid "Group Slug"
+msgstr ""
+
+#: peepso/groups/group-settings.php:85
+msgid "Letters, numbers and dashes are recommended, eg my-amazing-group-123."
+msgstr ""
+
+#: peepso/groups/group-settings.php:85
+msgid "This field might be automatically adjusted  after editing."
+msgstr ""
+
+#: peepso/groups/group-settings.php:111
+msgid "Group Description"
+msgstr ""
+
+#: peepso/groups/group-settings.php:121
+#: peepso/photos/photo-album-custom.php:117
+#: peepso/photos/photo-group-album-custom.php:86
+msgid "No description"
+msgstr ""
+
+#: peepso/groups/group-settings.php:152
+msgid "Categories"
+msgstr ""
+
+#: peepso/groups/group-settings.php:218
+msgid "Enable \"Join\" button"
+msgstr ""
+
+#: peepso/groups/group-settings.php:219
+msgid "Enable \"Request To Join\" button"
+msgstr ""
+
+#: peepso/groups/group-settings.php:223
+msgid "Has no effect on Site Administrators"
+msgstr ""
+
+#: peepso/groups/group-settings.php:260
+msgid "Enable \"Invite\" button"
+msgstr ""
+
+#: peepso/groups/group-settings.php:263 peepso/groups/group-settings.php:302
+msgid "Has no effect on Owner and Site Administrators"
+msgstr ""
+
+#: peepso/groups/group-settings.php:299
+msgid "Disable new posts"
+msgstr ""
+
+#: peepso/groups/group-settings.php:338
+msgid "Disable new member notifications"
+msgstr ""
+
+#: peepso/groups/group-settings.php:341
+msgid "Group owners will not receive notifications about new members"
+msgstr ""
+
+#: peepso/groups/group.php:32
+msgid "You must join the group to be able to participate."
+msgstr ""
+
+#: peepso/groups/group.php:35
+msgid "This is an announcement Group, only the Owners can create new posts."
+msgstr ""
+
+#: peepso/groups/group.php:40
+msgid "Currently group is unpublished."
+msgstr ""
+
+#: peepso/groups/group.php:65 peepso/groups/group.php:66
+#: peepso/profile/profile.php:65 peepso/profile/profile.php:66
+msgid "No posts found."
+msgstr ""
+
+#: peepso/groups/group.php:67 peepso/profile/profile.php:67
+msgid "Nothing more to show."
+msgstr ""
+
+#: peepso/learndash/courses.php:95 peepso/learndash/courses.php:103
+msgid "No Certificate Found."
+msgstr ""
+
+#: peepso/learndash/courses.php:145
+msgid "Total Students : "
+msgstr ""
+
+#: peepso/learndash/courses.php:155 peepso/learndash/courses.php:329
+msgid "No Courses Found."
+msgstr ""
+
+#: peepso/learndash/courses.php:192
+msgid "Total Points : "
+msgstr ""
+
+#: peepso/learndash/courses.php:195
+msgid "Quiz Started : "
+msgstr ""
+
+#: peepso/learndash/courses.php:198
+msgid "Quiz Completed : "
+msgstr ""
+
+#: peepso/learndash/courses.php:209
+msgid "No Quiz Found."
+msgstr ""
+
+#: peepso/learndash/courses.php:229
+msgid "Related Course : "
+msgstr ""
+
+#: peepso/learndash/courses.php:232
+msgid "Points : "
+msgstr ""
+
+#: peepso/learndash/courses.php:235
+msgid "Approved : "
+msgstr ""
+
+#: peepso/learndash/courses.php:245
+msgid "No Assignment Found."
+msgstr ""
+
+#: peepso/learndash/courses.php:314
+msgid "Learning Progress : "
+msgstr ""
+
+#: peepso/photos/photo-album-custom.php:39
+#: peepso/photos/photo-group-album-custom.php:42
+msgid "Add Photos"
+msgstr ""
+
+#: peepso/photos/photo-album-custom.php:61
+#: peepso/photos/photo-group-album-custom.php:64
+msgid "Are you sure you want to delete this album?"
+msgstr ""
+
+#: peepso/photos/photo-album-custom.php:84
+#: peepso/photos/photo-group-album-custom.php:74
+msgid "Album description"
+msgstr ""
+
+#: peepso/photos/photo-album-custom.php:124
+#: peepso/photos/photo-group-album-custom.php:93
+msgid "Save description"
+msgstr ""
+
+#: peepso/photos/photo-album-custom.php:136 peepso/photos/photo-album.php:30
+#: peepso/photos/photo-group-album-custom.php:105
+#: peepso/photos/photo-group-album.php:33 peepso/photos/photos-group.php:51
+#: peepso/photos/photos.php:64 peepso/videos/videos-group.php:27
+#: peepso/videos/videos.php:25
+msgid "Newest first"
+msgstr ""
+
+#: peepso/photos/photo-album-custom.php:137 peepso/photos/photo-album.php:31
+#: peepso/photos/photo-group-album-custom.php:106
+#: peepso/photos/photo-group-album.php:34 peepso/photos/photos-group.php:52
+#: peepso/photos/photos.php:65 peepso/videos/videos-group.php:28
+#: peepso/videos/videos.php:26
+msgid "Oldest first"
+msgstr ""
+
+#: peepso/photos/photo-album-custom.php:180
+#: peepso/photos/photo-group-album-custom.php:157
+msgid "Write a comment..."
+msgstr ""
+
+#: peepso/photos/photo-album.php:23 peepso/photos/photo-group-album.php:26
+msgid "Back to Photos"
+msgstr ""
+
+#: peepso/photos/photo-album.php:26 peepso/photos/photo-group-album.php:29
+msgid "%s Album"
+msgstr ""
+
+#: peepso/photos/photos-group.php:30 peepso/photos/photos.php:29
+#: peepso/photos/photos.php:54
+msgid "Create Album"
+msgstr ""
+
+#: peepso/photos/photos-group.php:37 peepso/photos/photos-group.php:42
+#: peepso/photos/photos.php:38
+msgid "Photos"
+msgstr ""
+
+#: peepso/photos/photos-group.php:37 peepso/photos/photos-group.php:43
+#: peepso/photos/photos.php:39
+msgid "Albums"
+msgstr ""
+
+#: peepso/photos/photos.php:46
+msgid "Recently added photos"
+msgstr ""
+
+#: peepso/photos/photos.php:48
+msgid "Photo Albums"
+msgstr ""
+
+#: peepso/profile/profile-about-account.php:53
+msgid ""
+"Fields marked with an asterisk (<span class=\"required-sign\">*</span>) are "
+"required."
+msgstr ""
+
+#: peepso/profile/profile-about-account.php:58
+msgid "Profile Deletion"
+msgstr ""
+
+#: peepso/profile/profile-about-account.php:61
+msgid ""
+"Deleting your account will disable your profile and remove your name and "
+"photo from most things you've shared. Some information may still be visible "
+"to others, such as your name in their friends list and messages you sent."
+msgstr ""
+
+#: peepso/profile/profile-about-account.php:68
+msgid "Export Your Community Data"
+msgstr ""
+
+#: peepso/profile/profile-about-notifications.php:39
+msgid "Shortcuts"
+msgstr ""
+
+#: peepso/profile/profile-about-notifications.php:40
+msgid "Quickly manage all your preferences at once"
+msgstr ""
+
+#: peepso/profile/profile-about-notifications.php:44
+msgid "Disable all e-mail notifications"
+msgstr ""
+
+#: peepso/profile/profile-about-notifications.php:47
+msgid "Enable all e-mail notifications"
+msgstr ""
+
+#: peepso/profile/profile-about-notifications.php:50
+msgid "Disable all on-site notifications"
+msgstr ""
+
+#: peepso/profile/profile-about-notifications.php:53
+msgid "Enable all on-site notifications"
+msgstr ""
+
+#: peepso/profile/profile-about.php:182
+msgid "Sorry, no data to show"
+msgstr ""
+
+#: peepso/profile/profile.php:24
+msgid "Finished Editing Apps Layout"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:153 peepso/widgets/userbar.tpl.php:30
+msgid "Preferences"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:168 peepso/widgets/userbar.tpl.php:36
+#: peepso/widgets/userbar.tpl.php:101
+msgid "Log Out"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:197
+msgid "Community"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:223
+msgid "Username"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:233
+msgid "Password"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:245
+msgid "TFA code"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:254 peepso/widgets/me.tpl.php:255
+msgid "Remember Me"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:277
+msgid "Forgot Password"
+msgstr ""
+
+#: peepso/widgets/me.tpl.php:284
+msgid "Resend activation code"
+msgstr ""
+
+#: peepso/widgets/userbar.tpl.php:107
+msgid "Log in"
+msgstr ""
+
+#: peepso/wpadverts/profile-wpadverts.php:26
+msgid "Create"
+msgstr ""
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar-activity-left.php:11
+msgid "Member primary navigation"
+msgstr ""
+
+#: sidebar-activity-left.php:33 sidebar-group-left.php:91
+#: template-parts/activity-widgets.php:49
+msgid "Show:"
+msgstr ""
+
+#: sidebar-activity-left.php:46 sidebar-group-left.php:111
+#: template-parts/activity-widgets.php:60
+msgid "Everything"
+msgstr ""
+
+#: sidebar-group-left.php:21
+msgid "Group primary navigation"
+msgstr ""
+
+#: single-company.php:19 single-company.php:28
+msgid "company"
+msgstr ""
+
+#: single-company.php:22
+msgid "Jobs at %s"
+msgstr ""
+
+#: single-company.php:31
+msgid "%d Job Available"
+msgid_plural "%d Jobs Available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: single.php:20
+msgid "Previous"
+msgstr ""
+
+#: single.php:21
+msgid "Next"
+msgstr ""
+
+#: template-parts/activity-widgets.php:3
+msgid "Activity"
+msgstr ""
+
+#: template-parts/activity-widgets.php:7
+msgid "Sitewide activities navigation"
+msgstr ""
+
+#: template-parts/activity-widgets.php:10 template-parts/members-widgets.php:19
+msgid "All Members %s"
+msgstr ""
+
+#: template-parts/activity-widgets.php:17 template-parts/members-widgets.php:22
+msgid "My Friends %s"
+msgstr ""
+
+#: template-parts/activity-widgets.php:25 template-parts/groups-widgets.php:22
+msgid "My Groups %s"
+msgstr ""
+
+#: template-parts/activity-widgets.php:32
+msgid "My Favorites %s"
+msgstr ""
+
+#: template-parts/activity-widgets.php:37
+msgid "Mentions"
+msgstr ""
+
+#: template-parts/activity-widgets.php:54
+msgid "Activity secondary navigation"
+msgstr ""
+
+#: template-parts/content-buddypress.php:14
+msgid "Create Group"
+msgstr ""
+
+#: template-parts/content-buddypress.php:23 template-parts/content-page.php:43
+#: template-parts/content-search.php:38 template-parts/content.php:75
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-search.php:13 template-parts/content-search.php:44
+#: template-parts/content.php:32 template-parts/content.php:40
+#: template-parts/content.php:81
+msgid "Permalink to %s"
+msgstr ""
+
+#: template-parts/content-search.php:29 template-parts/content.php:63
+#. translators: %s: Name of current post
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-search.php:44 template-parts/content.php:81
+msgid "Read More"
+msgstr ""
+
+#: template-parts/groups-widgets.php:13 widgets/groups-widget.php:44
+#: widgets/groups-widget.php:209 widgets/sidewide-activity-widget.php:410
+msgid "Groups"
+msgstr ""
+
+#: template-parts/groups-widgets.php:17
+msgid "Groups directory main navigation"
+msgstr ""
+
+#: template-parts/groups-widgets.php:19
+msgid "All Groups %s"
+msgstr ""
+
+#: template-parts/groups-widgets.php:33 template-parts/members-widgets.php:32
+msgid "Order By:"
+msgstr ""
+
+#: template-parts/groups-widgets.php:37 template-parts/groups-widgets.php:78
+msgid "Groups directory secondary navigation"
+msgstr ""
+
+#: template-parts/groups-widgets.php:42 template-parts/members-widgets.php:41
+msgid "Last Active"
+msgstr ""
+
+#: template-parts/groups-widgets.php:43
+msgid "Most Members"
+msgstr ""
+
+#: template-parts/groups-widgets.php:44
+msgid "Newly Created"
+msgstr ""
+
+#: template-parts/groups-widgets.php:45 template-parts/members-widgets.php:45
+#: widgets/groups-widget.php:235
+msgid "Alphabetical"
+msgstr ""
+
+#: template-parts/groups-widgets.php:61 template-parts/groups-widgets.php:62
+msgid "All Types"
+msgstr ""
+
+#: template-parts/groups-widgets.php:73
+msgid "Group Types"
+msgstr ""
+
+#: template-parts/header-icons/notification.php:36
+msgid "View all notifications"
+msgstr ""
+
+#: template-parts/members-widgets.php:17
+msgid "Members directory main navigation"
+msgstr ""
+
+#: template-parts/members-widgets.php:36
+msgid "Members directory secondary navigation"
+msgstr ""
+
+#: template-parts/members-widgets.php:42
+msgid "Newest Registered"
+msgstr ""
+
+#: template-parts/reign-page-header.php:43
+msgid "Search results for: "
+msgstr ""
+
+#: template-parts/widgets/rg-woo-product-category.php:65
+msgid "Shop Now"
+msgstr ""
+
+#: widgets/active-members.php:28
+msgid "A slider for active, popular, and newest members"
+msgstr ""
+
+#: widgets/active-members.php:123
+msgid "No one has signed up yet!"
+msgstr ""
+
+#: widgets/active-members.php:177 widgets/groups-widget.php:224
+#: widgets/latest-news.php:135 widgets/sidewide-activity-widget.php:160
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:119
+msgid "Title:"
+msgstr ""
+
+#: widgets/active-members.php:186
+msgid "Max members to show:"
+msgstr ""
+
+#: widgets/active-members.php:192
+msgid "Default members to show:"
+msgstr ""
+
+#: widgets/active-members.php:194 widgets/groups-widget.php:232
+msgid "Newest"
+msgstr ""
+
+#: widgets/active-members.php:196 widgets/groups-widget.php:234
+msgid "Popular"
+msgstr ""
+
+#: widgets/active-members.php:201
+msgid "Display Member Name:"
+msgstr ""
+
+#: widgets/groups-widget.php:26
+msgid ""
+"A slider for list of recently active, popular, newest, or alphabetical "
+"groups"
+msgstr ""
+
+#: widgets/groups-widget.php:156 widgets/sidewide-activity-widget.php:88
+msgid "View All"
+msgstr ""
+
+#: widgets/groups-widget.php:165
+msgid "There are no groups to display."
+msgstr ""
+
+#: widgets/groups-widget.php:226
+msgid "Max groups to show:"
+msgstr ""
+
+#: widgets/groups-widget.php:227
+msgid "No Of Columns:"
+msgstr ""
+
+#: widgets/groups-widget.php:230
+msgid "Default groups to show:"
+msgstr ""
+
+#: widgets/groups-widget.php:239
+msgid "Display View All Button:"
+msgstr ""
+
+#: widgets/latest-news.php:28
+msgid "Widget to show latest blog posts."
+msgstr ""
+
+#: widgets/latest-news.php:32
+msgid "REIGN News Widget"
+msgstr ""
+
+#: widgets/latest-news.php:139
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:12
+msgid "Reign PeepSo UserBar"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:13
+msgid "PeepSo User Bar Widget"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:73
+msgid "Pending Notifications"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:159
+msgid "Content Position"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:165
+msgid "Space Between"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:171
+msgid "Guest view"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:174
+msgid "Log-in link"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:184
+msgid "Show avatar"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:192
+msgid "Show name"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:200
+msgid "Show notifications"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:208
+msgid "Show User dropdown menu"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:216
+msgid "Show logout icon"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:224
+msgid "Show VIP icons"
+msgstr ""
+
+#: widgets/peepso/widgetuserbar.php:232
+msgid "Show Badges"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:9
+msgid "REIGN Site Wide Activity"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:67
+msgid "Site Wide Activity RSS Feed"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:67
+msgid "[RSS]"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:133
+msgid "Site Wide Activities"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:161
+msgid "Number of items Per Page:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:162
+msgid "Max items to show:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:166
+msgid "Limit to Logged In user's activity:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:173
+msgid "List My Activity Only:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:181
+msgid "Show Avatar:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:187
+msgid "Show Feed Link:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:193
+msgid "Show Activity Content:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:200
+msgid "Limit activity content to:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:201
+msgid "words. Zero means no limit."
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:206
+msgid "Show Post Form"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:213
+msgid "Show/Allow Activity Replies:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:219
+msgid "Show Activity Filters:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:227
+msgid "Include only following Filters:"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:237
+msgid "Exclude following Components activity"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:407
+#: widgets/sidewide-activity-widget.php:408
+msgid "Profile"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:412
+msgid "Blogs"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:413
+#: widgets/sidewide-activity-widget.php:414
+msgid "Forums"
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:559
+#. translators: %s: activity scope
+msgid "You have no recent %s activity."
+msgstr ""
+
+#: widgets/sidewide-activity-widget.php:561
+msgid "There has been no recent site activity."
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:25
+msgid "WooCommerce product categories list."
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:28
+msgid "Reign - Product Categories"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:123
+msgid "No of category per row:"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:127
+msgid "No of Category:"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:132
+msgid "Show parent categories only"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:136
+msgid "Show product counts"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:140
+msgid "Enable slider"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:143
+msgid "Layout:"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:145
+msgid "Layout - 1"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:146
+msgid "Layout - 2"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:147
+msgid "Layout - 3"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:148
+msgid "Layout - 4"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:149
+msgid "Layout - 5"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:150
+msgid "Layout - 6"
+msgstr ""
+
+#: widgets/woocommerce/class-reign-woo-widget-product-categories.php:154
+msgid "Selected Categories: ( \",\" separated ids )"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:91
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:97
+#: woocommerce/global/quantity-input.php:30
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:55
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:86
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:132
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:132
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:132
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:136
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:25
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:48
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:27
+#. translators: %s: Quantity.
+msgid "%s quantity"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "REIGN"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wbcomdesigns.com/downloads/reign-buddypress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Premium BuddyPress Theme with Elementor Page Builder support."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wbcom Designs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "PeepSo Layout"
+msgstr ""
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-reign-theme-structure.php:174
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: inc/extras.php:92
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/extras.php:119
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/extras.php:96
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/extras.php:128 inc/extras.php:143
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:1214
+#: inc/required-plugins/class-tgm-plugin-activation.php:3065
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2459
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2505
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/required-plugins/class-tgm-plugin-activation.php:2599
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: template-parts/activity-widgets.php:37
+msgctxt "Number of new activity mentions"
+msgid "%s new"
+msgid_plural "%s new"
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/active-members.php:27
+msgctxt "widget name"
+msgid "REIGN Members"
+msgstr ""
+
+#: widgets/groups-widget.php:30
+msgctxt "widget name"
+msgid "REIGN Groups"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:41
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""

@@ -1,0 +1,420 @@
+// Variables.
+@import "variables";
+
+#sprite,
+#glt-translate-trigger {
+	display: none !important;
+}
+
+.forgetmenot {
+	position: relative;
+
+	label {
+		position: relative;
+	}
+
+	&:hover label {
+		color: $customizer_blue !important;
+	}
+
+	input:hover {
+		border-color: $customizer_blue !important;
+	}
+
+	.customizer-event-overlay {
+		border: 0 !important;
+		opacity: 0 !important;
+	}
+
+	button[data-login-designer-customizer-event="login-designer-edit-remember-me"] {
+		width: calc(100% + 4px);
+		top: -2px;
+		bottom: -2px;
+		left: 16px;
+		right: -2px;
+	}
+
+	button[data-login-designer-customizer-event="login-designer-edit-remember-me-checkbox"] {
+		width: 100%;
+		top: -1px !important;
+		bottom: 0;
+		left: 0;
+		height: 100%;
+		right: 0;
+		transition: opacity 100ms cubic-bezier(0.33, 0, 0.2, 1);
+
+		// &:hover {
+		// 	opacity: 1 !important;
+		// 	background: rgba(0, 167, 233, 0.2) !important;
+		// }
+	}
+}
+
+.login .button.wp-hide-pw {
+	transition: 0 !important;
+}
+
+.login-designer--form-footer {
+	margin-top: 16px;
+}
+
+#login-designer--below-form {
+	position: relative;
+
+	.customizer-event-overlay {
+		top: -6px;
+		bottom: -6px;
+		max-width: 70%;
+		left: 15%;
+	}
+}
+
+.customize-partial-edit-shortcut {
+	transition: opacity 200ms cubic-bezier(0.694, 0, 0.335, 1), visibility 0ms cubic-bezier(0.694, 0, 0.335, 1);
+	opacity: 0;
+}
+
+body:hover .customize-partial-edit-shortcut {
+	transition: opacity 200ms cubic-bezier(0.694, 0, 0.335, 1), visibility 0ms cubic-bezier(0.694, 0, 0.335, 1) 200ms;
+	opacity: 1;
+}
+
+.customize-partial--login-designer-background {
+	top: 10px !important;
+	left: 42px !important;
+
+	.login-designer-event-button:before {
+		color: #fff;
+		box-shadow: none;
+		font: 400 15px/72px dashicons;
+		content: "\f540";
+		position: absolute;
+		right: 0.17em;
+		text-shadow: 0 -1px 1px rgba(0, 122, 182, 0.8), 1px 0 1px #007ab6, 0 1px 1px #007ab6, -1px 0 1px #007ab6;
+		top: 0.24em;
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+	}
+}
+
+.customize-partial--login-designer-settings {
+	bottom: 44px !important;
+	left: 42px !important;
+
+	.login-designer-event-button:before {
+		color: #fff;
+		box-shadow: none;
+		font: 400 19px/72px dashicons;
+		content: "\f111";
+		position: absolute;
+		right: 0.13em;
+		text-shadow: 0 -1px 1px #007ab6, 1px 0 1px #007ab6, 0 1px 1px #007ab6, -1px 0 1px #007ab6;
+		top: .15em;
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+	}
+
+	.login-designer-settings-opened & {
+		opacity: 0 !important;
+		visibility: hidden !important;
+	}
+}
+
+
+.login-designer-settings-opened .login-designer-badge {
+	pointer-events: none;
+}
+
+.login-designer-settings-opened .login-designer-badge .login-designer-event-button {
+	opacity: 0 !important;
+	visibility: hidden !important;
+}
+
+.customize-partial--login-designer-template {
+	left: 42px !important;
+	top: 46px !important;
+
+	.login-designer-template-section-opened & {
+		opacity: 0 !important;
+		visibility: hidden !important;
+	}
+
+	.login-designer-event-button:before {
+		color: #fff;
+		box-shadow: none;
+		font: 400 18px/72px dashicons;
+		content: "\f105";
+		position: absolute;
+		right: 0.13em;
+		text-shadow: 0 -1px 1px #007ab6, 1px 0 1px #007ab6, 0 1px 1px #007ab6, -1px 0 1px #007ab6;
+		top: 0.15em;
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+	}
+}
+
+.customize-partial--login-designer-add-logo {
+	left: 0;
+	right: 0;
+	top: -43px;
+	margin: 0 auto;
+
+	.login-designer-event-button {
+		left: -15px;
+	}
+
+	.login-designer-event-button:before {
+		color: #fff;
+		box-shadow: none;
+		font: 400 16px/72px dashicons;
+		content: "\f128";
+		position: absolute;
+		right: 0.19em;
+		text-shadow: 0 -1px 1px #007ab6, 1px 0 1px #007ab6, 0 1px 1px #007ab6, -1px 0 1px #007ab6;
+		top: .17em;
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+	}
+}
+
+.customize-partial--loginform {
+	top: 0 !important;
+	left: -10px !important;
+
+	.login-designer-template-01 & {
+		left: 12px !important;
+		top: 10px !important;
+
+		button {
+			left: 0;
+		}
+	}
+
+	.login-designer-edit-loginform & {
+		opacity: 0 !important;
+		visibility: hidden !important;
+	}
+}
+
+.has-template-applied .customize-partial-edit-shortcut button {
+	animation-name: x !important;
+	opacity: 1 !important;
+}
+
+.customize-partial--login-designer-background,
+.customize-partial--login-designer-template {
+
+	.login-designer-template-01 & {
+		left: calc( 580px + 42px ) !important;
+	}
+}
+
+
+.login-designer-template-01 {
+
+	#login form {
+		position: initial;
+	}
+}
+
+.hidden {
+	display: none !important;
+}
+
+// Background
+#login-designer-background {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	transition: opacity 300ms cubic-bezier(0.694, 0, 0.335, 1);
+
+	&.transitioning {
+		opacity: 0;
+	}
+}
+
+// Accessibility
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 0;
+	overflow: hidden;
+	position: absolute !important;
+	width: 0;
+	word-wrap: normal;
+	clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+}
+
+.screen-reader-text:focus {
+	border-radius: 3px;
+	clip: auto;
+	display: block;
+	font-size: 15px;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 0.9375rem;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+#wp-a11y-speak-polite {
+	display: none;
+}
+
+// Logo.
+#login-designer-logo {
+	pointer-events: none;
+
+	&:focus {
+		box-shadow: none;
+	}
+}
+
+#login-designer-logo-h1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 84px;
+}
+
+// Positioning.
+#login form,
+#login-designer-logo-h1,
+#login-designer--username,
+#login-designer--password {
+	position: relative;
+}
+
+// Fields.
+#login-designer--username,
+#login-designer--password {
+	// border-width: 2px;
+	// margin-bottom: 16px;
+
+	input {
+		margin-bottom: 0;
+	}
+
+	.customizer-event-overlay {
+		border: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 2px;
+		width: 100%;
+		opacity: 0 ! important;
+		transition: opacity 100ms cubic-bezier(0.33,0,0.2,1), background 100ms cubic-bezier(0.33,0,0.2,1);
+	}
+
+	&:hover,
+	#login form.input-hover & {
+
+		.customizer-event-overlay {
+			opacity: 1 !important;
+			background: rgba(0, 167, 233, 0.11) !important;
+		}
+	}
+}
+
+// Labels.
+#login-designer--username-label,
+#login-designer--password-label {
+	position: relative;
+
+	&:hover,
+	#login form.label-hover & {
+		color: $customizer_blue !important;
+	}
+
+	.customizer-event-overlay {
+		top: -2px;
+		bottom: -2px;
+		left: -2px;
+		right: -2px;
+		width: calc( 100% + 4px);
+		border: 0 ! important;
+		opacity: 0 ! important;
+	}
+}
+
+// Labels.
+.no-label #login-designer--username-label {
+	transition: opacity 200ms cubic-bezier(0.694, 0, 0.335, 1), visibility 0ms cubic-bezier(0.694, 0, 0.335, 1);
+	opacity: 0;
+
+	body:hover & {
+		transition: opacity 200ms cubic-bezier(0.694, 0, 0.335, 1), visibility 0ms cubic-bezier(0.694, 0, 0.335, 1) 200ms;
+		opacity: 1;
+	}
+
+
+	.login-designer-event-button {
+		background: $customizer_blue;
+		height: 8px !important;
+		width: 8px !important;
+		border-radius: 100%;
+	}
+
+	.login-designer-event-button.customizer-event-overlay {
+		opacity: 1 !important;
+		top: -8px;
+		left: -1px;
+	}
+}
+
+// Buttons.
+#login-designer--button {
+	position: relative;
+	float: right;
+
+	.customizer-event-overlay {
+		border: 0 !important;
+		border-radius: 3px;
+		bottom: 0;
+		left: 0;
+		opacity: 1 !important;
+		right: 0;
+		top: 0 !important;
+		width: 100%;
+		z-index: 99999;
+		transition: opacity 100ms cubic-bezier(0.33,0,0.2,1), background 100ms cubic-bezier(0.33,0,0.2,1);
+	}
+
+	&:hover {
+
+		.customizer-event-overlay {
+			opacity: 1 !important;
+			background: rgba(0, 167, 233, 0.2) !important;
+		}
+	}
+}
+
+.customizer-event-overlay {
+	background: transparent;
+	border: 2px solid transparent;
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	text-indent: -9999em;
+	top: 0;
+	width: 100%;
+	z-index: 22;
+	transition: border-color 100ms cubic-bezier(0.33,0,0.2,1);
+
+	&:hover,
+	&:focus {
+		border-color: $customizer_blue;
+		outline: none;
+	}
+}

@@ -1,0 +1,140 @@
+/* ----------------------------------------------------------------------------------------------------
+Super Form Reset
+----------------------------------------------------------------------------------------------------*/
+
+.sgpb-form-wrapper input,
+.sgpb-form-wrapper label,
+.sgpb-form-wrapper select,
+.sgpb-form-wrapper button,
+.sgpb-form-wrapper textarea {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+	background: none;
+	line-height: 1;
+	max-width: 100% !important;
+	/* Browsers have different default form fonts */
+	font-size: 13px;
+	font-family: Arial;
+}
+
+/* Remove the stupid outer glow in Webkit */
+.sgpb-form-wrapper input:focus {
+	outline: 0;
+}
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+
+/* All of our custom controls should be what we expect them to be */
+.sgpb-form-wrapper input,
+.sgpb-form-wrapper textarea {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/* These elements are usually rendered a certain way by the browser */
+.sgpb-form-wrapper button,
+.sgpb-form-wrapper input[type=reset],
+.sgpb-form-wrapper input[type=button],
+.sgpb-form-wrapper input[type=submit],
+.sgpb-form-wrapper input[type=checkbox],
+.sgpb-form-wrapper input[type=radio],
+.sgpb-form-wrapper select {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Button Controls
+-----------------------------------------------*/
+
+.sgpb-form-wrapper input[type=checkbox],
+.sgpb-form-wrapper input[type=radio] {
+	width: 13px;
+	height: 13px;
+}
+
+/* Search Input
+-----------------------------------------------*/
+
+/* Make webkit render the search input like a normal text field */
+.sgpb-form-wrapper input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+}
+
+/* Turn off the recent search for webkit. It adds about 15px padding on the left */
+.sgpb-form-wrapper ::-webkit-search-decoration {
+	display: none;
+}
+
+/* Buttons
+-----------------------------------------------*/
+
+.sgpb-form-wrapper button,
+.sgpb-form-wrapper input[type="reset"],
+.sgpb-form-wrapper input[type="button"],
+.sgpb-form-wrapper input[type="submit"] {
+	/* Fix IE7 display bug */
+	overflow: visible;
+	width: auto;
+}
+
+/* IE8 and FF freak out if this rule is within another selector */
+.sgpb-form-wrapper ::-webkit-file-upload-button {
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
+/* Textarea
+-----------------------------------------------*/
+
+.sgpb-form-wrapper textarea {
+	/* Move the label to the top */
+	vertical-align: top;
+
+	/* Turn off scroll bars in IE unless needed */
+	overflow: auto;
+}
+
+/* Selects
+-----------------------------------------------*/
+
+.sgpb-form-wrapper select[multiple] {
+	/* Move the label to the top */
+	vertical-align: top;
+}
+
+/*Our reset styles*/
+.sgpb-form-wrapper input[type="text"],
+.sgpb-form-wrapper input[type="number"],
+.sgpb-form-wrapper input[type="password"],
+.sgpb-form-wrapper input[type="email"],
+.sgpb-form-wrapper input[type="submit"],
+.sgpb-form-wrapper input[type="button"] {
+	max-width: 100% !important;
+	padding: 10px !important;
+	box-sizing: border-box;
+	font-size: 14px !important;
+	box-shadow: none !important;
+	margin: 5px auto !important;
+	display: inline-block !important;
+	font-weight: bold !important;
+	background-image: none !important;
+}
+
+.sgpb-form-wrapper input[type="submit"],
+.sgpb-form-wrapper input[type="button"] {
+	line-height: 0.4 !important;
+	font-size: 18px !important;
+}
+
+.sg-js-hide {
+	display: none;
+}

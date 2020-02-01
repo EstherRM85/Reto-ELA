@@ -1,0 +1,82 @@
+// ***** Constant Variables ***** //
+$color_black: #000;
+$color_white: #FFF;
+$color_gray: #666;
+$rem-base: 16px;
+
+// Colors
+$color__link: #222;
+$color__link-visited: $color__link;
+$color__link-hover: $color__link;
+
+$color__background-body: #f4f4f4;
+$color__background-screen: #f1f1f1;
+$color__background-hr: #ddd;
+$color__background-button: #aaa;
+$color__background-pre: #f5f5f5;
+$color__background-ins: #fff9c0;
+$color__background-light: #f6f6f6;
+
+$color__text-site: #222;
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__text-main: #404040;
+
+$color__border-light: #ddd;
+$color__border-button: #ccc #ccc #bbb;
+
+$color__border-input: #e3e3e3;
+$color__border-abbr: #666;
+
+// Typo
+$font__main: 'Open Sans', sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+$font__icon: 'FontAwesome';
+
+//rem base
+$font__rem-base: 16px;
+$font__base-font-size: 16px;
+$font__base-line-height: 26px;
+
+//smaller fonts
+$font__size-medium: 16px !default;
+$font__size-small: 15px !default;
+$font__size-extrasmall: 14px !default;
+$font__size-smaller: 13px !default;
+$font__size-smallest: 12px !default;
+
+// Heading sizes
+$font__size-h1: 52px !default;
+$font__size-h2: 32px !default;
+$font__size-h3: 28px !default;
+$font__size-h4: 20px !default;
+$font__size-h5: 18px !default;
+$font__size-h6: 16px !default;
+
+//Another font sizes
+$directory_icon_font__size: 20px;
+
+// ***** Grid Breakpoints ***** //
+$wb-grid-breakpoint-small: 544px !default; // Small screen / phone
+$wb-grid-breakpoint-medium: 768px !default; // Medium screen / tablet
+$wb-grid-breakpoint-large: 992px !default; // Large screen / desktop
+$wb-grid-breakpoint-extra-large: 1200px !default; // Extra large screen / wide desktop
+
+// ***** Conainer Widths ***** //
+$container-width-small: 576px !default;
+$container-width-medium: 720px !default;
+$container-width-large: 940px !default;
+$container-width-extra-large: 1170px !default;
+
+// ***** Gutter Spacing ***** //
+$wb-grid-gutter: 30px !default;
+
+// ***** Header Height ***** //
+$masthead__height: 90px;
+
+// ***** End Variables ***** //

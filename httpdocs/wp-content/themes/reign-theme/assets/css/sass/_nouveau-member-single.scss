@@ -1,0 +1,638 @@
+/* nouveau-member-single */
+.bp-nouveau {
+    #buddypress.buddypress-wrap.bp-dir-hori-nav:not(.bp-vertical-navs) {
+        #item-body {
+            padding: 0;
+            margin-top: 0;
+        }
+    }
+
+    .bp-list li .item-avatar img.avatar {
+        max-width: 100px;
+    }
+
+    .buddypress-wrap a[data-bp-close],
+    .buddypress-wrap button[data-bp-close] {
+        background: transparent;
+        color: #555;
+        padding: 0;
+
+        &:hover {
+            background: transparent;
+            color: #333;
+        }
+    }
+
+    .buddypress-wrap .bp-subnavs {
+        margin: 15px 0 !important;
+    }
+
+    .bp-plugin-widgets {
+        margin-bottom: 20px;
+    }
+
+    .member-front-page,
+    .group-front-page {
+        margin-top: 20px;
+
+        .bp-sidebar {
+            display: flex;
+            flex-flow: row wrap;
+            margin: 0 -15px;
+
+            @media(max-width: 32em) {
+                display: block;
+                margin: auto;
+            }
+
+            .widget {
+                width: calc(50% - 30px);
+                margin: 0 15px 20px 15px;
+
+                @media(max-width: 32em) {
+                    width: 100%;
+                    margin: auto;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .item-avatar img {
+                max-width: 46px;
+            }
+        }
+    }
+
+    .buddypress-wrap .profile,
+    .bp-messages-content,
+    .bupr-bp-member-reviews-block,
+    .bp-member-add-form,
+    .bptodo-adming-setting,
+    .bptodo-form-add,
+    #send-invites-editor,
+    form#group-settings-form,
+    form#settings-form,
+    form#account-group-invites-form,
+    form#account-capabilities-form {
+        background: $color_white;
+        margin-top: 15px;
+        padding: 15px;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .bp-messages-content #bp-message-thread-list .message-content,
+    .bp-messages-content #bp-message-thread-list li:nth-child(2n) .message-content {
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.2);
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    #message-threads li.selected {
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .bp-messages-content #bp-message-thread-list .message-metadata {
+        padding: 10px;
+        box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .buddypress-wrap .standard-form .wbcom-user-social label {
+        margin: -5px 0 10px;
+    }
+
+    .buddypress-wrap .standard-form .wbtm-rtm-header-view label {
+        margin: -5px 0 10px;
+    }
+
+    .field-visibility-settings-toggle {
+        margin-top: 10px;
+    }
+
+    .buddypress-wrap table.profile-fields,
+    .buddypress-wrap .profile.edit .editfield {
+        box-shadow: none;
+    }
+
+    .buddypress-wrap .profile.edit .button-nav li {
+        margin-bottom: 10px;
+    }
+
+    .buddypress-wrap .profile.public .profile-group-title {
+        padding-bottom: 5px;
+    }
+
+    .buddypress-wrap .profile.edit .editfield>fieldset p {
+        margin-bottom: 0;
+    }
+
+    .wbtm-rtm-header-view .bp-profile-field.editfield select {
+        max-width: 180px;
+        height: 34px;
+    }
+
+    .buddypress-wrap .profile.edit .editfield .description {
+        margin-bottom: 10px;
+    }
+
+    .buddypress-wrap .standard-form .datebox-selects {
+        margin-bottom: 20px;
+
+        select {
+            margin-right: 15px;
+            height: 34px;
+
+            @media (max-width: 543px) {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    }
+
+    /*    #members-order-select {
+            padding: 10px;
+        }*/
+
+    #buddypress.buddypress-wrap .standard-form .mce-btn button,
+    #buddypress.buddypress-wrap .bptodo-form-add .mce-btn button {
+        padding: 2px 3px;
+        background: transparent;
+    }
+
+    #buddypress input[type=button].ed_button {
+        padding: 0 8px 1px;
+    }
+
+    .buddypress-wrap .standard-form a.clear-value {
+        margin-top: 15px;
+    }
+
+    .drag-drop-inside p.drag-drop-info {
+        margin-bottom: 15px;
+    }
+
+    .bp-avatar-nav ul.avatar-nav-items li.current,
+    .buddypress-wrap .tabbed-links ul li.current {
+        border-bottom-color: #f4f4f4;
+    }
+
+    .buddypress-wrap .bp-tables-user,
+    .buddypress-wrap table.forum,
+    .buddypress-wrap table.wp-profile-fields {
+        box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    }
+
+    .buddypress-wrap table.notifications .bulk-select-all,
+    .buddypress-wrap table.notifications .bulk-select-check {
+        padding-left: 1em;
+    }
+
+    .buddypress-wrap .bp-tables-user tr td.label,
+    .buddypress-wrap table.forum tr td.label,
+    .buddypress-wrap table.profile-fields .data,
+    .buddypress-wrap table.wp-profile-fields tr td.label {
+        border: 0;
+    }
+
+    .buddypress-wrap .bp-tables-user tr.alt td,
+    .buddypress-wrap table.wp-profile-fields tr.alt td {
+        background: transparent;
+    }
+
+    .buddypress-wrap .bp-tables-user tbody tr,
+    .buddypress-wrap table.forum tbody tr,
+    .buddypress-wrap table.wp-profile-fields tbody tr {
+        background: $color_white;
+    }
+
+    .buddypress-wrap .notifications-options-nav #notification-select,
+    .buddypress-wrap .notifications-options-nav #notification-select:focus {
+        display: inline-block;
+        padding-right: 25px !important;
+        background: transparent !important;
+        text-indent: 0;
+    }
+
+    .buddypress-wrap .notifications-options-nav input#notification-bulk-manage {
+        margin-top: 10px;
+
+        @media screen and (min-width: 32em) {
+            margin-top: 0;
+            margin-left: 10px;
+        }
+    }
+
+    .buddypress-wrap .subnav-filters.bp-messages-filters ul {
+        margin: 0;
+    }
+
+    .bp-messages-filters button#bp-messages-next-page,
+    .bp-messages-filters button#bp-messages-prev-page {
+        margin-right: 10px;
+
+        &:before {
+            content: none !important;
+        }
+    }
+
+    #message-threads {
+        background: $color_white;
+        box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+
+        li {
+            padding: 10px;
+        }
+    }
+
+    #message-threads li .thread-from img.avatar,
+    #message-threads li .thread-to img.avatar {
+        max-width: 32px;
+    }
+
+    #message-threads li .thread-content {
+        padding: 0 10px;
+    }
+
+    .buddypress-wrap .subnav-filters .user-messages-bulk-actions label {
+        margin-left: 5px;
+    }
+
+    .bp-messages-content #thread-preview,
+    .buddypress-wrap table.notification-settings {
+        background: $color_white;
+        box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    }
+
+    .bp-messages-content .thread-participants ul {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .bp-messages-content .actions .bp-icons.bp-hide {
+        display: none;
+    }
+
+    .bp-messages-content .actions .bp-icons:not(.bp-hide),
+        .bp-messages-content #bp-message-thread-list .message-metadata button {
+        box-shadow: none;
+        border: 0;
+        color: #555;
+        background: transparent;
+
+        &:hover {
+            box-shadow: none;
+            border: 0;
+        }
+    }
+
+    .rtm-privacy-levels {
+        margin-bottom: 20px;
+
+        > label {
+            line-height: 2;
+        }
+    }
+
+    .buddypress-wrap .grid.bp-list > li ul.friends-meta.action .generic-button {
+        margin: 0 5px 5px 0;
+    }
+
+    /* bp-single-vert-nav style:: Start */
+    @media (min-width: 46.8em) {
+        .buddypress-wrap.bp-single-vert-nav .bp-subnavs {
+            margin-top: 0 !important;
+        }
+
+        .buddypress-wrap.bp-single-vert-nav .bp-list {
+            margin-bottom: 0;
+        }
+
+        .bp-single-vert-nav .bp-navs.vertical ul {
+            width: 100%;
+            border: 0;
+        }
+
+        .bp-single-vert-nav .bp-wrap {
+            margin-bottom: 15px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .bp-vertical-navs .rg-nouveau-sidebar-menu {
+            width: 100%;
+            flex: 0 0 230px;
+            float: left;
+            background: #fff;
+            margin: 0;
+            min-height: 50vh;
+            padding: 0;
+            border-radius: 0;
+            border: 1px solid #e3e3e3;
+            border-right: 0;
+            padding: 20px 0;
+        }
+
+        .bp-single-vert-nav .bp-navs.vertical li:focus,
+            .bp-single-vert-nav .bp-navs.vertical li:hover {
+            background: #f5f5f5;
+        }
+
+        #buddypress.bp-vertical-navs #item-body {
+            padding: 0;
+            flex: 1;
+            min-width: 1px;
+            margin: 0;
+        }
+
+        .bp-vertical-navs .item-body-inner-wrapper {
+            padding: 15px;
+            background: 0 0;
+            border: 1px solid #e3e3e3;
+            border-left: 0;
+            height: 100%;
+            min-height: 50vh;
+        }
+
+        .bp-single-vert-nav .bp-navs.vertical:not(.tabbed-links) ul {
+            > li a {
+                padding: 10px;
+            }
+        }
+
+        .buddypress-wrap .main-navs.tabbed-links ol li a,
+        .buddypress-wrap .main-navs.tabbed-links ol li span:not(.count),
+            .buddypress-wrap .main-navs.tabbed-links ul li a,
+            .buddypress-wrap .main-navs.tabbed-links ul li span:not(.count) {
+            padding: 10px;
+        }
+
+        .bp-single-vert-nav .item-body:not(#group-create-body) {
+            background: transparent;
+        }
+
+        .bp-single-vert-nav .item-body:not(#group-create-body) #subnav:not(.tabbed-links) {
+            margin: 0;
+        }
+
+        .buddypress-wrap .tabbed-links ol li.current, .buddypress-wrap .tabbed-links ul li.current {
+            border-bottom-color: #f4f4f4;
+        }
+
+        #buddypress #item-body {
+            padding: 0 0 0 1em;
+        }
+
+        /* .bp-single-vert-nav .item-body:not(#group-create-body) #subnav:not(.tabbed-links) {
+                    background: transparent;
+                }*/
+
+        .bp-single-vert-nav .item-body:not(#group-create-body) #subnav:not(.tabbed-links) li {
+            margin: 0;
+            font-size: $font__size-extrasmall;
+        }
+
+        .bp-single-vert-nav .item-body:not(#group-create-body) #subnav:not(.tabbed-links) li.current a,
+            .bp-single-vert-nav .item-body:not(#group-create-body) #subnav:not(.tabbed-links) li a {
+            padding: 5px 10px;
+            text-decoration: none;
+            border-right: 0;
+        }
+
+        .buddypress-wrap .bp-navs.tabbed-links ul.subnav li.bp-personal-sub-tab.last a {
+            margin-top: 0;
+        }
+
+        .buddypress-wrap.bp-vertical-navs .profile,
+        .bp-vertical-navs .bp-messages-content,
+        .bp-vertical-navs .bupr-bp-member-reviews-block,
+        .bp-vertical-navs .bp-member-add-form,
+        .bp-vertical-navs .bptodo-adming-setting,
+        .bp-vertical-navs .bptodo-form-add,
+        .bp-vertical-navs #send-invites-editor,
+        .bp-vertical-navs form#group-settings-form,
+        .bp-vertical-navs form#settings-form,
+        .bp-vertical-navs form#account-group-invites-form,
+        .bp-vertical-navs form#account-capabilities-form {
+            box-shadow: none;
+        }
+    }
+
+    @media (max-width: 46.8em) {
+        .buddypress-wrap .single-screen-navs,
+        .buddypress-wrap .bp-subnavs {
+            background: $color_white;
+            box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+        }
+
+        #buddypress #item-body {
+            padding: 0;
+        }
+    }
+    /* bp-single-vert-nav style:: End */
+
+    /* rg-nouveau-sidebar-menu style:: Start */
+    .buddypress-wrap .rg-nouveau-sidebar-menu {
+
+        @media (min-width: 46.8em) {
+            .rg-nouveau-sidebar-head {
+                display: none;
+            }
+
+            .single-screen-navs {
+                display: block !important;
+            }
+        }
+
+        @media (max-width: 46.8em) {
+            margin-bottom: 15px;
+            background: none !important;
+
+            .rg-nouveau-sidebar-head h2.widget-title {
+                margin: 0;
+
+                span.custom-name {
+                    max-width: 90%;
+                }
+            }
+
+            .single-screen-navs {
+                display: none;
+                border: 0;
+            }
+        }
+
+        span.rg-toggle {
+            float: right;
+            font-size: 20px;
+            border-bottom: 0;
+        }
+    }
+    /* rg-nouveau-sidebar-menu style:: End */
+
+    /* Member/Group front page style:: Start */
+    .member-front-page,
+    .group-front-page {
+        .widget-title {
+            display: block;
+            //padding-bottom: 10px;
+        }
+
+        .buddypress.widget ul.item-list li {
+            border: 1px solid #dbdbdb;
+        }
+
+        .widget.widget_nav_menu ul li {
+            margin: 0;
+
+            &:hover {
+                margin-left: 0;
+            }
+
+            a {
+                padding: 5px 10px;
+            }
+        }
+
+        div.avatar-block .item-avatar .avatar {
+            margin: 0 10px 10px 0;
+        }
+    }
+    /* Member/Group front page style:: End */
+
+    #invite-anyone-group-list {
+        margin-top: 15px;
+    }
+
+    /* bp create doc style */
+    #buddypress #bp-create-doc-button {
+        padding: .3em .5em;
+        margin: 0;
+        margin-left: 10px;
+
+        @media (max-width: 46.8em) {
+            margin: 10px;
+        }
+    }
+
+    .bp-docs.bp-docs-container {
+        padding: 15px;
+        margin: 15px 0;
+        background: $color_white;
+        box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    }
+
+    /* bp-widget.social */
+    .bp-widget.social {
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        table.profile-fields {
+            background: $color_white;
+
+            td {
+                padding: .5em;
+                border: 0;
+            }
+
+            td.label {
+                font-weight: 600;
+            }
+        }
+    }
+
+    .buddypress-wrap ul#friend-list {
+        .accept,
+        .reject {
+            margin-left: 0;
+        }
+
+        &.wbtm-member-directory-type-1.grid.bp-list>li .item {
+            text-align: left;
+
+            .item-title {
+                font-size: $font__size-extrasmall;
+                font-weight: 600;
+            }
+
+            .item-meta {
+                text-align: left;
+                margin-bottom: 0;
+                margin-top: 5px;
+            }
+        }
+    }
+
+    .badgeos-achievements-list-item {
+        background: $color_white;
+        padding: 20px 15px;
+    }
+}
+
+/* Send Invites style */
+.bp-nouveau.invite-new-members {
+    form#invite-anyone-by-email {
+        background: $color_white;
+        padding: 15px;
+        box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+
+        .submit {
+            padding: 0;
+        }
+    }
+}
+
+/* to-do plugin */
+.bp-nouveau .buddypress-wrap .bptodo-form-add select,
+.bp-nouveau .buddypress-wrap select {
+    font-size: $font__size-smallest;
+    height: 30px;
+}
+
+.bp-nouveau .buddypress-wrap .bptodo-form-add select {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.buddypress-wrap .select-wrap span.select-arrow {
+    margin-right: 8px;
+}
+
+/* mce-btn button style */
+.bp-nouveau .wp-switch-editor {
+    float: left !important;
+    box-sizing: content-box;
+    top: 1px;
+    background: #ebebeb !important;
+    color: $color_gray !important;
+    cursor: pointer !important;
+    font-size: $font__size-smaller !important;
+    line-height: 19px !important;
+    height: 20px;
+    margin: 5px 0 0 5px;
+    border: 1px solid #e5e5e5 !important;
+}
+
+.html-active .switch-html, .tmce-active .switch-tmce {
+    background: #f5f5f5 !important;
+    color: #555 !important;
+    border-bottom-color: #f5f5f5 !important;
+}
+
+.bp-nouveau .mce-btn button {
+    padding: 4px 6px !important;
+    font-size: $font__size-extrasmall !important;
+    cursor: pointer !important;
+    color: #595959 !important;
+    text-align: center !important;
+    overflow: visible;
+    -webkit-appearance: none;
+    background: none !important;
+}
+
+.mce-menubtn.mce-fixed-width span {
+    text-align: left;
+}

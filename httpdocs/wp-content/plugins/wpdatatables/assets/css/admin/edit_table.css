@@ -1,0 +1,371 @@
+.wpdt-c .wdt-datatables-admin-wrap .card.wdt-table-settings,
+.wpdt-c .wdt-datatables-admin-wrap .card.column-settings {
+    max-width: 100%;
+    padding: 0;
+    margin-top: 0;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .card.wdt-table-settings .card-body {
+    padding-top: 10px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .card.wdt-table-settings h2 span.wdt-table-name {
+    padding: 3px;
+}
+
+.wpdt-c .wdt-admin-card-header button#wdt-table-id {
+    margin-left: 30px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .card.wdt-table-settings h2 span.wdt-table-name:hover {
+    border: 1px solid #ccc;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.wpDataTableContainer {
+    margin: 15px 0 30px 0;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.wpDataTableContainer .tab-content {
+    padding: 20px 15px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap button.wdt-column-settings,
+.wpdt-c .wdt-datatables-admin-wrap button.wdt-delete-formula-column {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    z-index: 8;
+    display: inline-block;
+    margin: 2px;
+    border: 1px solid #e7e7e7;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -vendor-animation-duration: 1s;
+    -vendor-animation-delay: 1s;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap button.wdt-column-settings:hover,
+.wpdt-c .wdt-datatables-admin-wrap button.wdt-delete-formula-column:hover {
+    background-color: #ccc !important;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-overlay {
+    display: none;
+    background: rgba(0, 0, 0, 0.4);
+    height: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 9999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    border-left: 1px solid #eee;
+    max-height: 100vh;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 32px;
+    padding: 0;
+    background: #fff;
+    box-shadow: -3px 0 5px -1px rgba(105, 105, 105, 0.17);
+    width: 60%;
+    max-width: 60%;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel div.card-body.card-padding {
+    padding: 5px 10px 5px 10px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel input[type="text"] {
+    width: 100%;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel div.input-group {
+    width: 100%;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel div.form-group {
+    height: 30px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel .bootstrap-tagsinput input[type="text"] {
+    width: 70px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel button.btn-xs {
+    font-size: 10px !important;
+    line-height: 1em !important;
+    margin: 0 !important;
+    height: auto !important;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel button.btn-xs.wdt-copy-shortcode {
+    text-transform: none;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.wdt-column-block, div.wdt-column-block.gu-mirror {
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border-radius: 2px;
+    margin-bottom: 5px;
+    padding: 5px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel .wdt-conditional-formatting-rule .wdt-delete-conditional-formatting-rule {
+    padding: 0px;
+    line-height: inherit;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel .wdt-conditional-formatting-rule .form-group {
+    width: 100%;
+    display: inline-block;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel .colorpicker.colorpicker-visible {
+    top: 25px;
+    right: 18px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.column-settings-panel .wdt-conditional-formatting-rule .colorpicker.colorpicker-visible {
+    right: 32px;
+}
+
+div.wdt-column-block.gu-mirror {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+div.wdt-column-block.gu-mirror .fg-line {
+    margin-left: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+div.wdt-column-block.gu-mirror .fg-line input.wdt-column-display-header-edit {
+    padding: 0;
+    height: 20px;
+    font-size: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+div.wdt-column-block.gu-mirror .fg-line i {
+    position: absolute;
+    left: 178px;
+    top: 3px;
+    font-size: 16px;
+    color: #c7c7c7;
+}
+
+div.wdt-column-block.gu-mirror .wdt-column-move-arrows {
+    padding: 5px 6px 6px 2px;
+    margin-top: -4px;
+    border-left: 1px solid #c7c7c7;
+    font-size: 16px;
+    margin-left: 7px;
+    float: right;
+}
+
+div.wdt-column-block.gu-mirror span {
+    float: right;
+    margin-left: 10px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.wdt-column-block:hover {
+    background-color: #fefefe;
+    cursor: pointer;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.wdt-column-block i.zmdi-apps {
+    color: #aaa;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.wdt-column-block i.column-control {
+    color: #444;
+    margin: 3px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.wdt-column-block i.column-control.inactive {
+    color: #999;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.wdt-column-block i.column-control:hover {
+    color: #000;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap div.wdt-conditional-formatting-rule .form-group {
+    margin-right: 0;
+}
+
+/* Column list modal */
+.wpdt-c #wdt-columns-list-modal .modal-body .wdt-columns-container .wdt-column-block input {
+    height: 20px;
+    padding-right: 25px;
+}
+
+/* Formula editor modal */
+.wpdt-c #wdt-formula-editor-modal .modal-body p {
+    margin-bottom: 10px;
+}
+
+.wpdt-c #wdt-formula-editor-modal .wdt-formula-operators .btn {
+    text-transform: none;
+    margin: 3px;
+}
+
+.wpdt-c #wdt-formula-editor-modal .wdt-formula-operators {
+    max-height: 200px;
+}
+
+.wpdt-c #wdt-formula-editor-modal .formula-columns-container {
+    height: 150px;
+    overflow-x: hidden;
+}
+
+.wpdt-c #wdt-formula-editor-modal .formula_col textarea {
+    height: 150px;
+}
+
+.wpdt-c #wdt-formula-editor-modal div.wdt-formula-result-preview {
+    margin: 15px 0;
+}
+
+.wpdt-c #column-data-settings > div.wdt-possible-values-options-block > div.wdt-manual-list-enter-block > div {
+    height: inherit;
+    max-height: 80px;
+    overflow-y: auto;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .wdt-table-name,
+.wpdt-c #wdt-columns-list-modal .modal-body .wdt-columns-container .wdt-column-block .fg-line,
+.wdt-column-block.gu-mirror .fg-line {
+    width: inherit;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .wdt-table-name #wdt-table-title-edit {
+    background-color: #f7f7f7;
+    margin-top: -9px;
+    padding-top: 6px;
+    padding-right: 18px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .wdt-table-name i,
+.wpdt-c #wdt-columns-list-modal .modal-body .wdt-columns-container .wdt-column-block .fg-line i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 16px;
+    color: #c7c7c7;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .wdt-admin-card-header h2 #wdt-table-id {
+    text-transform: none;
+    top: 32px;
+    position: absolute;
+    left: 290px;
+}
+
+.wpdt-c #wdt-table-title-edit:focus ~ i.zmdi.zmdi-edit,
+.wpdt-c #wdt-table-title-edit:hover ~ i.zmdi.zmdi-edit,
+.wpdt-c #wdt-columns-list-modal .modal-body .wdt-columns-container .wdt-column-block .wdt-column-display-header-edit:focus ~ i.zmdi.zmdi-edit,
+.wpdt-c #wdt-columns-list-modal .modal-body .wdt-columns-container .wdt-column-block .wdt-column-display-header-edit:hover ~ i.zmdi.zmdi-edit {
+    color: #2196f3;
+}
+
+.wpdt-c #wdt-columns-list-modal .modal-body .wdt-columns-container .wdt-column-block .wdt-column-move-arrows {
+    padding: 3px 6px 4px 8px;
+    margin-top: -4px;
+    border-left: 1px solid #c7c7c7;
+    font-size: 16px;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.wpdt-c .wdt-edit-buttons span {
+    color: #9E9E9E;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    margin-bottom: 3px;
+}
+
+.wpdt-c .wdt-edit-buttons span a {
+    color: #2196f3;
+    text-decoration: underline;
+}
+
+.wpdt-c .column-settings .wdt-remove-column:after {
+    font-family: WPDataTablesIcons;
+    content:"\e81D";
+}
+
+.wpdt-c .column-settings .wdt-add-column:after {
+    font-family: WPDataTablesIcons;
+    content:"\e81e";
+}
+
+.wpdt-c .column-settings .card-header .wdt-table-action-buttons {
+    padding: 0;
+}
+
+.wpdt-c .column-settings .card-header button {
+    height: 32px;
+    margin-left: 1px;
+    border-radius: 0;
+    opacity: 0.8;
+}
+
+.wpdt-c .column-settings .card-header button:hover {
+    opacity: 1;
+}
+
+.wpdt-c .column-settings .card-header button:first-of-type {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.wpdt-c .column-settings .card-header button:last-of-type {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.wpdt-c .column-settings .card-header button.wdt-add-column,
+.wpdt-c .column-settings .card-header button.wdt-remove-column,
+.wpdt-c .column-settings .card-header button#wdt-open-columns-list {
+    width: 38px;
+}
+
+.wpdt-c .column-settings .card-header button#wdt-open-columns-list i:before {
+    font-size: 20px;
+}
+
+.wpdt-c .column-settings .card-header button.wdt-add-column:after,
+.wpdt-c .column-settings .card-header button.wdt-remove-column:after {
+    font-size: 15px;
+}
+
+.wpdt-c .wdt-table-settings .input-path-block .fg-line {
+    width: 75%;
+}

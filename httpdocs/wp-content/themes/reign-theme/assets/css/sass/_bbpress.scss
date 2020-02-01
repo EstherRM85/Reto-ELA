@@ -1,0 +1,168 @@
+/* Forums home */
+
+div.bbp-breadcrumb, div.bbp-topic-tags {
+    font-size: $font__size-extrasmall;
+}
+
+span.bbp-breadcrumb-sep {
+    margin: 0 3px;
+}
+
+#bbpress-forums div.bbp-search-form {
+    margin-bottom: 20px;
+}
+
+#bbpress-forums #bbp-search-form #bbp_search {
+    min-width: 200px;
+    width: 100%;
+}
+
+#bbpress-forums fieldset.bbp-form input {
+    margin-bottom: 0;
+}
+
+#bbpress-forums li.bbp-body ul.forum,
+#bbpress-forums li.bbp-body ul.topic {
+    font-size: $font__size-smallest;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 30px 10px;
+}
+
+body p.bbp-forum-description,
+body div.bbp-template-notice p,
+body div.indicator-hint p {
+    color: $color_black;
+}
+
+#bbpress-forums li.bbp-header {
+    font-size: $font__size-medium;
+    //background: #399dff;
+    color: $color_white;
+    padding: 20px;
+
+    span#subscription-toggle {
+        font-size: inherit;
+        margin-left: 0;
+    }
+
+    div.bbp-topic-content a,
+    div.bbp-reply-content a {
+        color: inherit;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+#bbpress-forums li.bbp-footer {
+    background: rgba(0,0,0,.2);
+}
+
+#bbpress-forums div.even, #bbpress-forums ul.even {
+    background-color: rgba(0,0,0,.2);
+}
+
+#bbpress-forums div.odd, #bbpress-forums ul.odd {
+    background: #fbfbfb;
+}
+
+#bbpress-forums li:last-child {
+    text-align: left;
+}
+
+a.bbp-forum-title, a.bbp-topic-permalink {
+    line-height: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: $font__size-medium;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.24s ease-in-out;
+}
+
+#bbpress-forums .bbp-forum-info .bbp-forum-content,
+#bbpress-forums p.bbp-topic-meta {
+    font-size: $font__size-smaller;
+    margin-top: 10px;
+}
+
+#bbpress-forums .bbp-forums-list li a {
+    font-size: $font__size-smallest;
+}
+
+#bbpress-forums p.bbp-topic-meta img.avatar,
+#bbpress-forums ul.bbp-reply-revision-log img.avatar,
+#bbpress-forums ul.bbp-topic-revision-log img.avatar,
+#bbpress-forums div.bbp-template-notice img.avatar,
+#bbpress-forums .widget_display_topics img.avatar,
+#bbpress-forums .widget_display_replies img.avatar {
+    width: 24px;
+    float: none;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 100%;
+    margin-right: 2px;
+}
+
+#bbpress-forums p.bbp-topic-meta span {
+    display: flex;
+    align-items: center;
+}
+
+/* BbPress Public Forum */
+
+span.bbp-topic-started-in a:first-child {
+    margin-left: 2px;
+}
+
+span.bbp-topic-started-in,
+span.bbp-topic-started-by {
+
+    img {
+        margin-left: 2px;
+    }
+}
+
+span#subscription-toggle {
+    font-size: $font__size-extrasmall;
+    margin-left: 5px;
+}
+
+/* BbPress Forum Sticky Topic */
+
+span.bbp-admin-links a {
+    color: #333;
+}
+
+#bbpress-forums div.bbp-forum-author img.avatar,
+#bbpress-forums div.bbp-topic-author img.avatar,
+#bbpress-forums div.bbp-reply-author img.avatar {
+    border-radius: 100%;
+    margin: 12px auto 10px auto;
+}
+
+/* BbPress Forum Standard Topic */
+
+#bbpress-forums fieldset.bbp-form legend {
+    font-size: $font__size-extrasmall;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+
+    #bbpress-forums li.bbp-header {
+        font-size: $font__size-smallest;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    #bbpress-forums li.bbp-header li.bbp-forum-topic-count, #bbpress-forums li.bbp-header li.bbp-forum-reply-count, #bbpress-forums li.bbp-body li.bbp-forum-topic-count, #bbpress-forums li.bbp-body li.bbp-forum-reply-count, #bbpress-forums li.bbp-header li.bbp-topic-voice-count, #bbpress-forums li.bbp-header li.bbp-topic-reply-count, #bbpress-forums li.bbp-body li.bbp-topic-voice-count, #bbpress-forums li.bbp-body li.bbp-topic-reply-count {
+        display: none;
+    }
+
+    #bbpress-forums li.bbp-header li.bbp-forum-freshness, #bbpress-forums li.bbp-body li.bbp-forum-freshness, #bbpress-forums li.bbp-header li.bbp-topic-freshness, #bbpress-forums li.bbp-body li.bbp-topic-freshness {
+        display: none;
+    }
+}

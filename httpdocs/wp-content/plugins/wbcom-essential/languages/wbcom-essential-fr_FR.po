@@ -1,0 +1,1445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wbcom Essential\n"
+"POT-Creation-Date: 2019-04-26 13:10+0530\n"
+"PO-Revision-Date: 2019-04-26 13:11+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wbcom-essential.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: base/module-base.php:33 base/module-base.php:44 plugin.php:36 plugin.php:46
+msgid "Cheatin&#8217; huh?"
+msgstr "Alors on triche ?"
+
+#: includes/buddypress-registration-shortcode.php:61
+#: modules/forms/widgets/login.php:834
+#: modules/forms/widgets/registration.php:699
+#, php-format
+msgid "You are Logged in as %1$s (<a href=\"%2$s\">Logout</a>)"
+msgstr ""
+"Vous êtes connecté en tant que %1$s (<a href=\" %2$s\">Déconnexion</a>)"
+
+#: includes/buddypress-registration-shortcode.php:76
+msgid "Please Activate BuddyPress To Use This Shortcode"
+msgstr "Veuillez activer BuddyPress pour utiliser ce shortcode"
+
+#: includes/buddypress-registration-shortcode.php:134
+msgid "Please make sure you enter your password twice"
+msgstr ""
+"S’il vous plaît assurez-vous que vous entrez votre mot de passe deux fois"
+
+#: includes/buddypress-registration-shortcode.php:138
+msgid "The passwords you entered do not match."
+msgstr "Les mots de passe que vous avez saisis ne correspondent pas."
+
+#: includes/buddypress-registration-shortcode.php:158
+msgid "This is a required field"
+msgstr "Ce champ est obligatoire"
+
+#: includes/class-wbcom-reign-customizer-support.php:65
+msgid "Select Header"
+msgstr "Choisir l'en-tête"
+
+#: includes/class-wbcom-reign-customizer-support.php:76
+msgid "Select Footer"
+msgstr "Sélectionner le pied de page"
+
+#: includes/class-wbcom-reign-customizer-support.php:113
+msgid "Topbar Type"
+msgstr "Type de topbar"
+
+#: includes/class-wbcom-reign-customizer-support.php:114
+msgid ""
+"Allows you to select default theme topbar or topbar made using Elementor."
+msgstr ""
+"Vous permet de sélectionner le thème par défaut topbar ou topbar fait en "
+"utilisant Elementor."
+
+#: includes/class-wbcom-reign-customizer-support.php:119
+msgid "Elementor Topbar"
+msgstr "Elementor topbar"
+
+#: includes/class-wbcom-reign-customizer-support.php:120
+msgid "Theme Default"
+msgstr "Thème par défaut"
+
+#: includes/class-wbcom-reign-customizer-support.php:146
+#: includes/class-wbcom-reign-customizer-support.php:202
+#: includes/class-wbcom-reign-customizer-support.php:278
+msgid "-- Select --"
+msgstr "-- Sélectionner --"
+
+#: includes/class-wbcom-reign-customizer-support.php:155
+msgid "Select Topbar "
+msgstr "Sélectionnez topbar "
+
+#: includes/class-wbcom-reign-customizer-support.php:176
+msgid "Header Type"
+msgstr "Type d'en-tête"
+
+#: includes/class-wbcom-reign-customizer-support.php:177
+msgid ""
+"Allows you to select default theme header or header made using Elementor."
+msgstr ""
+"Permet de sélectionner l'en-tête de thème par défaut ou l'en-tête fait à "
+"l'aide de Elementor."
+
+#: includes/class-wbcom-reign-customizer-support.php:182
+msgid "Elementor Header"
+msgstr "En-tête Elementor"
+
+#: includes/class-wbcom-reign-customizer-support.php:183
+msgid "Theme Header"
+msgstr "En-tête du thème"
+
+#: includes/class-wbcom-reign-customizer-support.php:211
+msgid "Select Header "
+msgstr "Choisir l'en-tête "
+
+#: includes/class-wbcom-reign-customizer-support.php:234
+msgid "Elementor Header in Mobile"
+msgstr "En-tête elementor dans mobile"
+
+#: includes/class-wbcom-reign-customizer-support.php:235
+msgid "Allows you enable/disable elementor heador in mobile view."
+msgstr "Permet d’activer/désactiver l’elementor heador dans la vue mobile."
+
+#: includes/class-wbcom-reign-customizer-support.php:240
+msgid "Use Elementor"
+msgstr "Utiliser Elementor"
+
+#: includes/class-wbcom-reign-customizer-support.php:241
+msgid "Use Default"
+msgstr "Utiliser par défaut"
+
+#: includes/class-wbcom-reign-customizer-support.php:259
+msgid "Footer Type"
+msgstr "Type de pied-de-page"
+
+#: includes/class-wbcom-reign-customizer-support.php:260
+msgid ""
+"Allows you to select default theme footer or footer made using Elementor."
+msgstr ""
+"Permet de sélectionner le pied de page par défaut ou le pied de page à "
+"l'aide de Elementor."
+
+#: includes/class-wbcom-reign-customizer-support.php:265
+msgid "Elementor Footer"
+msgstr "Pied de Page Elementor"
+
+#: includes/class-wbcom-reign-customizer-support.php:266
+msgid "Theme Footer"
+msgstr "Pied-de-page - du Thème"
+
+#: includes/class-wbcom-reign-customizer-support.php:287
+msgid "Select Footer "
+msgstr "Sélectionner le pied de page "
+
+#: includes/form-ajax-handler.php:167
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr ""
+"<strong>ERREUR</strong>&nbsp;: veuillez saisir une adresse courriel ou un "
+"identifiant."
+
+#: includes/form-ajax-handler.php:171
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+"<strong>ERREUR</strong>: Il n’y a pas d’utilisateur enregistré avec cette "
+"adresse email."
+
+#: includes/form-ajax-handler.php:189
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr ""
+"<strong>ERREUR</strong> : identifiant ou adresse de messagerie non valide."
+
+#: includes/form-ajax-handler.php:199
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+"Nous avons reçu une demande de réinitialisation du mot de passe pour le "
+"compte suivant :"
+
+#: includes/form-ajax-handler.php:201
+#, php-format
+msgid "Username: %s"
+msgstr "Nom d’utilisateur : %s"
+
+#: includes/form-ajax-handler.php:202
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+"S'il s'agit d'une erreur, ignorez simplement cet email et rien ne se "
+"produira."
+
+#: includes/form-ajax-handler.php:203
+msgid "To reset your password, visit the following address:"
+msgstr "Pour réinitialiser votre mot de passe, visitez l'adresse suivante :"
+
+#. translators: Password reset email subject. 1: Site name
+#: includes/form-ajax-handler.php:215
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Réinitialiser le mot de passe"
+
+#: includes/form-ajax-handler.php:242
+msgid "The email could not be sent."
+msgstr "Le message n’a pas pu être envoyé."
+
+#: includes/form-ajax-handler.php:242
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+"Raison possible: votre hébergeur peut avoir désactivé la fonction mail ()."
+
+#: includes/global-header-footer-posttype.php:174
+msgid "Header Template"
+msgstr "Modèle d’en-tête"
+
+#: includes/global-header-footer-posttype.php:175
+msgid "Edit Header Template"
+msgstr "Modifier le modèle d’en-tête"
+
+#: includes/global-header-footer-posttype.php:210
+msgid "Footer Template"
+msgstr "Template pied de page"
+
+#: includes/global-header-footer-posttype.php:211
+msgid "Edit Footer Template"
+msgstr "Modifier le modèle de pied de page"
+
+#: includes/global-header-footer.php:182 includes/global-header-footer.php:183
+#: includes/global-header-footer.php:220
+msgid "Header"
+msgstr "En-tête"
+
+#: includes/global-header-footer.php:190 includes/global-header-footer.php:191
+msgid "Footer"
+msgstr "Pied de page"
+
+#: includes/global-header-footer.php:207
+msgid "Header or Topbar ?"
+msgstr "En-tête ou topbar?"
+
+#: includes/global-header-footer.php:221
+msgid "Topbar"
+msgstr "Barre du haut"
+
+#: includes/global-settings-manager.php:248
+msgid "Primary Headline"
+msgstr "Titre principal"
+
+#: includes/global-settings-manager.php:251
+#: includes/global-settings-manager.php:279
+#: includes/global-settings-manager.php:307
+#: includes/global-settings-manager.php:335
+msgid "Font Family"
+msgstr "Famille de police"
+
+#: includes/global-settings-manager.php:260
+#: includes/global-settings-manager.php:288
+#: includes/global-settings-manager.php:316
+#: includes/global-settings-manager.php:344
+msgid "Font Weight"
+msgstr "Épaisseur de la police"
+
+#: includes/global-settings-manager.php:276
+msgid "Secondary Headline"
+msgstr "Titre secondaire"
+
+#: includes/global-settings-manager.php:304
+msgid "Body Text"
+msgstr "Texte du body"
+
+#: includes/global-settings-manager.php:332
+msgid "Accent Text"
+msgstr "Texte d’accentuation"
+
+#: includes/global-settings-manager.php:361
+msgid "Global Colors"
+msgstr "Couleurs globale"
+
+#: includes/global-settings-manager.php:364
+msgid "Select Global Color Scheme"
+msgstr "Sélectionnez le schéma de couleurs global"
+
+#: includes/wp-menu.php:37 includes/wp-menu.php:75
+#: modules/nav-menu/widgets/nav-menu.php:68
+msgid "WordPress Menu"
+msgstr "Menu WordPress"
+
+#: includes/wp-menu.php:81 modules/nav-menu/widgets/nav-menu.php:74
+#, php-format
+msgid ""
+"Choose the WordPress menu to output below. To change menu items please go to "
+"the <a href=\"%s\" target=\"_blank\">WordPress Menu Editor</a> page."
+msgstr ""
+"Choisissez le menu WordPress à la sortie ci-dessous. Pour changer les "
+"éléments de menu s'il vous plaît aller à la <a href=\"%s\" target=\"_blank"
+"\">WordPress menu Editor</a> page."
+
+#: includes/wp-menu.php:87 modules/nav-menu/widgets/nav-menu.php:80
+msgid " - choose - "
+msgstr " - choisir - "
+
+#: includes/wp-menu.php:99 modules/nav-menu/widgets/nav-menu.php:92
+msgid "Choose Menu"
+msgstr "Sélectionner le menu"
+
+#: includes/wp-menu.php:110 modules/nav-menu/widgets/nav-menu.php:114
+msgid "Menu Style"
+msgstr "Style du menu"
+
+#: includes/wp-menu.php:117 modules/branding/widgets/branding.php:56
+#: modules/forms/widgets/login.php:100 modules/forms/widgets/login.php:162
+#: modules/forms/widgets/registration.php:100
+#: modules/nav-menu/widgets/nav-menu.php:121
+#: modules/nav-menu/widgets/nav-menu.php:280
+#: modules/posts/skins/skin-base.php:381 modules/posts/widgets/posts.php:233
+#: modules/woo-cart/widgets/woo-cart.php:103
+msgid "Alignment"
+msgstr "Alignement"
+
+#: includes/wp-menu.php:121 modules/branding/widgets/branding.php:60
+#: modules/forms/widgets/login.php:104 modules/forms/widgets/login.php:166
+#: modules/forms/widgets/registration.php:104
+#: modules/nav-menu/widgets/nav-menu.php:125
+#: modules/nav-menu/widgets/nav-menu.php:284
+#: modules/posts/skins/skin-base.php:55 modules/posts/skins/skin-base.php:386
+#: modules/posts/skins/skin-cards.php:152 modules/posts/widgets/posts.php:237
+#: modules/woo-cart/widgets/woo-cart.php:107
+msgid "Left"
+msgstr "Gauche"
+
+#: includes/wp-menu.php:125 modules/branding/widgets/branding.php:64
+#: modules/forms/widgets/login.php:108 modules/forms/widgets/login.php:170
+#: modules/forms/widgets/registration.php:108
+#: modules/nav-menu/widgets/nav-menu.php:129
+#: modules/nav-menu/widgets/nav-menu.php:288
+#: modules/posts/skins/skin-base.php:390 modules/posts/widgets/posts.php:241
+#: modules/woo-cart/widgets/woo-cart.php:111
+msgid "Center"
+msgstr "Centre"
+
+#: includes/wp-menu.php:129 modules/branding/widgets/branding.php:68
+#: modules/forms/widgets/login.php:112 modules/forms/widgets/login.php:174
+#: modules/forms/widgets/registration.php:112
+#: modules/nav-menu/widgets/nav-menu.php:133
+#: modules/nav-menu/widgets/nav-menu.php:292
+#: modules/posts/skins/skin-base.php:56 modules/posts/skins/skin-base.php:394
+#: modules/posts/skins/skin-cards.php:156 modules/posts/widgets/posts.php:245
+#: modules/woo-cart/widgets/woo-cart.php:115
+msgid "Right"
+msgstr "Droite"
+
+#: includes/wp-menu.php:142 modules/nav-menu/widgets/nav-menu.php:146
+#: modules/nav-menu/widgets/nav-menu.php:305
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: includes/wp-menu.php:152 modules/nav-menu/widgets/nav-menu.php:156
+#: modules/nav-menu/widgets/nav-menu.php:315
+msgid "Background (hover)"
+msgstr "Arrière-plan (survol)"
+
+#: includes/wp-menu.php:163 modules/nav-menu/widgets/nav-menu.php:177
+#: modules/nav-menu/widgets/nav-menu.php:326
+msgid "Font Color"
+msgstr "Couleur de la police"
+
+#: includes/wp-menu.php:174 modules/nav-menu/widgets/nav-menu.php:188
+#: modules/nav-menu/widgets/nav-menu.php:337
+msgid "Font Color (Hover)"
+msgstr "Couleur de police (hover)"
+
+#: includes/wp-menu.php:193
+msgid "Search Box"
+msgstr "Boîte de recherche"
+
+#: includes/wp-menu.php:199
+msgid "Enable Search Box"
+msgstr "Activer Zone de ﻿Recherche"
+
+#: includes/wp-menu.php:202
+#: modules/notification-area/widgets/notification-area.php:49
+#: modules/notification-area/widgets/notification-area.php:62
+#: modules/notification-area/widgets/notification-area.php:76
+#: modules/notification-area/widgets/notification-area.php:90
+#: modules/notification-area/widgets/notification-area.php:103
+#: modules/posts/skins/skin-cards.php:89
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/wp-menu.php:203
+#: modules/notification-area/widgets/notification-area.php:50
+#: modules/notification-area/widgets/notification-area.php:63
+#: modules/notification-area/widgets/notification-area.php:77
+#: modules/notification-area/widgets/notification-area.php:91
+#: modules/notification-area/widgets/notification-area.php:104
+#: modules/posts/skins/skin-cards.php:90
+msgid "No"
+msgstr "Non"
+
+#: modules/branding/widgets/branding.php:23
+#: modules/branding/widgets/branding.php:37
+msgid "Branding"
+msgstr "Image de marque"
+
+#: modules/branding/widgets/branding.php:43
+msgid "Branding Type"
+msgstr "Type de marquage"
+
+#: modules/branding/widgets/branding.php:44
+msgid ""
+"Your theme must declare the \"add_theme_support( 'custom-logo')\" for the "
+"logo to work"
+msgstr ""
+"Votre thème doit déclarer le \"add_theme_support ('custom-logo')\" pour que "
+"le logo fonctionne"
+
+#: modules/branding/widgets/branding.php:47
+#: modules/posts/skins/skin-base.php:201 modules/posts/skins/skin-base.php:472
+#: modules/posts/widgets/posts.php:114
+msgid "Title"
+msgstr "Titre"
+
+#: modules/branding/widgets/branding.php:48
+msgid "Logo"
+msgstr "Logo"
+
+#: modules/branding/widgets/branding.php:81
+msgid "Brand"
+msgstr "Marque"
+
+#: modules/branding/widgets/branding.php:88
+msgid "Title Color"
+msgstr "Couleur du titre"
+
+#: modules/branding/widgets/branding.php:106
+#: modules/forms/widgets/login.php:661
+#: modules/forms/widgets/registration.php:538
+#: modules/posts/widgets/posts.php:315
+msgid "Hover"
+msgstr "Survol"
+
+#: modules/branding/widgets/branding.php:123
+#: modules/branding/widgets/branding.php:149
+msgid "Title Padding - Default 1em"
+msgstr "Remplissage de titre - 1em par défaut"
+
+#: modules/branding/widgets/branding.php:138
+#: modules/branding/widgets/branding.php:207
+#: modules/forms/widgets/login.php:600
+#: modules/forms/widgets/registration.php:477
+#: modules/posts/skins/skin-base.php:502 modules/posts/skins/skin-base.php:574
+#: modules/posts/skins/skin-base.php:632 modules/posts/skins/skin-base.php:694
+msgid "Typography"
+msgstr "Typographie"
+
+#: modules/branding/widgets/branding.php:165
+msgid "Description Options"
+msgstr "Description options"
+
+#: modules/branding/widgets/branding.php:175
+msgid "Description Color"
+msgstr "Couleur de la description"
+
+#: modules/branding/widgets/branding.php:192
+msgid "Description Padding - Default 1em"
+msgstr "Description Remplissage - Par défaut 1em"
+
+#: modules/branding/widgets/branding.php:221
+msgid "Branding Border"
+msgstr "Bordure de marque"
+
+#: modules/branding/widgets/branding.php:229
+#: modules/forms/widgets/login.php:624
+#: modules/forms/widgets/registration.php:501
+msgid "Border"
+msgstr "Bordure"
+
+#: modules/branding/widgets/branding.php:237
+#: modules/forms/widgets/login.php:555 modules/forms/widgets/login.php:635
+#: modules/forms/widgets/registration.php:432
+#: modules/forms/widgets/registration.php:512
+#: modules/posts/skins/skin-base.php:420 modules/posts/skins/skin-cards.php:205
+#: modules/posts/skins/skin-cards.php:412
+#: modules/woo-cart/widgets/woo-cart.php:238
+msgid "Border Radius"
+msgstr "Rayon de la bordure"
+
+#: modules/forms/widgets/login.php:21
+#: modules/notification-area/widgets/notification-area.php:316
+msgid "Login"
+msgstr "Connexion"
+
+#: modules/forms/widgets/login.php:32 modules/forms/widgets/registration.php:32
+msgid "Form Fields"
+msgstr "Champs du formulaire"
+
+#: modules/forms/widgets/login.php:39 modules/forms/widgets/login.php:423
+#: modules/forms/widgets/registration.php:39
+#: modules/forms/widgets/registration.php:300
+msgid "Label"
+msgstr "Label"
+
+#: modules/forms/widgets/login.php:42 modules/forms/widgets/login.php:228
+#: modules/forms/widgets/login.php:240 modules/forms/widgets/login.php:252
+#: modules/forms/widgets/login.php:263
+#: modules/forms/widgets/registration.php:42
+#: modules/forms/widgets/registration.php:166
+#: modules/posts/skins/skin-base.php:204 modules/posts/skins/skin-base.php:243
+#: modules/posts/skins/skin-base.php:269 modules/posts/skins/skin-cards.php:319
+#: modules/posts/skins/skin-cards.php:347
+msgid "Hide"
+msgstr "Cacher"
+
+#: modules/forms/widgets/login.php:43 modules/forms/widgets/login.php:229
+#: modules/forms/widgets/login.php:241 modules/forms/widgets/login.php:253
+#: modules/forms/widgets/login.php:264
+#: modules/forms/widgets/registration.php:43
+#: modules/forms/widgets/registration.php:167
+#: modules/posts/skins/skin-base.php:203 modules/posts/skins/skin-base.php:242
+#: modules/posts/skins/skin-base.php:268 modules/posts/skins/skin-cards.php:318
+#: modules/posts/skins/skin-cards.php:346
+msgid "Show"
+msgstr "Afficher"
+
+#: modules/forms/widgets/login.php:50 modules/forms/widgets/registration.php:50
+msgid "Input Size"
+msgstr "Taille du champ"
+
+#: modules/forms/widgets/login.php:53 modules/forms/widgets/login.php:87
+#: modules/forms/widgets/login.php:149
+#: modules/forms/widgets/registration.php:53
+#: modules/forms/widgets/registration.php:87
+msgid "Extra Small"
+msgstr "Très petit"
+
+#: modules/forms/widgets/login.php:54 modules/forms/widgets/login.php:88
+#: modules/forms/widgets/login.php:150
+#: modules/forms/widgets/registration.php:54
+#: modules/forms/widgets/registration.php:88
+msgid "Small"
+msgstr "Petit"
+
+#: modules/forms/widgets/login.php:55 modules/forms/widgets/login.php:89
+#: modules/forms/widgets/login.php:151
+#: modules/forms/widgets/registration.php:55
+#: modules/forms/widgets/registration.php:89
+msgid "Medium"
+msgstr "Moyen"
+
+#: modules/forms/widgets/login.php:56 modules/forms/widgets/login.php:90
+#: modules/forms/widgets/login.php:152
+#: modules/forms/widgets/registration.php:56
+#: modules/forms/widgets/registration.php:90
+msgid "Large"
+msgstr "Grand"
+
+#: modules/forms/widgets/login.php:57 modules/forms/widgets/login.php:91
+#: modules/forms/widgets/login.php:153
+#: modules/forms/widgets/registration.php:57
+#: modules/forms/widgets/registration.php:91
+msgid "Extra Large"
+msgstr "Très Grand"
+
+#: modules/forms/widgets/login.php:68
+msgid "Log In Button"
+msgstr "Bouton Connexion"
+
+#: modules/forms/widgets/login.php:75 modules/forms/widgets/login.php:137
+#: modules/forms/widgets/registration.php:75
+msgid "Text"
+msgstr "Texte"
+
+#: modules/forms/widgets/login.php:77
+msgid "Log In"
+msgstr "Connexion"
+
+#: modules/forms/widgets/login.php:84 modules/forms/widgets/login.php:146
+#: modules/forms/widgets/registration.php:84
+#: modules/posts/skins/skin-cards.php:224
+#: modules/posts/skins/skin-cards.php:292
+#: modules/woo-cart/widgets/woo-cart.php:172
+msgid "Size"
+msgstr "Taille"
+
+#: modules/forms/widgets/login.php:116 modules/forms/widgets/login.php:178
+#: modules/forms/widgets/registration.php:116
+msgid "Justified"
+msgstr "Justifié"
+
+#: modules/forms/widgets/login.php:130
+msgid "Get New Password Button"
+msgstr "Obtenir un nouveau bouton de mot de passe"
+
+#: modules/forms/widgets/login.php:139
+msgid "Get New Password"
+msgstr "Obtenir un nouveau mot de passe"
+
+#: modules/forms/widgets/login.php:192
+#: modules/forms/widgets/registration.php:130
+msgid "Additional Options"
+msgstr "Options supplémentaires"
+
+#: modules/forms/widgets/login.php:199
+msgid "Redirect After Login"
+msgstr "Rediriger après la connexion"
+
+#: modules/forms/widgets/login.php:202
+#: modules/forms/widgets/registration.php:140
+#: modules/posts/skins/skin-base.php:68
+msgid "Off"
+msgstr "Off"
+
+#: modules/forms/widgets/login.php:203
+#: modules/forms/widgets/registration.php:141
+#: modules/posts/skins/skin-base.php:69
+msgid "On"
+msgstr "On"
+
+#: modules/forms/widgets/login.php:215
+#: modules/forms/widgets/registration.php:153
+msgid ""
+"Note: Because of security reasons, you can ONLY use your current domain here."
+msgstr ""
+"Remarque: pour des raisons de sécurité, vous pouvez utiliser UNIQUEMENT "
+"votre domaine actuel ici."
+
+#: modules/forms/widgets/login.php:225 modules/forms/widgets/login.php:959
+#: modules/forms/widgets/login.php:1020
+msgid "Lost your password?"
+msgstr "Mot de passe oublié ?"
+
+#: modules/forms/widgets/login.php:237 modules/forms/widgets/login.php:336
+#: modules/forms/widgets/login.php:1030
+#: modules/forms/widgets/registration.php:77
+#: modules/notification-area/widgets/notification-area.php:324
+msgid "Register"
+msgstr "S'inscrire"
+
+#: modules/forms/widgets/login.php:249 modules/forms/widgets/login.php:349
+#: modules/forms/widgets/login.php:1003
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: modules/forms/widgets/login.php:260
+#: modules/forms/widgets/registration.php:163
+msgid "Logged in Message"
+msgstr "Message lorsque non-connecté"
+
+#: modules/forms/widgets/login.php:271
+#: modules/forms/widgets/registration.php:174
+msgid "Custom Label"
+msgstr "Libellé personnalisé"
+
+#: modules/forms/widgets/login.php:282
+#: modules/forms/widgets/registration.php:185
+msgid "Username Label"
+msgstr "Nom d'utilisateur"
+
+#: modules/forms/widgets/login.php:284
+msgid "Username or Email Address"
+msgstr "Identifiant ou adresse email"
+
+#: modules/forms/widgets/login.php:295
+#: modules/forms/widgets/registration.php:198
+msgid "Username Placeholder"
+msgstr "Texte indicatif de nom d’utilisateur"
+
+#: modules/forms/widgets/login.php:297
+msgid " Username or Email Address"
+msgstr " Nom d'utilisateur ou adresse courriel"
+
+#: modules/forms/widgets/login.php:308
+msgid "Password Label"
+msgstr "Libellé du mot de passe"
+
+#: modules/forms/widgets/login.php:310 modules/forms/widgets/login.php:323
+msgid "Password"
+msgstr "Mot de passe"
+
+#: modules/forms/widgets/login.php:321
+msgid "Password Placeholder"
+msgstr "Texte indicatif de mot de passe"
+
+#: modules/forms/widgets/login.php:334
+msgid "Register Label"
+msgstr "Label d'enregistrement"
+
+#: modules/forms/widgets/login.php:347
+msgid "Remember Me Label"
+msgstr "Libellé de Se rappeler de moi"
+
+#: modules/forms/widgets/login.php:362
+#: modules/forms/widgets/registration.php:239
+msgid "Form"
+msgstr "Formulaire"
+
+#: modules/forms/widgets/login.php:370
+#: modules/forms/widgets/registration.php:247
+#: modules/posts/skins/skin-base.php:361
+msgid "Rows Gap"
+msgstr "Écarts des rangées"
+
+#: modules/forms/widgets/login.php:391
+#: modules/forms/widgets/registration.php:268
+msgid "Links Color"
+msgstr "Couleur des liens"
+
+#: modules/forms/widgets/login.php:406
+#: modules/forms/widgets/registration.php:283
+msgid "Links Hover Color"
+msgstr "Couleur Liens Survol"
+
+#: modules/forms/widgets/login.php:434
+#: modules/forms/widgets/registration.php:311
+#: modules/posts/skins/skin-base.php:435 modules/posts/skins/skin-base.php:514
+#: modules/posts/skins/skin-base.php:586 modules/posts/skins/skin-base.php:644
+#: modules/posts/skins/skin-base.php:706
+msgid "Spacing"
+msgstr "Espacement"
+
+#: modules/forms/widgets/login.php:455 modules/forms/widgets/login.php:489
+#: modules/forms/widgets/login.php:587 modules/forms/widgets/login.php:668
+#: modules/forms/widgets/registration.php:332
+#: modules/forms/widgets/registration.php:366
+#: modules/forms/widgets/registration.php:464
+#: modules/forms/widgets/registration.php:545
+#: modules/posts/skins/skin-cards.php:191
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: modules/forms/widgets/login.php:481
+#: modules/forms/widgets/registration.php:358
+msgid "Fields"
+msgstr "Champs"
+
+#: modules/forms/widgets/login.php:513 modules/forms/widgets/login.php:609
+#: modules/forms/widgets/login.php:679
+#: modules/forms/widgets/registration.php:390
+#: modules/forms/widgets/registration.php:486
+#: modules/forms/widgets/registration.php:556
+#: modules/posts/skins/skin-cards.php:173
+#: modules/posts/skins/skin-cards.php:372
+msgid "Background Color"
+msgstr "Couleur d’arrière-plan"
+
+#: modules/forms/widgets/login.php:527 modules/forms/widgets/login.php:690
+#: modules/forms/widgets/registration.php:404
+#: modules/forms/widgets/registration.php:567
+#: modules/posts/skins/skin-cards.php:383
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: modules/forms/widgets/login.php:541
+#: modules/forms/widgets/registration.php:418
+#: modules/posts/skins/skin-cards.php:394
+#: modules/woo-cart/widgets/woo-cart.php:224
+msgid "Border Width"
+msgstr "Largeur de la bordure"
+
+#: modules/forms/widgets/login.php:570
+#: modules/forms/widgets/registration.php:447
+msgid "Button"
+msgstr "Bouton"
+
+#: modules/forms/widgets/login.php:580
+#: modules/forms/widgets/registration.php:457
+#: modules/posts/widgets/posts.php:295
+msgid "Normal"
+msgstr "Normal"
+
+#: modules/forms/widgets/login.php:647
+#: modules/forms/widgets/registration.php:524
+msgid "Text Padding"
+msgstr "Rembourrage du Texte"
+
+#: modules/forms/widgets/login.php:704
+#: modules/forms/widgets/registration.php:581
+#: modules/woo-cart/widgets/woo-cart.php:292
+msgid "Animation"
+msgstr "Animation"
+
+#: modules/forms/widgets/registration.php:21
+msgid "Registration"
+msgstr "Inscription"
+
+#: modules/forms/widgets/registration.php:68
+msgid "Register Button"
+msgstr "Button d'inscription"
+
+#: modules/forms/widgets/registration.php:137
+msgid "Redirect After Registration"
+msgstr "Redirection après l’inscription"
+
+#: modules/forms/widgets/registration.php:187
+#: modules/forms/widgets/registration.php:200
+msgid " Username"
+msgstr " Nom d'utilisateur"
+
+#: modules/forms/widgets/registration.php:211
+msgid "Email Label"
+msgstr "Etiquette pour l’email"
+
+#: modules/forms/widgets/registration.php:213
+#: modules/forms/widgets/registration.php:226
+msgid " Email"
+msgstr " Courriel"
+
+#: modules/forms/widgets/registration.php:224
+msgid "Email Placeholder"
+msgstr "Espace réservé Email"
+
+#: modules/groups-grid/widgets/groups-grid.php:25
+msgid "Groups Grid"
+msgstr "Grille de groupes"
+
+#: modules/groups-grid/widgets/groups-grid.php:49
+#: modules/members-carousel/widgets/members-carousel.php:40
+#: modules/members-grid/widgets/members-grid.php:49
+msgid "Settings"
+msgstr "Paramètres"
+
+#: modules/groups-grid/widgets/groups-grid.php:56
+#: modules/members-carousel/widgets/members-carousel.php:60
+#: modules/members-grid/widgets/members-grid.php:56
+msgid "Sort"
+msgstr "Trier"
+
+#: modules/groups-grid/widgets/groups-grid.php:60
+#: modules/members-carousel/widgets/members-carousel.php:64
+#: modules/members-grid/widgets/members-grid.php:60
+msgid "Newest"
+msgstr "Plus récent"
+
+#: modules/groups-grid/widgets/groups-grid.php:61
+#: modules/members-carousel/widgets/members-carousel.php:65
+#: modules/members-grid/widgets/members-grid.php:61
+msgid "Most Active"
+msgstr "Enchères les plus actives"
+
+#: modules/groups-grid/widgets/groups-grid.php:62
+#: modules/members-carousel/widgets/members-carousel.php:66
+#: modules/members-grid/widgets/members-grid.php:62
+msgid "Most Popular"
+msgstr "Les plus populaires"
+
+#: modules/groups-grid/widgets/groups-grid.php:63
+#: modules/posts/widgets/posts.php:116
+msgid "Random"
+msgstr "Aléatoire"
+
+#: modules/groups-grid/widgets/groups-grid.php:64
+msgid "Alphabetical"
+msgstr "Alphabétique"
+
+#: modules/groups-grid/widgets/groups-grid.php:72
+#: modules/groups-grid/widgets/groups-grid.php:75
+msgid "Total groups"
+msgstr "Nombre total de groupes"
+
+#: modules/groups-grid/widgets/groups-grid.php:82
+#: modules/members-grid/widgets/members-grid.php:80
+#: modules/posts/skins/skin-base.php:167
+msgid "Columns"
+msgstr "Colonnes"
+
+#: modules/groups-grid/widgets/groups-grid.php:95
+#: modules/members-grid/widgets/members-grid.php:93
+#: modules/posts/skins/skin-base.php:332 modules/posts/widgets/posts.php:75
+msgid "Layout"
+msgstr "Mise en page"
+
+#: modules/groups-grid/widgets/groups-grid.php:117
+#: modules/members-carousel/widgets/members-carousel.php:151
+#: modules/members-grid/widgets/members-grid.php:194
+msgid "You need BuddyPress plugin to be active!"
+msgstr "Vous avez besoin de plugin BuddyPress pour être actif!"
+
+#: modules/groups-grid/widgets/groups-grid.php:123
+msgid "Groups component needs to be active!"
+msgstr "Le composant groupes doit être actif!"
+
+#: modules/groups-grid/widgets/groups-grid.php:265
+msgid "There were no groups found."
+msgstr "Aucun groupe trouvé."
+
+#. translators: %s = last activity timestamp (e.g. "active 1 hour ago")
+#: modules/groups-grid/widgets/groups-grid.php:347
+#, php-format
+msgid "active %s"
+msgstr "actif %s"
+
+#: modules/members-carousel/widgets/members-carousel.php:25
+msgid "Members Carousel"
+msgstr "Carrousel des membres"
+
+#: modules/members-carousel/widgets/members-carousel.php:47
+msgid "Carousel Style"
+msgstr "Style du carousel"
+
+#: modules/members-carousel/widgets/members-carousel.php:49
+msgid "Boxed"
+msgstr "Encadré"
+
+#: modules/members-carousel/widgets/members-carousel.php:50
+msgid "Full-Width"
+msgstr "Pleine largeur"
+
+#: modules/members-carousel/widgets/members-carousel.php:53
+msgid "Enable Full width Carousel"
+msgstr "Activer carrousel pleine largeur"
+
+#: modules/members-carousel/widgets/members-carousel.php:74
+#: modules/members-carousel/widgets/members-carousel.php:77
+#: modules/members-grid/widgets/members-grid.php:70
+#: modules/members-grid/widgets/members-grid.php:73
+msgid "Total members"
+msgstr "Nombre total de membres"
+
+#: modules/members-carousel/widgets/members-carousel.php:84
+msgid "Members to scroll"
+msgstr "Membres à faire défiler"
+
+#: modules/members-carousel/widgets/members-carousel.php:94
+msgid "Visible members - Large Desktop"
+msgstr "Membres visibles-grand bureau"
+
+#: modules/members-carousel/widgets/members-carousel.php:104
+msgid "Visible members - Desktop"
+msgstr "Membres visibles-Desktop"
+
+#: modules/members-carousel/widgets/members-carousel.php:114
+msgid "Visible members - Tablet"
+msgstr "Membres visibles-Tablet"
+
+#: modules/members-carousel/widgets/members-carousel.php:124
+msgid "Visible members - Mobile"
+msgstr "Membres visibles-mobile"
+
+#: modules/members-carousel/widgets/members-carousel.php:134
+msgid "Visible members - Small Mobile"
+msgstr "Membres visibles-Small mobile"
+
+#: modules/members-carousel/widgets/members-carousel.php:267
+msgid "No members found by the criteria."
+msgstr "Aucun membre trouvé par les critères."
+
+#: modules/members-grid/widgets/members-grid.php:33
+msgid "Members Grid"
+msgstr "Grille des membres"
+
+#: modules/members-grid/widgets/members-grid.php:332
+msgid "Sorry, no members were found."
+msgstr "Désolé, aucun membre trouvé."
+
+#: modules/nav-menu/widgets/nav-menu.php:31
+msgid "Nav Menu"
+msgstr "Menu Nav"
+
+#: modules/nav-menu/widgets/nav-menu.php:166
+msgid "Background (active)"
+msgstr "Arrière-plan actif"
+
+#: modules/nav-menu/widgets/nav-menu.php:199
+#: modules/nav-menu/widgets/nav-menu.php:348
+msgid "Font Color (Active)"
+msgstr "Couleur de police (active)"
+
+#: modules/nav-menu/widgets/nav-menu.php:273
+msgid "Sub Menu Style"
+msgstr "Style de sous-menu"
+
+#: modules/nav-menu/widgets/nav-menu.php:379
+msgid "Height Management"
+msgstr "Gestion de la hauteur"
+
+#: modules/nav-menu/widgets/nav-menu.php:386
+msgid "Menu Height (px)"
+msgstr "Hauteur du menu (PX)"
+
+#: modules/nav-menu/widgets/nav-menu.php:402
+msgid "Submenu Width"
+msgstr "Sous-menu largeur"
+
+#: modules/notification-area/widgets/notification-area.php:25
+msgid "Header Notification Area"
+msgstr "Zone de notification d’en-tête"
+
+#: modules/notification-area/widgets/notification-area.php:40
+msgid "Notification Area"
+msgstr "Zone de notification"
+
+#: modules/notification-area/widgets/notification-area.php:46
+msgid "Enable Search Form"
+msgstr "Activer le formulaire de recherche"
+
+#: modules/notification-area/widgets/notification-area.php:59
+msgid "Enable Cart Icon"
+msgstr "Activer l’icône panier"
+
+#: modules/notification-area/widgets/notification-area.php:73
+msgid "Enable User Message Icon"
+msgstr "Activer l’icône message utilisateur"
+
+#: modules/notification-area/widgets/notification-area.php:87
+msgid "Enable Notification Bell Icon"
+msgstr "Activer l’icône de notification Bell"
+
+#: modules/notification-area/widgets/notification-area.php:100
+msgid "Display User Avatar"
+msgstr "Afficher l’avatar de l’utilisateur"
+
+#: modules/notification-area/widgets/notification-area.php:112
+msgid "Icon Color"
+msgstr "Couleur de l’icône"
+
+#: modules/notification-area/widgets/notification-area.php:123
+msgid "Icon Hover Color"
+msgstr "Couleur Icône Survol"
+
+#: modules/notification-area/widgets/notification-area.php:135
+msgid "Line Height (px)"
+msgstr "Hauteur de Ligne (px)"
+
+#: modules/notification-area/widgets/notification-area.php:146
+msgid "Counter Top Space (px)"
+msgstr "Counter Top Space (PX)"
+
+#: modules/notification-area/widgets/notification-area.php:285
+msgid "View all notifications"
+msgstr "Voir toutes les notifications"
+
+#: modules/posts/skins/skin-base.php:50
+msgid "Image Position"
+msgstr "Position de l’Image"
+
+#: modules/posts/skins/skin-base.php:54
+msgid "Top"
+msgstr "Haut"
+
+#: modules/posts/skins/skin-base.php:57 modules/posts/skins/skin-cards.php:482
+#: modules/posts/widgets/posts.php:167
+msgid "None"
+msgstr "Aucun"
+
+#: modules/posts/skins/skin-base.php:66
+msgid "Masonry"
+msgstr "Masonry"
+
+#: modules/posts/skins/skin-base.php:83
+msgid "Thumbnail Size"
+msgstr "Taille de la miniature"
+
+#: modules/posts/skins/skin-base.php:128
+msgid "Image Width"
+msgstr "Largeur de l’image"
+
+#: modules/posts/skins/skin-base.php:190
+msgid "Posts Per Page"
+msgstr "Articles par page"
+
+#: modules/posts/skins/skin-base.php:214
+msgid "Title HTML Tag"
+msgstr "Titre de la Balise HTML"
+
+#: modules/posts/skins/skin-base.php:240 modules/posts/skins/skin-base.php:605
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: modules/posts/skins/skin-base.php:252
+msgid "Excerpt Length"
+msgstr "Longueur de l'extrait"
+
+#: modules/posts/skins/skin-base.php:266 modules/posts/skins/skin-base.php:663
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: modules/posts/skins/skin-base.php:279
+msgid "Read More Text"
+msgstr "Texte “Lire la suite”"
+
+#: modules/posts/skins/skin-base.php:281 modules/posts/skins/skin-base.php:282
+msgid "Read More »"
+msgstr "Lire la suite »"
+
+#: modules/posts/skins/skin-base.php:294
+msgid "Meta Data"
+msgstr "Métadonnées"
+
+#: modules/posts/skins/skin-base.php:300
+msgid "Author"
+msgstr "Auteur"
+
+#: modules/posts/skins/skin-base.php:301 modules/posts/widgets/posts.php:113
+msgid "Date"
+msgstr "Date"
+
+#: modules/posts/skins/skin-base.php:302
+msgid "Time"
+msgstr "Heure"
+
+#: modules/posts/skins/skin-base.php:303
+msgid "Comments"
+msgstr "Commentaires"
+
+#: modules/posts/skins/skin-base.php:312
+msgid "Separator Between"
+msgstr "Séparateur entre"
+
+#: modules/posts/skins/skin-base.php:340
+msgid "Columns Gap"
+msgstr "Espacement des colonnes"
+
+#: modules/posts/skins/skin-base.php:409
+msgid "Image"
+msgstr "Image"
+
+#: modules/posts/skins/skin-base.php:464
+msgid "Content"
+msgstr "Contenu"
+
+#: modules/posts/skins/skin-base.php:483 modules/posts/skins/skin-base.php:545
+#: modules/posts/skins/skin-base.php:617 modules/posts/skins/skin-base.php:675
+#: modules/posts/widgets/posts.php:302 modules/posts/widgets/posts.php:322
+#: modules/posts/widgets/posts.php:342
+msgid "Color"
+msgstr "Couleur"
+
+#: modules/posts/skins/skin-base.php:533
+msgid "Meta"
+msgstr "Meta"
+
+#: modules/posts/skins/skin-base.php:559
+msgid "Separator Color"
+msgstr "Couleur du séparateur"
+
+#: modules/posts/skins/skin-base.php:893
+msgid "Page"
+msgstr "Page"
+
+#: modules/posts/skins/skin-base.php:904 modules/posts/widgets/posts.php:156
+#: modules/posts/widgets/posts.php:163 modules/posts/widgets/posts.php:264
+msgid "Pagination"
+msgstr "Pagination"
+
+#: modules/posts/skins/skin-cards.php:39
+msgid "Cards"
+msgstr "Cartes"
+
+#: modules/posts/skins/skin-cards.php:87
+msgid "Show Image"
+msgstr "Afficher l'image"
+
+#: modules/posts/skins/skin-cards.php:135
+#: modules/posts/skins/skin-cards.php:316
+msgid "Badge"
+msgstr "Badge"
+
+#: modules/posts/skins/skin-cards.php:244
+msgid "Margin"
+msgstr "Marge"
+
+#: modules/posts/skins/skin-cards.php:279
+#: modules/posts/skins/skin-cards.php:344
+msgid "Avatar"
+msgstr "Avatar"
+
+#: modules/posts/skins/skin-cards.php:328
+msgid "Badge Taxonomy"
+msgstr "Taxinomie de badge"
+
+#: modules/posts/skins/skin-cards.php:364
+msgid "Card"
+msgstr "Carte"
+
+#: modules/posts/skins/skin-cards.php:430
+msgid "Horizontal Padding"
+msgstr "Marge interne horizontale"
+
+#: modules/posts/skins/skin-cards.php:450
+msgid "Vertical Padding"
+msgstr "Marge interne verticale"
+
+#: modules/posts/skins/skin-cards.php:468
+msgid "Box Shadow"
+msgstr "Ombre de la boîte"
+
+#: modules/posts/skins/skin-cards.php:478
+msgid "Hover Effect"
+msgstr "Effet de survol"
+
+#: modules/posts/skins/skin-cards.php:483
+msgid "Gradient"
+msgstr "Dégradé"
+
+#: modules/posts/skins/skin-cards.php:496
+msgid "Meta Border Color"
+msgstr "Couleur de bordure de méta"
+
+#: modules/posts/skins/skin-classic.php:13
+msgid "Classic"
+msgstr "Classique"
+
+#: modules/posts/widgets/posts.php:31 modules/posts/widgets/posts.php:94
+msgid "Posts"
+msgstr "Articles"
+
+#: modules/posts/widgets/posts.php:85
+msgid "Query"
+msgstr "Requête"
+
+#: modules/posts/widgets/posts.php:101
+msgid "Advanced"
+msgstr "Avancé"
+
+#: modules/posts/widgets/posts.php:109
+msgid "Order By"
+msgstr "Trier par"
+
+#: modules/posts/widgets/posts.php:115
+msgid "Menu Order"
+msgstr "Ordre du menu"
+
+#: modules/posts/widgets/posts.php:124
+msgid "Order"
+msgstr "Commande"
+
+#: modules/posts/widgets/posts.php:128
+msgid "ASC"
+msgstr "CROISSANT"
+
+#: modules/posts/widgets/posts.php:129
+msgid "DESC"
+msgstr "DECROISSANT"
+
+#: modules/posts/widgets/posts.php:137
+msgid "Offset"
+msgstr "Décalage"
+
+#: modules/posts/widgets/posts.php:143
+msgid "Use this setting to skip over posts (e.g. '2' to skip over 2 posts)."
+msgstr ""
+"Utilisez ce paramètre pour sauter sur les messages (par exemple ' 2 ' pour "
+"sauter 2 messages)."
+
+#: modules/posts/widgets/posts.php:168 modules/posts/widgets/posts.php:170
+msgid "Numbers"
+msgstr "Nombres"
+
+#: modules/posts/widgets/posts.php:169 modules/posts/widgets/posts.php:170
+msgid "Previous/Next"
+msgstr "Précédent / Suivant"
+
+#: modules/posts/widgets/posts.php:178
+msgid "Page Limit"
+msgstr "Limite de page"
+
+#: modules/posts/widgets/posts.php:189
+msgid "Shorten"
+msgstr "Shorten"
+
+#: modules/posts/widgets/posts.php:205
+msgid "Previous Label"
+msgstr "Libellé précédent"
+
+#: modules/posts/widgets/posts.php:206
+msgid "&laquo; Previous"
+msgstr "&laquo; Précédent"
+
+#: modules/posts/widgets/posts.php:219
+msgid "Next Label"
+msgstr "Libellé suivant"
+
+#: modules/posts/widgets/posts.php:220
+msgid "Next &raquo;"
+msgstr "Suivant &raquo;"
+
+#: modules/posts/widgets/posts.php:284
+msgid "Colors"
+msgstr "Couleurs"
+
+#: modules/posts/widgets/posts.php:335
+msgid "Active"
+msgstr "Actif"
+
+#: modules/posts/widgets/posts.php:357
+msgid "Space Between"
+msgstr "Espace entre"
+
+#: modules/query-control/controls/group-control-posts.php:44
+msgctxt "Posts Query Control"
+msgid "Source"
+msgstr "Source"
+
+#: modules/query-control/controls/group-control-posts.php:49
+#: modules/query-control/module.php:45
+msgctxt "Posts Query Control"
+msgid "Search & Select"
+msgstr "Recherche et sélection"
+
+#: modules/query-control/controls/group-control-posts.php:62
+msgctxt "Posts Query Control"
+msgid "Author"
+msgstr "Auteur"
+
+#: modules/query-control/controls/group-control-posts.php:97
+msgctxt "Posts Query Control"
+msgid "Manual Selection"
+msgstr "Sélection manuelle"
+
+#: modules/query-control/module.php:31
+msgid "Exclude"
+msgstr "Exclure"
+
+#: modules/query-control/module.php:35
+msgid "Current Post"
+msgstr "Article Actuel"
+
+#: modules/query-control/module.php:36
+msgid "Manual Selection"
+msgstr "Sélection manuelle"
+
+#: modules/woo-cart/widgets/woo-cart.php:23
+msgid "Woo Cart Icon"
+msgstr "Icône Woo cart"
+
+#: modules/woo-cart/widgets/woo-cart.php:45
+#: modules/woo-cart/widgets/woo-cart.php:67
+#: modules/woo-cart/widgets/woo-cart.php:131
+msgid "Icon"
+msgstr "Icône"
+
+#: modules/woo-cart/widgets/woo-cart.php:52
+msgid "View"
+msgstr "Voir"
+
+#: modules/woo-cart/widgets/woo-cart.php:55
+msgid "Default"
+msgstr "Par défaut"
+
+#: modules/woo-cart/widgets/woo-cart.php:56
+msgid "Stacked"
+msgstr "Empilé"
+
+#: modules/woo-cart/widgets/woo-cart.php:57
+msgid "Framed"
+msgstr "Encadré"
+
+#: modules/woo-cart/widgets/woo-cart.php:77
+msgid "Shape"
+msgstr "Forme"
+
+#: modules/woo-cart/widgets/woo-cart.php:80
+msgid "Circle"
+msgstr "Cercle"
+
+#: modules/woo-cart/widgets/woo-cart.php:81
+msgid "Square"
+msgstr "Carré"
+
+#: modules/woo-cart/widgets/woo-cart.php:94
+msgid "Link"
+msgstr "Lien"
+
+#: modules/woo-cart/widgets/woo-cart.php:139
+#: modules/woo-cart/widgets/woo-cart.php:263
+msgid "Primary Color"
+msgstr "Couleur principale"
+
+#: modules/woo-cart/widgets/woo-cart.php:156
+#: modules/woo-cart/widgets/woo-cart.php:276
+msgid "Secondary Color"
+msgstr "Couleur secondaire"
+
+#: modules/woo-cart/widgets/woo-cart.php:189
+msgid "Icon Padding"
+msgstr "Haut"
+
+#: modules/woo-cart/widgets/woo-cart.php:209
+msgid "Rotate"
+msgstr "Rotation"
+
+#: modules/woo-cart/widgets/woo-cart.php:255
+msgid "Icon Hover"
+msgstr "Icône au survol"
+
+#: plugin.php:219
+msgid "WBCOM Elements"
+msgstr "Éléments WBCOM"
+
+#: wbcom-essential.php:82
+msgid ""
+"WBCOM Elementor Addons not working because you need to activate the "
+"Elementor plugin."
+msgstr ""
+"Addons Elementor WBCOM ne fonctionne pas parce que vous devez activer le "
+"plugin Elementor."
+
+#: wbcom-essential.php:83
+msgid "Activate Elementor Now"
+msgstr "Activer Elementor maintenant"
+
+#: wbcom-essential.php:91
+msgid ""
+"WBCOM Elementor Addons not working because you need to install the Elementor "
+"plugin"
+msgstr ""
+"Addons Elementor WBCOM ne fonctionne pas parce que vous devez installer le "
+"plugin Elementor"
+
+#: wbcom-essential.php:92
+msgid "Install Elementor Now"
+msgstr "Installez Elementor maintenant"
+
+#: wbcom-essential.php:106
+msgid ""
+"WBCOM Elementor Addons not working because you are using an old version of "
+"Elementor."
+msgstr ""
+"Addons Elementor WBCOM ne fonctionne pas parce que vous utilisez une "
+"ancienne version de Elementor."
+
+#: wbcom-essential.php:107 wbcom-essential.php:121
+msgid "Update Elementor Now"
+msgstr "Mettre à jour Elementor maintenant"
+
+#: wbcom-essential.php:120
+msgid ""
+"A new version of Elementor is available. For better performance and "
+"compatibility of WBCOM Elementor Addons, we recommend updating to the latest "
+"version."
+msgstr ""
+"Une nouvelle version de Elementor est disponible. Pour une meilleure "
+"performance et compatibilité des addons WBCOM Elementor, nous vous "
+"conseillons de mettre à jour la version la plus récente."
+
+#. Plugin Name of the plugin/theme
+msgid "Wbcom Essential"
+msgstr "Wbcom Essential"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com/"
+msgstr "https://wbcomdesigns.com/"
+
+#. Description of the plugin/theme
+msgid "Wbcom Essential Addons."
+msgstr "Wbcom Essential addons."
+
+#. Author of the plugin/theme
+msgid "Wbcom Designs"
+msgstr "Wbcom Designs"

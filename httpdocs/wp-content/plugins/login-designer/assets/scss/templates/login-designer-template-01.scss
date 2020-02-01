@@ -1,0 +1,75 @@
+body.login.login-designer-template-01 {
+	background-image: none !important;
+	display: flex;
+	content: " ";
+	align-items: stretch;
+
+	#login {
+
+		@media only screen and (min-width: 400px) {
+			flex-direction: column;
+			width: 85%;
+			margin: 0;
+			max-width: 580px;
+			padding: 40px 0 0;
+		}
+
+		@media only screen and (min-width: 800px) {
+			padding: 100px 0 0;
+		}
+
+		@media only screen and (max-width: 399px) {
+			width: 90%;
+		}
+
+		.message {
+			max-width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	form {
+		border: 0;
+		max-width: 420px;
+		margin: 0 auto;
+
+		@media only screen and (max-width: 499px) {
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+	}
+
+	#lostpasswordform {
+
+		label {
+			display: block;
+			text-align: center;
+		}
+
+		.submit {
+			text-align: center;
+		}
+
+		.submit .button {
+			float: none;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	#login-designer-background {
+		@media only screen and (min-width: 683px) {
+			background-attachment: initial !important;
+			bottom: 0;
+			height: 100%;
+			left: 580px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 100%;
+			width: calc(100% - 580px);
+			z-index: 0;
+		}
+	}
+}

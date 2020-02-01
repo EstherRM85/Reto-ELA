@@ -1,0 +1,37 @@
+<?php defined('ABSPATH') or die("Cannot access pages directly."); ?>
+
+<?php
+/**
+ * Template file for the filter in form
+ * @author: Milos Timotic
+ * @since: 22.4.2017.
+ */
+
+/** @var WPDataTable $this */
+/** @var WDTColumn $dataColumn */
+?>
+<?php do_action('wpdatatables_before_filtering_form', $this->getWpId()); ?>
+    <div class="wpDataTables wpDataTablesFilter">
+        <div id="filterBox_<?php echo $this->getId() ?>" class="wpDataTableFilterBox">
+            <?php foreach ($this->getColumns() as $key => $dataColumn) { ?>
+                <?php
+                /** @var $dataColumn WDTColumn */
+                if ($dataColumn->getFilterType() != 'null') {
+                    ?>
+                    <div class="wpDataTableFilterSection"
+                         id="<?php echo $this->getId() . '_' . $key . '_filter' ?>_sections">
+                        <label><?php echo $dataColumn->getFilterLabel() ? $dataColumn->getFilterLabel() : $dataColumn->getTitle() ?>
+                            :</label>
+                        <div id="<?php echo $this->getId() . '_' . $key . '_filter' ?>"></div>
+                    </div>
+                <?php } ?>
+            <?php }
+            if ($this->isClearFilters()) { ?>
+                <div class="wpDataTableFilterSection" id="wdt-clear-filters-button-block">
+                    <button class="button btn wdt-clear-filters-button"
+                            style="margin-bottom: 10px;"><?php _e('Clear filters', 'wpdatatables'); ?></button>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+<?php do_action('wpdatatables_after_filtering_form', $this->getWpId()); ?>

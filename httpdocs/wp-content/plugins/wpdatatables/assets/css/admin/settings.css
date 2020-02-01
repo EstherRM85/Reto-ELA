@@ -1,0 +1,24 @@
+.wpdt-c .wdt-datatables-admin-wrap #color-and-font-settings a {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap tr:first-child > td{
+    border-top: 0px;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .tab-content #info table .zmdi.zmdi-check {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4CAF50;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .tab-content #info table .zmdi.zmdi-close {
+    font-size: 22px;
+    font-weight: 600;
+    color: #F44336;
+}
+
+.wpdt-c .wdt-datatables-admin-wrap .tab-content #info table .alert {
+    text-align: center;
+}

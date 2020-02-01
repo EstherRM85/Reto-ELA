@@ -1,0 +1,30 @@
+#buddypress #register-page {
+    form#signup_form {
+        padding: 0;
+
+        & > p {
+            font-size: 22px;
+            background: #3a9cfc;
+            color: $color_white;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .standard-form button {
+            padding: 0;
+        }
+    }
+}
+
+#buddypress #commentform input[type=text],
+#buddypress #commentform textarea,
+#buddypress .form-allowed-tags,
+#buddypress .standard-form#signup_form input[type=text],
+#buddypress .standard-form input[type=email],
+#buddypress .standard-form#signup_form textarea,
+#buddypress .standard-form #basic-details-section input[type=password],
+#buddypress .standard-form #blog-details-section input#signup_blog_url {
+    width: 100%;
+    border-radius: 0;
+}

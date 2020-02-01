@@ -1,0 +1,1414 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wbcom Essential\n"
+"POT-Creation-Date: 2019-04-26 13:12+0530\n"
+"PO-Revision-Date: 2019-04-26 13:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wbcom-essential.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: base/module-base.php:33 base/module-base.php:44 plugin.php:36 plugin.php:46
+msgid "Cheatin&#8217; huh?"
+msgstr "Wat ben jij aan het proberen?"
+
+#: includes/buddypress-registration-shortcode.php:61
+#: modules/forms/widgets/login.php:834
+#: modules/forms/widgets/registration.php:699
+#, php-format
+msgid "You are Logged in as %1$s (<a href=\"%2$s\">Logout</a>)"
+msgstr "Je bent ingelogd als %1$s (<a href=\"%2$s\">Uitloggen</a>)"
+
+#: includes/buddypress-registration-shortcode.php:76
+msgid "Please Activate BuddyPress To Use This Shortcode"
+msgstr ""
+
+#: includes/buddypress-registration-shortcode.php:134
+msgid "Please make sure you enter your password twice"
+msgstr "Let erop dat je je wachtwoord twee keer invoert"
+
+#: includes/buddypress-registration-shortcode.php:138
+msgid "The passwords you entered do not match."
+msgstr ""
+
+#: includes/buddypress-registration-shortcode.php:158
+msgid "This is a required field"
+msgstr "Dit is een verplicht veld"
+
+#: includes/class-wbcom-reign-customizer-support.php:65
+msgid "Select Header"
+msgstr "Selecteer Header"
+
+#: includes/class-wbcom-reign-customizer-support.php:76
+msgid "Select Footer"
+msgstr "Selecteer Footer"
+
+#: includes/class-wbcom-reign-customizer-support.php:113
+msgid "Topbar Type"
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:114
+msgid ""
+"Allows you to select default theme topbar or topbar made using Elementor."
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:119
+msgid "Elementor Topbar"
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:120
+msgid "Theme Default"
+msgstr "Thema Standaard"
+
+#: includes/class-wbcom-reign-customizer-support.php:146
+#: includes/class-wbcom-reign-customizer-support.php:202
+#: includes/class-wbcom-reign-customizer-support.php:278
+msgid "-- Select --"
+msgstr "-- Selecteer --"
+
+#: includes/class-wbcom-reign-customizer-support.php:155
+msgid "Select Topbar "
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:176
+msgid "Header Type"
+msgstr "Type kop"
+
+#: includes/class-wbcom-reign-customizer-support.php:177
+msgid ""
+"Allows you to select default theme header or header made using Elementor."
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:182
+msgid "Elementor Header"
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:183
+msgid "Theme Header"
+msgstr "Thema hoofding"
+
+#: includes/class-wbcom-reign-customizer-support.php:211
+msgid "Select Header "
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:234
+msgid "Elementor Header in Mobile"
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:235
+msgid "Allows you enable/disable elementor heador in mobile view."
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:240
+msgid "Use Elementor"
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:241
+msgid "Use Default"
+msgstr "Gebruik standaard"
+
+#: includes/class-wbcom-reign-customizer-support.php:259
+msgid "Footer Type"
+msgstr "Footer type"
+
+#: includes/class-wbcom-reign-customizer-support.php:260
+msgid ""
+"Allows you to select default theme footer or footer made using Elementor."
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:265
+msgid "Elementor Footer"
+msgstr ""
+
+#: includes/class-wbcom-reign-customizer-support.php:266
+msgid "Theme Footer"
+msgstr "Theme voetbalk"
+
+#: includes/class-wbcom-reign-customizer-support.php:287
+msgid "Select Footer "
+msgstr ""
+
+#: includes/form-ajax-handler.php:167
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr "<strong>ERROR</strong>: Voer gebruikersnaam of e-mailadres in."
+
+#: includes/form-ajax-handler.php:171
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+"<strong>ERROR</strong>: Er is geen gebruiker bij dat e-mailadres "
+"geregistreerd."
+
+#: includes/form-ajax-handler.php:189
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr "<strong>FOUT</strong>: Ongeldige gebruikersnaam of e-mail adres."
+
+#: includes/form-ajax-handler.php:199
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+"Iemand heeft een wachtwoordreset aangevraagd voor het volgende account:"
+
+#: includes/form-ajax-handler.php:201
+#, php-format
+msgid "Username: %s"
+msgstr "Gebruikersnaam: %s"
+
+#: includes/form-ajax-handler.php:202
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Indien dit een vergissing is, kunt u dit e-mailbericht negeren."
+
+#: includes/form-ajax-handler.php:203
+msgid "To reset your password, visit the following address:"
+msgstr "Om uw wachtwoord opnieuw in te stellen, bezoek het volgende adres:"
+
+#. translators: Password reset email subject. 1: Site name
+#: includes/form-ajax-handler.php:215
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Wachtwoord Reset"
+
+#: includes/form-ajax-handler.php:242
+msgid "The email could not be sent."
+msgstr "E-mail kon niet worden verzonden."
+
+#: includes/form-ajax-handler.php:242
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr "Mogelijke reden: uw host kan de mail() functie hebben uitgeschakeld."
+
+#: includes/global-header-footer-posttype.php:174
+msgid "Header Template"
+msgstr ""
+
+#: includes/global-header-footer-posttype.php:175
+msgid "Edit Header Template"
+msgstr ""
+
+#: includes/global-header-footer-posttype.php:210
+msgid "Footer Template"
+msgstr "Footer template"
+
+#: includes/global-header-footer-posttype.php:211
+msgid "Edit Footer Template"
+msgstr ""
+
+#: includes/global-header-footer.php:182 includes/global-header-footer.php:183
+#: includes/global-header-footer.php:220
+msgid "Header"
+msgstr "Header"
+
+#: includes/global-header-footer.php:190 includes/global-header-footer.php:191
+msgid "Footer"
+msgstr "Footer"
+
+#: includes/global-header-footer.php:207
+msgid "Header or Topbar ?"
+msgstr ""
+
+#: includes/global-header-footer.php:221
+msgid "Topbar"
+msgstr "Topbalk"
+
+#: includes/global-settings-manager.php:248
+msgid "Primary Headline"
+msgstr ""
+
+#: includes/global-settings-manager.php:251
+#: includes/global-settings-manager.php:279
+#: includes/global-settings-manager.php:307
+#: includes/global-settings-manager.php:335
+msgid "Font Family"
+msgstr "Font Familie"
+
+#: includes/global-settings-manager.php:260
+#: includes/global-settings-manager.php:288
+#: includes/global-settings-manager.php:316
+#: includes/global-settings-manager.php:344
+msgid "Font Weight"
+msgstr "Lettertype dikte"
+
+#: includes/global-settings-manager.php:276
+msgid "Secondary Headline"
+msgstr ""
+
+#: includes/global-settings-manager.php:304
+msgid "Body Text"
+msgstr "Body tekst"
+
+#: includes/global-settings-manager.php:332
+msgid "Accent Text"
+msgstr ""
+
+#: includes/global-settings-manager.php:361
+msgid "Global Colors"
+msgstr ""
+
+#: includes/global-settings-manager.php:364
+msgid "Select Global Color Scheme"
+msgstr ""
+
+#: includes/wp-menu.php:37 includes/wp-menu.php:75
+#: modules/nav-menu/widgets/nav-menu.php:68
+msgid "WordPress Menu"
+msgstr ""
+
+#: includes/wp-menu.php:81 modules/nav-menu/widgets/nav-menu.php:74
+#, php-format
+msgid ""
+"Choose the WordPress menu to output below. To change menu items please go to "
+"the <a href=\"%s\" target=\"_blank\">WordPress Menu Editor</a> page."
+msgstr ""
+
+#: includes/wp-menu.php:87 modules/nav-menu/widgets/nav-menu.php:80
+msgid " - choose - "
+msgstr ""
+
+#: includes/wp-menu.php:99 modules/nav-menu/widgets/nav-menu.php:92
+msgid "Choose Menu"
+msgstr "Kies menu"
+
+#: includes/wp-menu.php:110 modules/nav-menu/widgets/nav-menu.php:114
+msgid "Menu Style"
+msgstr "Menustijl"
+
+#: includes/wp-menu.php:117 modules/branding/widgets/branding.php:56
+#: modules/forms/widgets/login.php:100 modules/forms/widgets/login.php:162
+#: modules/forms/widgets/registration.php:100
+#: modules/nav-menu/widgets/nav-menu.php:121
+#: modules/nav-menu/widgets/nav-menu.php:280
+#: modules/posts/skins/skin-base.php:381 modules/posts/widgets/posts.php:233
+#: modules/woo-cart/widgets/woo-cart.php:103
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: includes/wp-menu.php:121 modules/branding/widgets/branding.php:60
+#: modules/forms/widgets/login.php:104 modules/forms/widgets/login.php:166
+#: modules/forms/widgets/registration.php:104
+#: modules/nav-menu/widgets/nav-menu.php:125
+#: modules/nav-menu/widgets/nav-menu.php:284
+#: modules/posts/skins/skin-base.php:55 modules/posts/skins/skin-base.php:386
+#: modules/posts/skins/skin-cards.php:152 modules/posts/widgets/posts.php:237
+#: modules/woo-cart/widgets/woo-cart.php:107
+msgid "Left"
+msgstr "Links"
+
+#: includes/wp-menu.php:125 modules/branding/widgets/branding.php:64
+#: modules/forms/widgets/login.php:108 modules/forms/widgets/login.php:170
+#: modules/forms/widgets/registration.php:108
+#: modules/nav-menu/widgets/nav-menu.php:129
+#: modules/nav-menu/widgets/nav-menu.php:288
+#: modules/posts/skins/skin-base.php:390 modules/posts/widgets/posts.php:241
+#: modules/woo-cart/widgets/woo-cart.php:111
+msgid "Center"
+msgstr "Midden"
+
+#: includes/wp-menu.php:129 modules/branding/widgets/branding.php:68
+#: modules/forms/widgets/login.php:112 modules/forms/widgets/login.php:174
+#: modules/forms/widgets/registration.php:112
+#: modules/nav-menu/widgets/nav-menu.php:133
+#: modules/nav-menu/widgets/nav-menu.php:292
+#: modules/posts/skins/skin-base.php:56 modules/posts/skins/skin-base.php:394
+#: modules/posts/skins/skin-cards.php:156 modules/posts/widgets/posts.php:245
+#: modules/woo-cart/widgets/woo-cart.php:115
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/wp-menu.php:142 modules/nav-menu/widgets/nav-menu.php:146
+#: modules/nav-menu/widgets/nav-menu.php:305
+msgid "Background"
+msgstr "Achtergrond"
+
+#: includes/wp-menu.php:152 modules/nav-menu/widgets/nav-menu.php:156
+#: modules/nav-menu/widgets/nav-menu.php:315
+msgid "Background (hover)"
+msgstr "Achtergrond (hover)"
+
+#: includes/wp-menu.php:163 modules/nav-menu/widgets/nav-menu.php:177
+#: modules/nav-menu/widgets/nav-menu.php:326
+msgid "Font Color"
+msgstr "Lettertype kleur"
+
+#: includes/wp-menu.php:174 modules/nav-menu/widgets/nav-menu.php:188
+#: modules/nav-menu/widgets/nav-menu.php:337
+msgid "Font Color (Hover)"
+msgstr ""
+
+#: includes/wp-menu.php:193
+msgid "Search Box"
+msgstr "Zoekvak"
+
+#: includes/wp-menu.php:199
+msgid "Enable Search Box"
+msgstr ""
+
+#: includes/wp-menu.php:202
+#: modules/notification-area/widgets/notification-area.php:49
+#: modules/notification-area/widgets/notification-area.php:62
+#: modules/notification-area/widgets/notification-area.php:76
+#: modules/notification-area/widgets/notification-area.php:90
+#: modules/notification-area/widgets/notification-area.php:103
+#: modules/posts/skins/skin-cards.php:89
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/wp-menu.php:203
+#: modules/notification-area/widgets/notification-area.php:50
+#: modules/notification-area/widgets/notification-area.php:63
+#: modules/notification-area/widgets/notification-area.php:77
+#: modules/notification-area/widgets/notification-area.php:91
+#: modules/notification-area/widgets/notification-area.php:104
+#: modules/posts/skins/skin-cards.php:90
+msgid "No"
+msgstr "Nee"
+
+#: modules/branding/widgets/branding.php:23
+#: modules/branding/widgets/branding.php:37
+msgid "Branding"
+msgstr "Branding"
+
+#: modules/branding/widgets/branding.php:43
+msgid "Branding Type"
+msgstr ""
+
+#: modules/branding/widgets/branding.php:44
+msgid ""
+"Your theme must declare the \"add_theme_support( 'custom-logo')\" for the "
+"logo to work"
+msgstr ""
+
+#: modules/branding/widgets/branding.php:47
+#: modules/posts/skins/skin-base.php:201 modules/posts/skins/skin-base.php:472
+#: modules/posts/widgets/posts.php:114
+msgid "Title"
+msgstr "Titel"
+
+#: modules/branding/widgets/branding.php:48
+msgid "Logo"
+msgstr "Logo"
+
+#: modules/branding/widgets/branding.php:81
+msgid "Brand"
+msgstr "Merk"
+
+#: modules/branding/widgets/branding.php:88
+msgid "Title Color"
+msgstr "Titelkleur"
+
+#: modules/branding/widgets/branding.php:106
+#: modules/forms/widgets/login.php:661
+#: modules/forms/widgets/registration.php:538
+#: modules/posts/widgets/posts.php:315
+msgid "Hover"
+msgstr "Hover"
+
+#: modules/branding/widgets/branding.php:123
+#: modules/branding/widgets/branding.php:149
+msgid "Title Padding - Default 1em"
+msgstr ""
+
+#: modules/branding/widgets/branding.php:138
+#: modules/branding/widgets/branding.php:207
+#: modules/forms/widgets/login.php:600
+#: modules/forms/widgets/registration.php:477
+#: modules/posts/skins/skin-base.php:502 modules/posts/skins/skin-base.php:574
+#: modules/posts/skins/skin-base.php:632 modules/posts/skins/skin-base.php:694
+msgid "Typography"
+msgstr "Typografie"
+
+#: modules/branding/widgets/branding.php:165
+msgid "Description Options"
+msgstr ""
+
+#: modules/branding/widgets/branding.php:175
+msgid "Description Color"
+msgstr "Omschrijving Kleur"
+
+#: modules/branding/widgets/branding.php:192
+msgid "Description Padding - Default 1em"
+msgstr ""
+
+#: modules/branding/widgets/branding.php:221
+msgid "Branding Border"
+msgstr ""
+
+#: modules/branding/widgets/branding.php:229
+#: modules/forms/widgets/login.php:624
+#: modules/forms/widgets/registration.php:501
+msgid "Border"
+msgstr "Rand"
+
+#: modules/branding/widgets/branding.php:237
+#: modules/forms/widgets/login.php:555 modules/forms/widgets/login.php:635
+#: modules/forms/widgets/registration.php:432
+#: modules/forms/widgets/registration.php:512
+#: modules/posts/skins/skin-base.php:420 modules/posts/skins/skin-cards.php:205
+#: modules/posts/skins/skin-cards.php:412
+#: modules/woo-cart/widgets/woo-cart.php:238
+msgid "Border Radius"
+msgstr "Hoekafronding"
+
+#: modules/forms/widgets/login.php:21
+#: modules/notification-area/widgets/notification-area.php:316
+msgid "Login"
+msgstr "Inloggen"
+
+#: modules/forms/widgets/login.php:32 modules/forms/widgets/registration.php:32
+msgid "Form Fields"
+msgstr "Formuliervelden"
+
+#: modules/forms/widgets/login.php:39 modules/forms/widgets/login.php:423
+#: modules/forms/widgets/registration.php:39
+#: modules/forms/widgets/registration.php:300
+msgid "Label"
+msgstr "Label"
+
+#: modules/forms/widgets/login.php:42 modules/forms/widgets/login.php:228
+#: modules/forms/widgets/login.php:240 modules/forms/widgets/login.php:252
+#: modules/forms/widgets/login.php:263
+#: modules/forms/widgets/registration.php:42
+#: modules/forms/widgets/registration.php:166
+#: modules/posts/skins/skin-base.php:204 modules/posts/skins/skin-base.php:243
+#: modules/posts/skins/skin-base.php:269 modules/posts/skins/skin-cards.php:319
+#: modules/posts/skins/skin-cards.php:347
+msgid "Hide"
+msgstr "Verberg"
+
+#: modules/forms/widgets/login.php:43 modules/forms/widgets/login.php:229
+#: modules/forms/widgets/login.php:241 modules/forms/widgets/login.php:253
+#: modules/forms/widgets/login.php:264
+#: modules/forms/widgets/registration.php:43
+#: modules/forms/widgets/registration.php:167
+#: modules/posts/skins/skin-base.php:203 modules/posts/skins/skin-base.php:242
+#: modules/posts/skins/skin-base.php:268 modules/posts/skins/skin-cards.php:318
+#: modules/posts/skins/skin-cards.php:346
+msgid "Show"
+msgstr "Toon"
+
+#: modules/forms/widgets/login.php:50 modules/forms/widgets/registration.php:50
+msgid "Input Size"
+msgstr "Invoer afmeting"
+
+#: modules/forms/widgets/login.php:53 modules/forms/widgets/login.php:87
+#: modules/forms/widgets/login.php:149
+#: modules/forms/widgets/registration.php:53
+#: modules/forms/widgets/registration.php:87
+msgid "Extra Small"
+msgstr "Extra klein"
+
+#: modules/forms/widgets/login.php:54 modules/forms/widgets/login.php:88
+#: modules/forms/widgets/login.php:150
+#: modules/forms/widgets/registration.php:54
+#: modules/forms/widgets/registration.php:88
+msgid "Small"
+msgstr "Klein"
+
+#: modules/forms/widgets/login.php:55 modules/forms/widgets/login.php:89
+#: modules/forms/widgets/login.php:151
+#: modules/forms/widgets/registration.php:55
+#: modules/forms/widgets/registration.php:89
+msgid "Medium"
+msgstr "Medium"
+
+#: modules/forms/widgets/login.php:56 modules/forms/widgets/login.php:90
+#: modules/forms/widgets/login.php:152
+#: modules/forms/widgets/registration.php:56
+#: modules/forms/widgets/registration.php:90
+msgid "Large"
+msgstr "Groot"
+
+#: modules/forms/widgets/login.php:57 modules/forms/widgets/login.php:91
+#: modules/forms/widgets/login.php:153
+#: modules/forms/widgets/registration.php:57
+#: modules/forms/widgets/registration.php:91
+msgid "Extra Large"
+msgstr "Extra groot"
+
+#: modules/forms/widgets/login.php:68
+msgid "Log In Button"
+msgstr ""
+
+#: modules/forms/widgets/login.php:75 modules/forms/widgets/login.php:137
+#: modules/forms/widgets/registration.php:75
+msgid "Text"
+msgstr "Tekst"
+
+#: modules/forms/widgets/login.php:77
+msgid "Log In"
+msgstr "Inloggen"
+
+#: modules/forms/widgets/login.php:84 modules/forms/widgets/login.php:146
+#: modules/forms/widgets/registration.php:84
+#: modules/posts/skins/skin-cards.php:224
+#: modules/posts/skins/skin-cards.php:292
+#: modules/woo-cart/widgets/woo-cart.php:172
+msgid "Size"
+msgstr "Grootte"
+
+#: modules/forms/widgets/login.php:116 modules/forms/widgets/login.php:178
+#: modules/forms/widgets/registration.php:116
+msgid "Justified"
+msgstr "Uitgevuld"
+
+#: modules/forms/widgets/login.php:130
+msgid "Get New Password Button"
+msgstr ""
+
+#: modules/forms/widgets/login.php:139
+msgid "Get New Password"
+msgstr "Nieuw wachtwoord aanvragen"
+
+#: modules/forms/widgets/login.php:192
+#: modules/forms/widgets/registration.php:130
+msgid "Additional Options"
+msgstr "Extra opties"
+
+#: modules/forms/widgets/login.php:199
+msgid "Redirect After Login"
+msgstr ""
+
+#: modules/forms/widgets/login.php:202
+#: modules/forms/widgets/registration.php:140
+#: modules/posts/skins/skin-base.php:68
+msgid "Off"
+msgstr "Uit"
+
+#: modules/forms/widgets/login.php:203
+#: modules/forms/widgets/registration.php:141
+#: modules/posts/skins/skin-base.php:69
+msgid "On"
+msgstr "Aan"
+
+#: modules/forms/widgets/login.php:215
+#: modules/forms/widgets/registration.php:153
+msgid ""
+"Note: Because of security reasons, you can ONLY use your current domain here."
+msgstr ""
+
+#: modules/forms/widgets/login.php:225 modules/forms/widgets/login.php:959
+#: modules/forms/widgets/login.php:1020
+msgid "Lost your password?"
+msgstr "Wachtwoord vergeten?"
+
+#: modules/forms/widgets/login.php:237 modules/forms/widgets/login.php:336
+#: modules/forms/widgets/login.php:1030
+#: modules/forms/widgets/registration.php:77
+#: modules/notification-area/widgets/notification-area.php:324
+msgid "Register"
+msgstr "Registreren"
+
+#: modules/forms/widgets/login.php:249 modules/forms/widgets/login.php:349
+#: modules/forms/widgets/login.php:1003
+msgid "Remember Me"
+msgstr "Onthoud mij"
+
+#: modules/forms/widgets/login.php:260
+#: modules/forms/widgets/registration.php:163
+msgid "Logged in Message"
+msgstr ""
+
+#: modules/forms/widgets/login.php:271
+#: modules/forms/widgets/registration.php:174
+msgid "Custom Label"
+msgstr "Aangepast Label"
+
+#: modules/forms/widgets/login.php:282
+#: modules/forms/widgets/registration.php:185
+msgid "Username Label"
+msgstr "Gebruikersnaam-label"
+
+#: modules/forms/widgets/login.php:284
+msgid "Username or Email Address"
+msgstr "Gebruikersnaam of e-mailadres"
+
+#: modules/forms/widgets/login.php:295
+#: modules/forms/widgets/registration.php:198
+msgid "Username Placeholder"
+msgstr ""
+
+#: modules/forms/widgets/login.php:297
+msgid " Username or Email Address"
+msgstr " Gebruikersnaam of E-mail Adres"
+
+#: modules/forms/widgets/login.php:308
+msgid "Password Label"
+msgstr "Wachtwoord-label"
+
+#: modules/forms/widgets/login.php:310 modules/forms/widgets/login.php:323
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: modules/forms/widgets/login.php:321
+msgid "Password Placeholder"
+msgstr ""
+
+#: modules/forms/widgets/login.php:334
+msgid "Register Label"
+msgstr ""
+
+#: modules/forms/widgets/login.php:347
+msgid "Remember Me Label"
+msgstr ""
+
+#: modules/forms/widgets/login.php:362
+#: modules/forms/widgets/registration.php:239
+msgid "Form"
+msgstr "Formulier"
+
+#: modules/forms/widgets/login.php:370
+#: modules/forms/widgets/registration.php:247
+#: modules/posts/skins/skin-base.php:361
+msgid "Rows Gap"
+msgstr "Rijen tussenruimte"
+
+#: modules/forms/widgets/login.php:391
+#: modules/forms/widgets/registration.php:268
+msgid "Links Color"
+msgstr "Link kleur"
+
+#: modules/forms/widgets/login.php:406
+#: modules/forms/widgets/registration.php:283
+msgid "Links Hover Color"
+msgstr "Links Hover kleur"
+
+#: modules/forms/widgets/login.php:434
+#: modules/forms/widgets/registration.php:311
+#: modules/posts/skins/skin-base.php:435 modules/posts/skins/skin-base.php:514
+#: modules/posts/skins/skin-base.php:586 modules/posts/skins/skin-base.php:644
+#: modules/posts/skins/skin-base.php:706
+msgid "Spacing"
+msgstr "Tussenruimte"
+
+#: modules/forms/widgets/login.php:455 modules/forms/widgets/login.php:489
+#: modules/forms/widgets/login.php:587 modules/forms/widgets/login.php:668
+#: modules/forms/widgets/registration.php:332
+#: modules/forms/widgets/registration.php:366
+#: modules/forms/widgets/registration.php:464
+#: modules/forms/widgets/registration.php:545
+#: modules/posts/skins/skin-cards.php:191
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: modules/forms/widgets/login.php:481
+#: modules/forms/widgets/registration.php:358
+msgid "Fields"
+msgstr "Velden"
+
+#: modules/forms/widgets/login.php:513 modules/forms/widgets/login.php:609
+#: modules/forms/widgets/login.php:679
+#: modules/forms/widgets/registration.php:390
+#: modules/forms/widgets/registration.php:486
+#: modules/forms/widgets/registration.php:556
+#: modules/posts/skins/skin-cards.php:173
+#: modules/posts/skins/skin-cards.php:372
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: modules/forms/widgets/login.php:527 modules/forms/widgets/login.php:690
+#: modules/forms/widgets/registration.php:404
+#: modules/forms/widgets/registration.php:567
+#: modules/posts/skins/skin-cards.php:383
+msgid "Border Color"
+msgstr "Randkleur"
+
+#: modules/forms/widgets/login.php:541
+#: modules/forms/widgets/registration.php:418
+#: modules/posts/skins/skin-cards.php:394
+#: modules/woo-cart/widgets/woo-cart.php:224
+msgid "Border Width"
+msgstr "Border Breedte"
+
+#: modules/forms/widgets/login.php:570
+#: modules/forms/widgets/registration.php:447
+msgid "Button"
+msgstr "Knop"
+
+#: modules/forms/widgets/login.php:580
+#: modules/forms/widgets/registration.php:457
+#: modules/posts/widgets/posts.php:295
+msgid "Normal"
+msgstr "Normaal"
+
+#: modules/forms/widgets/login.php:647
+#: modules/forms/widgets/registration.php:524
+msgid "Text Padding"
+msgstr "Tekst opvulling"
+
+#: modules/forms/widgets/login.php:704
+#: modules/forms/widgets/registration.php:581
+#: modules/woo-cart/widgets/woo-cart.php:292
+msgid "Animation"
+msgstr "Animatie"
+
+#: modules/forms/widgets/registration.php:21
+msgid "Registration"
+msgstr "Registratie"
+
+#: modules/forms/widgets/registration.php:68
+msgid "Register Button"
+msgstr "Registreer Knop"
+
+#: modules/forms/widgets/registration.php:137
+msgid "Redirect After Registration"
+msgstr "Omleiding na registratie"
+
+#: modules/forms/widgets/registration.php:187
+#: modules/forms/widgets/registration.php:200
+msgid " Username"
+msgstr ""
+
+#: modules/forms/widgets/registration.php:211
+msgid "Email Label"
+msgstr "E-mailadres label"
+
+#: modules/forms/widgets/registration.php:213
+#: modules/forms/widgets/registration.php:226
+msgid " Email"
+msgstr ""
+
+#: modules/forms/widgets/registration.php:224
+msgid "Email Placeholder"
+msgstr "E-mail Plaatshouder"
+
+#: modules/groups-grid/widgets/groups-grid.php:25
+msgid "Groups Grid"
+msgstr ""
+
+#: modules/groups-grid/widgets/groups-grid.php:49
+#: modules/members-carousel/widgets/members-carousel.php:40
+#: modules/members-grid/widgets/members-grid.php:49
+msgid "Settings"
+msgstr "Instellingen"
+
+#: modules/groups-grid/widgets/groups-grid.php:56
+#: modules/members-carousel/widgets/members-carousel.php:60
+#: modules/members-grid/widgets/members-grid.php:56
+msgid "Sort"
+msgstr "Sorteer"
+
+#: modules/groups-grid/widgets/groups-grid.php:60
+#: modules/members-carousel/widgets/members-carousel.php:64
+#: modules/members-grid/widgets/members-grid.php:60
+msgid "Newest"
+msgstr "Nieuwste"
+
+#: modules/groups-grid/widgets/groups-grid.php:61
+#: modules/members-carousel/widgets/members-carousel.php:65
+#: modules/members-grid/widgets/members-grid.php:61
+msgid "Most Active"
+msgstr ""
+
+#: modules/groups-grid/widgets/groups-grid.php:62
+#: modules/members-carousel/widgets/members-carousel.php:66
+#: modules/members-grid/widgets/members-grid.php:62
+msgid "Most Popular"
+msgstr "Populairste"
+
+#: modules/groups-grid/widgets/groups-grid.php:63
+#: modules/posts/widgets/posts.php:116
+msgid "Random"
+msgstr "Willekeurig"
+
+#: modules/groups-grid/widgets/groups-grid.php:64
+msgid "Alphabetical"
+msgstr "Alfabetisch"
+
+#: modules/groups-grid/widgets/groups-grid.php:72
+#: modules/groups-grid/widgets/groups-grid.php:75
+msgid "Total groups"
+msgstr ""
+
+#: modules/groups-grid/widgets/groups-grid.php:82
+#: modules/members-grid/widgets/members-grid.php:80
+#: modules/posts/skins/skin-base.php:167
+msgid "Columns"
+msgstr "Kolommen"
+
+#: modules/groups-grid/widgets/groups-grid.php:95
+#: modules/members-grid/widgets/members-grid.php:93
+#: modules/posts/skins/skin-base.php:332 modules/posts/widgets/posts.php:75
+msgid "Layout"
+msgstr "Layout"
+
+#: modules/groups-grid/widgets/groups-grid.php:117
+#: modules/members-carousel/widgets/members-carousel.php:151
+#: modules/members-grid/widgets/members-grid.php:194
+msgid "You need BuddyPress plugin to be active!"
+msgstr ""
+
+#: modules/groups-grid/widgets/groups-grid.php:123
+msgid "Groups component needs to be active!"
+msgstr ""
+
+#: modules/groups-grid/widgets/groups-grid.php:265
+msgid "There were no groups found."
+msgstr "Er zijn geen groepen gevonden."
+
+#. translators: %s = last activity timestamp (e.g. "active 1 hour ago")
+#: modules/groups-grid/widgets/groups-grid.php:347
+#, php-format
+msgid "active %s"
+msgstr "actief %s"
+
+#: modules/members-carousel/widgets/members-carousel.php:25
+msgid "Members Carousel"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:47
+msgid "Carousel Style"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:49
+msgid "Boxed"
+msgstr "Boxed"
+
+#: modules/members-carousel/widgets/members-carousel.php:50
+msgid "Full-Width"
+msgstr "Volledige breedte"
+
+#: modules/members-carousel/widgets/members-carousel.php:53
+msgid "Enable Full width Carousel"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:74
+#: modules/members-carousel/widgets/members-carousel.php:77
+#: modules/members-grid/widgets/members-grid.php:70
+#: modules/members-grid/widgets/members-grid.php:73
+msgid "Total members"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:84
+msgid "Members to scroll"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:94
+msgid "Visible members - Large Desktop"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:104
+msgid "Visible members - Desktop"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:114
+msgid "Visible members - Tablet"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:124
+msgid "Visible members - Mobile"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:134
+msgid "Visible members - Small Mobile"
+msgstr ""
+
+#: modules/members-carousel/widgets/members-carousel.php:267
+msgid "No members found by the criteria."
+msgstr ""
+
+#: modules/members-grid/widgets/members-grid.php:33
+msgid "Members Grid"
+msgstr ""
+
+#: modules/members-grid/widgets/members-grid.php:332
+msgid "Sorry, no members were found."
+msgstr "Sorry, er zijn geen deelnemers gevonden."
+
+#: modules/nav-menu/widgets/nav-menu.php:31
+msgid "Nav Menu"
+msgstr "Navigatiemenu"
+
+#: modules/nav-menu/widgets/nav-menu.php:166
+msgid "Background (active)"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:199
+#: modules/nav-menu/widgets/nav-menu.php:348
+msgid "Font Color (Active)"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:273
+msgid "Sub Menu Style"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:379
+msgid "Height Management"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:386
+msgid "Menu Height (px)"
+msgstr ""
+
+#: modules/nav-menu/widgets/nav-menu.php:402
+msgid "Submenu Width"
+msgstr ""
+
+#: modules/notification-area/widgets/notification-area.php:25
+msgid "Header Notification Area"
+msgstr ""
+
+#: modules/notification-area/widgets/notification-area.php:40
+msgid "Notification Area"
+msgstr ""
+
+#: modules/notification-area/widgets/notification-area.php:46
+msgid "Enable Search Form"
+msgstr "Zoeken inschakelen"
+
+#: modules/notification-area/widgets/notification-area.php:59
+msgid "Enable Cart Icon"
+msgstr ""
+
+#: modules/notification-area/widgets/notification-area.php:73
+msgid "Enable User Message Icon"
+msgstr ""
+
+#: modules/notification-area/widgets/notification-area.php:87
+msgid "Enable Notification Bell Icon"
+msgstr ""
+
+#: modules/notification-area/widgets/notification-area.php:100
+msgid "Display User Avatar"
+msgstr ""
+
+#: modules/notification-area/widgets/notification-area.php:112
+msgid "Icon Color"
+msgstr "Pictogram kleur"
+
+#: modules/notification-area/widgets/notification-area.php:123
+msgid "Icon Hover Color"
+msgstr "Icoon hover Kleur"
+
+#: modules/notification-area/widgets/notification-area.php:135
+msgid "Line Height (px)"
+msgstr ""
+
+#: modules/notification-area/widgets/notification-area.php:146
+msgid "Counter Top Space (px)"
+msgstr ""
+
+#: modules/notification-area/widgets/notification-area.php:285
+msgid "View all notifications"
+msgstr "Alle meldingen weergeven"
+
+#: modules/posts/skins/skin-base.php:50
+msgid "Image Position"
+msgstr "Afbeeldingspositie"
+
+#: modules/posts/skins/skin-base.php:54
+msgid "Top"
+msgstr "Top"
+
+#: modules/posts/skins/skin-base.php:57 modules/posts/skins/skin-cards.php:482
+#: modules/posts/widgets/posts.php:167
+msgid "None"
+msgstr "Geen"
+
+#: modules/posts/skins/skin-base.php:66
+msgid "Masonry"
+msgstr "Masonry"
+
+#: modules/posts/skins/skin-base.php:83
+msgid "Thumbnail Size"
+msgstr "Afbeeldings Groote"
+
+#: modules/posts/skins/skin-base.php:128
+msgid "Image Width"
+msgstr "Afbeeldingsbreedte"
+
+#: modules/posts/skins/skin-base.php:190
+msgid "Posts Per Page"
+msgstr "Berichten per pagina"
+
+#: modules/posts/skins/skin-base.php:214
+msgid "Title HTML Tag"
+msgstr ""
+
+#: modules/posts/skins/skin-base.php:240 modules/posts/skins/skin-base.php:605
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+#: modules/posts/skins/skin-base.php:252
+msgid "Excerpt Length"
+msgstr "Lengte van de tekst"
+
+#: modules/posts/skins/skin-base.php:266 modules/posts/skins/skin-base.php:663
+msgid "Read More"
+msgstr "Lees meer"
+
+#: modules/posts/skins/skin-base.php:279
+msgid "Read More Text"
+msgstr "Lees meer tekst"
+
+#: modules/posts/skins/skin-base.php:281 modules/posts/skins/skin-base.php:282
+msgid "Read More »"
+msgstr "Lees meer »"
+
+#: modules/posts/skins/skin-base.php:294
+msgid "Meta Data"
+msgstr "Meta Data"
+
+#: modules/posts/skins/skin-base.php:300
+msgid "Author"
+msgstr "Auteur"
+
+#: modules/posts/skins/skin-base.php:301 modules/posts/widgets/posts.php:113
+msgid "Date"
+msgstr "Datum"
+
+#: modules/posts/skins/skin-base.php:302
+msgid "Time"
+msgstr "Tijd"
+
+#: modules/posts/skins/skin-base.php:303
+msgid "Comments"
+msgstr "Reacties"
+
+#: modules/posts/skins/skin-base.php:312
+msgid "Separator Between"
+msgstr "Scheidingsteken tussen"
+
+#: modules/posts/skins/skin-base.php:340
+msgid "Columns Gap"
+msgstr ""
+
+#: modules/posts/skins/skin-base.php:409
+msgid "Image"
+msgstr "Afbeelding"
+
+#: modules/posts/skins/skin-base.php:464
+msgid "Content"
+msgstr "Inhoud"
+
+#: modules/posts/skins/skin-base.php:483 modules/posts/skins/skin-base.php:545
+#: modules/posts/skins/skin-base.php:617 modules/posts/skins/skin-base.php:675
+#: modules/posts/widgets/posts.php:302 modules/posts/widgets/posts.php:322
+#: modules/posts/widgets/posts.php:342
+msgid "Color"
+msgstr "Kleur"
+
+#: modules/posts/skins/skin-base.php:533
+msgid "Meta"
+msgstr "Meta"
+
+#: modules/posts/skins/skin-base.php:559
+msgid "Separator Color"
+msgstr "Kleur scheidingsteken"
+
+#: modules/posts/skins/skin-base.php:893
+msgid "Page"
+msgstr "Pagina"
+
+#: modules/posts/skins/skin-base.php:904 modules/posts/widgets/posts.php:156
+#: modules/posts/widgets/posts.php:163 modules/posts/widgets/posts.php:264
+msgid "Pagination"
+msgstr "Paginering"
+
+#: modules/posts/skins/skin-cards.php:39
+msgid "Cards"
+msgstr "Kaarten"
+
+#: modules/posts/skins/skin-cards.php:87
+msgid "Show Image"
+msgstr "Toon afbeelding"
+
+#: modules/posts/skins/skin-cards.php:135
+#: modules/posts/skins/skin-cards.php:316
+msgid "Badge"
+msgstr "Badge"
+
+#: modules/posts/skins/skin-cards.php:244
+msgid "Margin"
+msgstr "Marge"
+
+#: modules/posts/skins/skin-cards.php:279
+#: modules/posts/skins/skin-cards.php:344
+msgid "Avatar"
+msgstr "Profielfoto"
+
+#: modules/posts/skins/skin-cards.php:328
+msgid "Badge Taxonomy"
+msgstr ""
+
+#: modules/posts/skins/skin-cards.php:364
+msgid "Card"
+msgstr "Kaart"
+
+#: modules/posts/skins/skin-cards.php:430
+msgid "Horizontal Padding"
+msgstr "Horizontale Padding"
+
+#: modules/posts/skins/skin-cards.php:450
+msgid "Vertical Padding"
+msgstr "Verticale Padding"
+
+#: modules/posts/skins/skin-cards.php:468
+msgid "Box Shadow"
+msgstr "Box Schaduw"
+
+#: modules/posts/skins/skin-cards.php:478
+msgid "Hover Effect"
+msgstr "Hover effect"
+
+#: modules/posts/skins/skin-cards.php:483
+msgid "Gradient"
+msgstr "Helling"
+
+#: modules/posts/skins/skin-cards.php:496
+msgid "Meta Border Color"
+msgstr ""
+
+#: modules/posts/skins/skin-classic.php:13
+msgid "Classic"
+msgstr "Klassiek"
+
+#: modules/posts/widgets/posts.php:31 modules/posts/widgets/posts.php:94
+msgid "Posts"
+msgstr "Berichten"
+
+#: modules/posts/widgets/posts.php:85
+msgid "Query"
+msgstr "Query"
+
+#: modules/posts/widgets/posts.php:101
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: modules/posts/widgets/posts.php:109
+msgid "Order By"
+msgstr "Sorteer op"
+
+#: modules/posts/widgets/posts.php:115
+msgid "Menu Order"
+msgstr "Menu volgorde"
+
+#: modules/posts/widgets/posts.php:124
+msgid "Order"
+msgstr "Bestelling"
+
+#: modules/posts/widgets/posts.php:128
+msgid "ASC"
+msgstr "Oplopend"
+
+#: modules/posts/widgets/posts.php:129
+msgid "DESC"
+msgstr "Aflopend"
+
+#: modules/posts/widgets/posts.php:137
+msgid "Offset"
+msgstr "Offset"
+
+#: modules/posts/widgets/posts.php:143
+msgid "Use this setting to skip over posts (e.g. '2' to skip over 2 posts)."
+msgstr ""
+"Gebruik deze instelling om berichten over te slaan (bijvoorbeeld ' 2' om 2 "
+"berichten over te slaan)."
+
+#: modules/posts/widgets/posts.php:168 modules/posts/widgets/posts.php:170
+msgid "Numbers"
+msgstr "Nummers"
+
+#: modules/posts/widgets/posts.php:169 modules/posts/widgets/posts.php:170
+msgid "Previous/Next"
+msgstr ""
+
+#: modules/posts/widgets/posts.php:178
+msgid "Page Limit"
+msgstr ""
+
+#: modules/posts/widgets/posts.php:189
+msgid "Shorten"
+msgstr "Afkorten"
+
+#: modules/posts/widgets/posts.php:205
+msgid "Previous Label"
+msgstr ""
+
+#: modules/posts/widgets/posts.php:206
+msgid "&laquo; Previous"
+msgstr "&laquo; Vorige"
+
+#: modules/posts/widgets/posts.php:219
+msgid "Next Label"
+msgstr "Volgend label"
+
+#: modules/posts/widgets/posts.php:220
+msgid "Next &raquo;"
+msgstr "Volgende &raquo;"
+
+#: modules/posts/widgets/posts.php:284
+msgid "Colors"
+msgstr "Kleuren"
+
+#: modules/posts/widgets/posts.php:335
+msgid "Active"
+msgstr "Actief"
+
+#: modules/posts/widgets/posts.php:357
+msgid "Space Between"
+msgstr ""
+
+#: modules/query-control/controls/group-control-posts.php:44
+msgctxt "Posts Query Control"
+msgid "Source"
+msgstr "Bron"
+
+#: modules/query-control/controls/group-control-posts.php:49
+#: modules/query-control/module.php:45
+msgctxt "Posts Query Control"
+msgid "Search & Select"
+msgstr ""
+
+#: modules/query-control/controls/group-control-posts.php:62
+msgctxt "Posts Query Control"
+msgid "Author"
+msgstr "Auteur"
+
+#: modules/query-control/controls/group-control-posts.php:97
+msgctxt "Posts Query Control"
+msgid "Manual Selection"
+msgstr ""
+
+#: modules/query-control/module.php:31
+msgid "Exclude"
+msgstr "Uitsluiten"
+
+#: modules/query-control/module.php:35
+msgid "Current Post"
+msgstr ""
+
+#: modules/query-control/module.php:36
+msgid "Manual Selection"
+msgstr ""
+
+#: modules/woo-cart/widgets/woo-cart.php:23
+msgid "Woo Cart Icon"
+msgstr ""
+
+#: modules/woo-cart/widgets/woo-cart.php:45
+#: modules/woo-cart/widgets/woo-cart.php:67
+#: modules/woo-cart/widgets/woo-cart.php:131
+msgid "Icon"
+msgstr "Icoon"
+
+#: modules/woo-cart/widgets/woo-cart.php:52
+msgid "View"
+msgstr "Bekijk"
+
+#: modules/woo-cart/widgets/woo-cart.php:55
+msgid "Default"
+msgstr "Standaard"
+
+#: modules/woo-cart/widgets/woo-cart.php:56
+msgid "Stacked"
+msgstr "Gestapeld"
+
+#: modules/woo-cart/widgets/woo-cart.php:57
+msgid "Framed"
+msgstr "omlijst"
+
+#: modules/woo-cart/widgets/woo-cart.php:77
+msgid "Shape"
+msgstr "Vorm"
+
+#: modules/woo-cart/widgets/woo-cart.php:80
+msgid "Circle"
+msgstr "Cirkel"
+
+#: modules/woo-cart/widgets/woo-cart.php:81
+msgid "Square"
+msgstr "Vierkant"
+
+#: modules/woo-cart/widgets/woo-cart.php:94
+msgid "Link"
+msgstr "Link"
+
+#: modules/woo-cart/widgets/woo-cart.php:139
+#: modules/woo-cart/widgets/woo-cart.php:263
+msgid "Primary Color"
+msgstr "Primaire kleur"
+
+#: modules/woo-cart/widgets/woo-cart.php:156
+#: modules/woo-cart/widgets/woo-cart.php:276
+msgid "Secondary Color"
+msgstr "Secundaire kleur"
+
+#: modules/woo-cart/widgets/woo-cart.php:189
+msgid "Icon Padding"
+msgstr "Icoon-padding"
+
+#: modules/woo-cart/widgets/woo-cart.php:209
+msgid "Rotate"
+msgstr "Draaien"
+
+#: modules/woo-cart/widgets/woo-cart.php:255
+msgid "Icon Hover"
+msgstr ""
+
+#: plugin.php:219
+msgid "WBCOM Elements"
+msgstr ""
+
+#: wbcom-essential.php:82
+msgid ""
+"WBCOM Elementor Addons not working because you need to activate the "
+"Elementor plugin."
+msgstr ""
+
+#: wbcom-essential.php:83
+msgid "Activate Elementor Now"
+msgstr ""
+
+#: wbcom-essential.php:91
+msgid ""
+"WBCOM Elementor Addons not working because you need to install the Elementor "
+"plugin"
+msgstr ""
+
+#: wbcom-essential.php:92
+msgid "Install Elementor Now"
+msgstr ""
+
+#: wbcom-essential.php:106
+msgid ""
+"WBCOM Elementor Addons not working because you are using an old version of "
+"Elementor."
+msgstr ""
+
+#: wbcom-essential.php:107 wbcom-essential.php:121
+msgid "Update Elementor Now"
+msgstr ""
+
+#: wbcom-essential.php:120
+msgid ""
+"A new version of Elementor is available. For better performance and "
+"compatibility of WBCOM Elementor Addons, we recommend updating to the latest "
+"version."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Wbcom Essential"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Wbcom Essential Addons."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wbcom Designs"
+msgstr ""

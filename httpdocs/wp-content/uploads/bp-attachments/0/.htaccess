@@ -1,0 +1,9 @@
+
+# BEGIN BuddyPress Docs
+# Las directivas (líneas) entre `BEGIN BuddyPress Docs` y `END BuddyPress Docs` se generan dinámicamente
+# , y solo se deberían modificar mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores se sobreescribirán.
+RewriteEngine On
+RewriteBase /
+RewriteRule (.+) ?bp-attachment=$1 [R=302,NC]
+# END BuddyPress Docs

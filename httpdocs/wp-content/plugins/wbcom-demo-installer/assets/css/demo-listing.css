@@ -1,0 +1,603 @@
+.demo_listing_modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+        url('ajax-loader.gif')
+        50% 50%
+        no-repeat;
+    background-size: 5%;
+}
+
+body.demo_listing_loading .demo_listing_modal {
+    display: block;
+}
+
+.demo-listing-wrap {
+    display: block;
+    padding: 0px 15px;
+}
+
+/*.demo-content-wrap {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}*/
+
+.demo-listing-wrap .tab .tablinks {
+    border: none;
+    padding: 25px 50px;
+    background-color: #444;
+    color: #efefef;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    border-right: 1px solid rgba(241, 241, 241, 0.18);
+    position: relative;
+    transition: all 0.3s;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+
+.demo-listing-wrap .tab {
+    margin: 20px 0px 0;
+    float: left;
+    width: 100%;
+    background-color: #444;
+}
+
+.demo-listing-wrap .tab .tablinks:hover {
+    color: #fff;
+    background-color: #1388e1;
+}
+
+.wbcom-req-plugin-card {
+   float: left;
+    width: 25%;
+    padding: 15px;
+  /*  overflow: hidden;*/
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    box-shadow: none !important;
+    border: none !important;
+    display: block !important;
+    flex: auto !important;
+    margin: 0 !important;
+}
+/*.wbcom-req-plugin-card:nth-child(3n+1){
+  clear: both;
+}
+*/
+
+.demo-title {
+    text-align: center;
+    padding: 15px;
+}
+
+.demo-title h2 {
+    margin: 0px;
+    line-height: 28px;
+}
+
+.plugin-container {
+    min-height: 380px;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    margin: 0px;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    -moz-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+    -o-transition: all 0.125s ease-in-out 0s;
+    transition: all 0.125s ease-in-out 0s;
+    box-shadow: 0.563px 1.863px 3px 0px rgba(103, 103, 103, 0.08);
+    -webkit-box-shadow: 0.563px 1.863px 3px 0px rgba(103, 103, 103, 0.08);
+    -moz-box-shadow: 0.563px 1.863px 3px 0px rgba(103, 103, 103, 0.08);
+    -o-box-shadow: 0.563px 1.863px 3px 0px rgba(103, 103, 103, 0.08);
+}
+.plugin-container:hover{
+    -webkit-box-shadow: 1.563px 8.863px 30px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 1.563px 8.863px 30px 0px rgba(0, 0, 0, 0.13);
+    -o-box-shadow: 1.563px 8.863px 30px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 1.563px 8.863px 30px 0px rgba(0, 0, 0, 0.13);
+    -webkit-transform: translate(0, -5px);
+    -moz-transform: translate(0, -5px);
+    -ms-transform: translate(0, -5px);
+    -o-transform: translate(0, -5px);
+    transform: translate(0, -5px);
+}
+
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+    border-radius: 25px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    margin: 5px;
+}
+
+.plugin-container .plugin-action-button.already-active {
+    background: #eee;
+    border: none;
+    box-shadow: none;
+    color: #a9a8a8;
+    outline: none;
+}
+
+
+.demo-listing-wrap .tab .tablinks.active {
+    background-color: #389dfe;
+    color: #fff;
+    border-color: #389dfe;
+}
+
+.demo-listing-wrap .tab .tablinks.active:after {
+    content: '';
+    border: 10px solid transparent;
+    border-top: 10px solid #379dfd;
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: -20px;
+    left: 42%;
+}
+
+.goto-install-demo-step {
+    float: left;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.plugin-dependency {
+    font-size: 12px;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    color: #797979;
+}
+
+.wbcom-req-plugin-card .plugin-description {
+    font-size: 14px;
+    color: #585858;
+}
+
+.success-msg {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px 55px 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 13px #c5c5c5;
+}
+
+.success-msg h2 {
+    font-size: 28px;
+    color: #5db70c;
+}
+
+.success-msg p {
+    font-size: 16px;
+}
+
+p.plugin-status {
+    display: inline-block;
+    padding: 3px 14px;
+    background-color: #fd7a70;
+    color: #fff;
+    border-radius: 30px;
+    /*  font-weight: bold;*/
+    font-size: 13px;
+}
+
+p.plugin-status.already-active {
+    background-color: #4CAF50;
+}
+
+.plugin-container h3 {
+    font-size: 18px;
+    line-height: 28px;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 0px 0px 15px;
+    margin: 0 0 15px;
+}
+
+/* The alert message box */
+
+div.wbcom-demo-importer .alert {
+    background-color: #fff;
+    border-left: 4px solid #f86923;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+/* progress bar css :: start */
+
+/* Container for skill bars */
+
+#progress-bar-container {
+    width: 100%; /* Full width */
+    background-color: #f3f3f3; /* Grey background */
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#progress-bar-container .skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+#progress-bar-container .completed {
+    width: 0%;
+    background-color: #ff746b; /* Blue */
+}
+
+/* progress bar css :: end */
+
+/* current step notification :: start */
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+
+#progress-snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #2196F3; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+
+#progress-snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+/* current step notification :: end */
+
+.wbcom-demo-importer .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #ff746b;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.wrap.wbcom-demo-importer {
+    width: 100%;
+    margin: 0;
+}
+
+.wbcom-demo-importer .wbcom-button {
+    text-decoration: none;
+    background-color: #ff746b;
+    color: #ffffff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 5px;
+    transition: all .5s;
+    min-width: 120px;
+    font-weight: 600;
+    outline: none;
+}
+
+.wbcom-demo-importer  .middle .wbcom-button.import {
+    background: #03A9F4;
+    color: #fff;
+}
+
+.wbcom-demo-importer .middle .wbcom-button {
+    background-color: #efefef;
+    color: #424242;
+}
+
+.wbcom-demo-importer .middle .wbcom-button {
+    display: inline-block;
+}
+
+.wbcom-demo-importer .reign-demos-progress-container .wbcom-button {
+    margin: auto;
+    font-size: 16px;
+    padding: 20px 40px;
+}
+
+.single-container {
+    position: relative;
+    float: left;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin: 8px;
+}
+
+div#wbtd-current-action {
+    text-align: center;
+    border: 1px solid rgb(249, 249, 249);
+    background-color: #f9f9f9;
+    border-left: 4px solid #2195f3;
+    padding: 15px;
+    color: #000000;
+    margin-top: 40px;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.demo-content-wrap .wbcom-demo-importer {
+    width: 25%;
+    min-height: 430px;
+    float: left;
+}
+
+.demo-content-wrap .wbcom-demo-importer .container {
+    position: relative;
+    background-color: #fff;
+    padding: 0px;
+    margin: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    -moz-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+    -o-transition: all 0.125s ease-in-out 0s;
+    transition: all 0.125s ease-in-out 0s;
+}
+
+.demo-content-wrap .wbcom-demo-importer .container:hover {
+    -webkit-box-shadow: 1.563px 8.863px 30px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 1.563px 8.863px 30px 0px rgba(0, 0, 0, 0.13);
+    -o-box-shadow: 1.563px 8.863px 30px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 1.563px 8.863px 30px 0px rgba(0, 0, 0, 0.13);
+    -webkit-transform: translate(0, -5px);
+    -moz-transform: translate(0, -5px);
+    -ms-transform: translate(0, -5px);
+    -o-transform: translate(0, -5px);
+    transform: translate(0, -5px);
+}
+
+.demo-content-wrap .wbcom-demo-importer .image {
+    display: block;
+}
+
+.wbcom-demo-importer .middle {
+    margin-top: 10px;
+}
+
+.reign-demos-wrapper {
+    overflow: hidden;
+    clear: both;
+    display: block;
+    padding-top:50px;
+    background: #fff;
+}
+
+.reign-demos-wrapper.reign-importer-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.demo-name {
+    font-size: 20px;
+}
+
+.wbcom-demo-importer .reign-demos-alertboxes {
+    /*float: left;*/
+    width: 50%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    max-width: 600px;
+    border-radius: 5px;
+    display: table-cell;
+}
+
+.wbcom-demo-importer .reign-demos-alertboxes .alert {
+    background-color: #f9f9f9;
+    font-weight: 600;
+    border-color: #2195f3;
+    border-radius: 3px;
+}
+
+.wbcom-demo-importer .reign-demos-alertboxes .alert:last-child {
+    margin-bottom: 0;
+}
+
+.reign-demos-progress-container {
+    /*float: left;*/
+    width: 50%;
+    /* background: #fff;*/
+    padding: 10px;
+    border-radius: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.info-importer {
+    width: 100%;
+    margin-top:50px;
+}
+
+.info-impoter-heading {
+    background: #444;
+    padding: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info-impoter-content ul {
+    list-style: circle;
+    padding-left: 25px;
+    font-size: 14px;
+}
+
+.info-impoter-content strong {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1266px) {
+    .demo-content-wrap .wbcom-demo-importer {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .demo-content-wrap .wbcom-demo-importer {
+        width: 100%;
+        min-height: 100%;
+    }
+
+    .reign-demos-wrapper.reign-importer-section .wbcom-req-plugin-card {
+        width: 100% !important;
+    }
+
+    .wbcom-demo-importer .reign-demos-alertboxes {
+        float: left;
+        margin: 0;
+        width: 100%;
+    }
+
+    .reign-demos-progress-container {
+        width: 100%;
+        padding: 0;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .reign-demos-wrapper.reign-importer-section .wbcom-req-plugin-card  {
+        width: 50% !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1366px) {
+
+    .wbcom-demo-importer {
+        width: 33.33%;
+        float: left;
+    }
+
+    .reign-demos-wrapper.reign-importer-section .wbcom-req-plugin-card {
+        width: 33.33% !important;
+    }
+}
+
+@media screen and (min-width: 1367px) and (max-width:1920) {
+    .demo-content-wrap .wbcom-demo-importer {
+        width: 33.33%;
+    }
+}
+
+/* RTL Support */
+[dir='rtl'] .demo-listing-wrap .tab,
+[dir='rtl'] .demo-listing-wrap .tab .tablinks,
+[dir='rtl'] .wbcom-req-plugin-card,
+[dir='rtl'] .goto-install-demo-step,
+[dir='rtl'] .single-container {
+    float: right;
+}
+
+[dir='rtl'] .goto-install-demo-step {
+    text-align: left;
+}
+
+
+#demos_import_filter .import_filter{
+    display: none;
+}
+
+#demo_filter {
+    margin: 0px 0 20px 20px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background: #f7f7f7;
+    border: 1px #efeeee solid;
+    border-radius: 3px;
+}
+#demo_filter li {
+    float: left;
+    margin:0px;
+}
+#demo_filter li span {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+    font-size: 15px;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+}
+#demo_filter li span.active{
+    background: #389dfe;
+    color: #fff;
+}

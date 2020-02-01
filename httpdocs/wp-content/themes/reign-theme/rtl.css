@@ -1,0 +1,99 @@
+/*!
+Theme Name: Reign
+Theme URI: https://wbcomdesigns.com/
+Author: Underscores.me
+Author URI: https://wbcomdesigns.com/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: reign
+Domain Path: /languages/
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-menu, featured-images, post-formats, full-width-template, translation-ready, theme-options, threaded-comments, footer-widgets, custom-logo
+*/
+
+/*
+* Brackets displays wrongly for right to left display style
+* http://stackoverflow.com/questions/5741522/brackets-displays-wrongly-for-right-to-left-display-style
+*/
+a.page-numbers[title="←"],
+a.page-numbers[title="→"],
+a.next.page-numbers,
+a.prev.page-numbers {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*
+* Slick slider
+*/
+.slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.slick-next {
+    right: auto;
+    left: -25px;
+}
+
+/*
+* Box Model
+*/
+[off-canvas*=right] {
+    right: 0;
+}
+
+[off-canvas*=left] {
+    left: 0;
+}
+
+/*
+* Home page Slider
+*/
+.rg-arrow .fa {
+    font-size: 20px;
+    transform: rotate(180deg);
+}
+
+/*
+* EDD fes-vendor-menu icons
+*/
+.fes-vendor-menu [class*=" icon-"],
+.fes-vendor-menu [class^=icon-] {
+    background-image: url(./assets/img/glyphicons-halflings.png);
+}
+
+.fes-vendor-menu .icon-home {
+    background-position: 0 -24px;
+}
+
+.fes-vendor-menu .icon-list {
+    background-position: -360px -48px;
+}
+
+.fes-vendor-menu .icon-order,
+.fes-vendor-menu .icon-pencil {
+    background-position: 0 -72px;
+}
+
+.fes-vendor-menu .icon-earnings {
+    background-position: -408px 0;
+}
+
+.fes-vendor-menu .icon-gift {
+    background-position: -24px -120px;
+}
+
+.fes-vendor-menu .icon-user {
+    background-position: -168px 0;
+}
+
+.fes-vendor-menu .icon-off {
+    background-position: -384px 0;
+}
+
+.fes-vendor-menu .icon-user {
+    background-position: -168px 0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJ0bC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7OztFQVlFIiwiZmlsZSI6InJ0bC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiFcblRoZW1lIE5hbWU6IFJlaWduXG5UaGVtZSBVUkk6IGh0dHBzOi8vd2Jjb21kZXNpZ25zLmNvbS9cbkF1dGhvcjogVW5kZXJzY29yZXMubWVcbkF1dGhvciBVUkk6IGh0dHBzOi8vd2Jjb21kZXNpZ25zLmNvbS9cbkRlc2NyaXB0aW9uOiBEZXNjcmlwdGlvblxuVmVyc2lvbjogMS4wLjBcbkxpY2Vuc2U6IEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIHYyIG9yIGxhdGVyXG5MaWNlbnNlIFVSSTogTElDRU5TRVxuVGV4dCBEb21haW46IHJlaWduXG5Eb21haW4gUGF0aDogL2xhbmd1YWdlcy9cblRhZ3M6IG9uZS1jb2x1bW4sIHR3by1jb2x1bW5zLCByaWdodC1zaWRlYmFyLCBjdXN0b20tYmFja2dyb3VuZCwgY3VzdG9tLW1lbnUsIGZlYXR1cmVkLWltYWdlcywgcG9zdC1mb3JtYXRzLCBmdWxsLXdpZHRoLXRlbXBsYXRlLCB0cmFuc2xhdGlvbi1yZWFkeSwgdGhlbWUtb3B0aW9ucywgdGhyZWFkZWQtY29tbWVudHMsIGZvb3Rlci13aWRnZXRzLCBjdXN0b20tbG9nb1xuKi8iXX0= */

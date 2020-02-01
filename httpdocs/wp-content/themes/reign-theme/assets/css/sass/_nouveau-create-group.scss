@@ -1,0 +1,162 @@
+.group-create.bp-nouveau {
+    header.entry-header.page-header {
+        display: none;
+    }
+
+    .buddypress-wrap .item-body .group-create-buttons {
+        list-style: none;
+        margin: 0;
+        border-bottom: 0;
+
+        li.current {
+            border: 0;
+            padding: 0;
+        }
+    }
+
+    .buddypress-wrap.bp-dir-hori-nav .group-create-links li:after {
+        content: none !important;
+    }
+
+    .bp-navs.group-create-links {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #e3e3e3;
+        }
+    }
+
+    .buddypress-wrap .group-create-links.tabbed-links ol li,
+    .buddypress-wrap .group-create-links.tabbed-links ul li {
+        margin: 0;
+
+        @media (max-width: 46.8em) {
+            margin-bottom: 15px;
+        }
+    }
+
+    .group-create-buttons.button-tabs li a,
+    .group-create-buttons.button-tabs li span {
+        display: block;
+        padding: 10px 20px;
+        margin: 0 10px -1px 0;
+        font-size: $font__size-extrasmall;
+        font-weight: 600;
+        color: #999;
+        text-transform: uppercase;
+        border: 2px solid #e3e3e3;
+        border-bottom: none;
+        border-radius: 5px 5px 0 0;
+        z-index: 1;
+        position: relative;
+        transition: all 0.3s ease 0s;
+
+        @media (min-width: 748px) and (max-width: 991px) {
+            padding: 5px 8px;
+        }
+    }
+
+    .group-create-buttons.button-tabs.button-tabs li a {
+        color: #8bc53f;
+        border-color: #8bc53f;
+
+        @media (min-width: 46.8em) {
+            border-bottom: 0;
+        }
+    }
+
+    .group-create-buttons.button-tabs li a:hover,
+        .group-create-buttons.button-tabs li.current a,
+        .buddypress-wrap.bp-dir-hori-nav:not(.bp-vertical-navs) .bp-navs:not(.group-subnav) li.current a {
+        background: transparent;
+        color: #079fc9;
+        border: 2px solid #079fc9;
+        border-bottom-color: transparent;
+    }
+
+    .group-create-buttons.button-tabs li a:before {
+        content: "";
+        display: block;
+        height: 2px;
+        background: #f4f4f4;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        right: 0;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .group-create-buttons.button-tabs li.current a:before,
+        .group-create-buttons.button-tabs li a:hover:before {
+        transform: scaleX(1);
+    }
+
+    @media only screen and (max-width: 46.8em) {
+        .group-create-buttons.button-tabs li {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .group-create-buttons.button-tabs li a,
+        .group-create-buttons.button-tabs li span {
+            margin: 0;
+            border-bottom: 2px solid transparent;
+        }
+
+        .group-create-buttons.button-tabs li a:hover,
+            .group-create-buttons.button-tabs li.current a {
+            background: $color_white;
+        }
+
+        .group-create-buttons.button-tabs li a:before {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background: #079fc9;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        }
+    }
+
+    .left-menu {
+        @media (max-width: 46.8em) {
+            margin-bottom: 15px;
+        }
+    }
+
+    #buddypress input[type=submit]:focus {
+        border: 0;
+    }
+
+    button#group_invites_search_submit {
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #buddypress.buddypress-wrap .group-invites-column .bp-invites-content  .item-avatar img.avatar {
+        min-width: 50px;
+        max-width: 50px;
+    }
+
+    #buddypress.buddypress-wrap .bp-invites-content .item-list li .invite-button {
+        background: transparent;
+        color: #555;
+
+        &:hover {
+            color: #333;
+        }
+    }
+}
+
+.bp-nouveau.buddypress #buddypress.bp-dir-vert-nav .create-button a:hover {
+    box-shadow: inset 0 0 10px #ccc;
+}

@@ -1,0 +1,80 @@
+/* buddypress pages body background change */
+
+.rg-boxed-layout {
+    background: #eee;
+
+    .site {
+        max-width: $container-width-extra-large;
+        margin: auto;
+        background: $color_white;
+        overflow: hidden;
+    }
+
+    #masthead,
+    #wbcom-header-topbar {
+        max-width: $container-width-extra-large;
+    }
+}
+
+.rg-boxed-layout{
+    .reign-fallback-header.navbar-fixed-top{
+        max-width:1170px;
+    }
+}
+
+.reign-full_width_no_title {
+    .content-wrapper {
+        padding: 0;
+    }
+
+    .entry-header.page-header {
+        display: none;
+    }
+}
+
+.reign-stretched_view .container,
+.reign-stretched_view_no_title .container {
+    max-width: 100%;
+    padding-left: 0;
+
+    .content-wrapper {
+        padding-right: 0;
+    }
+
+    ul#groups-list {
+        margin: 5px;
+        margin-right: -10px;
+    }
+}
+
+.reign-stretched_view .footer-wrap .container,
+.reign-stretched_view_no_title .footer-wrap .container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.reign-stretched_view .container .content-wrapper .entry-header.page-header {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.reign-stretched_view_no_title {
+    .content-wrapper {
+        padding-top: 0;
+    }
+
+    .content-wrapper .entry-header.page-header {
+        display: none;
+    }
+}
+
+.reign-stretched_view .reign-fallback-header .container,
+.reign-stretched_view_no_title .reign-fallback-header .container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+

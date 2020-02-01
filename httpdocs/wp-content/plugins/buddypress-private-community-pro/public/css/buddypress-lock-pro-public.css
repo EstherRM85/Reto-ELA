@@ -1,0 +1,184 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.bplock-locked-message {
+    margin: 0 0 1.625rem;
+}
+
+.bplock-locked-message img {
+    display: flex;
+    margin: 15px 0;
+}
+
+.bplock-login-form-container p {
+    margin-bottom: 0 !important;
+    text-align: center !important;
+}
+
+.bplock-login-form-container input,
+.bplock-login-form-container button {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+}
+
+ul.bplock-login-shortcode-tabs {
+    margin: 0 !important;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+ul.bplock-login-shortcode-tabs li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+ul.bplock-login-shortcode-tabs li.current {
+    background: #ededed;
+    color: #222;
+}
+
+.bplock-login-form-container .tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+.bplock-login-form-container .tab-content.current {
+    display: inherit;
+}
+
+.isa_info,
+.isa_success,
+.isa_warning,
+.isa_error {
+    margin: 10px 0px;
+}
+
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.isa_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+.isa_info i,
+.isa_success i,
+.isa_warning i,
+.isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
+
+.bplock-message {
+    display: none;
+}
+
+#buddypress div#item-header div#item-meta {
+    /*width: 100%;
+    display: inline-block;*/
+}
+
+#latest-update {
+    /*width: 70%;
+    float: left;*/
+}
+
+.blpro-rating-wrapper {
+    display: block;
+    /*max-width: 16%;
+    width: 30%;
+    float: right;*/
+}
+
+.rating-bar-one {
+    background-color: #ccc;
+    height: 4px;
+    width: 100%;
+}
+
+.rating-bar-two {
+    background-color: #14bff4;
+    display: block;
+    height: 4px;
+    width: 95%;
+}
+
+.blpro-rating-icon-text {
+    color: #14bff4;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 12px;
+    /*text-transform: uppercase;*/
+}
+
+.blrpo-rating-icon .fa {
+    color: #14bff4;
+}
+
+/* Private message css */
+.blpro-private {
+    padding: 6px;
+    border-left: 4px solid #14bff4;
+    /* border-top: 1px solid #ace5f6; */
+    /* border-right: 1px solid #ace5f6; */
+    /* border-bottom: 1px solid #ace5f6; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.blpro-private .fa {
+    margin-right:3px;
+}
+
+.blpro-rating-percent span {
+    color: #14bff4;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/** boss theme specific css **/
+#panels .entry-header.blpro-locked-title-header,
+#panels .bplock-locked-message {
+    display: block;
+    padding: 16px 70px 6px;
+}
+
+@media screen and (max-width: 822px) {
+    #panels .entry-header.blpro-locked-title-header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.buddypress #panels .blpro-rating-wrapper {
+    position: relative;
+    float: right;
+    padding-top: 35px;
+    padding-right: 64px;
+}
